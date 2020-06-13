@@ -275,6 +275,10 @@ label[for] {
     align-items: center;
 }
 
+*>.flex-as-c {
+    align-self: center;
+}
+
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -291,6 +295,61 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
+
+/*공통 css 시작 */
+@media (max-width:649px) {
+    .visible-md-up {
+        display: none;
+    }
+}
+
+@media (min-width:650px) {
+    .visible-sm-down {
+        display: none;
+    }
+}
+
+.btn-toggle-mobile-side-bar{
+    height:25px;
+    width:25px;
+    position:relative;
+  }
+  
+  .btn-toggle-mobile-side-bar > div {
+    width:100%;
+    background-color:#fdfa87;
+    height:20%;
+    position:absolute;
+    top:0;
+    left:0;
+    transition: top .3s .3s, transform .3s,opacity .3s;
+  }
+  
+  .btn-toggle-mobile-side-bar > div:nth-child(2) {
+    top:40%;
+  }
+  
+  .btn-toggle-mobile-side-bar > div:nth-child(3) {
+    top:80%;
+  }
+  
+  .btn-toggle-mobile-side-bar.active > div {
+    top:40%;
+    transition: top .3s, transform .3s .3s,opacity .3s;
+    
+  }
+  .btn-toggle-mobile-side-bar.active > div:nth-child(1) {
+    transform:rotate(45deg);
+  }
+  
+  .btn-toggle-mobile-side-bar.active > div:nth-child(3) {
+    transform:rotate(-45deg);
+  }
+  .btn-toggle-mobile-side-bar.active > div:nth-child(2) {
+    opacity:0;
+  }
+
+/* 공통 css 끝 */
 
 /* 커스텀 */
 .con {
@@ -311,6 +370,19 @@ label[for] {
     text-decoration: underline;
 }
 /* 탑바 끝 */
+
+/* 모바일 탑바 시작 */
+
+.mobile-top-bar {
+    height: 50px;
+    background-color:#191970 ;
+}
+
+.mobile-top-bar .btn-toggle-mobile-side-bar {
+    margin: 0 10px;
+}
+
+/* 모바일 탑바 끝 */
 
 /*로고바 시작 */
 .top-bar .logo {
