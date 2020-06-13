@@ -294,34 +294,47 @@ label[for] {
 
 /* 커스텀 */
 .con {
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 /* 탑바 시작 */
 .top-bar {
-    background-color:navy;
-    color:skyblue;
-    height: 100px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    background-color:#191970;
+    color: #fdfa87;
+    height:60px;
+    font-size: 1rem;
 }
 
 .top-bar .menu-box-1 > ul > li:hover > a {
-    background-color:skyblue;
-    color:navy;
+    background-color:#c4f4fe;
+    color:#191970;
+    text-decoration: underline;
 }
 /* 탑바 끝 */
+
+/*로고바 시작 */
+.top-bar .logo {
+    font-size: 1.5rem;
+}
+
+/*로고바 끝 */
 
 /* 메뉴바 - sns */
 .top-bar .menu-box-1 > ul ul {
     display: none;
     position: absolute;
     top:100%;
-    left: 0;
+    left: -2px;
     width:100%;
     text-align: center;
-    background-color: skyblue;
-    color: white;
+    background-color: #c4f4fe;
+    color: #191970;
+    border:2px solid #191970;
+    border-top:0;
+}
+
+.top-bar .menu-box-1  ul > li > a {
+    font-weight: bold;
 }
 
 .top-bar .menu-box-1 > ul > li:hover > ul {
@@ -333,7 +346,10 @@ label[for] {
 }
 
 .top-bar .menu-box-1  ul ul > li > a {
-    padding: 10px;
     display: block;
     padding: 20px 0;
+}
+
+.top-bar .menu-box-1  ul ul > li:hover > a {
+    text-decoration:underline;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>블로그</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <script src="/resource/common.js"></script>
 </head>
@@ -13,6 +14,10 @@
 <body>
     <div class="top-bar">
         <div class="con height-100p flex">
+            <a href="/" class="logo flex flex-ai-c">
+                <i class="fas fa-cubes"></i>
+        
+            </a>
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
