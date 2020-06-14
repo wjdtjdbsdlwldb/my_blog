@@ -358,15 +358,15 @@ label[for] {
 
 /* 탑바 시작 */
 .top-bar {
-    background-color:#191970;
-    color: #fdfa87;
+    background-color:#b5c7ed;
+    color: #483d8b;
     height:60px;
     font-size: 1rem;
 }
 
 .top-bar .menu-box-1 > ul > li:hover > a {
-    background-color:#c4f4fe;
-    color:#191970;
+    background-color:#f3f7c5;
+    color: #483d8b;
     text-decoration: underline;
 }
 /* 탑바 끝 */
@@ -375,7 +375,7 @@ label[for] {
 
 .mobile-top-bar {
     height: 50px;
-    background-color:#191970 ;
+    background-color:#b5c7ed;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -399,9 +399,9 @@ label[for] {
     left: -2px;
     width:100%;
     text-align: center;
-    background-color: #c4f4fe;
-    color: #191970;
-    border:2px solid #191970;
+    background-color: #f3f7c5;
+    color: #483d8b;
+    border:2px solid #b5c7ed;
     border-top:0;
 }
 
