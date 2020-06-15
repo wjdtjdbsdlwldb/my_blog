@@ -387,6 +387,40 @@ label[for] {
 
 /* 모바일 탑바 끝 */
 
+/* 모바일 사이드 바 시작*/
+.mobile-side-bar {
+    position: fixed;
+    width: 250px;
+    height:100%;
+    top:50px;
+    left:-250px;
+    background-color: #b5c7ed;
+    transition: left .5s;
+}
+
+.mobile-side-bar .side-menu-box-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.mobile-side-bar .side-menu-box-1 > ul > li > a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: #483d8b;
+}
+
+.mobile-side-bar .side-menu-box-1 > ul > li:hover > a {
+    font-weight: 700;
+    color: white;
+} 
+
+.mobile-side-bar.active {
+    left:0;
+}
+
+
 /*로고바 시작 */
 .top-bar .logo {
     font-size: 1.5rem;

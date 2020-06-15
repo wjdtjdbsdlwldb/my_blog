@@ -19,14 +19,25 @@
             <div></div>
             <div></div>
         </a>
-    
+        <div class="mobile-side-bar">
+            <nav class="side-menu-box-1">
+                <ul>
+                    <li><a href="/" class="block">Home</a></li>
+                    <li><a href="/list.php" class="block">Article</a></li>
+                    <li><a href="/aboutMe.php" class="block">About Me</a></li>
+                    <li><a href="#" class="block">SNS</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
+
 
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
             <a href="/" class="logo flex flex-ai-c">
                 <i class="fas fa-cubes"></i>
             </a>
+
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
