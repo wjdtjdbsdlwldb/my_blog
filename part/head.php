@@ -19,16 +19,18 @@
             <div></div>
             <div></div>
         </a>
-        <div class="mobile-side-bar">
-            <nav class="side-menu-box-1">
-                <ul>
-                    <li><a href="/" class="block">Home</a></li>
-                    <li><a href="/list.php" class="block">Article</a></li>
-                    <li><a href="/aboutMe.php" class="block">About Me</a></li>
-                    <li><a href="#" class="block">SNS</a></li>
-                </ul>
-            </nav>
-        </div>
+    </div>
+    <div class="side-bg-box"></div>
+    
+    <div class="mobile-side-bar">
+        <nav class="side-menu-box-1">
+            <ul>
+                <li><a href="/" class="block">Home</a></li>
+                <li><a href="/list.php" class="block">Article</a></li>
+                <li><a href="/aboutMe.php" class="block">About Me</a></li>
+                <li><a href="#" class="block">SNS</a></li>
+            </ul>
+        </nav>
     </div>
 
 
