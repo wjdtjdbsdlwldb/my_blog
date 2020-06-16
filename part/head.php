@@ -20,15 +20,31 @@
             <div></div>
         </a>
     </div>
-    <div class="side-bg-box"></div>
-    
-    <div class="mobile-side-bar">
+    <div class="side-bg-box visible-sm-down"></div>
+
+    <div class="mobile-side-bar visible-sm-down">
         <nav class="side-menu-box-1">
             <ul>
-                <li><a href="/" class="block">Home</a></li>
-                <li><a href="/list.php" class="block">Article</a></li>
-                <li><a href="/aboutMe.php" class="block">About Me</a></li>
-                <li><a href="#" class="block">SNS</a></li>
+                <li><a href="#" class="block">Home</a></li>
+                <li><a href="#" class="block">Article</a>
+                    <ul>
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">Free</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="block">About Me</a></li>
+                <li><a href="#" class="block">SNS</a>
+                    <ul>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">twitter</a>
+                            <ul>
+                                <li><a href="#">Private</a></li>
+                                <li><a href="#">Public</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
@@ -45,6 +61,7 @@
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
                     <li class="flex-1-0-0 flex"><a href="/list.php"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c">Articles</a>
+
                     </li>
                     <li class="flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">About
                             Me</a>
@@ -53,7 +70,9 @@
                         <ul>
                             <li><a href="#">facebook</a></li>
                             <li><a href="#">Instagram</a></li>
-                            <li><a href="#">twitter</a></li>
+                            <li><a href="#">twitter</a>
+
+                            </li>
                         </ul>
 
                     </li>
