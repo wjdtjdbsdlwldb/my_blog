@@ -1,18 +1,12 @@
 
-.slider {
-    background-color: #DAE4DC;
-    height: 600px;
-    position: relative;
-}
-
-.bn-box1 > img {
-    background-size: cover;
-    background-position: center;
-    width:100%;
-    margin-top: 100px
-}
 
 /* 슬라이더 */
+.slider {
+    height:100%;
+    position:relative;
+    user-select:none;
+}
+
 .slider .side-bars > div {
     position:absolute;
     top:0;
@@ -34,8 +28,9 @@
     left:inherit;
     right:inherit;
     font-size:5rem;
-    transition: transform 0.3s;
-    margin:0 10%;
+    transition: transform 0.2s;
+    margin:0 10px;
+    color: #343855;
 }
 
 .slider .side-bars > div:active > span {
@@ -50,6 +45,10 @@
     height:100%;
     opacity:0;
     transition:opacity 0.5s;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
 }
 
 .slider > .slides > div.active {

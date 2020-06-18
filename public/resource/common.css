@@ -297,7 +297,7 @@ label[for] {
 }
 
 /*공통 css 시작 */
-@media (max-width:649px) {
+@media (max-width:749px) {
     .visible-md-up {
         display: none;
     }
@@ -307,7 +307,7 @@ label[for] {
     }
 }
 
-@media (min-width:650px) {
+@media (min-width:750px) {
     .visible-sm-down {
         display: none;
     }
@@ -325,7 +325,7 @@ label[for] {
 
 .btn-toggle-mobile-side-bar>div {
     width: 100%;
-    background-color: #fdfa87;
+    background-color: #EEE2AA;
     height: 20%;
     position: absolute;
     top: 0;
@@ -365,23 +365,27 @@ label[for] {
 .con {
     max-width: 1400px;
 }
-body,html{
+
+body,
+html {
     height: 100%;
 }
+
 /* 탑바 시작 */
 .top-bar {
-    background-color: #1D1254;
-    color:  #FAD4C9;
+    background-color:#343855;
+    color: #E1E3EF;
     height: 80px;
     font-size: 1.1rem;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 50;
 }
 
 .menu-box-1>ul>li:hover>a {
-    background-color:  #FAD4C9;
+    background-color: #EEE2AA;
     color: #1D1254;
 }
 
@@ -391,7 +395,7 @@ body,html{
 
 .mobile-top-bar {
     height: 50px;
-    background-color: #1D1254;
+    background-color: #343855;
     position: fixed;
     top: 0;
     left: 0;
@@ -411,7 +415,7 @@ body,html{
     height: 100%;
     top: 50px;
     left: -250px;
-    background-color: #1D1254;
+    background-color: #343855;
     transition: left .3s;
 }
 
@@ -420,15 +424,15 @@ body,html{
 }
 
 .mobile-side-bar .side-menu-box-1 ul {
-    background-color: #1D1254;
+    background-color:#343855;
 }
 
 
-.mobile-side-bar .side-menu-box-1 > ul ul {
+.mobile-side-bar .side-menu-box-1>ul ul {
     display: none;
 }
 
-.mobile-side-bar .side-menu-box-1 > ul ul > li {
+.mobile-side-bar .side-menu-box-1>ul ul>li {
     padding-left: 20px;
 }
 
@@ -441,26 +445,22 @@ body,html{
     font-weight: 600;
     font-size: 1.3rem;
     padding: 15px;
-    color: #FAD4C9;
+    color: #E1E3EF;
     display: block;
 }
 
-.mobile-side-bar .side-menu-box-1 ul > li >a:not(:only-child)::after {
+.mobile-side-bar .side-menu-box-1 ul>li>a:not(:only-child)::after {
     content: "[+]";
     float: right;
 }
 
-.mobile-side-bar .side-menu-box-1 ul > li.active >a:not(:only-child)::after {
+.mobile-side-bar .side-menu-box-1 ul>li.active>a:not(:only-child)::after {
     content: "[-]";
 }
 
-.mobile-side-bar .side-menu-box-1>ul>li.active>a:not(:only-child)::after {
-    font-weight: 700;
-    color: white;
-}
-
 .mobile-side-bar .side-menu-box-1 ul>li.active>a {
-    color: #FAD4C9;
+    font-weight: 900;
+    color: #EEE2AA;
 }
 
 .mobile-side-bar.active {
@@ -492,8 +492,9 @@ html.active {
 .top-bar .logo {
     color: #F3F7C5;
 }
-.top-bar .logo > img {
-    width:130px;
+
+.top-bar .logo>img {
+    width: 70px;
 }
 
 
@@ -507,8 +508,8 @@ html.active {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: #1D1254;
-    color: #FAD4C9;
+    background-color:#343855;
+    color: #E1E3EF;
     border-top: 0;
 }
 
@@ -524,13 +525,15 @@ html.active {
     position: relative;
 }
 
+
 .top-bar .menu-box-1 ul ul>li>a {
     display: block;
     padding: 20px 0;
+    z-index: 100;
 }
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
-    font-weight: 1000;
-    background-color: #FAD4C9;
+    font-weight: 800;
+    background-color: #EEE2AA;
     color: #1D1254;
 }
