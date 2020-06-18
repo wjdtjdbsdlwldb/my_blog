@@ -8,6 +8,7 @@
     <title>블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <link rel="stylesheet" href="/resource/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
@@ -52,8 +53,8 @@
 
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
-            <a href="/" class="logo flex flex-ai-c">
-                <i class="fas fa-cubes"></i>
+            <a href="/" class="logo  flex flex-ai-c flex-grow-1">
+                <img src="/resource/img/logo_1.png" alt="">
             </a>
 
             <nav class="menu-box-1 flex flex-1-0-0">

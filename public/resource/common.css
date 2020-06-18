@@ -313,7 +313,7 @@ label[for] {
     }
 
     body {
-        padding-top: 60px;
+        padding-top: 80px;
     }
 }
 
@@ -363,15 +363,17 @@ label[for] {
 
 /* 커스텀 */
 .con {
-    max-width: 1200px;
+    max-width: 1400px;
 }
-
+body,html{
+    height: 100%;
+}
 /* 탑바 시작 */
 .top-bar {
-    background-color: #b5c7ed;
-    color: #483d8b;
-    height: 60px;
-    font-size: 1rem;
+    background-color: #1D1254;
+    color:  #FAD4C9;
+    height: 80px;
+    font-size: 1.1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -379,8 +381,8 @@ label[for] {
 }
 
 .menu-box-1>ul>li:hover>a {
-    background-color: #f3f7c5;
-    color: rgb(62, 97, 212);
+    background-color:  #FAD4C9;
+    color: #1D1254;
 }
 
 /* 탑바 끝 */
@@ -389,7 +391,7 @@ label[for] {
 
 .mobile-top-bar {
     height: 50px;
-    background-color: #b5c7ed;
+    background-color: #1D1254;
     position: fixed;
     top: 0;
     left: 0;
@@ -409,7 +411,7 @@ label[for] {
     height: 100%;
     top: 50px;
     left: -250px;
-    background-color: #b5c7ed;
+    background-color: #1D1254;
     transition: left .3s;
 }
 
@@ -418,7 +420,7 @@ label[for] {
 }
 
 .mobile-side-bar .side-menu-box-1 ul {
-    background-color: #b5c7ed;
+    background-color: #1D1254;
 }
 
 
@@ -439,7 +441,7 @@ label[for] {
     font-weight: 600;
     font-size: 1.3rem;
     padding: 15px;
-    color: #483d8b;
+    color: #FAD4C9;
     display: block;
 }
 
@@ -458,7 +460,7 @@ label[for] {
 }
 
 .mobile-side-bar .side-menu-box-1 ul>li.active>a {
-    color: white;
+    color: #FAD4C9;
 }
 
 .mobile-side-bar.active {
@@ -488,8 +490,12 @@ html.active {
 
 /*로고바 시작 */
 .top-bar .logo {
-    font-size: 1.5rem;
+    color: #F3F7C5;
 }
+.top-bar .logo > img {
+    width:130px;
+}
+
 
 /*로고바 끝 */
 
@@ -498,12 +504,11 @@ html.active {
     display: none;
     position: absolute;
     top: 100%;
-    left: -2px;
+    left: 0;
     width: 100%;
     text-align: center;
-    background-color: #f3f7c5;
-    color: #483d8b;
-    border: 2px solid #b5c7ed;
+    background-color: #1D1254;
+    color: #FAD4C9;
     border-top: 0;
 }
 
@@ -525,6 +530,7 @@ html.active {
 }
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
-    color: rgb(62, 97, 212);
-    font-weight: 800;
+    font-weight: 1000;
+    background-color: #FAD4C9;
+    color: #1D1254;
 }

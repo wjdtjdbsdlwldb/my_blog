@@ -1,0 +1,57 @@
+
+.slider {
+    background-color: #DAE4DC;
+    height: 600px;
+    position: relative;
+}
+
+.bn-box1 > img {
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    margin-top: 100px
+}
+
+/* 슬라이더 */
+.slider .side-bars > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:calc(50% - 100px);
+    height:100%;
+    cursor:pointer;
+}
+
+.slider .side-bars > div:last-child {
+    left:auto;
+    right:0;
+}
+
+.slider .side-bars > div > span {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:inherit;
+    right:inherit;
+    font-size:5rem;
+    transition: transform 0.3s;
+    margin:0 10%;
+}
+
+.slider .side-bars > div:active > span {
+    transform:translateY(-40%);
+}
+
+.slider > .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+
+.slider > .slides > div.active {
+    opacity:1;
+}
