@@ -74,4 +74,4 @@ function a () {
     $('.slider > .side-bars > :last-child').click();
   }
   
-  setInterval (a,3000);
+  setInterval (a,5000);
