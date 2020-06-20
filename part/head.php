@@ -10,7 +10,7 @@
     <link rel="icon" href="./resource/img/favicon.png">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/index.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
@@ -23,8 +23,11 @@
             <div></div>
         </a>
     </div>
+    
     <div class="side-bg-box visible-sm-down"></div>
 
+
+    <!-- 모바일 메뉴박스 -->
     <div class="mobile-side-bar visible-sm-down">
         <nav class="side-menu-box-1">
             <ul>
@@ -52,7 +55,7 @@
         </nav>
     </div>
 
-
+    <!-- 메뉴박스 -->
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
             <a href="/" class="logo  flex flex-ai-c flex-grow-1">

@@ -2,7 +2,7 @@
 
 /* 슬라이더 */
 .slider {
-    height:50%;
+    height:70%;
     position:relative;
     user-select:none;
 }
@@ -55,13 +55,6 @@
     opacity:1;
 }
 
-.bg-box1 {
-    margin-top: 100px;
-    background-color: #E1E3EF;
-    height: 100%;
-    
-}
-
-.content {
+.box1 {
     margin-top: 50px;
 }
