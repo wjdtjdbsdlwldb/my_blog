@@ -17,11 +17,13 @@
 
 <body>
     <div class="mobile-top-bar visible-sm-down flex">
-        <a class="btn-toggle-mobile-side-bar flex-as-c flex flex-1-0-0" href="#">
+    <div class="flex-1-0-0 flex-as-c">    
+    <a class="btn-toggle-mobile-side-bar flex-as-c flex flex-1-0-0" href="#">
             <div></div>
             <div></div>
             <div></div>
         </a>
+        </div>
         <div class="mobile-logo"><img src="/resource/img/mobile_logo.png" alt=""></div>
         <div class="empty flex flex-1-0-0"></div>
     </div>

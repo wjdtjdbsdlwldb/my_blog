@@ -22,9 +22,10 @@ include "../part/head.php";
 </div>
 
 <div class="bg-box1">
-    <h1 class="box1 con">
-        메인
-    </h1>
+    <h1 class="avatar con">
+       <img src="/resource/img/avatar.png" alt="">
+</h1>
+
 
 <?php
 include "../part/foot.php";
