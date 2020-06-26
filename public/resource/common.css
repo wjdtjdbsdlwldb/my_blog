@@ -300,7 +300,7 @@ label[for] {
 }
 
 /*공통 css 시작 */
-@media (max-width:749px) {
+@media (max-width:809px) {
     .visible-md-up {
         display: none;
     }
@@ -314,13 +314,9 @@ html.active {
 }
 }
 
-@media (min-width:750px) {
+@media (min-width:810px) {
     .visible-sm-down {
         display: none;
-    }
-
-    body {
-        padding-top: 80px;
     }
 }
 
@@ -380,10 +376,18 @@ html {
     height: 100%;
 }
 
+/*로고바 시작 */
+
+.top-bar .logo>img {
+    width: 150px;
+}
+
+/*로고바 끝 */
+
+
 /* 탑바 시작 */
 .top-bar {
-    background-color:#343855;
-    color: #E1E3EF;
+    color: #FFF9F9;
     height: 80px;
     font-size: 1.3rem;
     position: fixed;
@@ -394,10 +398,17 @@ html {
 }
 
 .menu-box-1>ul>li:hover>a {
-    background-color: #EEE2AA;
+    background-color: #FFD3D1;
     color: #1D1254;
 }
 
+.menu-box-1>ul>li>a {
+    padding: 30px;
+}
+
+.menu-box-1>ul>li:first-child>a {
+    margin-left: 40px;
+}
 /* 탑바 끝 */
 
 /* 모바일 탑바 시작 */
@@ -500,21 +511,8 @@ html {
     visibility: visible;
 }
 
-
 /* 모바일 사이드 바 끝 */
 
-
-/*로고바 시작 */
-.top-bar .logo {
-    color: #F3F7C5;
-}
-
-.top-bar .logo>img {
-    width: 70px;
-}
-
-
-/*로고바 끝 */
 
 /* 메뉴바 - sns */
 .top-bar .menu-box-1>ul ul {
@@ -524,8 +522,8 @@ html {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color:#343855;
-    color: #E1E3EF;
+    background-color: rgba(255, 211, 209, .9);
+    color: #2B2B2B;
     border-top: 0;
 }
 
@@ -544,12 +542,11 @@ html {
 
 .top-bar .menu-box-1 ul ul>li>a {
     display: block;
-    padding: 20px 0;
-    z-index: 100;
+    padding: 20px;
 }
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
     font-weight: 800;
-    background-color: #EEE2AA;
-    color: #1D1254;
+    background-color: #FFD3D1;
+    color: #E36F65;
 }

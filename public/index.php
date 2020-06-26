@@ -4,9 +4,9 @@ include "../part/head.php";
 
 <div class="slider">
     <div class="slides">
-        <div style="background-image:url(/resource/img/bg4.png);" class="active"></div>
-        <div style="background-image:url(/resource/img/bg_6.jpg);" class=""></div>
-        <div style="background-image:url(/resource/img/bg_3.jpg);" class=""></div>
+        <div style="background-image:url(/resource/img/bg_4.jpg);" class="active"></div>
+        <div style="background-image:url(/resource/img/bg_4.jpg);" class=""></div>
+        <div style="background-image:url(/resource/img/bg_4.jpg);" class=""></div>
     </div>
     
     <div class="side-bars con">

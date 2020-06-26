@@ -17,17 +17,17 @@
 
 <body>
     <div class="mobile-top-bar visible-sm-down flex">
-    <div class="flex-1-0-0 flex-as-c">    
-    <a class="btn-toggle-mobile-side-bar flex-as-c flex flex-1-0-0" href="#">
-            <div></div>
-            <div></div>
-            <div></div>
-        </a>
+        <div class="flex-1-0-0 flex-as-c">
+            <a class="btn-toggle-mobile-side-bar flex-as-c flex flex-1-0-0" href="#">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
         </div>
         <div class="mobile-logo"><img src="/resource/img/mobile_logo.png" alt=""></div>
         <div class="empty flex flex-1-0-0"></div>
     </div>
-    
+
     <div class="side-bg-box visible-sm-down"></div>
 
 
@@ -61,31 +61,36 @@
 
     <!-- 메뉴박스 -->
     <div class="top-bar visible-md-up">
-        <div class="con height-100p flex">
-            <a href="/" class="logo  flex flex-ai-c flex-grow-1">
+        <div class="con height-100p flex ">
+            <a href="/" class="logo flex flex-ai-c">
                 <img src="/resource/img/logo_1.png" alt="">
             </a>
 
-            <nav class="menu-box-1 flex flex-1-0-0">
-                <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c">Articles</a>
-
-                    </li>
-                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">About
-                            Me</a>
-                    </li>
-                    <li class="flex-1-0-0 flex"><a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
+            <nav class="menu-box-1 flex">
+                <ul class="flex">
+                    <li class="flex"><a href="/" class="flex flex-ai-c flex-jc-c">HOME</a></li>
+                    <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c flex-jc-c">ABOUT
+                            ME</a>
+                    <li class="flex"><a href="/myWork.php" class="flex flex-ai-c flex-jc-c">MY
+                            WORK</a>
                         <ul>
-                            <li><a href="#">facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">twitter</a>
-
+                            <li><a href="#">WEB CODING</a></li>
+                            <li><a href="#">DESIGN</a></li>
                             </li>
                         </ul>
-
                     </li>
+                    </li>
+                    <li class="flex"><a href="daily.php"
+                            class="flex flex-ai-c flex-jc-c">DAILY</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="login flex flex-jc-end flex-1-0-0">
+                <ul class="flex">
+                    <li class="flex"><a href="#"
+                            class="flex flex-ai-c flex-jc-c">LOGIN</a></li>
+                    <li class="flex"><a href="#"
+                            class="flex flex-ai-c flex-jc-c">Join in</a></li>
                 </ul>
             </nav>
         </div>
