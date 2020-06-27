@@ -24,7 +24,7 @@
                 <div></div>
             </a>
         </div>
-        <div class="mobile-logo"><img src="/resource/img/mobile_logo.png" alt=""></div>
+        <div class="mobile-logo"><img src="/resource/img/logo_1.png" alt=""></div>
         <div class="empty flex flex-1-0-0"></div>
     </div>
 
@@ -35,25 +35,16 @@
     <div class="mobile-side-bar visible-sm-down">
         <nav class="side-menu-box-1">
             <ul>
-                <li><a href="#" class="block">Home</a></li>
-                <li><a href="#" class="block">Article</a>
+                <li><a href="#" class="block">HOME</a></li>
+                <li><a href="#" class="block">ABOUT ME</a>
+                </li>
+                <li><a href="#" class="block">MY WORK</a>
                     <ul>
-                        <li><a href="#">Notice</a></li>
-                        <li><a href="#">Free</a></li>
+                        <li><a href="#">WEB CODING</a></li>
+                        <li><a href="#">DESIGN</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="block">About Me</a></li>
-                <li><a href="#" class="block">SNS</a>
-                    <ul>
-                        <li><a href="#">facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">twitter</a>
-                            <ul>
-                                <li><a href="#">Private</a></li>
-                                <li><a href="#">Public</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <li><a href="#" class="block">DAILY</a>
                 </li>
             </ul>
         </nav>
@@ -61,37 +52,33 @@
 
     <!-- 메뉴박스 -->
     <div class="top-bar visible-md-up">
-        <div class="con height-100p flex ">
-            <a href="/" class="logo flex flex-ai-c">
+        <div class="con height-100p flex">
+            <a href="/" class="logo con flex flex-ai-c">
                 <img src="/resource/img/logo_1.png" alt="">
             </a>
 
-            <nav class="menu-box-1 flex">
+            <nav class="menu-box-1 flex con">
                 <ul class="flex">
                     <li class="flex"><a href="/" class="flex flex-ai-c flex-jc-c">HOME</a></li>
                     <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c flex-jc-c">ABOUT
-                            ME</a>
+                            ME</a></li>
                     <li class="flex"><a href="/myWork.php" class="flex flex-ai-c flex-jc-c">MY
                             WORK</a>
                         <ul>
                             <li><a href="#">WEB CODING</a></li>
                             <li><a href="#">DESIGN</a></li>
-                            </li>
                         </ul>
                     </li>
-                    </li>
-                    <li class="flex"><a href="daily.php"
-                            class="flex flex-ai-c flex-jc-c">DAILY</a>
-                    </li>
+                    <li class="flex"><a href="daily.php" class="flex flex-ai-c flex-jc-c">DAILY</a></li>
                 </ul>
             </nav>
-            <nav class="login flex flex-jc-end flex-1-0-0">
+            <nav class="login-box flex flex-jc-end flex-1-0-0 con">
                 <ul class="flex">
-                    <li class="flex"><a href="#"
-                            class="flex flex-ai-c flex-jc-c">LOGIN</a></li>
-                    <li class="flex"><a href="#"
-                            class="flex flex-ai-c flex-jc-c">Join in</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">LOGIN</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">Join in</a></li>
                 </ul>
             </nav>
         </div>
     </div>
+
+    

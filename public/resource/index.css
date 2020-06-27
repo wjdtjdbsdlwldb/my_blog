@@ -1,13 +1,11 @@
-
-
 /* 슬라이더 */
 .slider {
-    height:70%;
-    position:relative;
-    user-select:none;
+    height: 80%;
+    position: relative;
+    user-select: none;
 }
 
-.slider .side-bars > div {
+/* .slider .side-bars > div {
     position:absolute;
     top:0;
     left:0;
@@ -35,31 +33,100 @@
 
 .slider .side-bars > div:active > span {
     transform:translateY(-40%);
+} */
+
+.slider>.slides>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
-.slider > .slides > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity:0;
-    transition:opacity 0.5s;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-
+.slider>.slides>div.active {
+    opacity: 1;
 }
 
-.slider > .slides > div.active {
-    opacity:1;
-}
-
+/* 
 .avatar {
     margin-top: 50px;
-    border:5px solid black;
 }
 
 .avatar > img {
     width:200px;
+} */
+
+/* contents 박스 시작 */
+
+.slider>.slides>.bn-1>.contents {
+    font-weight: 800;
+    color: #FFF9F9;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 4.7vw;
 }
+
+.slider>.slides>.bn-1>.contents1 {
+    top: 50%;
+    font-size: 3vw;
+
+}
+
+/* contents 박스 끝 */
+
+/* aboutme icon 박스 시작 */
+
+.aboutme-box {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.aboutme-box>.aboutme-text {
+    font-size: 2vw;
+}
+
+.ab-main-box {
+    margin-top: 50px;
+}
+
+.ab-main-box> .sky-box {
+    text-align: center;
+    position: relative;
+}
+
+.ab-main-box> .sky-box >img {
+    width:100%;
+}
+
+.ab-main-box > .sky-box > .profile {
+    position: absolute;
+    top:20%;
+    left:20%;
+    font-size: 2rem;
+}
+
+.ab-main-box > .sky-box > .avatar{
+    position: absolute;
+    top:30%;
+    left: 14%;
+}
+
+.ab-main-box > .sky-box > .avatar > img {
+    width:300px;
+}
+
+.ab-main-box > .sky-box > .line {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+
+
+
