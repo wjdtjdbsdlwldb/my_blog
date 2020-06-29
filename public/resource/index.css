@@ -1,90 +1,42 @@
 /* 슬라이더 */
 .slider {
-    height: 80%;
+    height: 100%;
     position: relative;
-    user-select: none;
 }
 
-/* .slider .side-bars > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:30%;
-    height:100%;
-    cursor:pointer;
-}
-
-.slider .side-bars > div:last-child {
-    left:auto;
-    right:0;
-}
-
-.slider .side-bars > div > span {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:inherit;
-    right:inherit;
-    font-size:3rem;
-    transition: transform 0.2s;
-    margin:0 10px;
-    color: #343855;
-}
-
-.slider .side-bars > div:active > span {
-    transform:translateY(-40%);
-} */
 
 .slider>.slides>div {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 }
 
-.slider>.slides>div.active {
-    opacity: 1;
-}
+/* 메인  배너 contents 박스 시작 */
 
-/* 
-.avatar {
-    margin-top: 50px;
-}
-
-.avatar > img {
-    width:200px;
-} */
-
-/* contents 박스 시작 */
-
-.slider>.slides>.bn-1>.contents {
+.slider>.slides>.contents {
     font-weight: 800;
     color: #FFF9F9;
     position: absolute;
     top: 35%;
     left: 5%;
     font-size: 4.7vw;
+    white-space: nowrap;
 }
 
-.slider>.slides>.bn-1>.contents1 {
+.slider>.slides>.contents1 {
     top: 50%;
     font-size: 3vw;
-
 }
 
-/* contents 박스 끝 */
+/*메인 배너 contents 박스 끝 */
 
-/* aboutme icon 박스 시작 */
+/* aboutme 시작 */
 
 .aboutme-box {
-    margin-top: 70px;
+    margin-top:70px;
     text-align: center;
 }
 
@@ -107,26 +59,60 @@
 
 .ab-main-box > .sky-box > .profile {
     position: absolute;
-    top:20%;
-    left:20%;
+    top:15%;
+    left:19%;
     font-size: 2rem;
 }
 
-.ab-main-box > .sky-box > .avatar{
+.ab-main-box > .sky-box > .avatar>img{
     position: absolute;
-    top:30%;
-    left: 14%;
+    top:25%;
+    left: 12%;
+    width:23%;
 }
 
-.ab-main-box > .sky-box > .avatar > img {
-    width:300px;
-}
-
-.ab-main-box > .sky-box > .line {
+.ab-main-box > .sky-box > .line > img {
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 10%;
+    height: 80%;
 }
 
+/* about me 텍스트 */
+
+.ab-main-box > .sky-box > .infor {
+    position: absolute;
+    top:25%;
+    right: 15%;
+    text-align: start;
+}
+
+.ab-main-box > .sky-box > .infor > .personal {
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+/* about me 박스 끝 */
 
 
+/* my work 박스 시작 */
+.mywork {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.mywork > .my-text {
+    font-size: 2vw;
+}
+
+.web-box {
+    margin-top: 50px;
+}
+
+.web-box > .web-text {
+    font-size: 1.5vw;
+}
+
+.web-box > .box {
+    margin-top: 20px;
+}
