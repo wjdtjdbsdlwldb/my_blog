@@ -49,12 +49,10 @@
 }
 
 .ab-main-box> .sky-box {
-    text-align: center;
     position: relative;
-}
-
-.ab-main-box> .sky-box >img {
+    height: 800px;
     width:100%;
+    background-color: #E2ECFF;
 }
 
 .ab-main-box > .sky-box > .profile {
@@ -83,12 +81,11 @@
 .ab-main-box > .sky-box > .infor {
     position: absolute;
     top:25%;
-    right: 15%;
-    text-align: start;
+    right: 150px;
 }
 
 .ab-main-box > .sky-box > .infor > .personal {
-    font-size: 1.3vw;
+    font-size: 30px;
     font-weight: 600;
 }
 

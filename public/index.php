@@ -20,7 +20,7 @@ include "../part/head.php";
 </div>
 
 <div class="ab-main-box">
-    <div class="sky-box con"><img src="/resource/img/box.png" alt="">
+    <div class="sky-box con">
         <span class="profile">PROFILE</span>
         <div class="avatar"><img src="/resource/img/avatar.png" alt=""></div>
         <div class="line"><img src="/resource/img/line.png" alt=""></div>
