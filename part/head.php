@@ -62,11 +62,11 @@
                     <li class="flex"><a href="/" class="flex flex-ai-c flex-jc-c">HOME</a></li>
                     <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c flex-jc-c">ABOUT
                             ME</a></li>
-                    <li class="flex"><a href="/myWork.php" class="flex flex-ai-c flex-jc-c">MY
+                    <li class="flex"><a href="/list.php" class="flex flex-ai-c flex-jc-c">MY
                             WORK</a>
                         <ul>
-                            <li><a href="#">WEB CODING</a></li>
-                            <li><a href="#">DESIGN</a></li>
+                            <li><a href="/list.php?cateitemId=1">WEB CODING</a></li>
+                            <li><a href="/list.php?cateitemId=2">DESIGN</a></li>
                         </ul>
                     </li>
                     <li class="flex"><a href="daily.php" class="flex flex-ai-c flex-jc-c">DAILY</a></li>

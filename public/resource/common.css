@@ -310,7 +310,9 @@ label[for] {
     .visible-md-up {
         display: none;
     }
-
+    body {
+        padding-top: 50px;
+    }
 
 
     html.active {
@@ -321,6 +323,10 @@ label[for] {
 @media (min-width:810px) {
     .visible-sm-down {
         display: none;
+    }
+
+    body {
+        padding-top: 80px;
     }
 
 }
@@ -398,12 +404,13 @@ label[for] {
     left: 0;
     width: 100%;
     z-index: 50;
+    background-color: #1D1254;
 }
 
 .top-bar .menu-box-1>ul>li:hover>a {
     border-bottom: 2px solid #FFD3D1;
     /* background-color: #FFD3D1; */
-    color: #1D1254;
+    color: #FFF9F9;
 }
 
 .top-bar .menu-box-1>ul>li>a {
@@ -420,7 +427,7 @@ label[for] {
 .top-bar .login-box>ul>li:hover>a {
     border-bottom: 2px solid #FFD3D1;
     /* background-color: #FFD3D1; */
-    color: #1D1254;
+    color: #FFF9F9;
 }
 
 /* 로그인박스 끝 */

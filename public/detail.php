@@ -40,20 +40,23 @@ $row = mysqli_fetch_assoc($rs);
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
 <div class="con">
-    <a href="#" onclick="history.back();">[뒤로가기]</a>
-    <a href="/daily.php">[리스트]</a>
+    <button href="#" onclick="history.back();">뒤로가기</button>
+    <button type="button" onclick="location.href='/daily.php'">리스트</button>
 </div>
 
 <h1 class="con">제목 : <?=$row['title']?></h1>
-<div class="con">
+<div class="flex con"> 
+<div class="flex">
     등록날짜 : <?=$row['regDate']?>
 </div>
-<div class="con">
+<div class="flex">
     수정날짜 : <?=$row['updateDate']?>
 </div>
-<div class="con">
+<div class="flex">
     작성자 : 정서윤
 </div>
+</div>
+
 <div class="con" style="display:none;" id="origin1">
 <?=$row['body']?>
 </div>
