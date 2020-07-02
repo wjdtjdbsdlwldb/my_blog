@@ -264,6 +264,12 @@ label[for] {
     justify-content: flex-end;
 }
 
+*>.flex-jc-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 *>.flex-jc-c {
     display: flex;
     justify-content: center;
@@ -379,11 +385,11 @@ label[for] {
 
 /* 커스텀 */
 .con {
-    max-width: 1700px;
+    max-width: 1400px;
 }
 
 .con-min-width {
-    min-width: 1700px;
+    min-width: 1400px;
 }
 
 /*로고바 시작 */

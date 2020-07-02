@@ -73,15 +73,13 @@ while ($row = mysqli_fetch_assoc($rs)) {
 } 
 ?>
     <li class="con web-infor cell">
-        <div class="thumbimgurl">
-            <img src="<?=$article['thumbImgUrl']?>" alt="">
+        <div class="img-box" style= "background-image:url(<?=$article['thumbImgUrl']?>);">
         </div>
         <div class="text-box">
             <a href="./detail.php?id=<?=$article['id']?>" class="title">
                 <?=$article['title']?><br>
                 <?=$article['summary']?>
             </a><br>
-
         </div>
     </li>
 

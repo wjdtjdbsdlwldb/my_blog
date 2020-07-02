@@ -34,45 +34,52 @@ $row = mysqli_fetch_assoc($rs);
 <script src="https://uicdn.toast.com/editor/latest/toastui-editor-viewer.min.js"></script>
 
 <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
-<script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight-all.min.js"></script>
+<script
+    src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight-all.min.js">
+</script>
 
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="con">
-    <button href="#" onclick="history.back();">뒤로가기</button>
-    <button type="button" onclick="location.href='/daily.php'">리스트</button>
+<div class="detail-sub-icon con"><img src="/resource/img/sub-icon.png" alt=""></div>
+<div class="under-line con"></div>
+
+<div class="con button">
+    <a href="#" onclick="history.back();" class="back-btn">뒤로가기</a>
+    <a href="/list.php" class="list-btn">리스트</a>
 </div>
 
-<h1 class="con">제목 : <?=$row['title']?></h1>
-<div class="flex con"> 
-<div class="flex">
-    등록날짜 : <?=$row['regDate']?>
-</div>
-<div class="flex">
-    수정날짜 : <?=$row['updateDate']?>
-</div>
-<div class="flex">
-    작성자 : 정서윤
-</div>
+
+<div class="flex con detail-infor flex-jc-end flex-ai-c">
+    <h1 class="detail-title flex flex-grow-1">제목 : <?=$row['title']?></h1>
+    <div class="flex detail-reg">  
+        등록날짜 : <?=$row['regDate']?>
+    </div>
+    <div class="flex detail-name">
+        작성자 : 정서윤
+    </div>
 </div>
 
-<div class="con" style="display:none;" id="origin1">
-<?=$row['body']?>
+<div class="under-line2 con"></div>
+
+
+<div class="con detail-body" style="display:none;" id="origin1">
+    <?=$row['body']?>
 </div>
+
 <div class="con" id="viewer1">
-    
+
 </div>
 
 <script>
-var editor1__initialValue = $('#origin1').html();
-var editor1 = new toastui.Editor({
-  el: document.querySelector('#viewer1'),
-  height: '600px',
-  initialValue: editor1__initialValue,
-  viewer:true,
-  plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
-});
+    var editor1__initialValue = $('#origin1').html();
+    var editor1 = new toastui.Editor({
+        el: document.querySelector('#viewer1'),
+        height: '600px',
+        initialValue: editor1__initialValue,
+        viewer: true,
+        plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
+    });
 </script>
 
 <?php

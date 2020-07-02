@@ -1,0 +1,46 @@
+.detail-sub-icon {
+    text-align: center;
+}
+
+.detail-sub-icon > img {
+    margin-top: 30px;
+}
+
+.under-line {
+    border-bottom:1px solid #afafaf;
+    margin-top: 30px;
+}
+
+.button {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.button > .back-btn, .list-btn {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: .9rem;
+    color: #2b2b2b;
+    border:1px solid #343855;
+    border-radius:50px;
+}
+
+.button > a:hover {
+    background-color: #E2ECFF;
+    color: #343855;
+}
+
+.detail-infor {
+    margin-top: 30px;
+}
+
+.detail-infor > .detail-reg , .detail-name {
+    padding: 0 10px;
+    color: #8a8a8a;
+}
+
+.under-line2 {
+    border-bottom:1px solid #afafaf;
+    margin-top: 20px;
+}
+
