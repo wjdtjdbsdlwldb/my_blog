@@ -64,7 +64,7 @@ while ($row = mysqli_fetch_assoc($rs)) {
 
 <div class=" con under-line"></div>
 
-<ul class="list-box con row" style="margin:-10px;">
+<ul class="list-box con row">
     <?php foreach ( $articleRows as $article ) { ?>
 
     <?php
@@ -72,13 +72,13 @@ while ($row = mysqli_fetch_assoc($rs)) {
         $article['thumbImgUrl'] = "https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/bn-6.jpg";
 } 
 ?>
-    <li class="con web-infor cell" style="padding:10px;">
+    <li class="con web-infor cell">
         <div class="thumbimgurl">
             <img src="<?=$article['thumbImgUrl']?>" alt="">
         </div>
         <div class="text-box">
             <a href="./detail.php?id=<?=$article['id']?>" class="title">
-                <?=$article['title']?>
+                <?=$article['title']?><br>
                 <?=$article['summary']?>
             </a><br>
 

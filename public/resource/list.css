@@ -14,7 +14,6 @@
 
 .web-infor {
     box-sizing: border-box;
-    border:1px solid red;
     width:calc(100%/5);
 }
 
