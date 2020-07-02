@@ -1,0 +1,21 @@
+.top-sub1 {
+    text-align: center;
+}
+
+.top-sub1 > .catename {
+    margin-top:50px;
+    font-size: 2.5rem;
+}
+
+.under-line {
+    border-bottom: 1px solid #afafaf;
+    margin-top: 20px;
+}
+
+.web-infor {
+    box-sizing: border-box;
+    border:1px solid red;
+    width:calc(100%/5);
+}
+
+

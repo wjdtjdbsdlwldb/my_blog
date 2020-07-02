@@ -404,7 +404,7 @@ label[for] {
     left: 0;
     width: 100%;
     z-index: 50;
-    background-color: #1D1254;
+    background-color: #343855;
 }
 
 .top-bar .menu-box-1>ul>li:hover>a {
@@ -560,7 +560,6 @@ label[for] {
     position: relative;
 }
 
-
 .top-bar .menu-box-1 ul ul>li>a {
     display: block;
     padding: 20px;
@@ -578,17 +577,4 @@ label[for] {
     padding: 30px;
 }
 
-.title {
-    text-align: center;
-    margin-top: 50px;
-}
 
-.title>.main-text {
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
-.under-line {
-    margin-top: 10px;
-    border-bottom: 1px solid #908E8E;
-}

@@ -10,6 +10,8 @@
     <link rel="icon" href="./resource/img/favicon.png">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/index.css">
+    <link rel="stylesheet" href="/resource/mywork.css">
+    <link rel="stylesheet" href="/resource/list.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
@@ -62,14 +64,14 @@
                     <li class="flex"><a href="/" class="flex flex-ai-c flex-jc-c">HOME</a></li>
                     <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c flex-jc-c">ABOUT
                             ME</a></li>
-                    <li class="flex"><a href="/list.php" class="flex flex-ai-c flex-jc-c">MY
+                    <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">MY
                             WORK</a>
                         <ul>
-                            <li><a href="/list.php?cateitemId=1">WEB CODING</a></li>
-                            <li><a href="/list.php?cateitemId=2">DESIGN</a></li>
+                            <li><a href="/list.php?cateItemId=1">WEB CODING</a></li>
+                            <li><a href="/list.php?cateItemId=2">DESIGN</a></li>
                         </ul>
                     </li>
-                    <li class="flex"><a href="daily.php" class="flex flex-ai-c flex-jc-c">DAILY</a></li>
+                    <li class="flex"><a href="/list.php?cateItemId=3" class="flex flex-ai-c flex-jc-c">DAILY</a></li>
                 </ul>
             </nav>
             <nav class="login-box flex flex-jc-end flex-1-0-0 con">

@@ -2,9 +2,6 @@
 include "../part/head.php";
 ?>
 
-
-<h1 class="con">MyWork입니당</h1>
-
 <ul class="con flex">
     <?php 
     for ($i = 3; $i >= 1; $i--) { ?> 
