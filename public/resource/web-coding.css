@@ -1,0 +1,52 @@
+.coding-top-bar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.web-coding {
+    font-size: 4rem;
+}
+
+.coding-top-bar > .coding-under-line {
+    border-bottom: 1px solid #afafaf;
+    margin-top: 20px;
+}
+
+.coding > li {
+    width:calc(100% / 5);
+    padding:0 10px;
+}
+
+
+.coding > li > a {
+    display: block;
+    padding-top:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.coding > li > a::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .0);
+    transition: background-color .4s;
+    z-index: 1;
+    display: block;
+}
+
+.coding > li:hover >a::before {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.coding > li > div {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}

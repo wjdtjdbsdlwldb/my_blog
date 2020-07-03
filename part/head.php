@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/resource/mywork.css">
     <link rel="stylesheet" href="/resource/list.css">
     <link rel="stylesheet" href="/resource/detail.css">
+    <link rel="stylesheet" href="/resource/web-coding.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
@@ -68,7 +69,7 @@
                     <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">MY
                             WORK</a>
                         <ul>
-                            <li><a href="/list.php?cateItemId=1">WEB CODING</a></li>
+                            <li><a href="web-coding.php">WEB CODING</a></li>
                             <li><a href="/list.php?cateItemId=2">DESIGN</a></li>
                         </ul>
                     </li>

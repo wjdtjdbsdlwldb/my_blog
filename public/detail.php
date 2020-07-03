@@ -46,7 +46,7 @@ $row = mysqli_fetch_assoc($rs);
 
 <div class="con button">
     <a href="#" onclick="history.back();" class="back-btn">뒤로가기</a>
-    <a href="/list.php" class="list-btn">리스트</a>
+    <a href=# onclick="history.back();" class="list-btn">리스트</a>
 </div>
 
 

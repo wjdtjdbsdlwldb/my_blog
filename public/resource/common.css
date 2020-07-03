@@ -385,11 +385,11 @@ label[for] {
 
 /* 커스텀 */
 .con {
-    max-width: 1400px;
+    max-width: 1700px;
 }
 
 .con-min-width {
-    min-width: 1400px;
+    min-width: 1700px;
 }
 
 /*로고바 시작 */
