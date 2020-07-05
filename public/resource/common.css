@@ -396,6 +396,7 @@ label[for] {
 
 .top-bar .logo>img {
     width: 100%;
+    margin-right: 40px;
 }
 
 /*로고바 끝 */
@@ -413,28 +414,47 @@ label[for] {
     background-color: #343855;
 }
 
-.top-bar .menu-box-1>ul>li:hover>a {
-    border-bottom: 2px solid #FFD3D1;
-    /* background-color: #FFD3D1; */
-    color: #FFF9F9;
-}
-
 .top-bar .menu-box-1>ul>li>a {
     padding: 30px;
+    transition: transfrom .4s;
 }
 
-.top-bar .menu-box-1>ul>li:first-child>a {
-    margin-left: 40px;
+.top-bar .menu-box-1>ul>li:hover>a {
+    transform: scale(1.1);
+    color:#FFD3D1;
+}  
+
+.top-bar .menu-box-1>ul>li>a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 30px;
+    width:0;
+    bottom: 22px;
+    height: 2px;
+    background-color: #FFD3D1;
+    transition:.3s;
+}
+
+.top-bar .menu-box-1>ul>li:hover>a::before {
+    width: 50px;
 }
 
 /* 탑바 끝 */
 
 /* 로그인박스 시작 */
-.top-bar .login-box>ul>li:hover>a {
-    border-bottom: 2px solid #FFD3D1;
-    /* background-color: #FFD3D1; */
-    color: #FFF9F9;
+
+.top-bar .login-box>ul>li>a {
+    font-weight: 600;
+    padding: 30px;
+    transition: transfrom .4s;
 }
+
+.top-bar .login-box>ul>li:hover>a {
+    transform: scale(1.1);
+    color:#FFD3D1;    
+}
+
 
 /* 로그인박스 끝 */
 
@@ -458,7 +478,7 @@ label[for] {
 
 /* 모바일 로고바 시작 */
 .mobile-top-bar>.mobile-logo>img {
-    width: 100px;
+   width: 100px;
 }
 
 /* 모바일 사이드 바 시작*/
@@ -470,11 +490,12 @@ label[for] {
     left: -250px;
     background-color: #343855;
     transition: left .3s;
-    z-index: 30;
+    z-index: 60;
 }
 
 .mobile-side-bar .side-menu-box-1 {
     margin-top: 10px;
+    width:100%;
 }
 
 .mobile-side-bar .side-menu-box-1 ul {
@@ -504,13 +525,13 @@ label[for] {
 }
 
 .mobile-side-bar .side-menu-box-1 ul>li>a:not(:only-child)::after {
-    content: "▶";
+    content: "→";
     float: right;
     font-size: .9rem;
 }
 
 .mobile-side-bar .side-menu-box-1 ul>li.active>a:not(:only-child)::after {
-    content: "▼";
+    content: "↓";
 }
 
 .mobile-side-bar .side-menu-box-1 ul>li.active>a {
@@ -570,17 +591,15 @@ label[for] {
     display: block;
     padding: 20px;
     font-size: 1vw;
+    transition: transfrom .1s , .4s;
 }
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
     font-weight: 800;
     background-color: #FFD3D1;
     color: #E36F65;
+    transform: scale(1.1);
 }
 
-.top-bar .login-box>ul>li>a {
-    font-weight: 600;
-    padding: 30px;
-}
 
 

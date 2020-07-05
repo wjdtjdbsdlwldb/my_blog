@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/resource/list.css">
     <link rel="stylesheet" href="/resource/detail.css">
     <link rel="stylesheet" href="/resource/web-coding.css">
+    <link rel="stylesheet" href="/resource/aboutme.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
@@ -71,6 +72,7 @@
                         <ul>
                             <li><a href="web-coding.php">WEB CODING</a></li>
                             <li><a href="/list.php?cateItemId=2">DESIGN</a></li>
+                            <li><a href="/list.php?cateItemId=4">IT</a></li>
                         </ul>
                     </li>
                     <li class="flex"><a href="/list.php?cateItemId=3" class="flex flex-ai-c flex-jc-c">DAILY</a></li>

@@ -7,7 +7,6 @@ include "../part/head.php";
         <span class="contents con block">JUNG SEO YUN</span>
         <span class="contents contents1 block con">WEB PUBLISHER & DESIGNER</span>
         <div style="background-image:url(/resource/img/bg_4.jpg);" class="bn-1">
-
         </div>
     </div>
 </div>
