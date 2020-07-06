@@ -44,65 +44,6 @@
 
 /*메인 배너 contents 박스 끝 */
 
-/* aboutme 시작 */
-
-.aboutme-box {
-    margin-top:70px;
-    text-align: center;
-}
-
-.aboutme-box>.aboutme-text {
-    font-size: 2vw;
-}
-
-.ab-main-box {
-    margin-top: 50px;
-}
-
-.ab-main-box> .sky-box {
-    position: relative;
-    height: 800px;
-    width:100%;
-    background-color: #E2ECFF;
-}
-
-.ab-main-box > .sky-box > .profile {
-    position: absolute;
-    top:15%;
-    left:19%;
-    font-size: 2rem;
-}
-
-.ab-main-box > .sky-box > .avatar>img{
-    position: absolute;
-    top:25%;
-    left: 12%;
-    width:23%;
-}
-
-.ab-main-box > .sky-box > .line > img {
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    height: 80%;
-}
-
-/* about me 텍스트 */
-
-.ab-main-box > .sky-box > .infor {
-    position: absolute;
-    top:25%;
-    right: 150px;
-}
-
-.ab-main-box > .sky-box > .infor > .personal {
-    font-size: 30px;
-    font-weight: 600;
-}
-
-/* about me 박스 끝 */
-
-
 /* my work 박스 시작 */
 .mywork {
     text-align: center;
@@ -124,3 +65,4 @@
 .web-box > .box {
     margin-top: 20px;
 }
+
