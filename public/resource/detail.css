@@ -2,20 +2,20 @@
     text-align: center;
 }
 
-.detail-sub-icon > img {
+.detail-sub-icon>img {
     margin-top: 30px;
 }
 
 .under-line {
-    border-bottom:1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
     margin-top: 30px;
 }
 
-.button {
+.btn {
     margin-top: 30px;
-    text-align: right;
 }
 
+/* 
 .button > .back-btn, .list-btn {
     padding: 8px;
     margin-right: 10px;
@@ -28,19 +28,62 @@
 .button > a:hover {
     background-color: #E2ECFF;
     color: #343855;
+} */
+
+.btn {
+    padding: 5px 15px;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00137c;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    -webkit-transform: scaleY(0.3);
+    transform: scaleY(0.3);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: #ff3a3ad7;
+}
+
+.btn:hover::before {
+    opacity: 1;
+    background-color: #FFD3D1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    transition: -webkit-transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02),
+        opacity 0.4s;
+    transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
 }
 
 .detail-infor {
     margin-top: 30px;
 }
 
-.detail-infor > .detail-reg , .detail-name {
+.detail-infor>.detail-reg,
+.detail-name {
     padding: 0 10px;
     color: #8a8a8a;
 }
 
 .under-line2 {
-    border-bottom:1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
     margin-top: 20px;
 }
-

@@ -72,7 +72,7 @@ while ($row = mysqli_fetch_assoc($rs)) {
         $article['thumbImgUrl'] = "https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/bn-6.jpg";
 } 
 ?>
-    <li class="con web-infor cell">
+    <li class="web-infor con cell">
         <div class="img-box" style= "background-image:url(<?=$article['thumbImgUrl']?>);">
         </div>
         <div class="text-box">

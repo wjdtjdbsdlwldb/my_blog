@@ -9,6 +9,8 @@ include "../part/head.php";
     <?php }
         ?>
 </ul>
+
+
 <?php
 include "../part/foot.php";
 ?>
