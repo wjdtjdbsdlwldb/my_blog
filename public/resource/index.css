@@ -1,4 +1,33 @@
-/* 슬라이더 */
+/* 탑바 스크롤 효과  */
+.top-bar {
+    transition: background-color .3s;
+}
+.top-bar.removeBg {
+    background-color: transparent;
+    color: #FFF9F9;
+}
+.top-bar.removeBg .st0 {
+    fill:#FFF9F9;
+    stroke:#FFF9F9;
+}
+.top-bar.removeBg .st1{
+    fill:#FFF9F9;
+}
+
+.top-bar.addBg {
+    color: #2b2b2b;
+    background-color: #FFF9F9;
+}
+.top-bar.addBg .st0{
+    fill:#2b2b2b;
+    stroke:#2b2b2b;
+}
+.top-bar.addBg .st1{
+    fill:#2b2b2b;
+}
+
+
+/* 배너 박스 */
 .slider {
     height: 20%;
     margin-top: -80px;
@@ -65,4 +94,3 @@
 .web-box > .box {
     margin-top: 20px;
 }
-
