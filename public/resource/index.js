@@ -6,17 +6,6 @@ var didScroll;
 $('.top-bar').addClass('removeBg');
 
 $(window).scroll(function(){
-    didScroll = true;
-
-    if (didScroll) {
-        setInterval(function(){
-            hadScrolled();
-            didScroll = false;
-        }, 1000)
-    }
-})
-
-function hadScrolled(){
     var st = $(this).scrollTop();
 
     if( st > bnBottom ) {
@@ -25,4 +14,4 @@ function hadScrolled(){
     else {
         $('.top-bar').removeClass('addBg');
     }
-}
+});

@@ -73,7 +73,7 @@ while ($row = mysqli_fetch_assoc($rs)) {
 } 
 ?>
     <li class="web-infor con cell">
-        <div class="img-box" style= "background-image:url(<?=$article['thumbImgUrl']?>);">
+        <div class="img-box" OnClick="location.href='./detail.php?id=<?=$article['id']?>'" style= "background-image:url(<?=$article['thumbImgUrl']?>);">
         </div>
         <div class="text-box">
             <a href="./detail.php?id=<?=$article['id']?>" class="title">
