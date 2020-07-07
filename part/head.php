@@ -56,16 +56,17 @@
     <div class="mobile-side-bar visible-sm-down">
         <nav class="side-menu-box-1">
             <ul>
-                <li><a href="#" class="block">HOME</a></li>
-                <li><a href="#" class="block">ABOUT ME</a>
+                <li><a href="/" class="block">HOME</a></li>
+                <li><a href="/aboutMe.php" class="block">ABOUT ME</a>
                 </li>
                 <li><a href="#" class="block">MY WORK</a>
                     <ul>
-                        <li><a href="#">WEB CODING</a></li>
-                        <li><a href="#">DESIGN</a></li>
+                        <li><a href="web-coding.php">WEB CODING</a></li>
+                        <li><a href="/list.php?cateItemId=2">DESIGN</a></li>
+                        <li><a href="/list.php?cateItemId=4">IT</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="block">DAILY</a>
+                <li><a href="/list.php?cateItemId=3" class="block">DAILY</a>
                 </li>
             </ul>
         </nav>
@@ -109,10 +110,10 @@
                 </ul>
             </nav>
             <nav class="login-box flex flex-jc-end flex-1-0-0 con">
-                <ul class="flex">
+                <!-- <ul class="flex">
                     <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">LOGIN</a></li>
                     <li class="flex"><a href="#" class="flex flex-ai-c flex-jc-c">Join in</a></li>
-                </ul>
+                </ul> -->
             </nav>
         </div>
     </div>
