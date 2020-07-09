@@ -331,14 +331,14 @@ label[for] {
 /* 로고 */
 
 .top-bar > .logo > svg {
-    width: 15vw;
+    width: 35%;
     overflow: hidden;
 }
 
 /* 센터 메뉴 */
 .top-bar .menu-box>ul>li>a {
     padding: 15px;
-    font-size: 1vw;
+    font-size: 15px;
     font-weight: 600;
     white-space: nowrap;
     position: relative;
@@ -432,7 +432,7 @@ label[for] {
 
 .img-box .main-text {
     position:absolute;
-    bottom: 160px;
+    bottom: 140px;
     left: 80px;
     font-size: 12px;
     color: #fff;
@@ -440,8 +440,7 @@ label[for] {
     font-weight: 600;
     letter-spacing: 1px;
 }
-   
-
+   /* 텍스트   */
 .top-bn .main-text  .btn-box > a {
     font-size: 12px;
     padding: 0 10px;
@@ -461,14 +460,49 @@ label[for] {
 
 .top-bn .main-text > .sub {
     font-size: 14px;
-    line-height: 25px;
 }
 
+/* 버튼  */
 .top-bn .main-text > .btn-box {
     margin-top: 20px;
 }
 
 .img-box .main-text > .btn-box > a:hover {
+    background: #000;
+    color: #fff;
+    transition: background .3s;
+}
+
+/* 신상품 박스 */
+.prd-list {
+    margin-top:70px;
+}
+
+.prd-list >.main-bn-txt >.bn-infor {
+    margin:0 100px;
+    font-weight: 500;
+}
+
+.prd-list >.main-bn-txt >.bn-infor > .new-prd-tit {
+    font-size: 20px;
+}
+
+.prd-list >.main-bn-txt >.bn-infor > .sub-text {
+    font-size: 14px;
+}
+
+.prd-list >.main-bn-txt > .main-btn-box >a {
+    border:1px solid #000;
+    display: inline-block;
+    margin: 0 100px;
+    padding:7px 40px;
+    font-size: 12px;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+}
+
+.prd-list >.main-bn-txt > .main-btn-box >a:hover {
     background: #000;
     color: #fff;
     transition: background .3s;

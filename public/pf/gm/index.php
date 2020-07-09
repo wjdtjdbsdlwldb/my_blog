@@ -92,6 +92,20 @@
             </div>
         </div>
     </div>
+    <div class="prd-list con">
+        <div class="main-bn-txt">
+            <div class="bn-infor flex flex-jc-sb flex-ai-c">
+                <h3 class="new-prd-tit">신상품 - 선글라스</h3>
+                <p class="sub-text">데일리 한 스타일링부터 엣지 있는 스타일링까지,<br> 
+                나에게 어울리는 프레임을 만나보세요.
+                </p>
+            </div>
+            <div class="main-btn-box">
+                <a href="#">선글라스 모두보기</a>
+            </div>
+         </div>
+    </div>    
+    
 
 </body>
 
