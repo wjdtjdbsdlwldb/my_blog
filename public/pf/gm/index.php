@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gentle Monster</title>
     <link rel="stylesheet" href="/pf/gm/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/pf/gm/index.js"></script>
+
 </head>
 
 <body>
@@ -106,6 +109,24 @@
          </div>
     </div>    
     
+    <div class="slider con relative">
+        <div class="slides">
+            <ul class="prod-list flex">
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/5.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/6.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/7.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/8.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/9.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/10.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/11.jpg" alt=""></a></li>
+                <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/12.jpg" alt=""></a></li> 
+            </ul>
+        </div>
+    </div>
 
 </body>
 

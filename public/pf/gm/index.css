@@ -508,5 +508,11 @@ label[for] {
     transition: background .3s;
 }
 
+.slider > .slides {
+    width: 3289px;
+}
 
-
+.slider > .slides > ul > li > a > img {
+    width:253px;
+    height: 324px;
+}
