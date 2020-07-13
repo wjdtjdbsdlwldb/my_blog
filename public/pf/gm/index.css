@@ -510,19 +510,17 @@ label[for] {
 
 .slider-1 {
     display: block;
-    margin-right: -300px;
 }
 
 .slider-1 .owl-carousel{
-    margin-right:-100px;
     position:relative;
   }
   
 .slider-1 .item {
-    height:100vh;
+    width:320px;
     font-size:15rem;
     display:flex;
     margin-right:20px;
     box-sizing:border-box;
-    border:5px solid red;
-  }
+
+}

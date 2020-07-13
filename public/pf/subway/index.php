@@ -88,8 +88,7 @@
             </ul>
         </nav>
 
-        <div class="hover-bg"></div>
-        <div class="bg-menu"></div>
+        <div class="sub-box"></div>
     </div>
 
 

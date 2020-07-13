@@ -10,11 +10,10 @@
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="./index.js">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -114,7 +113,7 @@
         </div>
     </div>
     
-    <div class="slider-1">
+    <div class="slider-1 con">
         <div class="owl-carousel owl-theme">
             <div class="item"><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/1.jpg" alt=""></a></div>
             <div class="item"><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gm/2.jpg" alt=""></a></div>
