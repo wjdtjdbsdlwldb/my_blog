@@ -324,14 +324,18 @@ label[for] {
 /* 커스텀 */
 
 .con {
-    max-width: 1000px;
+    max-width: 1200px;
+}
+
+.con-min-width {
+    min-width:1200px;
 }
 
 /* 탑바 */
 .top-bar {
     height: 170px;
     width: 100%;
-    border-top: 5px solid green;
+    border-top: 5px solid #009223;
     background-color: #fff;
     white-space: nowrap;
     box-shadow: 1px 1px 2px #dfdfdf;
@@ -392,7 +396,6 @@ label[for] {
     font-size: 18px;
     font-weight: 600;
     color: #292929;
-    position: relative;
 }
 
 .top-bar .menu-box>ul>li:hover>a {
@@ -423,26 +426,25 @@ label[for] {
     color: #292929;
 }
 
-.top-bar .menu-box > ul ul > li:hover > a {
+.top-bar .menu-box > ul ul > li.active > a {
     color: #009223;
     text-decoration: underline;
 }
 
-
 .top-bar::before {
     content:'';
     display: block;
-    position: absolute;
-    height: 0px;
-    width:100%;
-    background: #fff;
+    position:absolute;
+    left:0;
+    right:0;
+    height:0;
+    z-index:-1;
+    background: green;
     transition: height .3s;
-    z-index: -1;
-     
 }
 
 .top-bar::before.active {
     height: 400px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }

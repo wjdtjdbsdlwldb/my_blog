@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SUBWAY-써브웨이</title>
+    <title>SUBWAY</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
-    <div class="top-bar">
+    <div class="top-bar con-min-width">
         <div class="logo-box flex flex-jc-end flex-ai-c">
             <div class="logo flex-grow-1 flex-jc-end flex-ai-c">
                 <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png" alt=""></a>
