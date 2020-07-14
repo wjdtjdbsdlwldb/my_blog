@@ -324,6 +324,9 @@ label[for] {
 }
 
 /* 커스텀 */
+body {
+    width: 100%;
+}
 
 .con {
     max-width: 1200px;
@@ -421,16 +424,17 @@ label[for] {
 
 .top-bar .menu-box>ul ul {
     height: 0px;
+    opacity: 0;
     width: 100%;
     margin-top: 2px;
-    background: #fff;
     box-sizing: border-box;
     overflow: hidden;
-    transition: height .1s;
+    transition: opacity .3s, height .1s;
 }
 
 .top-bar .menu-box>ul.bg-active>li ul {
     height: 160px;
+    opacity: 1;
 }
 
 .top-bar .menu-box>ul ul>li>a {
@@ -453,9 +457,10 @@ label[for] {
     overflow: hidden;
     z-index: -1;
     border-top: 1px solid #dfdfdf;
-    transition: height .1s;
+    transition: height .3s;
 }
 
 .top-bar>.menu-box.bg-active .sub-box {
-    height: 300px;
+    height: 250px;
 }
+
