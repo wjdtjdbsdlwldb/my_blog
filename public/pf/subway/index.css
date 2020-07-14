@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:ital@1&display=swap");
 
 html {
-    font-family: 'Noto Sans KR', 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
 }
 
 body,
@@ -35,6 +35,10 @@ label[for] {
 .absolute-left {
     position: absolute;
     left: 0;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .absolute-right {
@@ -223,7 +227,7 @@ label[for] {
 }
 
 .font-size-dot-8rem {
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 .table-row {
@@ -268,7 +272,6 @@ label[for] {
     justify-content: flex-start;
 }
 
-
 *>.flex-jc-c {
     display: flex;
     justify-content: center;
@@ -308,7 +311,6 @@ label[for] {
     flex-wrap: wrap;
 }
 
-
 *>.flex-ch-basis-0 {
     display: flex;
 }
@@ -328,18 +330,18 @@ label[for] {
 }
 
 .con-min-width {
-    min-width:1200px;
+    min-width: 800px;
 }
 
 /* 탑바 */
 .top-bar {
     height: 170px;
     width: 100%;
-    border-top: 5px solid #009223;
+    border-top: 5px solid green;
     background-color: #fff;
     white-space: nowrap;
     box-shadow: 1px 1px 2px #dfdfdf;
-    z-index: 20;
+    z-index: 10;
     position: relative;
 }
 
@@ -361,7 +363,7 @@ label[for] {
 }
 
 .top-bar .login-box>li>.login::after {
-    content: '';
+    content: "";
     width: 3px;
     height: 3px;
     border-radius: 10px;
@@ -386,65 +388,74 @@ label[for] {
 
 /* 메뉴박스 */
 
-.top-bar .menu-box > ul > li {
-     position: relative;
+.top-bar .menu-box>ul {
+    width: 900px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.top-bar .menu-box>ul>li {
+    position: relative;
+    width: 100%;
+}
+
+.top-bar .menu-box>ul>li {
+    width: calc(100% / 6);
 }
 
 .top-bar .menu-box>ul>li>a {
-    padding: 40px 50px 0 50px;
-    line-height: 120%;
-    font-size: 18px;
+    padding: 30px 0 20px 0;
     font-weight: 600;
-    color: #292929;
+    display: block;
+    overflow-x: hidden;
 }
 
 .top-bar .menu-box>ul>li:hover>a {
     color: #009223;
-    transition: color .2s;
 }
 
-.top-bar .menu-box > ul ul {
-    opacity: 0;
-    position: absolute;
-    top:100%;
-    width:100%;
-    margin-top: 26px;
-    padding-top:20px;
-    text-align: center;
+.top-bar .menu-box>ul>li>div {
+    margin-top: 20px;
+}
+
+.top-bar .menu-box>ul ul {
+    height: 0px;
+    width: 100%;
+    margin-top: 2px;
     background: #fff;
-    transition: opacity .2s;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: height .1s;
 }
 
-.top-bar .menu-box > ul:hover ul {
-    opacity: 1;
+.top-bar .menu-box>ul.bg-active>li ul {
+    height: 160px;
 }
 
-.top-bar .menu-box > ul ul > li > a {
-    display: block;
-    padding: 5px 10px;
+.top-bar .menu-box>ul ul>li>a {
     font-size: 15px;
-    color: #292929;
-}
-
-.top-bar .menu-box > ul ul > li.active > a {
-    color: #009223;
-    text-decoration: underline;
-}
-
-.top-bar::before {
-    content:'';
     display: block;
-    position:absolute;
-    left:0;
-    right:0;
-    height:0;
-    z-index:-1;
-    background: green;
-    transition: height .3s;
+    padding: 5px 0;
 }
 
-.top-bar::before.active {
-    height: 400px;
-    /* overflow: hidden; */
+.top-bar .menu-box>ul ul>li:hover>a {
+    text-decoration: underline;
+    color: #009223;
+}
 
+.top-bar>.menu-box>.sub-box {
+    width: 100%;
+    height: 0px;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+    z-index: -1;
+    border-top: 1px solid #dfdfdf;
+    transition: height .1s;
+}
+
+.top-bar>.menu-box.bg-active .sub-box {
+    height: 300px;
 }
