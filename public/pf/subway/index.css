@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Oxygen&display=swap');
 
 html {
-    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+    font-family: 'Oxygen', 'Noto Sans KR', sans-serif;
 }
 
 body,
@@ -324,16 +324,19 @@ label[for] {
 }
 
 /* 커스텀 */
-body {
-    width: 100%;
-}
 
 .con {
     max-width: 1200px;
 }
 
+.con-2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .con-min-width {
-    min-width: 800px;
+    min-width: 1800px;
 }
 
 /* 탑바 */
@@ -424,17 +427,15 @@ body {
 
 .top-bar .menu-box>ul ul {
     height: 0px;
-    opacity: 0;
     width: 100%;
     margin-top: 2px;
     box-sizing: border-box;
     overflow: hidden;
-    transition: opacity .3s, height .1s;
+    transition: height 0.2s;
 }
 
 .top-bar .menu-box>ul.bg-active>li ul {
     height: 160px;
-    opacity: 1;
 }
 
 .top-bar .menu-box>ul ul>li>a {
@@ -457,10 +458,136 @@ body {
     overflow: hidden;
     z-index: -1;
     border-top: 1px solid #dfdfdf;
-    transition: height .3s;
+    transition: height 0.2s;
 }
 
 .top-bar>.menu-box.bg-active .sub-box {
     height: 250px;
 }
 
+/* 배너 슬라이더 */
+.slider {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider>.slides {
+    position: relative;
+    height: 470px;
+    width: 1920px;
+    overflow: hidden;
+}
+
+.slider>.slides>li {
+    width: calc(1920 * 6);
+    height: 440px;
+
+}
+
+.slider>.slides>li>a {
+    width: 1920px;
+    height: 440px;
+    display: block;
+}
+
+.slider>.slides>li>a>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    transition: margin-left .5s;
+}
+
+.slider>.btn-box {
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+}
+
+.slider>.btn-box>.dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #fff;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+}
+
+.slider>.btn-box>.dot.active {
+    background-color: #ffc300;
+    width: 30px;
+}
+
+.quick-box {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    z-index: 5;
+}
+
+.quick-box>.link1 {
+    line-height: 80px;
+}
+
+.quick-box>.link1>.store {
+    background: #ffce32;
+    float: right;
+    border-radius: 30px 0 0 0;
+}
+
+.quick-box>.link1>.que {
+    background: #009223;
+    border-radius: 0 0 30px 0;
+}
+
+.quick-box>.link1>div>a {
+    width: 300px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.quick-box>.link1>div>a>span {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.quick-box>.link1>.que>a>span {
+    color: #fff;
+}
+
+.quick-box>.link1>.store>a>span::before {
+    content: '';
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_map.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 13px;
+    position: relative;
+    top: -2px;
+}
+
+.quick-box>.link1>.que>a>span::before {
+    content: '';
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/que-icon.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 13px;
+    position: relative;
+    top: -2px;
+}

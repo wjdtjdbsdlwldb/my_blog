@@ -102,6 +102,57 @@
             </ul>
             <div class="sub-box"></div>
         </nav>
+
+    </div>
+
+    <div class="slider slider-menu">
+        <ul class="slides flex">
+            <li class="active"><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/1.jpg);">
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/2.jpg);">
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/3.jpg);">
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/4.jpg);">
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/5.jpg);">
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/6.jpg);">
+                    </div>
+                </a></li>
+        </ul>
+
+        <div class="btn-box flex">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="quick-box flex flex-ai-c">
+            <div class="link1 flex">
+                <div class="store flex">
+                    <a href="#"><span>매장찾기</span></a>
+                </div>
+                <div class="que flex">
+                    <a href="#"><span>가맹신청ㆍ문의</span></a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
