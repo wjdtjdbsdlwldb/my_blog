@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=Noto+Sans+KR&display=swap');
 
 html {
-    font-family: 'Oxygen', 'Noto Sans KR', sans-serif;
+    font-family: 'Bai Jamjuree', 'Noto Sans KR', sans-serif;
+
 }
 
 body,
@@ -411,10 +412,11 @@ label[for] {
 }
 
 .top-bar .menu-box>ul>li>a {
-    padding: 30px 0 20px 0;
+    padding: 30px 30px 20px 30px;
     font-weight: 600;
     display: block;
     overflow-x: hidden;
+    font-size: 18px;
 }
 
 .top-bar .menu-box>ul>li:hover>a {
@@ -442,6 +444,7 @@ label[for] {
     font-size: 15px;
     display: block;
     padding: 5px 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .top-bar .menu-box>ul ul>li:hover>a {
@@ -475,18 +478,19 @@ label[for] {
 .slider>.slides {
     position: relative;
     height: 470px;
-    width: 1920px;
-    overflow: hidden;
+    width: 100%;
+
 }
 
 .slider>.slides>li {
-    width: calc(1920 * 6);
-    height: 440px;
-
+    list-style: none;
+    position: relative;
+    width: 1519px;
 }
 
+
 .slider>.slides>li>a {
-    width: 1920px;
+    width: 1519px;
     height: 440px;
     display: block;
 }
@@ -494,7 +498,7 @@ label[for] {
 .slider>.slides>li>a>div {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
     width: 100%;
     transition: margin-left .5s;
@@ -525,6 +529,7 @@ label[for] {
     width: 30px;
 }
 
+/* 매장 점포,문의 버튼 */
 .quick-box {
     overflow: hidden;
     position: absolute;
@@ -590,4 +595,49 @@ label[for] {
     padding-right: 13px;
     position: relative;
     top: -2px;
+}
+
+/* 메뉴 리스트  */
+.subway-menu-list {
+    margin-top: 50px;
+}
+
+.subway-menu-list>.hd>h2 {
+    font-size: 40px;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/bul_tit.png);
+    background-repeat: no-repeat;
+    min-height: 40px;
+    padding: 10px 0 0 25px;
+    color: #292929;
+}
+
+.subway-menu-list>.hd>ul {
+    overflow: hidden;
+}
+
+.subway-menu-list>.hd>ul>li>a {
+    padding: 0 20px;
+    display: block;
+    position: relative;
+    color: #666666;
+}
+
+.subway-menu-list>.hd>ul>li.cl-active>a {
+    color: #009223;
+    font-weight: bold;
+}
+
+.subway-menu-list>.hd>ul>li>a::after {
+    content: '';
+    height: 17px;
+    width: 1px;
+    background: #dddddd;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translatex(-50%) translatey(-50%);
+}
+
+.subway-menu-list>.hd>ul>li:last-child>a::after {
+    display: none;
 }

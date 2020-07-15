@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="top-bar con-min-width">
+    <div class="top-bar">
         <div class="logo-box flex flex-jc-end flex-ai-c">
             <div class="logo flex-grow-1 flex-jc-end flex-ai-c">
                 <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png" alt=""></a>
@@ -152,8 +152,24 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="subway-menu-list">
+        <div class="hd flex flex-ai-c con">
+            <h2 class="flex flex-grow-1">Subway's Menu</h2>
+            <ul class="flex">
+                <li class="c-active"><a href="#sandwich_cl">클래식</a></li>
+                <li><a href="#sandwich_fl">프레쉬&라이트</a></li>
+                <li><a href="#sandwich_pm">프리미엄</a></li>
+                <li><a href="#sandwich_bf">아침메뉴</a></li>
+            </ul>
+        </div>
+
+
 
     </div>
+
+
 
 
 </body>
