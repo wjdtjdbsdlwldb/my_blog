@@ -1,6 +1,5 @@
 console.clear();
 
-// var $window = $(window);
 
 function TopBar__init() {
   var $topBar = $('.top-bar');
@@ -30,7 +29,7 @@ function sliderBtn() {
     $active.removeClass("active");
     $click.addClass("active");
 
-    $(".slider > .slides > li > a >div").css("margin-left", -1519 * index);
+    $(".slider > .slides > li > a >div").css("margin-left", -1920 * index);
   });
 }
 
@@ -47,8 +46,24 @@ setInterval(function a() {
   }
 }, 5000);
 
+function MySlider1__init() {
+  $('.menu-slider > .owl-carousel').owlCarousel({
+    responsive:{
+      0:{
+        items:4
+      }
+    },
+    loop:false,
+    dots:false,
+    mouseDrag:false,
+    nav:true
+  });
+}
+
+
 
 $(function () {
   sliderBtn();
   TopBar__init();
+  MySlider1__init();
 })

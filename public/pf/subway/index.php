@@ -8,11 +8,16 @@
     <title>SUBWAY</title>
     <link rel="stylesheet" href="./index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="./index.js"></script>
 </head>
 
 <body>
-    <div class="top-bar">
+    <div class="top-bar con-min-width">
         <div class="logo-box flex flex-jc-end flex-ai-c">
             <div class="logo flex-grow-1 flex-jc-end flex-ai-c">
                 <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png" alt=""></a>
@@ -165,7 +170,56 @@
             </ul>
         </div>
 
+        <div class="menu-slider flex">
+            <div class="owl-carousel owl-theme classic con">
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic.jpg" alt="">
+                        <h4>에그마요</h4>
+                        <p>친환경 인증 받은 농장에서 생산된 달걀과<br>고소한 마요네즈가 만나 더 부드러운<br>스테디셀러</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic2.jpg" alt="">
+                        <h4>이탈리안 비엠티</h4>
+                        <p>7시간 숙성된 페퍼로니, 살라미<br>그리고 햄이 만들어내는 최상의 조화!<br>전세계가 사랑하는 No.1 베스트셀러!<br>Biggest Meatiest
+                            Tastiest, It's B.M.T.!</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic3.jpg" alt="">
+                        <h4>비엘티</h4>
+                        <p>오리지널 아메리칸 베이컨의<br>풍미와 바삭함 그대로~</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic4.jpg" alt="">
+                        <h4>미트볼</h4>
+                        <p>이탈리안 스타일 비프 미트볼에<br>써브웨이만의 풍부한 토마토 향이 살아있는<br>마리나라소스를 듬뿍</p>
+                    </a>
+                </li>
 
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic5.jpg" alt="">
+                        <h4>햄</h4>
+                        <p>기본 중에 기본!<br>풍부한 햄이 만들어내는<br>입 안 가득 넘치는 맛의 향연</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic6.jpg" alt="">
+                        <h4>참치</h4>
+                        <p>남녀노소 누구나 좋아하는<br>담백한 참치와 고소한 마요네즈의<br>완벽한 조화</p>
+                    </a>
+                </li>
+            </div>
+
+
+        </div>
 
     </div>
 

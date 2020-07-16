@@ -327,7 +327,7 @@ label[for] {
 /* 커스텀 */
 
 .con {
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 .con-2 {
@@ -485,12 +485,12 @@ label[for] {
 .slider>.slides>li {
     list-style: none;
     position: relative;
-    width: 1519px;
+    max-width: 1920px;
 }
 
 
 .slider>.slides>li>a {
-    width: 1519px;
+    width: 1920px;
     height: 440px;
     display: block;
 }
@@ -600,6 +600,7 @@ label[for] {
 /* 메뉴 리스트  */
 .subway-menu-list {
     margin-top: 50px;
+    white-space: nowrap;
 }
 
 .subway-menu-list>.hd>h2 {
@@ -640,4 +641,59 @@ label[for] {
 
 .subway-menu-list>.hd>ul>li:last-child>a::after {
     display: none;
+}
+
+/* 메뉴리스트 */
+
+.menu-slider {
+    text-align: center;
+}
+
+
+.menu-slider .item {
+    width: 250px;
+    display: flex;
+}
+
+.menu-slider .item>a {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.menu-slider .item>a>h4 {
+    font-size: 18px;
+    z-index: 10;
+}
+
+.menu-slider .item>a>p {
+    font-size: 13px;
+    color: #999999;
+}
+
+.menu-slider .item>a::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%) translatey(-50%);
+    opacity: 0;
+}
+
+.menu-slider .item:hover>a::after {
+    opacity: 1;
+}
+
+.menu-slider .item>a:hover>img {
+    vertical-align: top;
+    width: 320px;
+    overflow: hidden;
+}
+
+.menu-slider .item>a:hover>p {
+    opacity: 0;
 }
