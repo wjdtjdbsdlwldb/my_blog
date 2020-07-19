@@ -327,17 +327,15 @@ label[for] {
 /* 커스텀 */
 
 .con {
-    max-width: 1300px;
-}
-
-.con-2 {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
 }
 
 .con-min-width {
-    min-width: 1800px;
+    min-width: 1500px;
+}
+
+.con-2 {
+    max-width: 1170px;
 }
 
 /* 탑바 */
@@ -479,7 +477,6 @@ label[for] {
     position: relative;
     height: 470px;
     width: 100%;
-
 }
 
 .slider>.slides>li {
@@ -500,7 +497,7 @@ label[for] {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     transition: margin-left .5s;
 }
 
@@ -601,6 +598,10 @@ label[for] {
 .subway-menu-list {
     margin-top: 50px;
     white-space: nowrap;
+    height: 560px;
+    background: #fff;
+    max-width: 100%;
+    position: relative;
 }
 
 .subway-menu-list>.hd>h2 {
@@ -623,7 +624,7 @@ label[for] {
     color: #666666;
 }
 
-.subway-menu-list>.hd>ul>li.cl-active>a {
+.subway-menu-list>.hd>ul>li.active>a {
     color: #009223;
     font-weight: bold;
 }
@@ -646,7 +647,17 @@ label[for] {
 /* 메뉴리스트 */
 
 .menu-slider {
-    text-align: center;
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    box-sizing: border-box;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-slider>.classic {
+    height: 350px;
 }
 
 
@@ -691,9 +702,441 @@ label[for] {
 .menu-slider .item>a:hover>img {
     vertical-align: top;
     width: 320px;
+    margin: 0;
     overflow: hidden;
+}
+
+.menu-slider .item>a:hover>h4 {
+    font-size: 22px;
 }
 
 .menu-slider .item>a:hover>p {
     opacity: 0;
+}
+
+
+/* 메뉴 슬라이드 버튼 */
+.subway-menu-list .btn-box2 {
+    position: absolute;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 1500px;
+}
+
+.subway-menu-list .mu-slider-btn>a {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_event_slider_arr.png);
+    position: absolute;
+    top: 128px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0px;
+    text-indent: -9999px;
+}
+
+.subway-menu-list .mu-slider-btn>.prev {
+    background-position: 0 0;
+    left: -1px;
+}
+
+.subway-menu-list .mu-slider-btn>.next {
+    background-position: 100% 0;
+    left: 1450px;
+}
+
+.subway-menu-list .mu-slider-btn>.prev:hover {
+    background-position: 0 100%;
+}
+
+.subway-menu-list .mu-slider-btn>.next:hover {
+    background-position: 100% 100%;
+}
+
+/* 하단 콘테이너박스 */
+.container {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/bg_content.gif);
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    height: 790px;
+}
+
+.container .contents-box {
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 790px;
+}
+
+.container .subway-box>.enjoy {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/bg_utilization.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin-left: 55px;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+.container .subway-box>.enjoy>p {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 38px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.container .subway-box>.enjoy>a {
+    position: absolute;
+    bottom: 42px;
+    left: 40px;
+    width: 92px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.container .subway-box>.enjoy>a>span {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.container .subway-box>.history {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/img_subway_history.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    margin-left: 70px;
+    width: 825px;
+    height: 300px;
+}
+
+.container .subway-box>.history>p {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 410px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.container .subway-box>.history>a {
+    position: absolute;
+    bottom: 42px;
+    left: 410px;
+    width: 128px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.container .subway-box>.history>a>span {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.container .subway-bottom {
+    margin: 30px 0 0 55px;
+    overflow: hidden;
+    position: absolute;
+    width: 1280px;
+    height: 300px;
+    top: 50%;
+}
+
+.container .subway-bottom>.news {
+    background: #fff;
+    width: 870px;
+    height: 300px;
+    border-radius: 30px 0 30px 0;
+    position: absolute;
+}
+
+.container .subway-bottom>.news>.tit {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    box-sizing: border-box;
+}
+
+.container .subway-bottom>.news>.tit>h2 {
+    font-size: 30px;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/bul_tit.png);
+    background-repeat: no-repeat;
+    min-height: 60px;
+    padding: 17px 0 0 25px;
+}
+
+.container .subway-bottom>.news>.tit>p {
+    text-align: center;
+    line-height: 26px;
+    margin: -20px -10px 0 0;
+}
+
+.container .subway-bottom>.news>.list {
+    position: absolute;
+    left: 389px;
+    top: 76px;
+}
+
+.container .subway-bottom>.news>.list>ul>li>a {
+    display: inline-block;
+    color: #292929;
+    padding: 8px 0;
+    position: relative;
+}
+
+.container .subway-bottom>.news>.list>ul>li>a:hover {
+    color: #009223;
+}
+
+.container .subway-bottom>.news>.list>ul>li>a::after {
+    content: '';
+    height: 1px;
+    left: 0;
+    bottom: 8px;
+    width: 0;
+    background: #009223;
+    position: absolute;
+    transition-duration: .2s;
+}
+
+.container .subway-bottom>.news>.list>ul>li:hover>a::after {
+    width: 100%;
+}
+
+.container .subway-bottom .list>.more {
+    font-size: 14px;
+    color: #999999;
+    padding: 33px 0 8px;
+    display: inline-block;
+}
+
+/* 하단 미니 배너  */
+
+.subway-bottom>.mini-bn {
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    left: 900px;
+    overflow: hidden;
+    border-radius: 0 30px 0 30px;
+    box-sizing: border-box;
+}
+
+.subway-bottom>.mini-bn>.mini-slider {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+.subway-bottom>.mini-bn>.mini-slider>.img-box {
+    width: 540px;
+    position: relative;
+}
+
+.subway-bottom>.mini-bn>.mini-slider>.img-box>.box {
+    position: relative;
+    width: 540px;
+    transition: margin-left .5s;
+}
+
+.subway-bottom>.mini-bn>.mini-slider .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.subway-bottom>.mini-bn>.mini-slider>.button>.dots {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #fff;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    border-radius: 30px;
+    transition-duration: 0.3s;   
+}
+
+.subway-bottom>.mini-bn>.mini-slider>.button>.dots.active {
+    background-color: #ffc300;
+    width: 30px;
+}
+
+/* 하단 아이콘 박스 */
+.infor-box {
+    height: 150px;
+    background: #fff;
+}
+
+
+.infor-box>ul {
+    overflow: hidden;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infor-box>ul>li {
+    margin: 0 30px;
+}
+
+
+.infor-box>ul>li>a {
+    display: block;
+    overflow: hidden;
+    height: 70px;
+    position: relative;
+    padding-left: 90px;
+
+}
+
+.infor-box>ul>li>a>div {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_quickmenu.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.infor-box>ul>li>a>h4 {
+    color: #292929;
+    font-size: 18px;
+    margin-top: 12px;
+    letter-spacing: -0.04em;
+}
+
+.infor-box>ul>li>a>span {
+    display: block;
+    font-size: 13px;
+    color: #999999;
+    margin-top: -15px;
+    letter-spacing: -0.04em;
+}
+
+/* 푸터 */
+.footer {
+    background: #292929;
+    color: #666666;
+    padding: 22px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.footer::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #3b3b3b;
+    top: 59px;
+}
+
+.footer>.ft-bg-wd {
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.footer>.ft-bg-wd>.until>.terms {
+    overflow: hidden;
+    margin-right: 29px;
+}
+
+
+
+.footer>.ft-bg-wd>.until>.terms>li>a {
+    padding-right: 30px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+
+.footer>.ft-bg-wd>.until>.terms>li>.pri {
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+.footer>.ft-bg-wd>.until>.add-etc {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 10px;
+}
+
+/* sns 이모티콘 */
+
+.footer>.ft-bg-wd .sns>.comm {
+    position: absolute;
+    right: 40px;
+    bottom: 3px;
+    overflow: hidden;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer>.ft-bg-wd .sns>.insta {
+    right: 105px;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_sns_instar.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer>.ft-bg-wd .sns>.facebook {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_sns_facebook.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer>.ft-bg-wd .sns>.comm::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+
+.footer>.ft-bg-wd .sns>.facebook::after {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_sns_facebook.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+
+}
+
+.footer>.ft-bg-wd .sns>.insta::after {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_sns_instar.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.footer>.ft-bg-wd .sns>.comm:hover::after {
+    opacity: 1;
 }
