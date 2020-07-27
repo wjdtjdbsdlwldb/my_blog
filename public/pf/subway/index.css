@@ -595,16 +595,25 @@ label[for] {
 }
 
 /* 메뉴 리스트  */
-.subway-menu-list {
-    margin-top: 50px;
-    white-space: nowrap;
+.content-2 {
+    overflow: hidden;
+}
+
+.subway-menu {
+    background-color: #fff;
+    padding: 60px 0 0;
     height: 560px;
-    background: #fff;
-    max-width: 100%;
+    /*   margin-top:150px; */
+}
+
+.swm-top-bar {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 33px;
     position: relative;
 }
 
-.subway-menu-list>.hd>h2 {
+.swm-top-bar>.tab-box>.head>h2 {
     font-size: 40px;
     background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/bul_tit.png);
     background-repeat: no-repeat;
@@ -613,146 +622,251 @@ label[for] {
     color: #292929;
 }
 
-.subway-menu-list>.hd>ul {
-    overflow: hidden;
-}
-
-.subway-menu-list>.hd>ul>li>a {
-    padding: 0 20px;
-    display: block;
-    position: relative;
-    color: #666666;
-}
-
-.subway-menu-list>.hd>ul>li.active>a {
+.head li.active>a {
     color: #009223;
     font-weight: bold;
 }
 
-.subway-menu-list>.hd>ul>li>a::after {
-    content: '';
-    height: 17px;
-    width: 1px;
-    background: #dddddd;
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translatex(-50%) translatey(-50%);
+/*메뉴 */
+.tab-box {
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
 }
 
-.subway-menu-list>.hd>ul>li:last-child>a::after {
+.tab-box-1 .head li {
+    padding: 0 20px;
+    font-weight: bold;
+    color: #666666;
+    font-size: 16px;
+}
+
+.tab-box-1 .head>ul>li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 1px;
+    height: 13px;
+    background-color: #666666
+}
+
+.tab-box-1 .head>ul>li {
+    position: relative;
+}
+
+.tab-box-1 .head>ul>li:first-child::before {
     display: none;
 }
 
-/* 메뉴리스트 */
+/* 메뉴들 */
+.tab-box-1>.body>ul {
+    margin-top: 30px;
+}
 
-.menu-slider {
-    overflow: hidden;
-    height: 350px;
+.tab-box-1>.head>ul>li.active {
+    color: green;
+}
+
+.tab-box-1>.body>ul>li {
     position: relative;
-    box-sizing: border-box;
-    width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.menu-slider>.classic {
-    height: 350px;
-}
-
-
-.menu-slider .item {
-    width: 250px;
-    display: flex;
-}
-
-.menu-slider .item>a {
-    display: block;
+.tab-box-1>.body>ul>li>.carousel-1 {
+    top: 0;
+    width: 100%;
     text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    visibility: hidden !important;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s, margin-left .5s .5s;
+    margin-left: 120%;
+}
+
+.tab-box-1>.body>ul>li.active>.carousel-1 {
+    visibility: visible !important;
+    opacity: 1;
+    transition: opacity 0s, visibility 0s, margin-left .5s;
+    margin-left: 0;
+}
+
+.tab-box-1>.body>ul {
+    height: 250px;
+}
+
+.item {
+    margin: 0 0 0 30px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.tab-box-1 .carousel-1 .item .des {
+    height: 50px;
+    overflow: hidden;
+}
+
+.owl-item:hover>.item>div:last-child {
+    display: none;
+}
+
+.owl-item:hover>.item>.img-box {
+    transform: scale(1.2)
+}
+
+.owl-item>.item>.img-box {
+    transform-origin: top center;
+}
+
+.owl-item:nth-of-type(4n + 4)>.item>.img-box {
+    transform-origin: top right;
+}
+
+.owl-item:nth-of-type(4n + 1)>.item>.img-box {
+    transform-origin: top left;
+}
+
+.owl-item:nth-of-type(4n + 4)>.item>.main-name {
+    transform-origin: top right;
+}
+
+.owl-item:nth-of-type(4n + 1)>.item>.main-name {
+    transform-origin: top left;
+}
+
+/* 캐러셀1 */
+.carousel-1 .owl-nav>div {
+    padding: 0 !important;
+    margin: 0 20px !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%);
+    font-size: 4rem !important;
+    color: #333 !important;
+}
+
+.carousel-1 .owl-nav>div.owl-next {
+    left: auto;
+    position: absolute;
+    right: -70px;
+}
+
+.tab-box-1 .body .carousel-1 .main-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.tab-box-1 .body .carousel-1 .name {
+    color: #999999;
+    font-size: 13px;
+    opacity: 1;
+    /*   margin-top:20px; */
+}
+
+.carousel-1.carousel-item-1-hover .owl-item.active:nth-of-type(4n + 2) {
+    transform: translateX(20px);
+}
+
+.carousel-1.carousel-item-1-hover .owl-item.active:nth-of-type(4n + 3) {
+    transform: translateX(20px);
+}
+
+.carousel-1.carousel-item-2-hover .owl-item.active:nth-of-type(4n + 3) {
+    transform: translateX(40px);
+}
+
+.carousel-1.carousel-item-3-hover .owl-item.active:nth-of-type(4n + 2) {
+    transform: translateX(-20px);
+}
+
+.carousel-1.carousel-item-4-hover .owl-item.active:nth-of-type(4n + 2) {
+    transform: translateX(-20px);
+}
+
+.carousel-1.carousel-item-4-hover .owl-item.active:nth-of-type(4n + 3) {
+    transform: translateX(-20px);
+}
+
+.owl-item:hover>.item>.main-name {
+    padding-top: 20px;
+    transform: scale(1.2);
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: 1 !important;
+}
+
+div.left-btn {
+    background-image: url(http://subway.co.kr/images/news/icon_event_slider_arr.png);
+    background-position: 0 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: -100px;
+    position: absolute;
+    top: 40%;
+    transform: translatey(-40%);
+    left: -0px;
+}
+
+div.right-btn {
+    background-image: url(http://subway.co.kr/images/news/icon_event_slider_arr.png);
+    width: 50px;
+    height: 50px;
+    background-position: 50px 0;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: -120px;
+    position: absolute;
+    top: 40%;
+    transform: translatey(-40%);
+    right: 0;
+}
+
+div.left-btn:hover {
+    background-position: 0 50px;
+}
+
+div.right-btn:hover {
+    background-position: 50px 50px;
+}
+
+.item>.name {
+    white-space: nowrap;
+}
+
+.item {
     position: relative;
 }
 
-.menu-slider .item>a>h4 {
-    font-size: 18px;
-    z-index: 10;
-}
-
-.menu-slider .item>a>p {
-    font-size: 13px;
-    color: #999999;
-}
-
-.menu-slider .item>a::after {
-    content: "";
+.btn-ico {
     position: absolute;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png);
-    background-repeat: no-repeat;
-    width: 90px;
-    height: 90px;
-    top: 50%;
+    top: 38%;
     left: 50%;
-    transform: translatex(-50%) translatey(-50%);
+    transform: translateX(-40%);
+    z-index: 999;
     opacity: 0;
 }
 
-.menu-slider .item:hover>a::after {
+.item:hover .btn-ico {
     opacity: 1;
 }
 
-.menu-slider .item>a:hover>img {
-    vertical-align: top;
-    width: 320px;
-    margin: 0;
-    overflow: hidden;
+.owl-item:nth-of-type(4n + 1) .btn-ico {
+    left: 60%;
 }
 
-.menu-slider .item>a:hover>h4 {
-    font-size: 22px;
+.owl-item:nth-of-type(4n + 4) .btn-ico {
+    left: auto;
+    right: 22%;
 }
 
-.menu-slider .item>a:hover>p {
-    opacity: 0;
-}
-
-
-/* 메뉴 슬라이드 버튼 */
-.subway-menu-list .btn-box2 {
-    position: absolute;
-    height: 350px;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 1500px;
-}
-
-.subway-menu-list .mu-slider-btn>a {
-    width: 50px;
-    height: 50px;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/icon_event_slider_arr.png);
-    position: absolute;
-    top: 128px;
-    overflow: hidden;
-    font-size: 0;
-    line-height: 0px;
-    text-indent: -9999px;
-}
-
-.subway-menu-list .mu-slider-btn>.prev {
-    background-position: 0 0;
-    left: -1px;
-}
-
-.subway-menu-list .mu-slider-btn>.next {
-    background-position: 100% 0;
-    left: 1450px;
-}
-
-.subway-menu-list .mu-slider-btn>.prev:hover {
-    background-position: 0 100%;
-}
-
-.subway-menu-list .mu-slider-btn>.next:hover {
-    background-position: 100% 100%;
-}
 
 /* 하단 콘테이너박스 */
 .container {
@@ -973,7 +1087,7 @@ label[for] {
     text-indent: -9999px;
     overflow: hidden;
     border-radius: 30px;
-    transition-duration: 0.3s;   
+    transition-duration: 0.3s;
 }
 
 .subway-bottom>.mini-bn>.mini-slider>.button>.dots.active {
@@ -1063,8 +1177,6 @@ label[for] {
     overflow: hidden;
     margin-right: 29px;
 }
-
-
 
 .footer>.ft-bg-wd>.until>.terms>li>a {
     padding-right: 30px;

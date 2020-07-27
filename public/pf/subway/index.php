@@ -169,77 +169,397 @@
         </div>
 
 
-        <div class="subway-menu-list">
-            <div class="hd flex con flex-ai-c">
-                <h2 class="flex flex-grow-1">Subway's Menu</h2>
-                <ul class="flex">
-                    <li class="active"><a href="#sandwich_cl">클래식</a></li>
-                    <li><a href="#sandwich_fl">프레쉬&라이트</a></li>
-                    <li><a href="#sandwich_pm">프리미엄</a></li>
-                    <li><a href="#sandwich_bf">아침메뉴</a></li>
-                </ul>
-            </div>
-
-            <div class="menu-slider flex">
-                <div class="owl-carousel owl-theme classic con">
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic.jpg" alt="">
-                            <h4>에그마요</h4>
-                            <p>친환경 인증 받은 농장에서 생산된 달걀과<br>고소한 마요네즈가 만나 더 부드러운<br>스테디셀러</p>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic2.jpg" alt="">
-                            <h4>이탈리안 비엠티</h4>
-                            <p>7시간 숙성된 페퍼로니, 살라미<br>그리고 햄이 만들어내는 최상의 조화!<br>전세계가 사랑하는 No.1 베스트셀러!<br>Biggest Meatiest
-                                Tastiest, It's B.M.T.!</p>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic3.jpg" alt="">
-                            <h4>비엘티</h4>
-                            <p>오리지널 아메리칸 베이컨의<br>풍미와 바삭함 그대로~</p>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic4.jpg" alt="">
-                            <h4>미트볼</h4>
-                            <p>이탈리안 스타일 비프 미트볼에<br>써브웨이만의 풍부한 토마토 향이 살아있는<br>마리나라소스를 듬뿍</p>
-                        </a>
-                    </li>
-
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic5.jpg" alt="">
-                            <h4>햄</h4>
-                            <p>기본 중에 기본!<br>풍부한 햄이 만들어내는<br>입 안 가득 넘치는 맛의 향연</p>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="#">
-                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic6.jpg" alt="">
-                            <h4>참치</h4>
-                            <p>남녀노소 누구나 좋아하는<br>담백한 참치와 고소한 마요네즈의<br>완벽한 조화</p>
-                        </a>
-                    </li>
+        <section class="content-2 subway-menu">
+            <div class="swm-top-bar">
+                <div class="tab-box tab-box-1">
+                    <div class="head flex flex-ai-c">
+                        <h2 class="flex flex-grow-1">Subway's Menu</h2>
+                        <ul class="flex">
+                            <li class="active"><a href="#" onclick="return false;">클래식</a></li>
+                            <li><a href="#" onclick="return false;">프레쉬&라이트</a></li>
+                            <li><a href="#" onclick="return false;">프리미엄</a></li>
+                            <li><a href="#" onclick="return false;">아침메뉴</a></li>
+                        </ul>
+                    </div>
 
 
-                </div>
-                <div class="btn-box2">
-                    <div class="mu-slider-btn con">
-                        <a class="prev"></a>
-                        <a class="next"></a>
+                    <div class="body">
+                        <ul class="contain">
+                            <li class="active">
+                                <div class="carousel-1 active">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                에그마요
+                                            </div>
+                                            <div class="name">
+                                                친환경 인증 받은 농장에서 생산된 달걀과<br>고소한 마요네즈가 만나 더 부드러운<br>스테디셀러
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                이탈리안 비엠티
+                                            </div>
+                                            <div class="name">
+                                                7시간 숙성된 페퍼로니,살라미 <br> 그리고 햄이 만들어내는 최상의 조화! <br> 전세계가 사랑하는 No.1 베스트셀러!
+                                                <br> Biggest Meatiest Tastiest,it's B.M.T.!
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic3.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                비엘티
+                                            </div>
+                                            <div class="name">
+                                                오리지널아메리칸 베이컨의 <br> 풍미와바삭함 그대로~
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic4.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                미트볼
+                                            </div>
+                                            <div class="name">
+                                                이탈리안 스타일 비프 미트볼에 <br> 써브웨이만의 풍부한 토마토 향이 살아있는 <br> 마리나라소스를 듬뿍
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic5.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                햄
+                                            </div>
+                                            <div class="name">
+                                                기본 중에 기본! <br> 풍부한 햄이 만들어내는 <br> 입 안 가득 넘치는 맛의 향연
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/classic6.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                참치
+                                            </div>
+                                            <div class="name">
+                                                남녀노소 누구나 좋아하는 <br> 담백한 참치와 고소한 마요네즈의 <br> 완벽한 조화
+                                            </div>
+                                        </div>
+
+                                        <div class="item" style="background-color:white"></div>
+                                        <div class="item" style="background-color:white"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="carousel-1">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_fl01.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                로티세리 바베큐 치킨
+                                            </div>
+                                            <div class="name">
+                                                촉촉한 바비큐 치킨의 풍미가득. <br> 손으로 찢어 더욱 부드러운 치킨의 혁명
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl02.jpg" alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                로스트 치킨
+                                            </div>
+                                            <div class="name">
+                                                오븐에 구워 담백한 저칼로리 <br> 닭가슴살의 건강한 풍미
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_fl04.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                써브웨이 클럽
+                                            </div>
+                                            <div class="name">
+                                                명실공히 시그니처 써브! <br> 터키,비프,포크 햄의 완벽한 앙상블
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_fl05.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                터키
+                                            </div>
+                                            <div class="name">
+                                                280kcal로 슬림하게 즐기는 <br> 오리지날 터키 샌드위치
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_fl06.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                베지
+                                            </div>
+                                            <div class="name">
+                                                갓 구운 빵과 신선한 7가지 야채로 <br> 즐기는 깔끔한 한끼
+                                            </div>
+                                        </div>
+                                        <div class="item" style="background-color:white"></div>
+                                        <div class="item" style="background-color:white"></div>
+                                        <div class="item" style="background-color:white"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+
+                                <div class="carousel-1">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm10.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                쉬림프
+                                            </div>
+                                            <div class="name">
+                                                탱글한 식감이 그대로 살아있는 통새우가<br>5마리 들어가 한 입 베어 먹을 때 마다<br>진짜 새우의 풍미가 가득
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm08.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                풀드포크
+                                            </div>
+                                            <div class="name">
+                                                7시간 저온 훈연한 미국 정통 스타일의 <br> 리얼 바비큐 풀드포크는 오직 써브웨이에서
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm01.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                스테이크&치즈
+                                            </div>
+                                            <div class="name">
+                                                육즙이 쫙~ <br> 풍부한 비프 스테이크의 풍미가입안 한가득
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm02.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                터키 베이컨 아보카도
+                                            </div>
+                                            <div class="name">
+                                                담백한 터키와 바삭한 베이컨 환상조합에 <br> 부드러운 아보카도는 신의 한수
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm04.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                써브웨이 멜트
+                                            </div>
+                                            <div class="name">
+                                                자신있게 추천하는 터키,햄,베이컨의 <br> 완벽한 맛의 밸런스
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm06.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                스파이시 이탈리안
+                                            </div>
+                                            <div class="name">
+                                                살라미,페퍼로니가 입안 한가득! <br> 쏘 핫한 이탈리아의 맛
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_pm07.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                치킨 데리야끼
+                                            </div>
+                                            <div class="name">
+                                                담백한 치킨 스트릷에 달콤짭조름한 써브웨이 <br> 특제 데리야끼 소스와의 환상적인 만남
+                                            </div>
+                                        </div>
+                                        <div class="item" style="background-color:white"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="carousel-1">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_bf01.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                블랙 포레스트햄&에그,치즈
+                                            </div>
+                                            <div class="name">
+                                                푹신한 오믈렛과 햄의 가장 클래식한 조화
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_bf02.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                웨스턴,에그&치즈
+                                            </div>
+                                            <div class="name">
+                                                토마토,피망,양파 세가지 야채가 더해져 <br> 더욱 신선한 하루 시작
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_bf03.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                베이컨,에그&치즈
+                                            </div>
+                                            <div class="name">
+                                                오리지널 아메리칸 베이컨으로 <br> 더욱 풍성한 아침 식사
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img-box">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_bf04.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="btn-ico"><img
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
+                                                    alt=""></div>
+                                            <div class="main-name">
+                                                스테이크,에그,&치즈
+                                            </div>
+                                            <div class="name">
+                                                육즙 가득 비프 스테이크로 <br> 든든한 아침 식사
+                                            </div>
+                                        </div>
+
+                                        <!--                 <div class="item" style="background-color:white"></div>
+                <div class="item" style="background-color:white"></div>
+                <div class="item" style="background-color:white"></div> -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-
-
-        </div>
+        </section>
 
         <div class="container">
             <div class="contents-box">
