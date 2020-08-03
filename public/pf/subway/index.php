@@ -306,7 +306,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="img-box">
-                                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl02.jpg" alt="">
+                                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/sandwich_fl02.jpg" alt="">
                                             </div>
                                             <div class="btn-ico"><img
                                                     src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/btn_more.png"
