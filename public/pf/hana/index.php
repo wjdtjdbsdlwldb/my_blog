@@ -96,7 +96,7 @@
                     <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hana/videoTitle.png" alt="">
                 </div>
             </div>
-            <div class="intro active-on-visible" data-active-on-visible-delay="300">
+            <div class="intro active-on-visible" data-active-on-visible-diff-x="-500">
                 <div class="inner con-2">
                     <h2>하나금융TI소개</h2>
                     <ul>
