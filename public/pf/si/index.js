@@ -173,28 +173,34 @@ function ListClick() {
 }
 */
 
+/* 자동 높이 조절 */
 function menuHeight__init(){
+    $(document).ready(function(){
+        $(".main > .header > .menu-box > ul > li > ul").each(function(){
+            var $this = $(this);
+            var $parent = $this.parent();
 
-    $(".main > .header > .menu-box > ul > li > ul").each(function(){
-        var $this = $(this);
-        var $parent = $this.parent();
-        $(document).ready(function($parent){
             $parent.data('data-sub-menu-height', $this.outerHeight());
+            console.log($parent.data('data-sub-menu-height'));
             $this.css('height',0);
+
+            //$this.css('height',0);
         });
-        //$this.css('height',0);
-        console.log($this.parent().data('data-sub-menu-height'));
-        
     })
 
     $(".main>.header> .menu-box > ul > li").click(function(){
         var $this = $(this);
         var menuHeight = $this.data('data-sub-menu-height');
-        var hasClass = $this.hasClass("active");
 
-        $(".main>.header> .menu-box > ul > li > ul").css('height', 0);
-
-        $this.find('> ul').css('height', menuHeight);
+        if( $this.hasClass("active") ){
+            $(".main>.header> .menu-box > ul > li").removeClass("active")
+            $(".main>.header> .menu-box > ul > li > ul").css('height', 0);
+        }
+        else {
+            $this.addClass("active");
+            $(".main>.header> .menu-box > ul > li > ul").css('height', 0);
+            $this.find('> ul').css('height', menuHeight);
+        }
     })
 }
 

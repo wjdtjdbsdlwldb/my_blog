@@ -499,6 +499,18 @@ label[for] {
     text-decoration: underline;
 }
 
+.main > .header > .menu-box > ul > li > ul {
+    transition: height 0.3s;
+}
+
+.main > .header > .menu-box > ul > li > ul >li:first-child {
+    padding-top: 12px;
+}
+
+.main > .header > .menu-box > ul > li > ul >li:last-child {
+    padding-bottom: 25px;
+}
+
 /* 배너 슬라이더 */
 
   .slider-k {
@@ -610,7 +622,6 @@ label[for] {
   /* 슬라이드 텍스트 */
   
   .slider-k .slides > div > .text-box {
-      border:2px solid red;
       z-index: 100;
   }
 
