@@ -19,8 +19,6 @@ function HoverEffect__init() {
 }
 
 
-
-
 /* 기능 */
 function SliderK__show($slider, index) {
     var $currentSlide = $slider.find('.slides > div.active');

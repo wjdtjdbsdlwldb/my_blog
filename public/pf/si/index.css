@@ -330,22 +330,6 @@ label[for] {
     min-width: 1237px;
 }
 
-.main>.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-width: 1237px;
-    z-index: 8000;
-}
-
-.main>.header>.top-bar {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    z-index: 1000;
-}
-
 .con-min-width {
     min-width: 1237px;
 }
@@ -356,14 +340,14 @@ label[for] {
     left: 0;
     width: 100%;
     min-width: 1237px;
-    z-index: 8000;
+    z-index: 100;
 }
 
 .main>.header>.top-bar {
     position: relative;
     width: 100%;
     height: 110px;
-    z-index: 1000;
+    z-index: 10;
     background: transparent;
 }
 
@@ -477,9 +461,11 @@ label[for] {
     top: 100px;
     left: 30px;
 }
-.main>.header>.menu-box>ul>li{
+
+.main>.header>.menu-box>ul>li {
     overflow: hidden;
 }
+
 .main>.header>.menu-box>ul>li>a {
     font-family: 'Prata', serif;
     font-size: 14px;
@@ -499,135 +485,175 @@ label[for] {
     text-decoration: underline;
 }
 
-.main > .header > .menu-box > ul > li > ul {
+.main>.header>.menu-box>ul>li>ul {
     transition: height 0.3s;
 }
 
-.main > .header > .menu-box > ul > li > ul >li:first-child {
+.main>.header>.menu-box>ul>li>ul>li:first-child {
     padding-top: 12px;
 }
 
-.main > .header > .menu-box > ul > li > ul >li:last-child {
+.main>.header>.menu-box>ul>li>ul>li:last-child {
     padding-bottom: 25px;
 }
 
 /* 배너 슬라이더 */
 
-  .slider-k {
-    position:relative;
-    user-select:none;
-  }
-  
-  .slider-k .side-btns > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:50%;
-    height:100%;
-    cursor:pointer;
-  }
-  
-  .slider-k .side-btns > div:active > span {
-    transform:translateY(-45%);
-  }
-  
-  .slider-k .side-btns > div:last-child {
-    left:auto;
-    right:0;
-  }
-  
-  .slider-k .side-btns > div > span {
-    font-size:4rem;
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:inherit;
-    right:inherit;
-    margin:0 10px;
-    transition:transform 0.2s;
-  }
+.slider-k {
+    position: relative;
+    user-select: none;
+}
 
-  .slider-k .side-btns > div > .prev {
-      left: 210px;
-  }
+.slider-k .side-btns>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
 
-  .slider-k .side-btns > div > .next {
-      right: 210px;
-  }
-  
-  .slider-k.height-full {
-    height:100vh;
-  }
-  
-  .slider-k .slides > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    visibility:hidden;
-    opacity:0;
+.slider-k .side-btns>div:active>span {
+    transform: translateY(-45%);
+}
+
+.slider-k .side-btns>div:last-child {
+    left: auto;
+    right: 0;
+}
+
+.slider-k .side-btns>div>span {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: inherit;
+    right: inherit;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.slider-k .side-btns>div>.prev {
+    left: 210px;
+}
+
+.slider-k .side-btns>div>.next {
+    right: 210px;
+}
+
+.slider-k.height-full {
+    height: 100vh;
+}
+
+.slider-k .slides>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
     transition: opacity 1s, visibility 1s;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     z-index: -1;
-  }
+}
 
-  .slider-k .slides > div::after{
-      content: '';
-      position: absolute;
-      top:0;
-      left: 0;
-      width:100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, .15);
-      z-index: 1;
-  }
-  
-  .slider-k .slides > div.active {
-    visibility:visible;
-    opacity:1;
-    transition: opacity 1s, visibility 1s;
-  }
-  
-  .slider-k .page-nav {
-    position:absolute;
-    bottom:4%;
-    left:0;
-    width:100%;
-    text-align:center;
-  }
-  
-  .slider-k .page-nav > div {
-    display:inline-block;
-    width:10px;
-    height:10px;
-    background-color:white;
-    border-radius:50%;
-    opacity:0.4;
+.slider-k .slides>div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .15);
+    z-index: 1;
+}
+
+.slider-k .slides>div.active {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 3s, visibility 1s;
+}
+
+.slider-k .page-nav {
+    position: absolute;
+    bottom: 4%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-k .page-nav>div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.4;
     transition: opacity 0.5s;
-    margin:0 5px;
-    cursor:pointer;
-  }
-  
-  .slider-k .page-nav > div:hover {
-    opacity:0.7;
-  }
-  
-  .slider-k .page-nav > div.active {
-    opacity:1;
-  }
+    margin: 0 5px;
+    cursor: pointer;
+}
 
-  /* 슬라이드 텍스트 */
-  
-  .slider-k .slides > div > .text-box {
-      z-index: 100;
-  }
+.slider-k .page-nav>div:hover {
+    opacity: 0.7;
+}
 
-  .slider-k .slides > div > .text-box > ul > li > a > h3 {
-    font-size: 70px;
+.slider-k .page-nav>div.active {
+    opacity: 1;
+}
+
+/* 슬라이드 텍스트 */
+
+.slider-k .slides>div>.text-box {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    text-align: center;
+    z-index: 2;
     color: #fff;
+    opacity: 0;
+    transition: opacity 2s, top 2s;
+}
+
+.slider-k .slides>div.active >.text-box {
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+    opacity: 1;
+    transition: opacity 2s, top 2s;
+}
+
+
+.slider-k .slides>div>.text-box>ul>li>a>h3 {
+    font-size: 65px;
     font-family: 'Prata', serif;
-  }
-  
+    margin: 0;
+}
+
+.slider-k .slides>div>.text-box>ul>li>a>h3::after {
+    content:'';
+    display:block;
+    margin: 13px auto 0;
+    width:30px;
+    height:2px;
+    background-color: #fff;
+}
+
+
+.slider-k .slides>div>.text-box>ul>li> .sub-txt {
+    font-size:18px;
+    letter-spacing: .2em;
+    line-height: 28px;
+    margin-top:20px;
+    display: block;
+}
+
+.slider-k .slides>div>.text-box>ul>li> .last-txt {
+    display: block;
+    font-size: 14px;
+    /* white-space: pre-line;
+     */
+}
