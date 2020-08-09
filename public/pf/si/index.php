@@ -26,7 +26,7 @@
 
 <body>
     <div id="fullpage">
-        <div class="section">
+        <div class="section section1">
             <div class="main con-min-width">
                 <div class="header">
                     <div class="top-bar flex flex-ai-c">
@@ -187,10 +187,10 @@
 
             </div>
         </div>
-        <div class="section">페이지 3</div>
-        <div class="section section-04">페이지 4</div>
-        <div class="section">페이지 5</div>
-        <div class="section">페이지 6</div>
+        <div class="section section2">페이지 3</div>
+        <div class="section section3">페이지 4</div>
+        <div class="section section4">페이지 5</div>
+        <div class="section section5">페이지 6</div>
     </div>
 
 </body>

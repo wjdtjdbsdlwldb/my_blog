@@ -371,6 +371,7 @@ label[for] {
     white-space: nowrap;
 }
 
+
 .main>.header>.top-bar>.lan-box>li {
     padding: 0 20px;
 }
@@ -574,7 +575,7 @@ label[for] {
 .slider-k .slides>div.active {
     visibility: visible;
     opacity: 1;
-    transition: opacity 3s, visibility 1s;
+    transition: opacity 1s, visibility 1s;
 }
 
 .slider-k .page-nav {
