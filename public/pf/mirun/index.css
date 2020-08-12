@@ -326,27 +326,61 @@ label[for] {
 /* 커스텀 */
 
 .con {
-    width:1500px;
+    width: 1400px;
 }
 
 .con-min-width {
-    min-width:1500px;
+    min-width: 1400px;
 }
 
 .main .top-bar {
-    height: 70px;
-    background: black;
-
+    height: 100px;
+    z-index: 100;
+    
 }
-.main .top-bar > .logo {
-    width:200px;
+
+.main .top-bar>.logo {
+    width: 200px;
     height: 50px;
+    margin-top: 15px;
+
 }
 
-.main .top-bar > .logo > a {
-    display: inline-block;
-    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/Group2.png) no-repeat;
-    width:100%;
-    height:100%;
+.main .top-bar>.logo>a {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main .top-bar>.menu-box>ul>li {
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+
+.main .top-bar>.menu-box>ul>li>a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+}
+
+/*  배너 박스 */
+.main>.bn-bar>.img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main>.bn-bar>.img-box > div {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bn-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height: 100vh;
 }
 

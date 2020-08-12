@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,22 @@
     <script src="./index.js"></script>
 
 </head>
+
 <body>
-    <div class="main">
+    <div class="main con-min-width">
         <div class="header con">
-            <div class="top-bar flex flex-ai-c">
-                <div class="logo flex">
+            <div class="top-bar flex">
+                <div class="logo flex flex-grow-1">
                     <a href="#"></a>
                 </div>
+                <nav class="menu-box flex flex-ai-c">
+                    <ul class="flex">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROGRAM</a></li>
+                        <li><a href="#">REGISTER GUIDE</a></li>
+                    </ul>
+                </nav>
             </div>
 
         </div>
@@ -27,4 +37,5 @@
         </div>
     </div>
 </body>
+
 </html>

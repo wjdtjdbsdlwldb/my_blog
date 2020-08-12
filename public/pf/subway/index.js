@@ -135,7 +135,6 @@ function MenuList() {
 }
 
 
-
 $(function () {
   sliderBtn();
   TopBar__init();
