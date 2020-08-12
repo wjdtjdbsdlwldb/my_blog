@@ -12,8 +12,6 @@
 </head>
 
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <div class="main con-min-width">
         <div class="top-bar">
             <div class="top-menu flex flex-ai-c con">
