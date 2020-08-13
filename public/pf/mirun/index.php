@@ -18,24 +18,20 @@
 </head>
 
 <body>
-    <div class="main con-min-width">
-        <div class="header con">
-            <div class="top-bar flex">
-                <div class="logo flex flex-grow-1 flex-ai-c">
-                    <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png"
-                            alt=""></a>
-                </div>
-                <nav class="menu-box flex flex-ai-c">
-                    <ul class="flex">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">PROGRAM</a></li>
-                        <li><a href="#">REGISTER GUIDE</a></li>
-                    </ul>
-                </nav>
-            </div>
-
+    <div class="top-bar flex con">
+        <div class="logo flex flex-grow-1 flex-ai-c">
+            <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png" alt=""></a>
         </div>
+        <nav class="menu-box flex flex-ai-c">
+            <ul class="flex">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROGRAM</a></li>
+                <li><a href="#">REGISTER GUIDE</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main con-min-width">
         <div class="main-bg">
             <div class="slider-div">
                 <div class="bn1 bn">
@@ -51,9 +47,11 @@
                         TIME TO WAKE UP ENERGY</p>
                 </div>
             </div>
-            <div class="empty"></div>
+            <div class="empty">
+                <div class="em-box"></div>
+            </div>
         </div>
-        
+
         <div class="page-2">
             <div class="white-bg"></div>
         </div>
