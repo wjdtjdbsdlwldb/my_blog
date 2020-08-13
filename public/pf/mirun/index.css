@@ -326,35 +326,28 @@ label[for] {
 /* 커스텀 */
 body {
     background: #fafafa;
+    overflow-x: hidden;
 }
 
-
 .con {
-    width: 1700px;
+    width: 1400px;
 }
 
 .con-min-width {
     min-width: 1500px;
 }
 
-.main {
-    width:100%;
-    height: 100vh;
-    top:0;
-    left: 0;
-    position: relative;
-    z-index: 1;
-    border:2px solid gold;
-  }
-
 .top-bar {
     height: 100px;
     z-index: 100;
-    min-width: 1500px;
+    width: 100%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    width:100%;
+}
+
+.top-bar>.logo {
+    margin-left: 30px;
 }
 
 .top-bar>.menu-box>ul>li {
@@ -372,10 +365,10 @@ body {
 
 /*  배너 박스 */
 .main-bg {
-    width:100%;
+    width: 100%;
     height: 100%;
-    display: block;
     z-index: -1;
+    display: block;
 }
 
 .main-bg>.slider-div {
@@ -383,74 +376,65 @@ body {
     height: 100vh;
 }
 
-.main-bg > .slider-div > div {
+.main-bg .slider-div div {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-    border:2px solid red;
+    position: relative;
 }
 
 .main-bg .bn1 {
-    background-image: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/bg-1.jpg);
-    background-size: contain;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
 }
 
 .main-bg .bn2 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bg-5.jpg);
-    background-size: contain;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bg-5.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
 }
+
 
 .main-bg .bn3 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bn-2.jpg);
-    background-size: contain;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/bn-2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
 }
 
-.main-bg  .bn > p {
-    font-size: 60px;
+.main-bg .bn>p {
+    font-size: 55px;
     color: #fff;
     z-index: 1;
     font-weight: 700;
     position: absolute;
-    bottom: 220px;
-    right: 100px;
+    bottom: 200px;
+    right: 80px;
     font-style: italic;
 }
 
-/* .main-bg .empty {
+.main-bg .empty {
     height: 55vh;
     width:100vw;
+    border:2p
 }
 
 .main-bg .empty > .em-box {
     height: 100%;
     width:100%;
-} */
-
-/* 신청 페이지  */
-/* .page-2 {
-    height: 100vh;
-    width: 100vw;
 }
 
-.page-2 > .white-bg {
+/* 신청 페이지  */
+.page-2 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:65%;
+    left: 0;
+}
+
+.page-2>.white-bg {
     background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white.png) no-repeat;
     background-size: cover;
-    width:100%;
+    width: 100%;
     height: 100%;
-} */
-
-
+}
