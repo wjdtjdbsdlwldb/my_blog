@@ -11,7 +11,7 @@ function Slider() {
         autoplaySpeed: 3000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
         pauseOnHover: true, // 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
         vertical: false, // 세로 방향 슬라이드 옵션
-        draggable: true //드래그 가능 여부
+        draggable: false //드래그 가능 여부
     });
 }
 
