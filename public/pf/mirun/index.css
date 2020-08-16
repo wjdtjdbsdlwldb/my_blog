@@ -4,7 +4,14 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-body,ul,li,h1,h2,p {
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -323,7 +330,6 @@ label[for] {
 /* 커스텀 */
 body {
     background: #fafafa;
-    overflow-x: hidden;
 }
 
 .con {
@@ -344,7 +350,7 @@ body {
 }
 
 .top-bar>.logo {
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 .top-bar>.menu-box>ul>li {
@@ -353,7 +359,7 @@ body {
 }
 
 .top-bar>.menu-box>ul>li:last-child {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .top-bar>.menu-box>ul>li>a {
@@ -375,6 +381,7 @@ body {
 .main-bg>.slider-div {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .main-bg .slider-div div {
@@ -413,38 +420,30 @@ body {
     font-style: italic;
 }
 
-.main-bg .empty {
-    height: 55vh;
-    width: 100vw;
-    border: 2p
-}
-
-.main-bg .empty>.em-box {
-    height: 100%;
-    width: 100%;
-}
 
 /* 2 페이지 - 배경 */
+
 .page-2 {
-    height: 100vh;
+    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white.png) no-repeat;
+    background-size: cover;
     width: 100vw;
+    height: 100%;
     position: absolute;
     top: 65%;
     left: 0;
 }
 
 .page-2>.white-bg {
-    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white.png) no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 1700px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 /* 2페이지 - 타이틀  */
 
 .page-2>.white-bg>.text-box {
     display: inline-block;
-    margin: 300px 0 0 50px;
+    margin: 300px 0 0 100px;
     text-align: center;
 }
 
@@ -462,21 +461,123 @@ body {
 
 /* 2페이지  - 아이콘박스 */
 
-.page-2 > .white-bg > .icon-box {
+.page-2>.white-bg>.icon-box {
     text-align: center;
 }
-.page-2 > .white-bg > .icon-box > ul {
-    width: 1400px;
+
+.page-2>.white-bg>.icon-box>ul {
+    width: 1450px;
     margin: 0 auto;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
-.page-2 > .white-bg > .icon-box > ul > li {
-    border:2px solid gold;
-    width:calc(100% / 3);
+.page-2>.white-bg>.icon-box>ul>li {
+    width: calc(100% / 3);
+    padding: 100px 10px;
+    white-space: nowrap;
 }
 
-/* .page-2 .icon-box > ul span > h3   {
-    
-} */
+.page-2 .icon-box>ul span>h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px 0 20px 0;
+}
 
+.page-2 .icon-box>ul span>p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.page-2 .icon-box>ul span>a:hover>p {
+    color: #fafafa;
+}
+
+
+.page-2 .icon-box>ul span>a {
+    border: 2px solid;
+    border-image: repeating-linear-gradient(60deg, #f33, rgb(255, 47, 186), rgb(39, 15, 255)) 1;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    padding: 0 45px;
+    transform: skewX(-24deg);
+    margin-top: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.page-2 .icon-box>ul span>a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 0, 0, 0.808)), color-stop(1, rgba(0, 4, 255, 0.836)));
+    background: -moz-linear-gradient(left top, red, rgba(255, 0, 255, 0.863), blue);
+    transform: translateX(-100%);
+    transition: transform .2s ease-in-out;
+    z-index: -5;
+}
+
+.page-2 .icon-box>ul span>a:hover::after {
+    transform: translateX(0);
+}
+
+.page-2 .icon-box>ul span>a>p {
+    font-weight: bold;
+    font-size: 18px;
+    transform: skewX(24deg);
+}
+
+/* 2페이지 이미지 */
+
+.page-2 .woman>.img-box {
+    width: 650px;
+    height: 650px;
+    margin-left: auto;
+    position: relative;
+}
+
+.page-2 .woman>.img-box>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -50%;
+    left: 15%;
+}
+
+/* 2페이지 - 이미지 */
+
+.under .ud-whi {
+    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    left: 0;
+    top:100%;
+    border:2px solid red;
+}
+
+/* 3 페이지 */
+.page-3 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.page-3>.grd-box {
+    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/sub-bn.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100%;
+    left: 0;
+    z-index: -10;
+}
+
+.page-3>.grd-box>.infor {}
