@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="top-bar flex con">
+    <div class="top-bar flex con con-min-width">
         <div class="logo flex flex-grow-1 flex-ai-c">
             <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png" alt=""></a>
         </div>
@@ -49,7 +49,10 @@
             </div>
         </div>
 
-        <div class="page-2">
+        <div class="page-2 con-min-width">
+            <div class="white"
+                style="background-image: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white-bg.png)">
+            </div>
             <div class="white-bg">
                 <div class="text-box">
                     <h2>REGISTRATION</h2>
@@ -120,21 +123,65 @@
                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/woman2.png" alt="">
                     </div>
                 </div>
-                <div class="under">
-                    <div class="ud-whi"></div>
-                </div>
 
             </div>
 
         </div>
 
-        <div class="page-3">
-            <div class="grd-box">
-                <div class="infor"></div>
+    </div>
+
+    <div class="page-3 con-min-width">
+        <div class="white2"
+            style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under.png)">
+        </div>
+        <div class="sub-bn"
+            style="background-image: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/sub-bn.png)">
+            <div class="sub-text">
+                <h2>FEEL YOUR OWN ENERGY MIRUN</h2>
+                <span class="block">자, 이제 마이런으로 느껴봐 너만의 에너지!</span>
+                <p class="block">당신 스스로 믿을 때, 당신이 어디까지 갈지 아무도 상상하지 못하겠죠.<br>
+                    당신은 에너지 레이스인 마이런으로 인해 당신의 가능성과 잠재력을 믿게 될겁니다.<br>
+                    우리는 당신이 가진 가능성을 믿고, 오늘도 달릴 당신을 지지합니다.
+                </p>
+            </div>
+
+        </div>
+        <div class="under-2"
+            style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under-2.png)">
+        </div>
+    </div>
+    <div class="page-4">
+        <div class="tit4">
+            <h3>INFORMATION</h3>
+            <p>에너지 레이스 마이런의 상세정보</p>
+        </div>
+
+        <nav class="content flex">
+            <ul class="ct-box1">
+                <li>대회일시&nbsp;<span>2020년 9월 13일 (일) 오전 8시 레이스 출발</span> </li>
+                <li>대회장소 <span>여의도 공원 ~ 상암 월드컵공원 평화광장</span></li>
+                <li>참가비용 <span>50,000원</span></li>
+                <li>참가인원 <span>20,000명</span></li>
+            </ul>
+            <ul class="ct-box2">
+                <li>참가대상 <span>신체 건강한 남녀 누구나</span></li>
+                <li>참가부문 <span>8Km 부문, 10km 부문</span></li>
+                <li>접수일정 <span>온라인 접수 (선착순 마감)</span></li>
+                <li>주최&emsp;&emsp;&nbsp;<span>MBC+</span></li>
+            </ul>
+        </nav>
+
+        <div class="video-box flex">
+            <div class="vid-txt flex">
+                <h1>POWERFUL ENERGY</h1>
+                <p>어제의 나 보다 더 빠르게! <br>
+                    더 강력한 부스트를 느껴보세요. </p>
+            </div>
+
+            <div class="som flex" style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/som.png)">
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

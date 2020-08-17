@@ -330,6 +330,7 @@ label[for] {
 /* 커스텀 */
 body {
     background: #fafafa;
+    min-width:1600px;
 }
 
 .con {
@@ -370,7 +371,7 @@ body {
     font-style: italic;
 }
 
-/*  배너 박스 */
+ 배너 박스
 .main-bg {
     width: 100%;
     height: 100%;
@@ -379,7 +380,7 @@ body {
 }
 
 .main-bg>.slider-div {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
@@ -420,30 +421,37 @@ body {
     font-style: italic;
 }
 
-
 /* 2 페이지 - 배경 */
 
 .page-2 {
-    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white.png) no-repeat;
-    background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100%;
-    position: absolute;
-    top: 65%;
-    left: 0;
+    z-index: 2;
+    position: relative;
 }
 
+.page-2>.white{
+    position: absolute;
+    bottom:100%;
+    left: 0;
+    width:100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 30%;
+}
 .page-2>.white-bg {
-    width: 1700px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 150px;
+    overflow: hidden;
 }
 
 /* 2페이지 - 타이틀  */
 
 .page-2>.white-bg>.text-box {
     display: inline-block;
-    margin: 300px 0 0 100px;
+    margin-left:100px;
     text-align: center;
 }
 
@@ -466,9 +474,8 @@ body {
 }
 
 .page-2>.white-bg>.icon-box>ul {
-    width: 1450px;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .page-2>.white-bg>.icon-box>ul>li {
@@ -491,7 +498,6 @@ body {
 .page-2 .icon-box>ul span>a:hover>p {
     color: #fafafa;
 }
-
 
 .page-2 .icon-box>ul span>a {
     border: 2px solid;
@@ -549,35 +555,151 @@ body {
     left: 15%;
 }
 
-/* 2페이지 - 이미지 */
-
-.under .ud-whi {
-    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under.png) no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-    position: absolute;
-    left: 0;
-    top:100%;
-    border:2px solid red;
-}
-
-/* 3 페이지 */
-.page-3 {
-    width: 100vw;
-    height: 100vh;
+/* 3페이지 */
+.page-3{
+    width:100%;
+    height: 100%;
     position: relative;
 }
 
-.page-3>.grd-box {
-    background: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/sub-bn.png) no-repeat;
+.page-3 >.sub-bn {
+    margin-top:-400px; 
+    width:100%;
+    height: 100vh;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:100%;
-    left: 0;
-    z-index: -10;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fafafa;
+    z-index: -3;
 }
 
-.page-3>.grd-box>.infor {}
+.page-3 >.sub-bn > .sub-text {
+    color: #fafafa;
+    position: absolute;
+    top:50%;
+    right:10%;
+    transform: translateY(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.page-3 >.sub-bn > .sub-text > h2 {
+    font-size: 40px;
+    font-style: italic;
+    margin-top:50px;
+}
+
+.page-3 >.sub-bn > .sub-text > span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-3 >.sub-bn > .sub-text > p {
+    margin-top:50px;
+    line-height: 25px;
+}
+
+.page-3>.white2{
+    position: absolute;
+    top:-25%;
+    left: 0;
+    width:100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom top;
+}
+
+.page-3>.under-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top:65%;
+    z-index: -1;
+}
+
+/* 4 페이지 */
+
+.page-4 {
+    margin-right: 150px;
+}
+.page-4 > .tit4  {
+    text-align: right;
+}
+
+.page-4 > .tit4 > h3 {
+    font-size: 55px;
+}
+
+.page-4 > .tit4 > p {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.page-4 > .content {
+    margin:150px 0 0 250px;
+}
+
+.page-4 > .content > ul {
+    width:calc(100% /2);    
+}
+.page-4 > .content > ul:last-child {
+    margin-left: 150px;
+}
+
+.page-4 > .content > ul > li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.page-4 > .content > ul > li > span {
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+/* 4페이지 - 동영상 */
+.page-4 > .video-box {
+    border:2px solid green;
+    position: relative;
+}
+
+.page-4 > .video-box > .vid-txt {
+    position: absolute;
+    top:50%;
+    left: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.page-4 > .video-box > .vid-txt > h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 4px 0 2px #fafafa;
+}
+
+.page-4 > .video-box > .vid-txt > p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:35px;
+}
+
+.page-4 > .video-box > .som {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+    height: 500px;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
