@@ -617,7 +617,7 @@ body {
     height: 600px;
     position: absolute;
     left: 0;
-    top:65%;
+    top:60%;
     z-index: -1;
 }
 
@@ -625,6 +625,7 @@ body {
 
 .page-4 {
     margin-right: 150px;
+    width:100%;
 }
 .page-4 > .tit4  {
     text-align: right;
@@ -663,16 +664,17 @@ body {
 
 /* 4페이지 - 동영상 */
 .page-4 > .video-box {
-    border:2px solid green;
     position: relative;
+    width:100%;
 }
 
 .page-4 > .video-box > .vid-txt {
     position: absolute;
     top:50%;
-    left: 30%;
+    left: 15%;
     display: inline-block;
-    text-align: center;
+    text-align: left;
+    z-index: 2;
 }
 
 .page-4 > .video-box > .vid-txt > h1 {
@@ -693,7 +695,39 @@ body {
     width:50%;
     height: 500px;
     margin-top: 150px;
+    margin-left: 670px;
+    position: relative;
+    z-index: 1;
 }
+
+.page-4 > .video-box > .som::after {
+    content:'';
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: -1;
+}
+
+.page-4 > .video-box > .som > .bottom {
+    margin: 200px auto;
+}
+
+
+.page-4>.under-last {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top:100%;
+    border:3px solid red;
+}
+
 
 
 

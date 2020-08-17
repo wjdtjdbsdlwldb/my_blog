@@ -178,10 +178,20 @@
                     더 강력한 부스트를 느껴보세요. </p>
             </div>
 
-            <div class="som flex" style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/som.png)">
+            <div class="som flex"
+                style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/som.png)">
+                <div class="bottom"><a href="https://www.youtube.com/watch?v=P0v2D1ePOBI"><img
+                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/button.png" alt=""></div>
+                </a>
             </div>
+            <!-- <div><video id="video" autoplay="" loop="" muted="" playsinline="" height="500" width="800">
+                    <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/video.mp4" type="video/mp4">
+                </video></div> -->
         </div>
+
+        <div class="under-last" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/white-bg1.png)"></div>
     </div>
+
 </body>
 
 </html>
