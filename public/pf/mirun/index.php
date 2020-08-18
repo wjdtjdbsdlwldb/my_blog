@@ -13,6 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="./index.js"></script>
 
 </head>
@@ -31,6 +35,7 @@
             </ul>
         </nav>
     </div>
+
     <div class="main con-min-width">
         <div class="main-bg">
             <div class="slider-div">
@@ -150,7 +155,8 @@
             style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under-2.png)">
         </div>
     </div>
-    <div class="page-4">
+
+    <div class="page-4 con-min-width">
         <div class="tit4">
             <h3>INFORMATION</h3>
             <p>에너지 레이스 마이런의 상세정보</p>
@@ -171,25 +177,77 @@
             </ul>
         </nav>
 
-        <div class="video-box flex">
+        <div class="video-text flex">
             <div class="vid-txt flex">
                 <h1>POWERFUL ENERGY</h1>
                 <p>어제의 나 보다 더 빠르게! <br>
                     더 강력한 부스트를 느껴보세요. </p>
             </div>
 
-            <div class="som flex"
-                style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/som.png)">
-                <div class="bottom"><a href="https://www.youtube.com/watch?v=P0v2D1ePOBI"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/button.png" alt=""></div>
-                </a>
+            <div class="video-box flex">
+                <div class="som flex"
+                    style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/som.png)">
+                    <div class="bottom">
+                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/button.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <video id="video" class="flex" loop="" muted="" playsinline="" height="600" width="900">
+                        <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/video.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
             </div>
-            <!-- <div><video id="video" autoplay="" loop="" muted="" playsinline="" height="500" width="800">
-                    <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/video.mp4" type="video/mp4">
-                </video></div> -->
+
         </div>
 
-        <div class="under-last" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/white-bg1.png)"></div>
+
+
+    </div>
+
+    <div class="page-5 con-min-width">
+        <div class="under-last"
+            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/white-bg1.png)">
+        </div>
+
+        <div class="mirun">
+            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mirun.png" alt="">
+        </div>
+
+        <div class="tit5">
+            <h2>MIRRUNNERS</h2>
+            <p>에너치 넘치는 마이러너들의 활동</p>
+        </div>
+
+        <div class="mini-slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/img2.jpg)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg1.png)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg2.png)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg3.jpg)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg4.jpg)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg8.jpg)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg7.jpg)">
+                </div>
+                <div class="item"
+                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg5.jpg)">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>

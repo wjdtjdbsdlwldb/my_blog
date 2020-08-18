@@ -330,7 +330,7 @@ label[for] {
 /* 커스텀 */
 body {
     background: #fafafa;
-    min-width:1600px;
+    min-width: 1600px;
 }
 
 .con {
@@ -371,7 +371,7 @@ body {
     font-style: italic;
 }
 
- 배너 박스
+
 .main-bg {
     width: 100%;
     height: 100%;
@@ -430,29 +430,32 @@ body {
     position: relative;
 }
 
-.page-2>.white{
+.page-2>.white {
     position: absolute;
-    bottom:100%;
+    bottom: 100%;
     left: 0;
-    width:100%;
-    height: 500px;
+    width: 100%;
+    height: 520px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top 30%;
+    z-index: -1;
 }
+
 .page-2>.white-bg {
-    width: 100%;
+    width: 1600px;
     margin: 0 auto;
-    margin-top: 150px;
-    overflow: hidden;
+    margin-top: 100px;
+    /* overflow: hidden; */
 }
 
 /* 2페이지 - 타이틀  */
 
 .page-2>.white-bg>.text-box {
     display: inline-block;
-    margin-left:100px;
+    margin-left: 150px;
     text-align: center;
+    margin-top: -100px;
 }
 
 .page-2>.white-bg>.text-box>h2 {
@@ -471,10 +474,11 @@ body {
 
 .page-2>.white-bg>.icon-box {
     text-align: center;
+    margin-top: 50px;
 }
 
 .page-2>.white-bg>.icon-box>ul {
-    width: 100%;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -556,15 +560,15 @@ body {
 }
 
 /* 3페이지 */
-.page-3{
-    width:100%;
+.page-3 {
+    width: 100%;
     height: 100%;
     position: relative;
 }
 
-.page-3 >.sub-bn {
-    margin-top:-400px; 
-    width:100%;
+.page-3>.sub-bn {
+    margin-top: -500px;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -573,37 +577,37 @@ body {
     z-index: -3;
 }
 
-.page-3 >.sub-bn > .sub-text {
+.page-3>.sub-bn>.sub-text {
     color: #fafafa;
     position: absolute;
-    top:50%;
-    right:10%;
+    top: 50%;
+    right: 10%;
     transform: translateY(-50%);
     text-align: center;
     white-space: nowrap;
 }
 
-.page-3 >.sub-bn > .sub-text > h2 {
+.page-3>.sub-bn>.sub-text>h2 {
     font-size: 40px;
     font-style: italic;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
-.page-3 >.sub-bn > .sub-text > span {
+.page-3>.sub-bn>.sub-text>span {
     font-size: 20px;
     font-weight: bold;
 }
 
-.page-3 >.sub-bn > .sub-text > p {
-    margin-top:50px;
+.page-3>.sub-bn>.sub-text>p {
+    margin-top: 50px;
     line-height: 25px;
 }
 
-.page-3>.white2{
+.page-3>.white2 {
     position: absolute;
-    top:-25%;
+    top: -25%;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -613,127 +617,185 @@ body {
 .page-3>.under-2 {
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+    width: 100%;
     height: 600px;
     position: absolute;
     left: 0;
-    top:60%;
+    top: 65%;
     z-index: -1;
 }
 
 /* 4 페이지 */
 
 .page-4 {
-    margin-right: 150px;
-    width:100%;
+    width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
 }
-.page-4 > .tit4  {
+
+.page-4>.tit4 {
     text-align: right;
 }
 
-.page-4 > .tit4 > h3 {
+.page-4>.tit4>h3 {
     font-size: 55px;
+    font-style: italic;
 }
 
-.page-4 > .tit4 > p {
+.page-4>.tit4>p {
     font-size: 19px;
     font-weight: bold;
+    margin-right: 28px;
 }
 
-.page-4 > .content {
-    margin:150px 0 0 250px;
+.page-4>.content {
+    margin: 150px 0 0 280px;
 }
 
-.page-4 > .content > ul {
-    width:calc(100% /2);    
-}
-.page-4 > .content > ul:last-child {
-    margin-left: 150px;
+.page-4>.content>ul {
+    width: calc(100% /2);
 }
 
-.page-4 > .content > ul > li {
+.page-4>.content>ul:last-child {
+    margin-left: 100px;
+}
+
+.page-4>.content>ul>li {
     font-size: 18px;
     font-weight: bold;
     padding: 20px 0;
 }
 
-.page-4 > .content > ul > li > span {
+.page-4>.content>ul>li>span {
     font-weight: normal;
     margin-left: 100px;
 }
 
-/* 4페이지 - 동영상 */
-.page-4 > .video-box {
+/* 4페이지 - 텍스트 */
+.page-4>.video-text {
+    width: 100%;
+    height: 100vh;
+    border:2px solid red;
     position: relative;
-    width:100%;
 }
 
-.page-4 > .video-box > .vid-txt {
+.page-4>.video-text>.vid-txt {
     position: absolute;
-    top:50%;
-    left: 15%;
+    top: 50%;
+    left: 10%;
+    width:100%;
     display: inline-block;
     text-align: left;
     z-index: 2;
 }
 
-.page-4 > .video-box > .vid-txt > h1 {
+.page-4>.video-text>.vid-txt>h1 {
     font-size: 55px;
     font-weight: bold;
     text-shadow: 4px 0 2px #fafafa;
 }
 
-.page-4 > .video-box > .vid-txt > p {
+.page-4>.video-text>.vid-txt>p {
     font-size: 25px;
     font-weight: bold;
-    margin-top:35px;
+    margin-top: 35px;
 }
 
-.page-4 > .video-box > .som {
+/* 4 페이지 - 비디오 박스 */
+
+.page-4 .video-box>.som {
     background-repeat: no-repeat;
     background-size: cover;
-    width:50%;
-    height: 500px;
+    width: 60%;
+    height: 550px;
     margin-top: 150px;
-    margin-left: 670px;
+    margin-left: 550px;
     position: relative;
     z-index: 1;
 }
 
-.page-4 > .video-box > .som::after {
-    content:'';
+.page-4 .video-box>.som::after {
+    content: '';
     display: block;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     z-index: -1;
 }
 
-.page-4 > .video-box > .som > .bottom {
+.page-4 .video-box>.som>.bottom {
     margin: 200px auto;
 }
 
-
-.page-4>.under-last {
-    background-repeat: no-repeat;
-    background-size: cover;
+.page-4 .video-box {
     width:100%;
-    height: 600px;
+}
+
+.page-4 .video-box> div > video{
+    border:2px solid blue;
     position: absolute;
-    left: 0;
-    top:100%;
-    border:3px solid red;
+    top:50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width:100%;
 }
 
 
+/* 5 페이지 */
+.page-5 {
+    width:100%;
+    height: 700px;
+    position: relative;
+}
 
+.page-5>.under-last {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:-30%;
+    /* background-position: top 50%; */
+}
 
+/* 5페이지 -마이런 서울 텍스트이미지 */
 
+.page-5 > .mirun >img {
+    margin-top: 100px;
+    width:100%;
+    height: 100%;
+}
 
+/* 5 페이지 타이틀 */
 
+.page-5 > .tit5 {
+    margin-top:150px;
+    text-align: center;
+}
 
+.page-5 > .tit5 > h2 {
+    font-size: 55px;
+    font-style: italic;
+}
 
+.page-5 > .tit5 > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 5 페이지 -슬라이더 */
+
+.mini-slider .item {
+    height:500px;
+    width:500px;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position:center;
+    margin-top:150px;
+  }
 

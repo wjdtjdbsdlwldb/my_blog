@@ -15,8 +15,30 @@ function Slider() {
     });
 }
 
+function MiniSlider__init() {
+    $('.mini-slider > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:3
+        }
+      },
+      center:true,
+      loop:false,
+      dots:false,
+      nav:false
+    });
+  }
 
+
+function video(){
+  $('.som').click(function(){
+    $('.som').css('display','none');
+    $('#video').trigger('play');
+  })
+}
 
 $(function(){
     Slider();
+    video();
+    MiniSlider__init();
 });
