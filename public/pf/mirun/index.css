@@ -351,8 +351,9 @@ body {
 }
 
 .top-bar>.logo {
-    margin-left: 90px;
+    margin: 10px 0 0 90px;
 }
+
 
 .top-bar>.menu-box>ul>li {
     padding: 20px 30px;
@@ -370,7 +371,6 @@ body {
     font-weight: 600;
     font-style: italic;
 }
-
 
 .main-bg {
     width: 100%;
@@ -435,7 +435,7 @@ body {
     bottom: 100%;
     left: 0;
     width: 100%;
-    height: 520px;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top 30%;
@@ -650,7 +650,7 @@ body {
 }
 
 .page-4>.content {
-    margin: 150px 0 0 280px;
+    margin: 150px 0 0 270px;
 }
 
 .page-4>.content>ul {
@@ -676,7 +676,6 @@ body {
 .page-4>.video-text {
     width: 100%;
     height: 100vh;
-    border:2px solid red;
     position: relative;
 }
 
@@ -684,10 +683,11 @@ body {
     position: absolute;
     top: 50%;
     left: 10%;
-    width:100%;
+    transform: translateY(-50%);
     display: inline-block;
     text-align: left;
-    z-index: 2;
+    z-index: 5;
+
 }
 
 .page-4>.video-text>.vid-txt>h1 {
@@ -704,14 +704,19 @@ body {
 
 /* 4 페이지 - 비디오 박스 */
 
+.page-4 .video-box {
+    position: relative;
+}
+
 .page-4 .video-box>.som {
     background-repeat: no-repeat;
     background-size: cover;
     width: 60%;
     height: 550px;
-    margin-top: 150px;
-    margin-left: 550px;
-    position: relative;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 35%;
     z-index: 1;
 }
 
@@ -732,21 +737,19 @@ body {
 }
 
 .page-4 .video-box {
-    width:100%;
+    width: 100%;
 }
 
-.page-4 .video-box> div > video{
-    border:2px solid blue;
+.page-4 .video-box>div>video {
     position: absolute;
-    top:50%;
-    left: 10%;
+    top: 50%;
+    left: 35%;
     transform: translateY(-50%);
-    width:100%;
 }
 
 /* 5 페이지 */
 .page-5 {
-    width:100%;
+    width: 100%;
     height: 700px;
     position: relative;
 }
@@ -758,31 +761,32 @@ body {
     height: 100%;
     position: absolute;
     left: 0;
-    top:-30%;
+    top: -45%;
     /* background-position: top 50%; */
 }
 
 /* 5페이지 -마이런 서울 텍스트이미지 */
 
-.page-5 > .mirun >img {
-    margin-top: 100px;
-    width:100%;
+.page-5>.mirun>img {
+    margin-top: 80px;
+    margin-left: -30px;
+    width: 100%;
     height: 100%;
 }
 
 /* 5 페이지 타이틀 */
 
-.page-5 > .tit5 {
-    margin-top:150px;
+.page-5>.tit5 {
+    margin-top: 150px;
     text-align: center;
 }
 
-.page-5 > .tit5 > h2 {
+.page-5>.tit5>h2 {
     font-size: 55px;
     font-style: italic;
 }
 
-.page-5 > .tit5 > p {
+.page-5>.tit5>p {
     font-size: 18px;
     font-weight: bold;
 }
@@ -790,11 +794,123 @@ body {
 /* 5 페이지 -슬라이더 */
 
 .mini-slider .item {
-    height:500px;
-    width:500px;
-    background-repeat:no-repeat;
-    background-size:cover; 
-    background-position:center;
-    margin-top:150px;
-  }
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+}
+
+/*  푸터 */
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    white-space: nowrap;
+}
+
+.footer>.ft-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #2b2b2b;
+    color: #fafafa;
+}
+
+.footer>.ft-bg>.spon {
+    position: relative;
+}
+
+.footer>.ft-bg>.spon>ul {
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+.footer>.ft-bg>.spon>ul>li {
+    margin-left: 10px;
+}
+
+.footer>.ft-bg>.spon>ul>li>a {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 40px;
+}
+
+.footer>.ft-bg>.spon>ul ul>li>a {
+    font-size: 20px;
+    padding: 15px 50px;
+}
+
+.footer>.ft-bg>.spon>.map>li>a {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px 40px;
+    display: block;
+}
+
+.footer>.ft-bg>.spon>.map>li:last-child>a {
+    margin-right: 20px;
+}
+
+.footer>.ft-bg>.spon>.map>li:nth-child(2)>a {
+    font-weight: bold;
+}
+
+.footer>.ft-bg>.spon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fafafa4d;
+    width: 95%;
+    height: 1px;
+}
+
+.footer>.ft-bg>.footer-logo {
+    margin: 60px auto 0 50px;
+}
+
+.footer>.ft-bg>.footer-logo>.ft-logo {
+    width: 130px;
+}
+
+.footer>.ft-bg>.footer-logo>.ft-logo>img {
+    width: 100%;
+}
+
+.footer>.ft-bg>.footer-logo >.copy {
+    margin: 10px 0 0 80px;
+    line-height: 30px;
+}
+
+
+.footer>.ft-bg>.footer-logo >.copy >address{
+    font-style: normal;
+}
+
+
+/*  푸터 - sns  */
+
+.footer>.ft-bg .sns > div  {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+
+.footer>.ft-bg .sns > div  img {
+    width:100%;
+    height: 100%;
+}
+
+.footer>.ft-bg .sns > div >a {
+    position: relative;
+}
+
+.footer>.ft-bg .sns > div:last-child {
+    margin-right: 60px;
+}
+
 

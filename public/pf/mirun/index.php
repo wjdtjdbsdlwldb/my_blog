@@ -23,7 +23,7 @@
 
 <body>
     <div class="top-bar flex con con-min-width">
-        <div class="logo flex flex-grow-1 flex-ai-c">
+        <div class="logo flex flex-grow-1">
             <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png" alt=""></a>
         </div>
         <nav class="menu-box flex flex-ai-c">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
                 <div>
-                    <video id="video" class="flex" loop="" muted="" playsinline="" height="600" width="900">
+                    <video id="video" class="flex" loop="" muted="" playsinline="" height="700" width="60%">
                         <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/video.mp4"
                             type="video/mp4">
                     </video>
@@ -218,36 +218,85 @@
             <h2>MIRRUNNERS</h2>
             <p>에너치 넘치는 마이러너들의 활동</p>
         </div>
+    </div>
 
-        <div class="mini-slider">
-            <div class="owl-carousel owl-theme">
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/img2.jpg)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg1.png)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg2.png)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg3.jpg)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg4.jpg)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg8.jpg)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg7.jpg)">
-                </div>
-                <div class="item"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg5.jpg)">
-                </div>
+    <div class="mini-slider">
+        <div class="owl-carousel owl-theme">
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/img2.jpg)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg1.png)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg2.png)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg3.jpg)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg4.jpg)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg8.jpg)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg7.jpg)">
+            </div>
+            <div class="item"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mini-bg5.jpg)">
             </div>
         </div>
+    </div>
 
+    <div class="footer">
+        <div class="ft-bg">
+            <nav class="spon flex flex-ai-c">
+                <ul class="flex">
+                    <li class="flex"><a href="#">SPONSORED BY</a>
+                        <ul class="flex flex-ai-c">
+                            <li><a href="#">adidas</a></li>
+                            <li><a href="#">I·SEOUL·U</a></li>
+                            <li><a href="#">YES 24</a></li>
+                            <li><a href="#">Kt 5G</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="flex flex-jc-end map flex-grow-1">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-logo flex flex-ai-c">
+                <div class="ft-logo flex">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/footer-logo.png" alt="">
+                </div>
+                <div class="copy flex flex-grow-1">
+                    <address>서울시 서초구 서초대로 74길 서초타워 23층 마이런 서울 사무국 | 전화 1800-6874 <br>
+                        © Adidas Korea, LLC. All Rights Reserved.</address>
+
+                </div>
+
+                <div class="sns flex flex-ai-c">
+                    <div class="facebook"><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/facebook (1).png" alt="">
+                        </a></div>
+
+                    <div class="instagram">
+                        <a href="#">
+                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/instagram (1).png"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
     </div>
 
 </body>

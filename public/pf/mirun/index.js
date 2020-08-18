@@ -32,7 +32,7 @@ function MiniSlider__init() {
 
 function video(){
   $('.som').click(function(){
-    $('.som').css('display','none');
+    $('.som').css('opacity','0');
     $('#video').trigger('play');
   })
 }
