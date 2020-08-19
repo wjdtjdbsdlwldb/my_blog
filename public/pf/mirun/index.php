@@ -23,7 +23,7 @@
 
 <body>
     <div class="top-bar flex con con-min-width">
-        <div class="logo flex flex-grow-1 fadeInLeft active-on-visible">
+        <div class="logo flex flex-grow-1">
             <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png" alt=""></a>
         </div>
         <nav class="menu-box flex flex-ai-c">
@@ -40,7 +40,7 @@
         <div class="main-bg">
             <div class="slider-div">
                 <div class="bn1 bn">
-                    <p>
+                    <p class="fadeInUp active-on-visible">
                         TIME TO WAKE UP ENERGY</p>
                 </div>
                 <div class="bn2 bn">
@@ -137,9 +137,9 @@
 
     <div class="page-3 con-min-width">
         <div class="white2"
-            style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under.png)">
+            style="background-image:url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/under-1.png)">
         </div>
-        <div class="sub-bn"
+        <div class="sub-bn fadeInRight active-on-visible"
             style="background-image: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/sub-bn.png)">
             <div class="sub-text">
                 <h2>FEEL YOUR OWN ENERGY MIRUN</h2>
@@ -157,12 +157,12 @@
     </div>
 
     <div class="page-4 con-min-width">
-        <div class="tit4">
+        <div class="tit4 fadeInRight active-on-visible">
             <h3>INFORMATION</h3>
             <p>에너지 레이스 마이런의 상세정보</p>
         </div>
 
-        <nav class="content flex">
+        <nav class="content flex fadeInUp active-on-visible">
             <ul class="ct-box1">
                 <li>대회일시&nbsp;<span>2020년 9월 13일 (일) 오전 8시 레이스 출발</span> </li>
                 <li>대회장소 <span>여의도 공원 ~ 상암 월드컵공원 평화광장</span></li>
@@ -177,9 +177,9 @@
             </ul>
         </nav>
 
-        <div class="video-text flex">
-            <div class="vid-txt flex">
-                <h1>POWERFUL ENERGY</h1>
+        <div class="video-text flex con-min-width">
+            <div class="vid-txt flex fadeInLeft active-on-visible">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/powerful.png" alt="">
                 <p>
                     Faster than yesterday's me!<br>
                     Feel the stronger boost.</p>
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div>
-                    <video id="video" class="flex" loop="" muted="" playsinline="" height="700" width="60%">
+                    <video id="video" class="flex" loop="" muted="" playsinline="" width="60%" height="550px">
                         <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/video.mp4"
                             type="video/mp4">
                     </video>
@@ -216,13 +216,13 @@
             <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mirun.png" alt="">
         </div>
 
-        <div class="tit5">
+        <div class="tit5 fadeInDown active-on-visible">
             <h2>MIRRUNNERS</h2>
             <p>에너치 넘치는 마이러너들의 활동</p>
         </div>
     </div>
 
-    <div class="mini-slider">
+    <div class="mini-slider con-min-width">
         <div class="owl-carousel owl-theme">
             <div class="item"
                 style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/img2.jpg)">
@@ -251,7 +251,7 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer con-min-width">
         <div class="ft-bg">
             <nav class="spon flex flex-ai-c">
                 <ul class="flex">

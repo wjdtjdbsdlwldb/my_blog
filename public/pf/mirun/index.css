@@ -355,26 +355,6 @@ body {
     margin: 10px 0 0 90px;
 }
 
-.active.fadeInLeft {
-    animation-name: fadeInLeft;
-    animation-duration: 1500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translate(-100%, 0);
-        transform: translate(-100%, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-}
-
 .top-bar>.menu-box>ul>li {
     padding: 20px 30px;
     white-space: nowrap;
@@ -441,6 +421,29 @@ body {
     font-style: italic;
 }
 
+.active.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(0, 100%);
+        transform: translate(0, 100%);
+        overflow: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+        overflow: hidden;
+    }
+}
+
+
 /* 2 페이지 - 배경 */
 
 .page-2 {
@@ -458,12 +461,12 @@ body {
     height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top 30%;
+    background-position: top bottom;
     z-index: -1;
 }
 
 .page-2>.white-bg {
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     /* overflow: hidden; */
@@ -498,7 +501,6 @@ body {
     }
 }
 
-
 .page-2>.white-bg>.text-box>h2 {
     font-size: 55px;
     font-weight: 700;
@@ -520,24 +522,25 @@ body {
 
 .active.fadeInUp {
     animation-name: fadeInUp;
-    animation-duration: 2000ms;
+    animation-duration: 2500ms;
     animation-fill-mode: forwards;
 }
 
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translate(0, 100%);
-        transform: translate(0, 100%);
+        transform: translate(0, 50%);
+        transform: translate(0, 50%);
+        overflow: hidden;
     }
 
     to {
         opacity: 1;
         transform: translate(0, 0);
         transform: translate(0, 0);
+        overflow: hidden;
     }
 }
-
 
 .page-2>.white-bg>.icon-box>ul {
     width: 1600px;
@@ -582,7 +585,7 @@ body {
     width: 100%;
     height: 100%;
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 0, 0, 0.808)), color-stop(1, rgba(0, 4, 255, 0.836)));
-    /* background: -moz-linear-gradient(left top, red, rgba(255, 0, 255, 0.863), blue); */
+    background: -moz-linear-gradient(left top, red, rgba(255, 0, 255, 0.863), blue);
     transform: translateX(-100%);
     transition: transform .2s ease-in-out;
     z-index: -5;
@@ -604,48 +607,73 @@ body {
 
 /* 2페이지 이미지 */
 
-.page-2 .woman>.img-box {
-    width: 650px;
+.page-2 .woman {
     height: 650px;
+    width:650px;
     margin-left: auto;
-    position: relative;
+    margin-top: -18%;
+}
+
+.page-2 .woman>.img-box {
+    width:100%;
+    height: 100%;
 }
 
 .page-2 .woman>.img-box>img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: -50%;
-    left: 15%;
 }
 
 /* 3페이지 */
 .page-3 {
     width: 100%;
-    height: 100%;
+    height: 130vh;
     position: relative;
+    overflow: hidden;
 }
 
 .page-3>.sub-bn {
-    margin-top: -500px;
     width: 100%;
-    height: 100vh;
-    background-size: cover;
+    height: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     color: #fafafa;
     z-index: -3;
 }
 
+.active.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 2200ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate(60%, 0);
+        transform: translate(60%,0 );
+        overflow: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+        overflow: hidden;
+    }
+}
+
 .page-3>.sub-bn>.sub-text {
     color: #fafafa;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 10%;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     text-align: center;
     white-space: nowrap;
 }
+
 
 .page-3>.sub-bn>.sub-text>h2 {
     font-size: 40px;
@@ -665,23 +693,25 @@ body {
 
 .page-3>.white2 {
     position: absolute;
-    top: -25%;
+    top: -19%;
     left: 0;
     width: 100%;
-    height: 600px;
+    height: 570px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom top;
+    background-position:top;
+    z-index: -1;
 }
 
 .page-3>.under-2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 380px;
+    background-position: top bottom;
     position: absolute;
     left: 0;
-    top: 65%;
+    top: 60%;
     z-index: -1;
 }
 
@@ -689,13 +719,36 @@ body {
 
 .page-4 {
     width: 1600px;
-    margin: 0 auto;
-    height: 100%;
+    margin: -80px auto 0 auto;
     position: relative;
 }
 
 .page-4>.tit4 {
     text-align: right;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.active.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 2500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate(30%, 0);
+        transform: translate(30%,0 );
+        overflow: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+        overflow: hidden;
+    }
 }
 
 .page-4>.tit4>h3 {
@@ -710,7 +763,29 @@ body {
 }
 
 .page-4>.content {
-    margin: 150px 0 0 270px;
+    margin: 150px 0 0 200px;
+}
+
+.active.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(0, 100%);
+        transform: translate(0, 100%);
+        overflow: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+        overflow: hidden;
+    }
 }
 
 .page-4>.content>ul {
@@ -741,19 +816,36 @@ body {
 
 .page-4>.video-text>.vid-txt {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 10%;
     transform: translateY(-50%);
     display: inline-block;
     text-align: left;
-    z-index: 5;
-
+    z-index: 10;
 }
 
-.page-4>.video-text>.vid-txt>h1 {
-    font-size: 55px;
-    font-weight: bold;
-    text-shadow: 4px 0 2px #fafafa;
+.active.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.page-4>.video-text>.vid-txt>img {
+    width:600px;
 }
 
 .page-4>.video-text>.vid-txt>p {
@@ -781,7 +873,8 @@ body {
     position: absolute;
     top: 50%;
     left: 35%;
-    z-index: 1;
+    z-index: 5;
+
 }
 
 .page-4 .video-box>.som::after {
@@ -804,11 +897,22 @@ body {
     width: 100%;
 }
 
-.page-4 .video-box>div>video {
+.page-4 .video-box>div {
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 35%;
     transform: translateY(-50%);
+    z-index: 1000;
+    width:60%;
+    height: 550px;
+    z-index: 1;
+}
+
+.page-4 .video-box>div>video {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    
 }
 
 /* 5 페이지 */
@@ -825,14 +929,14 @@ body {
     height: 100%;
     position: absolute;
     left: 0;
-    top: -45%;
+    top: -50%;
     /* background-position: top 50%; */
 }
 
 /* 5페이지 -마이런 서울 텍스트이미지 */
 
 .page-5>.mirun>img {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: -30px;
     width: 100%;
     height: 100%;
@@ -843,6 +947,28 @@ body {
 .page-5>.tit5 {
     margin-top: 150px;
     text-align: center;
+}
+
+.active.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate(0, -100%);
+        transform: translate(0, -100%);
+        overflow: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+        overflow: hidden;
+    }
 }
 
 .page-5>.tit5>h2 {
