@@ -23,7 +23,7 @@
 
 <body>
     <div class="top-bar flex con con-min-width">
-        <div class="logo flex flex-grow-1">
+        <div class="logo flex flex-grow-1 fadeInLeft active-on-visible">
             <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png" alt=""></a>
         </div>
         <nav class="menu-box flex flex-ai-c">
@@ -59,14 +59,14 @@
                 style="background-image: url(https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/white-bg.png)">
             </div>
             <div class="white-bg">
-                <div class="text-box">
+                <div class="text-box fadeInLeft active-on-visible">
                     <h2>REGISTRATION</h2>
                     <p>느껴봐 너만의 부스트! 마이런의 참가신청</p>
                 </div>
 
-                <nav class="icon-box">
+                <nav class="icon-box fadeInUp active-on-visible">
                     <ul class="row">
-                        <li class="cell">
+                        <li class="item-1 cell">
                             <span class="block">
                                 <img src="https://raw.githubusercontent.com/wjdtjdbsdlwldb/img1/master/blog/article/mirun/icon1.png"
                                     alt="" srcset="">
@@ -180,7 +180,11 @@
         <div class="video-text flex">
             <div class="vid-txt flex">
                 <h1>POWERFUL ENERGY</h1>
-                <p>어제의 나 보다 더 빠르게! <br>
+                <p>
+                    Faster than yesterday's me!<br>
+                    Feel the stronger boost.</p>
+                <p>
+                    어제의 나 보다 더 빠르게!<br>
                     더 강력한 부스트를 느껴보세요. </p>
             </div>
 
@@ -200,8 +204,6 @@
             </div>
 
         </div>
-
-
 
     </div>
 
@@ -292,9 +294,6 @@
                     </div>
                 </div>
             </div>
-
-
-
 
         </div>
     </div>

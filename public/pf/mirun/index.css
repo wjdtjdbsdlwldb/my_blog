@@ -328,6 +328,7 @@ label[for] {
 }
 
 /* 커스텀 */
+
 body {
     background: #fafafa;
     min-width: 1600px;
@@ -354,6 +355,25 @@ body {
     margin: 10px 0 0 90px;
 }
 
+.active.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
 
 .top-bar>.menu-box>ul>li {
     padding: 20px 30px;
@@ -458,6 +478,27 @@ body {
     margin-top: -100px;
 }
 
+.active.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+
 .page-2>.white-bg>.text-box>h2 {
     font-size: 55px;
     font-weight: 700;
@@ -477,6 +518,27 @@ body {
     margin-top: 50px;
 }
 
+.active.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(0, 100%);
+        transform: translate(0, 100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+
 .page-2>.white-bg>.icon-box>ul {
     width: 1600px;
     margin: 0 auto;
@@ -489,18 +551,12 @@ body {
 }
 
 .page-2 .icon-box>ul span>h3 {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 30px;
     padding: 30px 0 20px 0;
 }
-
 .page-2 .icon-box>ul span>p {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.page-2 .icon-box>ul span>a:hover>p {
-    color: #fafafa;
+    font-weight: 700;
 }
 
 .page-2 .icon-box>ul span>a {
@@ -516,9 +572,9 @@ body {
     margin-top: 50px;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
-
-.page-2 .icon-box>ul span>a::after {
+.page-2 .icon-box>ul span>a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -526,13 +582,13 @@ body {
     width: 100%;
     height: 100%;
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 0, 0, 0.808)), color-stop(1, rgba(0, 4, 255, 0.836)));
-    background: -moz-linear-gradient(left top, red, rgba(255, 0, 255, 0.863), blue);
+    /* background: -moz-linear-gradient(left top, red, rgba(255, 0, 255, 0.863), blue); */
     transform: translateX(-100%);
     transition: transform .2s ease-in-out;
     z-index: -5;
 }
 
-.page-2 .icon-box>ul span>a:hover::after {
+.page-2 .icon-box>ul span>a:hover::before {
     transform: translateX(0);
 }
 
@@ -541,6 +597,10 @@ body {
     font-size: 18px;
     transform: skewX(24deg);
 }
+.page-2 .icon-box>ul span>a:hover>p {
+    color: #fafafa;
+}
+
 
 /* 2페이지 이미지 */
 
@@ -697,9 +757,13 @@ body {
 }
 
 .page-4>.video-text>.vid-txt>p {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 35px;
+}
+
+.page-4>.video-text>.vid-txt > p:last-child {
+    font-size: 20px;
 }
 
 /* 4 페이지 - 비디오 박스 */
@@ -799,13 +863,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 /*  푸터 */
 .footer {
     width: 100%;
-    height: 300px;
+    height: 280px;
     margin-top: 150px;
     white-space: nowrap;
 }
@@ -823,7 +887,7 @@ body {
 
 .footer>.ft-bg>.spon>ul {
     width: 100%;
-    margin: 50px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 .footer>.ft-bg>.spon>ul>li {
@@ -880,37 +944,34 @@ body {
     width: 100%;
 }
 
-.footer>.ft-bg>.footer-logo >.copy {
+.footer>.ft-bg>.footer-logo>.copy {
     margin: 10px 0 0 80px;
     line-height: 30px;
 }
 
-
-.footer>.ft-bg>.footer-logo >.copy >address{
+.footer>.ft-bg>.footer-logo>.copy>address {
     font-style: normal;
 }
 
 
 /*  푸터 - sns  */
 
-.footer>.ft-bg .sns > div  {
+.footer>.ft-bg .sns>div {
     width: 50px;
     height: 50px;
     margin: 0 10px;
 }
 
 
-.footer>.ft-bg .sns > div  img {
-    width:100%;
+.footer>.ft-bg .sns>div img {
+    width: 100%;
     height: 100%;
 }
 
-.footer>.ft-bg .sns > div >a {
+.footer>.ft-bg .sns>div>a {
     position: relative;
 }
 
-.footer>.ft-bg .sns > div:last-child {
+.footer>.ft-bg .sns>div:last-child {
     margin-right: 60px;
 }
-
-
