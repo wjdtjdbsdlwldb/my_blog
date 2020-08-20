@@ -40,6 +40,11 @@
             </ul>
         </li>
 
+        <li>
+            <a href="/pf/mirun/index.php" target="_blank">MIRUN</a>
+        </li>
+
+
     </ul>
 
     <h1>디자인</h1>

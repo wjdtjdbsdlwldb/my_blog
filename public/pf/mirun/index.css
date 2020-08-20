@@ -458,18 +458,22 @@ body {
     bottom: 100%;
     left: 0;
     width: 100%;
-    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top bottom;
     z-index: -1;
 }
 
+.page-2>.white::after {
+    padding-top: 23.646873357856016%;
+    content: '';
+    display: block;
+}
 .page-2>.white-bg {
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* 2페이지 - 타이틀  */
@@ -478,7 +482,7 @@ body {
     display: inline-block;
     margin-left: 150px;
     text-align: center;
-    margin-top: -100px;
+    margin-top: 0px;
 }
 
 .active.fadeInLeft {
@@ -558,6 +562,7 @@ body {
     font-size: 30px;
     padding: 30px 0 20px 0;
 }
+
 .page-2 .icon-box>ul span>p {
     font-weight: 700;
 }
@@ -575,8 +580,9 @@ body {
     margin-top: 50px;
     box-sizing: border-box;
     overflow: hidden;
-    
+
 }
+
 .page-2 .icon-box>ul span>a::before {
     content: "";
     position: absolute;
@@ -600,6 +606,7 @@ body {
     font-size: 18px;
     transform: skewX(24deg);
 }
+
 .page-2 .icon-box>ul span>a:hover>p {
     color: #fafafa;
 }
@@ -608,14 +615,15 @@ body {
 /* 2페이지 이미지 */
 
 .page-2 .woman {
+    position: absolute;
     height: 650px;
-    width:650px;
-    margin-left: auto;
-    margin-top: -18%;
+    width: 650px;
+    right: 0;
+    bottom: -15%;
 }
 
 .page-2 .woman>.img-box {
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -635,7 +643,7 @@ body {
 .page-3>.sub-bn {
     width: 100%;
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     color: #fafafa;
@@ -652,7 +660,7 @@ body {
     from {
         opacity: 0;
         transform: translate(60%, 0);
-        transform: translate(60%,0 );
+        transform: translate(60%, 0);
         overflow: hidden;
     }
 
@@ -667,52 +675,66 @@ body {
 .page-3>.sub-bn>.sub-text {
     color: #fafafa;
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 10%;
-    transform: translateY(-30%);
+    transform: translateY(-50%);
     text-align: center;
     white-space: nowrap;
 }
 
 
 .page-3>.sub-bn>.sub-text>h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
     margin-top: 50px;
 }
 
 .page-3>.sub-bn>.sub-text>span {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: left;
 }
 
 .page-3>.sub-bn>.sub-text>p {
     margin-top: 50px;
     line-height: 25px;
+    font-size: 17px;
+    text-align: left;
+    font-style: italic;
 }
 
 .page-3>.white2 {
     position: absolute;
-    top: -19%;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 570px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:top;
+    background-position: top;
     z-index: -1;
+}
+
+.page-3>.white2::before {
+    content: "";
+    display: block;
+    padding-top: 22.858644245927484%;
 }
 
 .page-3>.under-2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 380px;
     background-position: top bottom;
     position: absolute;
     left: 0;
-    top: 60%;
+    bottom: 0;
     z-index: -1;
+}
+
+.page-3>.under-2::before {
+    content: "";
+    display: block;
+    padding-top: 22.858644245927484%;
 }
 
 /* 4 페이지 */
@@ -739,7 +761,7 @@ body {
     from {
         opacity: 0;
         transform: translate(30%, 0);
-        transform: translate(30%,0 );
+        transform: translate(30%, 0);
         overflow: hidden;
     }
 
@@ -845,7 +867,7 @@ body {
 }
 
 .page-4>.video-text>.vid-txt>img {
-    width:600px;
+    width: 600px;
 }
 
 .page-4>.video-text>.vid-txt>p {
@@ -854,7 +876,7 @@ body {
     margin-top: 35px;
 }
 
-.page-4>.video-text>.vid-txt > p:last-child {
+.page-4>.video-text>.vid-txt>p:last-child {
     font-size: 20px;
 }
 
@@ -899,20 +921,20 @@ body {
 
 .page-4 .video-box>div {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 35%;
     transform: translateY(-50%);
     z-index: 1000;
-    width:60%;
+    width: 60%;
     height: 550px;
     z-index: 1;
 }
 
 .page-4 .video-box>div>video {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    
+
 }
 
 /* 5 페이지 */
@@ -930,14 +952,13 @@ body {
     position: absolute;
     left: 0;
     top: -50%;
+    z-index: -5;
     /* background-position: top 50%; */
 }
 
 /* 5페이지 -마이런 서울 텍스트이미지 */
 
 .page-5>.mirun>img {
-    margin-top: 70px;
-    margin-left: -30px;
     width: 100%;
     height: 100%;
 }
@@ -945,7 +966,7 @@ body {
 /* 5 페이지 타이틀 */
 
 .page-5>.tit5 {
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -979,6 +1000,54 @@ body {
 .page-5>.tit5>p {
     font-size: 18px;
     font-weight: bold;
+}
+
+/* 5 페이지 -백그라운드 svg */
+.heart {
+    width: 100%;
+    margin: 0 auto;
+    animation-name: ani-opacity;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani-opacity {
+    0%{
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.heart svg {
+    width: 100%;
+    display: block;
+    fill: none;
+    stroke-width: 3;
+}
+
+.heart svg .path {
+    stroke-dasharray: 4663;
+    stroke-dashoffset: 0;
+    animation: dash 3.5s linear infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 4663;
+    }
+    50% {
+        stroke-dashoffset: 1000;
+        opacity: 0;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
 }
 
 /* 5 페이지 -슬라이더 */

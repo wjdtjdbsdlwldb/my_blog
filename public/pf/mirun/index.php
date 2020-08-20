@@ -179,7 +179,7 @@
 
         <div class="video-text flex con-min-width">
             <div class="vid-txt flex fadeInLeft active-on-visible">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/powerful.png" alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/Asset.png?dummy123123" alt="">
                 <p>
                     Faster than yesterday's me!<br>
                     Feel the stronger boost.</p>
@@ -212,14 +212,35 @@
             style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/white-bg1.png)">
         </div>
 
-        <div class="mirun">
+        <div id="scroller" class="mirun">
             <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/mirun.png" alt="">
         </div>
 
         <div class="tit5 fadeInDown active-on-visible">
             <h2>MIRRUNNERS</h2>
-            <p>에너치 넘치는 마이러너들의 활동</p>
+            <p>에너지 넘치는 마이러너들의 활동</p>
         </div>
+        <div class="heart">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1968.69 647.03">
+                <defs>
+                    <linearGradient id="linear-gradient" y1="755.28" x2="1968.69" y2="755.28"
+                        gradientTransform="matrix(1, 0, 0, -1, 0, 1078.8)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="red" stop-opacity="0.7" />
+                        <stop offset="0.2" stop-color="#ff4ddc" />
+                        <stop offset="0.42" stop-color="#2a38ff" stop-opacity="0.65" />
+                        <stop offset="0.62" stop-color="#ff4776" />
+                        <stop offset="0.83" stop-color="#ff38ff" stop-opacity="0.65" />
+                        <stop offset="1" stop-color="#2a38ff" stop-opacity="0.65" />
+                    </linearGradient>
+                </defs>
+                <polyline class="path"
+                    points="0 412.6 43.65 412.6 78.57 325.3 139.69 412.6 158.24 391.87 185.52 426.79 231.35 56.84 260.58 610.08 307.74 396.96 357.94 402.78 398.32 302.38 453.98 423.52 474.71 337.85 530.37 491.18 569.65 374.41 644.95 408.24 744.26 407.15 756.26 329.67 816.28 447.53 844.66 388.6 874.12 423.52 913.41 164.88 927.6 532.65 972.34 379.87 1020.36 401.69 1060.73 303.48 1107.66 464.99 1122.94 396.96 1968.69 396.96"
+                    fill="none" stroke-miterlimit="20" stroke-width="10" stroke="url(#linear-gradient)" />
+            </svg>
+        </div>
+
+
     </div>
 
     <div class="mini-slider con-min-width">

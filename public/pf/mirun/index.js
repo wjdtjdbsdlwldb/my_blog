@@ -95,6 +95,13 @@ function StopHref() {
   });
 }
 
+function Svg__showAllPathLengths() {  
+  var pathes = $('svg').find('polyline');
+  pathes.each(function(i, polyline){
+    var total_length = polyline.getTotalLength();
+    console.log("svg path " + i + "의 길이 : " + total_length);
+  });
+}
 
 // function abs(){
 // $(document).ready(function(){
@@ -112,10 +119,13 @@ function StopHref() {
 // })
 // }
 
-
 $(function(){
     Slider();
     video();
     MiniSlider__init();
     ActiveOnVisible__init();
+});
+
+$(function(){
+  Svg__showAllPathLengths();
 });
