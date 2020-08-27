@@ -44,6 +44,10 @@
             <a href="/pf/mirun/index.php" target="_blank">MIRUN</a>
         </li>
 
+        <li>
+            <a href="/portfolio/index.php" target="_blank">포폴</a>
+        </li>
+
 
     </ul>
 
@@ -61,6 +65,10 @@
         </li>
         <li>
             <a href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/mirun.png" target="_blank">리디자인</a>
+        </li>
+
+        <li>
+            <a href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/pf.jpg" target="_blank">포폴시안</a>
         </li>
     </ul>
 

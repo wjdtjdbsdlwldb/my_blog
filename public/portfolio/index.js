@@ -1,10 +1,13 @@
-function Svg__showAllPathLengths() {  
-    var pathes = $('svg').find('polyline');
-    pathes.each(function(i, polyline){
-      var total_length = polyline.getTotalLength();
-    });
-  }
-  
-  $(function(){
-    Svg__showAllPathLengths();
+function FullPage() {
+  var myFullpage = new fullpage('#fullpage', {
+      scrollingSpeed: 1000,
+      scrollBar: true,
+      verticalCentered: false,
+      navigation: true,
+      navigationPosition: 'left'
   });
+}
+
+$(function(){
+  FullPage();
+});
