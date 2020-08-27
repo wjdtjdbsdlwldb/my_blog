@@ -333,7 +333,21 @@ label[for] {
 }
 
 /* 커스텀 */
+.con-min-width {
+    min-width: 1600px;
+}
 
+/* 페이지 네비 설정 */
+
+#fp-nav>ul>li>a>span {
+    background-color: #a7b4f5 !important;
+}
+
+#fp-nav>ul>li>a.active>span {
+    background-color: #1432F2 !important;
+}
+
+/* 1 페이지 */
 .page-1 {
     width: 100%;
     height: 100%;
@@ -342,6 +356,7 @@ label[for] {
     position: relative; */
 }
 
+/* 카피라이터 */
 .page-1>.copy {
     text-align: right;
     margin: 40px 40px 0 0;
@@ -353,24 +368,26 @@ label[for] {
     letter-spacing: .8px;
 }
 
+/* 1페이지 -타이틀 */
+
 .page-1>.tit {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:400px;
+    width: 400px;
     height: 250px;
 }
 
 
-.page-1>.tit > .line-box > .line-1 {
+.page-1>.tit>.line-box>.line-1 {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background:#1432F2;
+    transform: translate(-50%, -50%);
+    background: #1432F2;
     height: 0;
-    width: 2px;
+    width: 3px;
     transition: height .5s;
     animation: line .8s forwards;
 }
@@ -385,12 +402,12 @@ label[for] {
     }
 }
 
-.page-1>.tit > .line-box > .line-2 {
+.page-1>.tit>.line-box>.line-2 {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     opacity: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background: #1432F2;
     height: 70px;
     width: 2px;
@@ -400,7 +417,7 @@ label[for] {
 
 @keyframes line2 {
     0% {
-        left:50%;
+        left: 50%;
         opacity: 0;
     }
 
@@ -410,12 +427,12 @@ label[for] {
     }
 }
 
-.page-1>.tit > .line-box > .line-3 {
+.page-1>.tit>.line-box>.line-3 {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     opacity: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background: #1432F2;
     height: 150px;
     width: 2px;
@@ -425,7 +442,7 @@ label[for] {
 
 @keyframes line3 {
     0% {
-        left:50%;
+        left: 50%;
         opacity: 0;
     }
 
@@ -435,16 +452,232 @@ label[for] {
     }
 }
 
-.page-1>.tit > .line-box > span {
-    
+.page-1>.tit>.line-box>span {
+    font-size: 30px;
 }
 
-/* 페이지 네비 설정 */
-
-#fp-nav>ul>li>a>span {
-    background-color: #a7b4f5 !important;
+.page-1>.tit>.line-box>.sy {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+    animation: sy .8s 1.3s forwards;
+    transition: left .4s color .8s;
+    color: #fff;
 }
 
-#fp-nav>ul>li>a.active>span {
-    background-color: #1432F2 !important;
+@keyframes sy {
+    0% {
+        left: 50%;
+        opacity: 0;
+        color: #fff;
+    }
+
+    50% {
+        left: 50%;
+        opacity: 0;
+        color: #fff;
+    }
+
+    100% {
+        left: 28%;
+        opacity: 1;
+        color: #000;
+    }
+
+}
+
+.page-1>.tit>.line-box>.pf {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+    animation: pf .8s 1.3s forwards;
+    transition: left .5s color .6s;
+    color: #fff;
+    font-weight: 600;
+}
+
+@keyframes pf {
+    0% {
+        left: 50%;
+        opacity: 0;
+        color: #fff;
+    }
+
+    50% {
+        left: 50%;
+        opacity: 0;
+        color: #fff;
+    }
+
+    100% {
+        left: 75%;
+        opacity: 1;
+        color: #000;
+    }
+
+}
+
+.page-1>.tit>.line-box>.ui {
+    font-size: 17px;
+    position: absolute;
+    top: 72%;
+    left: 69%;
+    transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    animation: opacity 1s 2s forwards;
+    transition: opacity .7s, top 1s;
+}
+
+@keyframes opacity {
+    0% {
+        top: 72%;
+        opacity: 0;
+    }
+
+    50% {
+        top: 72%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 70%;
+        opacity: 1;
+    }
+}
+
+.page-1>.arrow {
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+    animation: arrow 1s 1.5s alternate infinite;
+    transition: translateY .8s;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateX(-50%) translateY(-60%);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-10%);
+    }
+}
+
+/* 2 페이지 */
+
+.page-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page-2>.tit {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 900px;
+}
+
+
+.page-2>.tit>.line-box>.line-1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 210px;
+    width: 3px;
+}
+
+.section2.active .page-2>.tit>.line-box>.line-1 {
+    transition: height .2s;
+    animation: liner .8s forwards;
+}
+
+@keyframes liner {
+    0% {
+        height: 210px;
+    }
+
+    100% {
+        height: 700px;
+    }
+}
+
+.page-2>.tit>.line-box>.line-2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    background: #1432F2;
+    height: 300px;
+    width: 2px;
+}
+
+.page-2>.tit>.line-box>.line-3 {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    background: #1432F2;
+    height: 550px;
+    width: 2px;
+}
+
+
+.page-2>.tit>.line-box>span {
+    font-size: 30px;
+}
+
+.page-2>.tit>.line-box>.sy {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-2>.tit>.line-box>.pf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+}
+
+
+.page-2>.tit>.line-box>.ui {
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+
+}
+
+
+.page-2>.arrow {
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10%);
+    animation: arrow 1s 1.5s alternate infinite;
+    transition: translateY .8s;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateX(-50%) translateY(-60%);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-10%);
+    }
 }

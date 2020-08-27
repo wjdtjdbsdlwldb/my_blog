@@ -34,14 +34,31 @@
                         <div class="line-1"></div>
                         <div class="line-2"></div>
                         <div class="line-3"></div>
-                        <span>J.SY</span>
-                        <span>PORTFOLIO</span>
+                        <span class="sy">J.SY</span>
+                        <span class="pf">PORTFOLIO</span>
+                        <span class="ui">Web publisher</span>
                     </div>
                 </div>
 
+                <div class="arrow"><img
+                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/Asset.png?dummy123123" alt="">
+                </div>
             </div>
         </div>
-        <div class="section section2">페이지 3</div>
+        <div class="section section2">
+            <div class="page-2">
+                <div class="tit">
+                    <div class="line-box">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                        <span class="sy">J.SY</span>
+                        <span class="pf">PORTFOLIO</span>
+                        <span class="ui">Web publisher</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="section section3">페이지 4</div>
         <div class="section section4">페이지 5</div>
         <div class="section section5">페이지 6</div>
