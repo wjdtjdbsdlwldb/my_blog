@@ -339,13 +339,27 @@ label[for] {
 
 /* 페이지 네비 설정 */
 
-#fp-nav>ul>li>a>span {
-    background-color: #a7b4f5 !important;
+#fullpage + #fp-nav > ul {
+    margin-left: 10px;
 }
 
-#fp-nav>ul>li>a.active>span {
+
+#fullpage + #fp-nav>ul>li {
+    margin-top: 20px;
+}
+
+
+#fullpage + #fp-nav>ul>li>a>span {
+    background-color: #a7b4f5 !important;
+    width:10px !important;
+    height: 10px !important;
+    margin: -6px 0 0 -6px !important;
+}
+
+#fullpage + #fp-nav>ul>li>a.active>span {
     background-color: #1432F2 !important;
 }
+
 
 /* 1 페이지 */
 .page-1 {
