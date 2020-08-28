@@ -47,14 +47,20 @@
         </div>
         <div class="section section2">
             <div class="page-2">
-                <div class="tit">
-                    <div class="line-box">
-                        <div class="line-1"></div>
-                        <div class="line-2"></div>
-                        <div class="line-3"></div>
-                        <span class="sy">J.SY</span>
-                        <span class="pf">PORTFOLIO</span>
-                        <span class="ui">Web publisher</span>
+                <div class="infor">
+                    <div class="poto">
+                    </div>
+                    <div class="skills">
+                        <h4 class="sk-title">SKILLS</h4>
+                        <div class="sk-box">
+                            <ul>
+                                <li class="skill sk-html">
+                                    <div class="txt">html</div>
+                                    <div class="progress-bar">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
