@@ -333,8 +333,9 @@ label[for] {
 }
 
 /* 커스텀 */
-.con-min-width {
-    min-width: 1600px;
+.con-min {
+    min-width: 1800px;
+    min-height: 960px;
 }
 
 /* 페이지 네비 설정 */
@@ -363,7 +364,7 @@ label[for] {
 
 /* 1 페이지 */
 .page-1 {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     overflow: hidden;
     box-sizing: border-box;
@@ -385,7 +386,7 @@ label[for] {
 /* 1페이지 -타이틀 */
 
 .page-1>.tit {
-    position: fixed;
+    position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -436,7 +437,7 @@ label[for] {
     }
 
     100% {
-        left: 0;
+        left: 15%;
         opacity: 1;
     }
 }
@@ -466,10 +467,6 @@ label[for] {
     }
 }
 
-.page-1>.tit>.line-box>span {
-    font-size: 30px;
-}
-
 .page-1>.tit>.line-box>.sy {
     position: absolute;
     top: 50%;
@@ -479,6 +476,7 @@ label[for] {
     animation: sy .8s 1.3s forwards;
     transition: left .4s color .8s;
     color: #fff;
+    font-size: 25px;
 }
 
 @keyframes sy {
@@ -495,7 +493,7 @@ label[for] {
     }
 
     100% {
-        left: 28%;
+        left: 35%;
         opacity: 1;
         color: #000;
     }
@@ -512,6 +510,7 @@ label[for] {
     transition: left .5s color .6s;
     color: #fff;
     font-weight: 600;
+    font-size: 30px;
 }
 
 @keyframes pf {
@@ -566,7 +565,7 @@ label[for] {
 
 .page-1>.arrow {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%) translateY(-5%);
@@ -590,12 +589,110 @@ label[for] {
 }
 
 
+
+
+/* 2페이지 - 라인 */
+.page-2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.page-2>.tit {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1000px;
+    height: 900px;
+}
+
+
+.page-2>.tit>.line-box>.line-1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 750px;
+    width: 3px;
+
+}
+
+
+.page-2>.tit>.line-box>.line-2 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    transform: translate(-50%, -35%);
+    background: #1432F2;
+    height: 350px;
+    width: 2px;
+
+}
+
+.page-2>.tit>.line-box>.line-3 {
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: #1432F2;
+    height: 500px;
+    width: 2px;
+}
+
+
+.page-2>.tit>.line-box>span {
+    font-size: 30px;
+}
+
+.page-2>.tit>.line-box>.sy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+}
+
+.page-2>.tit>.line-box>.pf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.page-2>.tit>.line-box>.ui {
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+
+/* 2 페이지 - 사진 */
+
+.page-2>.infor>.poto {
+    width: 300px;
+    height: 400px;
+    bordeR: 2px solid gold;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+
 /* 2페이지  - 스킬박스  */
+.page-2>.infor {
+    overflow: hidden;
+}
+
 .page-2>.infor>.skills {
     position: absolute;
-    top: 25%;
-    left: 60%;
-    transform: translate(-60%, -25%);
+    top: 10%;
+    left: 58%;
 }
 
 .page-2>.infor>.skills>h4.sk-title {
@@ -604,15 +701,21 @@ label[for] {
     padding: 0 40px;
     display: inline-block;
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .page-2>.infor>.skills>.sk-box {
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.page-2>.infor>.skills>.sk-box>ul>li {
+    padding: 15px 0;
+    text-align: center;
 }
 
 .page-2>.infor>.skills>.sk-box>ul>li>.txt {
     font-size: 17px;
+    padding: 10px 0;
 }
 
 .page-2>.infor>.skills>.sk-box>ul>li>.progress-bar {
@@ -640,9 +743,349 @@ label[for] {
     width: 0%;
     background-color: #4d4d4d;
     border-radius: 0 10px 10px 0 / 0 10px 10px 0;
-    transition: width 1s;
+    transition: width 1s 1.5s;
 }
 
-.section.active .page-2>.infor>.skills>.sk-box>ul>li:nth-child(1)>.progress-bar::after {
-    width: 50%;
+.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(1)>.progress-bar::after {
+    width: 80%;
+}
+
+.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(2)>.progress-bar::after {
+    width: 70%;
+}
+
+.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(3)>.progress-bar::after {
+    width: 55%;
+}
+
+.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(4)>.progress-bar::after {
+    width: 75%;
+}
+
+.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(5)>.progress-bar::after {
+    width: 65%;
+}
+
+
+/* 2 페이지 - 프로필 박스 */
+
+.page-2>.infor>.profile {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.page-2>.infor>.profile>.pro-tit {
+    font-weight: 400;
+    bordeR: 1px dashed #2b2b2b;
+    padding: 0 40px;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.page-2>.infor>.profile>.pro-box {
+    margin-top: 80px;
+}
+
+.page-2>.infor>.profile>.pro-box>ul>li>div {
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.page-2>.infor>.profile>.pro-box>ul>li>p {
+    padding: 27px 0 23px 40px;
+    font-weight: 18px;
+    font-weight: 500;
+}
+
+.page-2>.infor>.profile>.pro-box>ul>li>p:nth-child(3) {
+    font-family: 'ARIALN';
+    letter-spacing: 1px;
+}
+
+/* 3 페이지  */
+
+.page-3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.page-3>.tit {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1000px;
+    height: 900px;
+}
+
+.page-3>.tit>.line-box>.line-1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 800px;
+    width: 3px;
+}
+
+.page-3>.tit>.line-box>.sy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+}
+
+.page-3>.tit>.line-box>.pf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.page-3>.tit>.line-box>.ui {
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+
+/* 3페이지- 슬라이드 */
+.page-3>.Thumbnail {
+    border: 2px solid blue;
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    overflow: hidden;
+
+}
+
+.page-3>.Thumbnail>.img-box-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-3>.tn-box {
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    top: 68%;
+    left: 8%;
+}
+
+.page-3>.tn-box>.txt-box-1 {
+    font-size: 20px;
+}
+
+.page-3>.tn-box>.txt-box-2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.page-3>.tn-box>.txt-box-3 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.page-3>.tn-box>.txt-box-4 {
+    margin-top: 10px;
+}
+
+
+/* 슬라이드 */
+
+.slider {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    overflow: hidden;
+    width:600px;
+}
+
+.slider .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slider .img-box {
+    position: relative;
+    bordeR: 2px solid green;
+    background: #dfdfdf;
+    width: 100px;
+    height: 100px;
+}
+
+.slider .img-box>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 3 페이지 -UX/UI  */
+
+.page-3>.ux-ui {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+.page-3>.ux-ui>.ux-tit>h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.page-3>.ux-ui>.sub>p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* 4 페이지 - 라인 */
+
+.page-4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.page-4>.tit {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1000px;
+    height: 900px;
+}
+
+
+.page-4>.tit>.line-box>.line-1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 900px;
+    width: 3px;
+
+}
+
+
+.page-4>.tit>.line-box>.line-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 900px;
+    width: 2px;
+
+}
+
+.page-4>.tit>.line-box>.line-3 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-50%, 0);
+    background: #1432F2;
+    height: 900px;
+    width: 2px;
+}
+
+
+.page-4>.tit>.line-box>span {
+    font-size: 30px;
+}
+
+.page-4>.tit>.line-box>.sy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+}
+
+.page-4>.tit>.line-box>.pf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.page-4>.tit>.line-box>.ui {
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+
+/* 4페이지 -타이틀 */
+
+.page-4>.ux-ui {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.page-4>.ux-ui>.ux-tit>h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.page-4>.ux-ui>.sub>p {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* 4페이지 - 슬라이드 */
+
+.page-4 > .slider-1 {
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+}
+
+.page-4 > .slider-1 .owl-carousel {
+    position: relative;
+}
+
+.page-4 > .slider-1 .item {
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.page-4 > .slider-1 .item div.sd-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:400px;
+    height: 550px;
+    border:2px solid red;
+}
+
+.page-4 > .slider-1 .item .bannr {
+    margin-top:30px;
 }
