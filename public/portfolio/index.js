@@ -60,13 +60,34 @@ function Slider1__init() {
   });
 }
 
+function border_1() {
+  $('.slider .item').click(function(){
+    var $border = $('.slider .item.border');
+
+    $border.removeClass('border');
+    $(this).addClass('border');
+  })
+}
+
+function Lightbox() {
+  lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+  
+}
 
 $(function(){
   FullPage();
   slider();
   Slider1__itemClick(el);
+  
 });
 
 $(function(){
   Slider1__init();
+  $('.item-1').click();
+  border_1();
 })

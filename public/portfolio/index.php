@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="/portfolio/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- JS 라이브러리 불러오기 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="/portfolio/index.css">
     <script src="/portfolio/index.js"></script>
 </head>
 
@@ -148,7 +148,7 @@
                 <div class="slider">
                     <div class="carousel-1 active">
                         <div class="owl-carousel owl-theme">
-                            <div class="item" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트" data-tx="Copy"
+                            <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트" data-tx="Copy"
                                 data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
                                 data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fs.png?dummy123123"
                                 onclick="Slider1__itemClick(this);">
@@ -382,7 +382,11 @@
         </div>
         <div class="section section5">
             <div class="page-5">
-
+                <div class="contact">
+                    <div class="ct-tit">
+                        <h1>CONTACT contact</h1>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
