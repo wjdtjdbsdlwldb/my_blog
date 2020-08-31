@@ -148,8 +148,8 @@
                 <div class="slider">
                     <div class="carousel-1 active">
                         <div class="owl-carousel owl-theme">
-                            <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트" data-tx="Copy"
-                                data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
+                            <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트"
+                                data-tx="Copy" data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
                                 data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fs.png?dummy123123"
                                 onclick="Slider1__itemClick(this);">
                                 <div class="img-box">
