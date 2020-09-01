@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
 
 html {
-    font-family: 'IBM Plex Sans', 'Economica', 'Nanum Gothic', sans-serif, sans-serif, sans-serif;
+    font-family: 'IBM Plex Sans', 'Economica', 'nanumsquare', 'Nanum Gothic', sans-serif, sans-serif, sans-serif;
 }
 
 @font-face {
@@ -333,242 +335,46 @@ label[for] {
 }
 
 /* 커스텀 */
-.con-min {
-    min-width: 1800px;
-    min-height: 960px;
+body,
+html {
+    overflow-y: hidden;
 }
 
-/* 페이지 네비 설정 */
-
-#fullpage+#fp-nav>ul {
-    margin-left: 10px;
+.con-min-width {
+    min-width: 1400px;
 }
 
-
-#fullpage+#fp-nav>ul>li {
-    margin-top: 20px;
+.con {
+    width: 1400px;
 }
 
-#fullpage+#fp-nav>ul>li>a span, .fp-slidesNav ul li a {
-    background-color: #a7b4f5 !important;
-    width: 10px !important;
-    height: 10px !important;
-    margin: -6px 0 0 -6px !important;
-    background: #a7b4f5 !important;
-}
-
-#fullpage+#fp-nav>ul>li>a.active span, .fp-slidesNav ul li a.active {
-    background-color: #1432F2 !important;
-    background: #1432F2 !important;
-}
-
-
-/* 1 페이지 */
-.page-1 {
-    width: 100vw;
+/* 공통국면 */
+.line-box-wrap {
+    width: 100%;
     height: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-}
-
-/* 카피라이터 */
-.page-1>.copy {
-    text-align: right;
-    margin: 40px 40px 0 0;
-}
-
-.page-1>.copy>span {
-    font-family: 'ARIALN';
-    font-weight: 500;
-    letter-spacing: .8px;
-}
-
-/* 1페이지 -타이틀 */
-
-.page-1>.tit {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 250px;
-}
-
-
-.page-1>.tit>.line-box>.line-1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #1432F2;
-    height: 0;
-    width: 3px;
-    transition: height .5s;
-    animation: line .8s forwards;
-}
-
-@keyframes line {
-    0% {
-        height: 0;
-    }
-
-    100% {
-        height: 210px;
-    }
-}
-
-.page-1>.tit>.line-box>.line-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    background: #1432F2;
-    height: 70px;
-    width: 2px;
-    transition: left .2s;
-    animation: line2 .8s 1s forwards;
-}
-
-@keyframes line2 {
-    0% {
-        left: 50%;
-        opacity: 0;
-    }
-
-    100% {
-        left: 15%;
-        opacity: 1;
-    }
-}
-
-.page-1>.tit>.line-box>.line-3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    background: #1432F2;
-    height: 150px;
-    width: 2px;
-    transition: left .2s;
-    animation: line3 .8s 1s forwards;
-}
-
-@keyframes line3 {
-    0% {
-        left: 50%;
-        opacity: 0;
-    }
-
-    100% {
-        left: 100%;
-        opacity: 1;
-    }
-}
-
-.page-1>.tit>.line-box>.sy {
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 0;
     left: 0;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%);
-    animation: sy .8s 1.3s forwards;
-    transition: left .4s color .8s;
-    color: #fff;
+    z-index: -1;
+    transition: width 1s, height 1s;
+    display: flex;
+}
+
+.line-box .fly-item {
+    position: absolute;
+    transition: top 0.3s, left 0.3s, right 0.3s, bottom 0.3s, font-size 0.3s, width 0.3s, opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 25px;
 }
 
-@keyframes sy {
-    0% {
-        left: 50%;
-        opacity: 0;
-        color: #fff;
-    }
-
-    50% {
-        left: 50%;
-        opacity: 0;
-        color: #fff;
-    }
-
-    100% {
-        left: 35%;
-        opacity: 1;
-        color: #000;
-    }
-
-}
-
-.page-1>.tit>.line-box>.pf {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%);
-    animation: pf .8s 1.3s forwards;
-    transition: left .5s color .6s;
-    color: #fff;
-    font-weight: 600;
-    font-size: 30px;
-}
-
-@keyframes pf {
-    0% {
-        left: 50%;
-        opacity: 0;
-        color: #fff;
-    }
-
-    50% {
-        left: 50%;
-        opacity: 0;
-        color: #fff;
-    }
-
-    100% {
-        left: 75%;
-        opacity: 1;
-        color: #000;
-    }
-
-}
-
-.page-1>.tit>.line-box>.ui {
-    font-size: 17px;
-    position: absolute;
-    top: 72%;
-    left: 69%;
-    transform: translateX(-50%) translateY(-50%);
-    white-space: nowrap;
-    opacity: 0;
-    animation: opacity 1s 2s forwards;
-    transition: opacity .7s, top 1s;
-}
-
-@keyframes opacity {
-    0% {
-        top: 72%;
-        opacity: 0;
-    }
-
-    50% {
-        top: 72%;
-        opacity: 0;
-    }
-
-    100% {
-        top: 70%;
-        opacity: 1;
-    }
-}
-
-.page-1>.arrow {
-    display: inline-block;
-    position: absolute;
+.arrow {
+    position: fixed;
     bottom: 5%;
     left: 50%;
+    z-index: -1;
+    display: inline-block;
     transform: translateX(-50%) translateY(-5%);
     animation: arrow 1s 1.5s alternate infinite;
     transition: translateY .8s;
@@ -585,148 +391,387 @@ label[for] {
     }
 }
 
-.page-1>.arrow>img {
-    width: 20px;
+.arrow>img {
+    width: 17px;
+}
+
+.txt-box>.des {
+    font-size: 17px
+}
+
+.line-box>.lines>div {
+    width: 2px;
+    background-color: blue;
+}
+
+/* 국면 0 */
+.phase-0 .line-box>.lines>div:nth-child(1) {
+    top: calc(50%);
+    bottom: calc(50%);
+    left: calc(50% - 1px);
+}
+
+.phase-0 .line-box>.lines>div:nth-child(2) {
+    top: calc(50%);
+    bottom: calc(50%);
+    left: calc(50% - 1px);
+}
+
+.phase-0 .line-box>.lines>div:nth-child(3) {
+    top: calc(50%);
+    bottom: calc(50%);
+    left: calc(50% - 1px);
+}
+
+.phase-0 .line-box>.txt-box>h1>span {
+    overflow: hidden;
+}
+
+.phase-0 .line-box>.txt-box>h1>span:first-child {
+    top: calc(50% - 15px);
+    bottom: calc(50% - 15px);
+    left: calc(50% - 66px);
+}
+
+.phase-0 .line-box>.txt-box>h1>span:last-child {
+    top: calc(50% - 15px);
+    bottom: calc(50% - 15px);
+    left: calc(50% + 15px);
+}
+
+.phase-0 .line-box>.txt-box>h1>span>span {
+    transform: translateX(100%);
+}
+
+.phase-0 .line-box>.txt-box>h1>span:last-child>span {
+    transform: translateX(-100%);
+}
+
+.phase-0 .line-box>.txt-box>.des {
+    opacity: 0;
+}
+
+/* 국면 1 */
+.phase-1 .line-box>.lines>div:nth-child(1) {
+    top: calc(50% - 20px);
+    bottom: calc(50% - 20px);
+    left: calc(50% - 90px);
+}
+
+.phase-1 .line-box>.lines>div:nth-child(2) {
+    top: calc(50% - 60px);
+    bottom: calc(50% - 60px);
+    left: calc(50% - 1px);
+}
+
+.phase-1 .line-box>.lines>div:nth-child(3) {
+    top: calc(50% - 40px);
+    bottom: calc(50% - 40px);
+    left: calc(50% + 170px);
+}
+
+.phase-1 .line-box>.txt-box>h1>span:first-child {
+    top: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+    left: calc(50% - 66px);
+}
+
+.phase-1 .line-box>.txt-box>h1>span:last-child {
+    top: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+    left: calc(50% + 15px);
+}
+
+.phase-1 .line-box>.txt-box>.des {
+    top: calc(50% + 30px);
+    bottom: calc(50% - 60px);
+    left: calc(50% + 15px);
+}
+
+/* 국면 0 => 1 */
+[data-last-phase="0"].phase-1 .line-box>.txt-box>h1>span {
+    overflow: hidden;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.txt-box>h1>span>span {
+    transform: translateX(0);
+    transition: transform .3s .6s;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.txt-box>h1>span:last-child>span {
+    transform: translateX(0);
+    transition: transform .3s .6s;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.lines>div:nth-child(1) {
+    transition: top 0.3s, left 0.3s .6s, right 0.3s, bottom 0.3s, opacity 0.3s;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.lines>div:nth-child(2) {
+    transition: top 0.6s, left 0.3s, right 0.3s, bottom 0.6s, opacity 0.3s;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.lines>div:nth-child(3) {
+    transition: top 0.3s, left 0.3s .6s, right 0.3s, bottom 0.3s, opacity 0.3s;
+}
+
+[data-last-phase="0"].phase-1 .line-box>.txt-box>.des {
+    opacity: 1;
+    transition: opacity 1s 1s;
+}
+
+/* 국면 2 */
+.phase-2 .line-box>.lines>div:nth-child(1) {
+    top: calc(50% - 200px);
+    bottom: calc(50% - 250px);
+    left: calc(50% - 350px);
+}
+
+.phase-2 .line-box>.lines>div:nth-child(2) {
+    top: 0;
+    bottom: 150px;
+    left: calc(50% - 2px);
+}
+
+.phase-2 .line-box>.lines>div:nth-child(3) {
+    top: calc(50% - 200px);
+    bottom: calc(50% - 250px);
+    left: calc(50% + 350px);
+}
+
+.phase-2 .line-box>.txt-box>h1>span:first-child {
+    top: calc(15px);
+    left: calc(50% - 66px);
+}
+
+.phase-2 .line-box>.txt-box>h1>span:last-child {
+    top: calc(15px);
+    left: calc(50% + 15px);
+}
+
+.phase-2 .line-box>.txt-box>.des {
+    top: calc(70px);
+    left: calc(50% + 15px);
+}
+
+/* 국면 3 */
+
+.phase-3 .line-box>.lines>div:nth-child(2) {
+    top: 0;
+    bottom: 100px;
+    left: calc(50% - 1px);
 }
 
 
+.phase-3 .line-box>.txt-box>h1>span:first-child {
+    top: calc(15px);
+    left: calc(50% - 66px);
+}
+
+.phase-3 .line-box>.txt-box>h1>span:last-child {
+    top: calc(15px);
+    left: calc(50% + 15px);
+}
+
+.phase-3 .line-box>.txt-box>.des {
+    top: calc(70px);
+    left: calc(50% + 15px);
+}
 
 
-/* 2페이지 - 라인 */
-.page-2 {
+/* 국면 4 */
+.phase-4 .line-box>.lines>div:nth-child(1) {
+    top: 0;
+    bottom: 0;
+    left: calc(25% - 1px);
+}
+
+.phase-4 .line-box>.lines>div:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 1px);
+}
+
+.phase-4 .line-box>.lines>div:nth-child(3) {
+    top: 0;
+    bottom: 0;
+    left: calc(50% + 25% - 1px);
+}
+
+.phase-4 .line-box>.txt-box>h1>span {
+    font-size: 1.5rem;
+}
+
+.phase-4 .line-box>.txt-box>h1>span:first-child {
+    top: calc(15px);
+    left: calc(50% - 66px);
+}
+
+.phase-4 .line-box>.txt-box>h1>span:last-child {
+    top: calc(15px);
+    left: calc(50% + 15px);
+}
+
+.phase-4 .line-box>.txt-box>.des {
+    top: calc(50px);
+    left: calc(50% + 15px);
+}
+
+.phase-4 .arrow {
+    opacity: 0;
+}
+
+/* 국면 5 */
+.phase-5 .line-box>.lines>div:nth-child(1) {
+    top: 0;
+    bottom: 0;
+    left: calc(35% - 1px);
+}
+
+.phase-5 .line-box>.lines>div:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: calc(35% - 1px);
+}
+
+.phase-5 .line-box>.lines>div:nth-child(3) {
+    top: 0;
+    bottom: 0;
+    left: calc(100% - 1px);
+}
+
+.phase-5 .line-box>.txt-box {
+    color: white;
+}
+
+.phase-5 .line-box>.txt-box>h1>span {
+    font-size: 1.5rem;
+}
+
+.phase-5 .line-box>.txt-box>h1>span:first-child {
+    top: calc(15px);
+    left: calc(100vw - 150px);
+}
+
+.phase-5 .line-box>.txt-box>h1>span:last-child {
+    top: calc(15px);
+    left: calc(100vw - 100px);
+}
+
+.phase-5 .line-box>.txt-box>.des {
+    left: calc(100vw - 100px);
+}
+
+.phase-5 .line-box>.txt-box>.des {
+    opacity: 0;
+}
+
+/* 섹션시작 */
+
+/* 1페이지 -카피 */
+
+.section-1 .page-1>.copy {
+    text-align: right;
+    margin: 30px 30px 0 0;
+    opacity: 0;
+    transition: opacity 1.5s;
+    animation: opacity 1s 1s forwards;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.page-1>.copy>span {
+    font-family: 'ARIALN';
+    font-weight: 500;
+    letter-spacing: .8px;
+}
+
+/* 2페이지 - 효과  */
+.section-2>.con>div {
+    width: 350px;
+    overflow: hidden;
+}
+
+.section-2>.con>div:nth-child(1) {
+    margin-left: calc(1400px / 2 - 350px);
+}
+
+.section-2>.con>div>div {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.section-2.active>.con>div>div {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1s 1s, transform 1s 0.5s;
+}
+
+/* 2페이지-사진 */
+
+.section-2>.page-2>.infor>div>.poto {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    bordeR: 2px solid gold;
+}
+
+.section-2>.page-2>.infor>div>.poto>.na {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.page-2>.tit {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 1000px;
-    height: 900px;
-}
-
-
-.page-2>.tit>.line-box>.line-1 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background: #1432F2;
-    height: 750px;
-    width: 3px;
-
-}
-
-
-.page-2>.tit>.line-box>.line-2 {
-    position: absolute;
-    top: 35%;
-    left: 0;
-    transform: translate(-50%, -35%);
-    background: #1432F2;
-    height: 350px;
-    width: 2px;
-
-}
-
-.page-2>.tit>.line-box>.line-3 {
-    position: absolute;
-    top: 40%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    background: #1432F2;
-    height: 500px;
-    width: 2px;
-}
-
-
-.page-2>.tit>.line-box>span {
-    font-size: 30px;
-}
-
-.page-2>.tit>.line-box>.sy {
     position: absolute;
     top: 0;
     left: 0;
-    font-size: 25px;
 }
 
-.page-2>.tit>.line-box>.pf {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    font-size: 30px;
-}
+/* 2페이지 -스킬박스 */
 
-
-.page-2>.tit>.line-box>.ui {
-    font-size: 17px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-}
-
-/* 2 페이지 - 사진 */
-
-.page-2>.infor>.poto {
-    width: 300px;
-    height: 400px;
-    bordeR: 2px solid gold;
-    position: absolute;
-    top: 15%;
-    left: 30%;
-}
-
-
-/* 2페이지  - 스킬박스  */
-.page-2>.infor {
-    overflow: hidden;
-}
-
-.page-2>.infor>.skills {
-    position: absolute;
-    top: 10%;
-    left: 58%;
-}
-
-.page-2>.infor>.skills>h4.sk-title {
+.section-2>.page-2>.sk-box>div>.skills>h4.sk-title {
     font-weight: 400;
-    bordeR: 1px dashed #2b2b2b;
+    border: 1px dashed #2b2b2b;
     padding: 0 40px;
     display: inline-block;
     font-size: 18px;
     margin-left: 25px;
 }
 
-.page-2>.infor>.skills>.sk-box {
-    margin-top: 20px;
+.section-2>.page-2>.sk-box>div>.skills>.sk {
+    margin-top: 10px;
 }
 
-.page-2>.infor>.skills>.sk-box>ul>li {
-    padding: 15px 0;
-    text-align: center;
-}
-
-.page-2>.infor>.skills>.sk-box>ul>li>.txt {
-    font-size: 17px;
+.section-2>.page-2>.sk-box>div>.skills>.sk>ul>li {
     padding: 10px 0;
 }
 
-.page-2>.infor>.skills>.sk-box>ul>li>.progress-bar {
+.section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.txt {
+    font-size: 17px;
+    display: block;
+    text-align: left;
+    padding: 2px 0 3px 0;
+}
+
+/* 2페이지- 프로그레스 */
+
+.section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.progress-bar {
     position: relative;
     background-color: #E0E0DF;
     width: 200px;
     height: 20px;
 }
 
-.page-2>.infor>.skills>.sk-box>ul>li>.progress-bar::before {
+.section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.progress-bar::before {
     content: "";
     position: absolute;
     top: 30%;
@@ -737,7 +782,7 @@ label[for] {
     z-index: -1;
 }
 
-.page-2>.infor>.skills>.sk-box>ul>li>.progress-bar::after {
+.section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.progress-bar::after {
     content: "";
     display: block;
     height: 100%;
@@ -747,183 +792,150 @@ label[for] {
     transition: width 1s 1.5s;
 }
 
-.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(1)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(1)>.progress-bar::after {
     width: 80%;
 }
 
-.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(2)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(2)>.progress-bar::after {
     width: 70%;
 }
 
-.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(3)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(3)>.progress-bar::after {
     width: 55%;
 }
 
-.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(4)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(4)>.progress-bar::after {
     width: 75%;
 }
 
-.fp-viewing-anchor2 .page-2>.infor>.skills>.sk-box>ul>li:nth-child(5)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(5)>.progress-bar::after {
     width: 65%;
 }
 
+/* 2페이지 - 스킬박스 */
 
-/* 2 페이지 - 프로필 박스 */
-
-.page-2>.infor>.profile {
-    position: absolute;
-    top: 10%;
-    right: 5%;
+.page-2>.me-box>div>.profile {
+    padding-left: calc(350px /2 / 2);
 }
 
-.page-2>.infor>.profile>.pro-tit {
+.page-2>.me-box>div>.profile>.pro-tit {
     font-weight: 400;
     bordeR: 1px dashed #2b2b2b;
     padding: 0 40px;
     display: inline-block;
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
-.page-2>.infor>.profile>.pro-box {
-    margin-top: 80px;
+.page-2>.me-box>div>.profile>.pro-box {
+    margin-top: 25px;
 }
 
-.page-2>.infor>.profile>.pro-box>ul>li>div {
-    padding: 20px 0;
+.page-2>.me-box>div>.profile>.pro-box>ul>li>div {
+    padding: 15px 0;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-.page-2>.infor>.profile>.pro-box>ul>li>p {
-    padding: 27px 0 23px 40px;
-    font-weight: 18px;
-    font-weight: 500;
+.page-2>.me-box>div>.profile>.pro-box>ul>li>div>span {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 25px;
 }
 
-.page-2>.infor>.profile>.pro-box>ul>li>p:nth-child(3) {
-    font-family: 'ARIALN';
-    letter-spacing: 1px;
+/* 3 페이지 */
+
+/* 3페이지 -효과, 영역나누기 */
+
+.section-3>.con>div>div {
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
-/* 3 페이지  */
+.section-3.active>.con>div>div {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1s 1s, transform 1s 0.5s;
+}
+
+/* 3페이지- 슬라이드 썸네일 */
 
 .page-3 {
-    width: 100%;
-    height: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+.page-3>div.web-thu-box {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateX(-15%) translateY(-50%);
+}
+
+.page-3>div>.thu {
+    border: 2px solid #1432F2;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
     box-sizing: border-box;
     position: relative;
 }
 
-
-.page-3>.tit {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 1000px;
-    height: 900px;
-}
-
-.page-3>.tit>.line-box>.line-1 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background: #1432F2;
-    height: 800px;
-    width: 3px;
-}
-
-.page-3>.tit>.line-box>.sy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 25px;
-}
-
-.page-3>.tit>.line-box>.pf {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    font-size: 30px;
-}
-
-
-.page-3>.tit>.line-box>.ui {
-    font-size: 17px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-}
-
-/* 3페이지- 슬라이드 */
-.page-3>.Thumbnail {
-    border: 2px solid blue;
-    width: 700px;
-    height: 350px;
-    position: absolute;
-    top: 20%;
-    left: 8%;
-    overflow: hidden;
-}
-
-.page-3>.Thumbnail>.img-box-1 {
+.page-3>div>.thu>.img-box-1 {
     position: absolute;
     width: 100%;
     height: 100%;
     transform: translateY(0);
     transition: transform 2s;
 }
-.page-3>.Thumbnail>.img-box-1 >a>img{
-    width:100%;
+
+.page-3>div>.thu>.img-box-1>a>img {
+    width: 100%;
 }
 
-.page-3>.Thumbnail:hover>.img-box-1 {
+.page-3>div>.thu:hover>.img-box-1 {
     transform: translateY(-250%);
 }
 
-.page-3>.tn-box {
-    width: 700px;
-    height: 250px;
-    position: absolute;
-    top: 68%;
-    left: 8%;
+/* 3페이지 - 슬라이드 썸네일 텍스트 */
+
+.page-3>div>.tn-box {
+    margin-top: 50px;
+    margin-left: 15px;
 }
 
-.page-3>.tn-box>.txt-box-1 {
-    font-size: 20px;
-}
-
-.page-3>.tn-box>.txt-box-2 {
-    margin-top: 15px;
+.page-3>div>.tn-box>.txt-box-1 {
     font-size: 18px;
+    font-weight: 400;
 }
 
-.page-3>.tn-box>.txt-box-3 {
+.page-3>div>.tn-box>.txt-box-2 {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.page-3>div>.tn-box>.txt-box-3 {
     font-size: 15px;
     margin-top: 15px;
 }
 
-.page-3>.tn-box>.txt-box-4 {
+.page-3>div>.tn-box>.txt-box-4 {
     margin-top: 10px;
+    font-weight: 400;
 }
 
+/* 3페이지 - 로고 슬라이드 */
 
-/* 슬라이드 */
-
-.slider {
-    position: absolute;
-    top: 60%;
-    left: 55%;
+.page-3>div.slider-box {
     overflow: hidden;
-    width:600px;
+    width: 600px;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    transform: translateX(5%) translateY(-20%);
 }
 
-.slider .item {
+.page-3>div.slider-box>.slider .item {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -931,183 +943,119 @@ label[for] {
     width:100px;
 }
 
-.slider .item.border {
-    border:2px solid #1432F2;
+.page-3>div.slider-box>.slider .item.border {
+    border: 2px solid #1432F2;
 }
 
-.slider .img-box {
+.page-3>div.slider-box>.slider .img-box {
     position: relative;
     background: rgb(226, 229, 248);
     width: 100px;
     height: 100px;
 }
 
-.slider .img-box>img {
+.page-3>div.slider-box>.slider .img-box>img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10%;
 }
 
 /* 3 페이지 -UX/UI  */
 
-.page-3>.ux-ui {
+.page-3>div.text-uitit {
+    white-space: nowrap;
     position: absolute;
-    top: 15%;
-    left: 55%;
+    top: 20%;
+    left: 65%;
+    transform: translateX(-60%) translateY(-20%);
 }
 
-.page-3>.ux-ui>.ux-tit>h1 {
+.page-3>div.text-uitit>.text-bar>.ux-ui>.ux-tit>h1 {
     font-size: 50px;
     font-weight: 400;
 }
 
-.page-3>.ux-ui>.sub>p {
+.page-3>div.text-uitit>.text-bar>.ux-ui>.sub>p {
     font-size: 17px;
     line-height: 25px;
-    font-weight: 500;
-    margin-top: 30px;
+    font-weight: 400;
+    margin-top: 20px;
 }
 
-/* 4 페이지 - 라인 */
+/* 4 페이지 - 효과 */
 
-.page-4 {
-    width: 100%;
-    height: 100%;
+.section-4>.con>div {
+    width: 350px;
     overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
 }
 
-.page-4>.tit {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 1000px;
-    height: 900px;
+.section-4>.con>div:nth-child(1) {
+    margin-left: calc(1400px / 2 - 350px);
 }
 
-
-.page-4>.tit>.line-box>.line-1 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background: #1432F2;
-    height: 900px;
-    width: 3px;
-
+.section-4>.con>div>div {
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
-
-.page-4>.tit>.line-box>.line-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, 0);
-    background: #1432F2;
-    height: 900px;
-    width: 2px;
-
+.section-4.active>.con>div>div {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1s 1s, transform 1s 0.5s;
 }
 
-.page-4>.tit>.line-box>.line-3 {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    transform: translate(-50%, 0);
-    background: #1432F2;
-    height: 900px;
-    width: 2px;
-}
+/* 4페이지  */
 
-
-.page-4>.tit>.line-box>span {
-    font-size: 30px;
-}
-
-.page-4>.tit>.line-box>.sy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 25px;
-}
-
-.page-4>.tit>.line-box>.pf {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    font-size: 30px;
-}
-
-
-.page-4>.tit>.line-box>.ui {
-    font-size: 17px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    white-space: nowrap;
-}
 
 /* 4페이지 -타이틀 */
 
-.page-4>.ux-ui {
+.page-4 .ux-ui {
     position: absolute;
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
 }
 
-.page-4>.ux-ui>.ux-tit>h1 {
+.page-4 .ux-ui>.ux-tit>h1 {
     font-size: 40px;
     font-weight: 400;
 }
 
-.page-4>.ux-ui>.sub>p {
+.page-4 .ux-ui>.sub>p {
     margin-top: 25px;
     font-size: 17px;
     font-weight: 500;
 }
 
 /* 4페이지 - 슬라이드 */
-
-.page-4 > .slider-1 {
-    display: block;
-    position: absolute;
-    top: 15%;
-    left: 24%;
+.page-4 {
 }
 
-.page-4 > .slider-1 .owl-carousel {
+.page-4 .slider-1 {
+}
+
+.page-4 .slider-1 .owl-carousel {
     position: relative;
 }
 
-.page-4 > .slider-1 .item {
+.page-4 .slider-1 .item {
     overflow: hidden;
     display: flex;
     box-sizing: border-box;
 }
 
-.page-4 > .slider-1 .item div.sd-box {
+.page-4 .slider-1 .item div.sd-box {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:400px;
+    width: 300px;
     height: 550px;
+    border:2px solid brown;
 }
 
-.page-4 > .slider-1 .item .bannr {
-    margin-top:30px;
-}
-
-/* 5 페이지 */
-
-.page-5 {
-    width:100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    box-sizing: border-box;
+.page-4 .slider-1 .item .bannr {
+    margin-top: 30px;
 }

@@ -1,13 +1,42 @@
-function FullPage() {
-  var myFullpage = new fullpage('#fullpage', {
-      scrollingSpeed: 1000,
-      scrollBar: false,
-      anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
-      verticalCentered: false,
-      navigation: true,
-      navigationPosition: 'left'
+var $html = $('html');
+
+function Page__logoAnimationPhase(no) {
+  var lastNo = $html.attr('data-current-phase');
+  $html.attr('data-last-phase', lastNo);
+  $html.attr('data-current-phase', no);
+  $html.removeClass('phase-' + lastNo);
+  $html.addClass('phase-' + no);
+}
+
+$('.btn-0').click(function() {
+  var no = 0;
+
+});
+
+var Page__introAnimationDuration = 2000;
+
+function Page__init_() {  
+  new fullpage('#fullpage', {
+    sectionsColor: [],
+    verticalCentered: false,
+    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
+    menu: '#menu',
+    onLeave: function(origin, destination, direction){
+      Page__logoAnimationPhase(destination.index + 1);
+    },
+    navigation: true,
+    navigationPosition: 'left',
   });
 }
+
+function Page__init() {
+  Page__logoAnimationPhase(0);
+  setTimeout(function() {
+    Page__logoAnimationPhase(1);
+  }, 100);
+  setTimeout(Page__init_, Page__introAnimationDuration);
+}
+
 
 function slider() {
   $('.carousel-1 > .owl-carousel').owlCarousel({
@@ -80,14 +109,17 @@ function Lightbox() {
 }
 
 $(function(){
-  FullPage();
-  slider();
-  Slider1__itemClick(el);
-  
+  Page__init();  
+  Slider1__init();
+  border_1();
 });
 
 $(function(){
-  Slider1__init();
+  slider();
+  Slider1__itemClick(el);
   $('.item-1').click();
-  border_1();
-})
+});
+
+
+
+
