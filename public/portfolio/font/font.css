@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'bebas-Regular';
+    src: url('/portfolio/font/bebas-Regular.ttf') format('truetype');
+}
+
+.bebas-Regular {
+    font-family: 'bebas-Regular';
+}
+
+@font-face {
+    font-family: 'Bodonixt';
+    src: url('/portfolio/font/Bodonixt.ttf') format('truetype');
+}
+
+.Bodonixt {
+    font-family: 'Bodonixt';
+}
+
+@font-face {
+    font-family: 'ChampagneBoldItalic';
+    src: url('/portfolio/font/Champagne Bold Italic.ttf') format('truetype');
+}
+
+.ChampagneBoldItalic {
+    font-family: 'ChampagneBoldItalic';
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('/portfolio/font/Champagne Bold.ttf') format('truetype');
+}
+
+.ChampagneBold {
+    font-family: 'ChampagneBold';
+}
+
+@font-face {
+    font-family: 'GeosansLight-Oblique';
+    src: url('/portfolio/font/GeosansLight-Oblique.ttf') format('truetype');
+}
+
+.GeosansLight-Oblique {
+    font-family: 'GeosansLight-Oblique';
+}
+
+@font-face {
+    font-family: 'OldSansBlack';
+    src: url('/portfolio/font/OldSansBlack.ttf') format('truetype');
+}
+
+.OldSansBlack {
+    font-family: 'OldSansBlack';
+}
+
+
+@font-face {
+    font-family: 'alamain1';
+    src: url('/portfolio/font/alamain1.ttf') format('truetype');
+}
+
+.alamain1 {
+    font-family: 'alamain1';
+}
+
+
+
+
+
+
+

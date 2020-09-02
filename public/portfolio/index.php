@@ -18,6 +18,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/portfolio/index.css">
+    <link rel="stylesheet" href="/portfolio/font/font.css">
     <script src="/portfolio/index.js"></script>
 </head>
 
@@ -130,6 +131,7 @@
                         <div class="txt-box-2"></div>
                         <div class="txt-box-3"></div>
                         <div class="txt-box-4"></div>
+                        <div class="txt-box-5"></div>
                     </div>
                 </div>
 
@@ -137,7 +139,7 @@
                     <div class="text-bar">
                         <div class="ux-ui">
                             <div class="ux-tit">
-                                <h1>UX&UI</h1>
+                                <h1>UX · UI</h1>
                                 <h1>Design</h1>
                             </div>
                             <div class="sub">
@@ -153,7 +155,7 @@
                         <div class="carousel-1 active">
                             <div class="owl-carousel owl-theme">
                                 <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트"
-                                    data-tx="Copy" data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
+                                    data-tx="_ Copy" data-kor="푸트라소프트" data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fs.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -162,8 +164,8 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://marketdesigners.com" data-name="원본사이트"
-                                    data-tx="Copy" data-no="MARKETDESIGNERS" data-link-url="../pf/md/index.php"
+                                <div class="item" data-kor="마켓디자이너스" data-site="https://marketdesigners.com" data-name="원본사이트"
+                                    data-tx="_ Copy" data-no="MARKETDESIGNERS" data-link-url="../pf/md/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/marketdesigners.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -172,7 +174,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="Copy"
+                                <div class="item" data-kor="서브웨이"" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
                                     data-no="SUBWAY" data-link-url="../pf/subway/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/subway.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
@@ -182,8 +184,8 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.hanati.co.kr/kor/main.jsp" data-name="원본사이트"
-                                    data-tx="Copy" data-no="HANATI" data-link-url="../pf/hana/index.php" data-img-url="
+                                <div class="item" data-kor="하나금융티아이" data-site="https://www.hanati.co.kr/kor/main.jsp" data-name="원본사이트"
+                                    data-tx="_ Copy" data-no="HANATI" data-link-url="../pf/hana/index.php" data-img-url="
 https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hanati.png?dummy123123" onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hana/logo.png?dummy123123"
@@ -191,8 +193,8 @@ https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hanati.png?dummy123123" 
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="" data-name="" data-tx="
-REDESIGN" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
+                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="
+_ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -201,7 +203,7 @@ REDESIGN" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="Copy"
+                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
                                     data-no="3" data-link-url="https://www.naver.com"
                                     data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -210,7 +212,7 @@ REDESIGN" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="Copy"
+                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
                                     data-no="3" data-link-url="https://www.naver.com"
                                     data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
                                     <div class="img-box">

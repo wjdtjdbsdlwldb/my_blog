@@ -64,12 +64,14 @@ function Slider1__itemClick(el) {
   var tx = $el.attr('data-tx');
   var name = $el.attr('data-name');
   var site = $el.attr('data-site');
+  var kor = $el.attr('data-kor');
   
-  $('.img-box-1').empty().append("<a href='" + link + "' target='_blank'><img src='" + url + "'></a>");
+  $('.img-box-1').empty().append("<a href='" + link + "' target='_blank' style=\"background-image:url(\'"+ url +"\')\"></a>");
   $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
   $('.txt-box-2').empty().append("<h4>" + tx + "</h4>");
-  $('.txt-box-3').empty().append("<h3>" + name + "</h3>");
-  $('.txt-box-4').empty().append("<h3>" + site + "</h3>");
+  $('.txt-box-3').empty().append("<h3>" + kor + "</h3>");
+  $('.txt-box-4').empty().append("<h3>" + name + "</h3>");
+  $('.txt-box-5').empty().append("<h3>" + site + "</h3>");
 }
 
 function Slider1__init() {
