@@ -39,7 +39,7 @@ function Page__init() {
 
 
 function slider() {
-  $('.carousel-1 > .owl-carousel').owlCarousel({
+  $('.sliders1 > .owl-carousel').owlCarousel({
     navSpeed:150,
     loop:false,
     margin:10,
@@ -81,11 +81,11 @@ function Slider1__init() {
     mouseDrag:true,
     autoplay:false,
     autoplayTimeout:false,
-    margin:43,
-    
+    loop:true,
+
     responsive: {
       0: {
-        items: 3
+        items: 4
       }
     }
   });
@@ -118,7 +118,7 @@ $(function(){
 
 $(function(){
   slider();
-  Slider1__itemClick(el);
+  Slider1__itemClick();
   $('.item-1').click();
 });
 

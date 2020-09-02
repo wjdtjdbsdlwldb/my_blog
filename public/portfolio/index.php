@@ -57,9 +57,16 @@
             <div class="con height-100p flex flex-jc-c page-2">
                 <div class="flex flex-ai-c infor">
                     <div class="flex flex-jc-c width-100p">
+                        <div class="infor-tit">
+                            <h1>About me</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-ai-c infor">
+                    <div class="flex flex-jc-c width-100p">
                         <div class="poto">
                             <div class="na"
-                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg);">
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/me.jpg?dummy123123);">
                             </div>
                         </div>
                     </div>
@@ -152,10 +159,11 @@
 
                 <div class="slider-box">
                     <div class="slider">
-                        <div class="carousel-1 active">
+                        <div class="sliders1 carousel-1 active">
                             <div class="owl-carousel owl-theme">
                                 <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트"
-                                    data-tx="_ Copy" data-kor="푸트라소프트" data-no="FUTURASOFT" data-link-url="../pf/fs/index.php"
+                                    data-tx="_ Copy" data-kor="푸트라소프트" data-no="FUTURA SOFT"
+                                    data-link-url="../pf/fs/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fs.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -164,8 +172,9 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마켓디자이너스" data-site="https://marketdesigners.com" data-name="원본사이트"
-                                    data-tx="_ Copy" data-no="MARKETDESIGNERS" data-link-url="../pf/md/index.php"
+                                <div class="item" data-kor="마켓디자이너스" data-site="https://marketdesigners.com"
+                                    data-name="원본사이트" data-tx="_ Copy" data-no="MARKET DESIGNERS"
+                                    data-link-url="../pf/md/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/marketdesigners.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -174,8 +183,9 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="서브웨이"" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
-                                    data-no="SUBWAY" data-link-url="../pf/subway/index.php"
+                                <div class="item" data-kor="서브웨이"" data-site=" https://www.subway.co.kr"
+                                    data-name="원본사이트" data-tx="_ Copy" data-no="SUBWAY"
+                                    data-link-url="../pf/subway/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/subway.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -184,27 +194,27 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="하나금융티아이" data-site="https://www.hanati.co.kr/kor/main.jsp" data-name="원본사이트"
-                                    data-tx="_ Copy" data-no="HANATI" data-link-url="../pf/hana/index.php" data-img-url="
-https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hanati.png?dummy123123" onclick="Slider1__itemClick(this);">
+                                <div class="item" data-kor="하나금융티아이" data-site="https://www.hanati.co.kr"
+                                    data-name="원본사이트" data-tx="_ Copy" data-no="HANA TI"
+                                    data-link-url="../pf/hana/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hanati.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hana/logo.png?dummy123123"
                                             alt="">
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="
-_ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
+                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="_ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123
-" alt="">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123" alt="">
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
-                                    data-no="3" data-link-url="https://www.naver.com"
+                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트"
+                                    data-tx="_ Copy" data-no="3" data-link-url="https://www.naver.com"
                                     data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png?dummy123123"
@@ -212,8 +222,8 @@ _ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트" data-tx="_ Copy"
-                                    data-no="3" data-link-url="https://www.naver.com"
+                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트"
+                                    data-tx="_ Copy" data-no="3" data-link-url="https://www.naver.com"
                                     data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png?dummy123123"
@@ -228,9 +238,9 @@ _ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
         </div>
 
         <div class="section section-4 con-min-width">
-            <div class="con height-100p page-4">
+            <div class="height-100p page-4">
                 <div class="flex flex-ai-c">
-                    <div class=" width-100p">
+                    <div class="width-100p">
                         <div class="slider-1">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -371,9 +381,9 @@ _ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-ai-c">
-                    <div class="width-100p">
-                        <div class="ux-ui ">
+                <div class="flex flex-ai-c tit12">
+                    <div class="width-100p flex flex-jc-c">
+                        <div class="ux-ui">
                             <div class="ux-tit">
                                 <h1>Creative Design</h1>
                             </div>

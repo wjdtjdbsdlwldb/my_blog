@@ -9,15 +9,6 @@
 }
 
 @font-face {
-    font-family: 'Bodonixt';
-    src: url('/portfolio/font/Bodonixt.ttf') format('truetype');
-}
-
-.Bodonixt {
-    font-family: 'Bodonixt';
-}
-
-@font-face {
     font-family: 'ChampagneBoldItalic';
     src: url('/portfolio/font/Champagne Bold Italic.ttf') format('truetype');
 }
@@ -44,28 +35,25 @@
     font-family: 'GeosansLight-Oblique';
 }
 
-@font-face {
-    font-family: 'OldSansBlack';
-    src: url('/portfolio/font/OldSansBlack.ttf') format('truetype');
-}
-
-.OldSansBlack {
-    font-family: 'OldSansBlack';
-}
-
 
 @font-face {
-    font-family: 'alamain1';
-    src: url('/portfolio/font/alamain1.ttf') format('truetype');
+    font-family: 'Olivia Dhorgent';
+    src: url('/portfolio/font/Olivia Dhorgent.ttf') format('truetype');
 }
 
-.alamain1 {
-    font-family: 'alamain1';
+.OliviaDhorgent {
+    font-family: 'Olivia Dhorgent';
 }
 
+/* 웹퍼플 폰트 */
 
+@font-face {
+    font-family: 'Bahuraksa';
+    src: url('/portfolio/font/Bahuraksa.otf') format('opentype');
+}
 
-
-
+.Bahuraksa {
+    font-family: 'Bahuraksa';
+}
 
 
