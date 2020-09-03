@@ -13,7 +13,7 @@ $('.btn-0').click(function() {
 
 });
 
-var Page__introAnimationDuration = 2000;
+var Page__introAnimationDuration = 1000;
 
 function Page__init_() {  
   new fullpage('#fullpage', {
@@ -33,7 +33,7 @@ function Page__init() {
   Page__logoAnimationPhase(0);
   setTimeout(function() {
     Page__logoAnimationPhase(1);
-  }, 100);
+  }, 500);
   setTimeout(Page__init_, Page__introAnimationDuration);
 }
 
@@ -82,6 +82,7 @@ function Slider1__init() {
     autoplay:false,
     autoplayTimeout:false,
     loop:true,
+    margin:2,
 
     responsive: {
       0: {
@@ -100,24 +101,16 @@ function border_1() {
   })
 }
 
-function Lightbox() {
-  lightbox.option({
-    resizeDuration: 200,
-    wrapAround: true,
-    disableScrolling: false,
-    fitImagesInViewport:false
-  })
-  
-}
 
 $(function(){
   Page__init();  
-  Slider1__init();
-  border_1();
+
 });
 
 $(function(){
   slider();
+  Slider1__init();
+  border_1();
   Slider1__itemClick();
   $('.item-1').click();
 });

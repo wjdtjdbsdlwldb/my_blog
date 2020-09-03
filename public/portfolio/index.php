@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- JS 라이브러리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -205,11 +202,13 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="_ Redesign" data-no="MIRUN" data-link-url="../pf/mirun/index.php"
+                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="_ Redesign"
+                                    data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123" alt="">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123"
+                                            alt="">
                                     </div>
                                 </div>
 
@@ -397,8 +396,16 @@
         </div>
 
         <div class="section section-5 con-min-width">
-            <div class="con height-100p">
-
+            <div class="con height-100p page-5 border-red">
+                <div class="flex flex-ai-c">
+                    <div class="text-align-center width-100p">1</div>
+                </div>
+                <div class="flex flex-ai-c">
+                    <div class="text-align-center width-100p">2</div>
+                </div>
+                <div class="flex flex-ai-c">
+                    <div class="text-align-center width-100p">3</div>
+                </div>
             </div>
         </div>
 

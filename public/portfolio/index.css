@@ -413,16 +413,15 @@ html {
 }
 
 .txt-box>.des {
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 5px;
     font-family: 'Bahuraksa';
-    color: #2b2b2b;
 }
 
 
 .line-box>.lines>div {
     width: 2px;
-    background-color: #1432F2;
+    background-color:#3a58ee;
 }
 
 /* 국면 0 */
@@ -470,8 +469,8 @@ html {
 }
 
 .phase-0 .line-box>.txt-box>.des {
-    top: calc(50% + 30px);
-    bottom: calc(50% - 80px);
+    top: calc(50% - 900px);
+    bottom: calc(50% - 60px);
     left: calc(50% + 15px);
     opacity: 0;
 }
@@ -480,7 +479,7 @@ html {
 .phase-1 .line-box>.lines>div:nth-child(1) {
     top: calc(50% - 20px);
     bottom: calc(50% - 20px);
-    left: calc(50% - 92px);
+    left: calc(50% - 90px);
 }
 
 .phase-1 .line-box>.lines>div:nth-child(2) {
@@ -580,6 +579,10 @@ html {
     font-size: 14px;
 }
 
+.phase-2 .line-box>.txt-box {
+    color: #2b2b2b;
+}
+
 /* 국면 3 */
 
 .phase-3 .line-box>.lines>div:nth-child(2) {
@@ -609,6 +612,10 @@ html {
     font-size: 13px;
 }
 
+.phase-3 .line-box>.txt-box {
+    color: #2b2b2b;
+}
+
 
 /* 국면 4 */
 .phase-4 .line-box>.lines>div:nth-child(1) {
@@ -634,19 +641,23 @@ html {
 }
 
 .phase-4 .line-box>.txt-box>h1>span:first-child {
-    top: calc(15px);
+    top: calc(20px);
     left: calc(50% - 66px);
 }
 
 .phase-4 .line-box>.txt-box>h1>span:last-child {
-    top: calc(15px);
+    top: calc(20px);
     left: calc(50% + 15px);
 }
 
 .phase-4 .line-box>.txt-box>.des {
-    top: calc(50px);
+    top: calc(55px);
     left: calc(50% + 15px);
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.phase-4 .line-box>.txt-box {
+    color: #2b2b2b;
 }
 
 .phase-4 .arrow {
@@ -711,7 +722,7 @@ html {
     text-align: right;
     margin: 30px 30px 0 0;
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity 1s;
     animation: opacity 1s 1s forwards;
 }
 
@@ -749,7 +760,7 @@ html {
 .section-2.active>.con>div>div {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 1s 1s, transform 1s 0.5s;
+    transition: opacity .7s .9s, transform .7s 0.5s;
 }
 
 
@@ -836,7 +847,7 @@ html {
     font-size: 16px;
     display: block;
     text-align: left;
-    padding: px 5px;
+    padding:5px;
 }
 
 /* 2페이지- 프로그레스 */
@@ -866,7 +877,7 @@ html {
     width: 0%;
     background-color: #4d4d4d;
     border-radius: 0 10px 10px 0 / 0 10px 10px 0;
-    transition: width 1s 1.5s;
+    transition: width .9s 1.2s;
 }
 
 .fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(1)>.progress-bar::after {
@@ -918,7 +929,6 @@ html {
     font-family: 'nanumsquare';
 }
 
-/* 3 페이지 */
 
 /* 3페이지 -효과, 영역나누기 */
 
@@ -930,7 +940,7 @@ html {
 .section-3.active>.con>div>div {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 1s 1s, transform 1s 0.5s;
+    transition: opacity .7s .9s, transform .7s 0.5s;
 }
 
 /* 3페이지- 슬라이드 썸네일 */
@@ -1044,6 +1054,7 @@ html {
 
 .page-3>div.slider-box>.slider .item.border {
     border: 2px solid #1432F2;
+    opacity: .8;
 }
 
 .page-3>div.slider-box>.slider .img-box {
@@ -1163,3 +1174,28 @@ html {
 .page-4 .slider-1 .item .bannr {
     margin-top: 30px;
 }
+
+.page-4 .slider-1 .item .bannr > h3 {
+    font-size: 20px;
+}
+
+.page-4 .slider-1 .item .bannr > p {
+    font-size: 15px;
+}
+
+/* 5 페이지  시작*/
+
+/* 5 페이지 - 효과 */
+
+.section-5>.con>div>div {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.section-5.active>.con>div>div {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity .7s .9s, transform .7s 0.5s;
+}
+
+/* 5 페이지 텍스트 */
