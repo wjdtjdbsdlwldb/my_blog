@@ -48,7 +48,6 @@
             <a href="/portfolio/index.php" target="_blank">포폴</a>
         </li>
 
-
     </ul>
 
     <h1>디자인</h1>

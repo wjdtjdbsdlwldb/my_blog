@@ -926,12 +926,6 @@ html {
     font-size: 20px; 
 }
 
-.page-2>.me-box>div>.profile>.pro-box > ul > li > span{ 
-    
-}
-
-
-
 /* 3페이지 -효과, 영역나누기 */
 
 .section-3>.con>div>div {
@@ -1187,16 +1181,26 @@ html {
 
 /* 5 페이지 - 효과 */
 
-.section-5>.con>div>div {
+.section-5 {
     opacity: 0;
     transform: translateX(-100%);
+    overflow: hidden;
 }
 
-.section-5.active>.con>div>div {
+.section-5.active {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity .7s .9s, transform .7s 0.5s;
+    transition: opacity 1s 1s, transform 1s 0.5s;
 }
 
-/* 5 페이지 텍스트 */
+/* 5 페이지  */
 
+.page-5 {
+    position: relative;
+    overflow: hidden;
+    bordeR:2px solid green;
+}
+
+.page-5>div.flex {
+    margin-left: calc(100% / 2 - 20%);
+}

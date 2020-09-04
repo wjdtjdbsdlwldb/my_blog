@@ -407,15 +407,12 @@
         </div>
 
         <div class="section section-5 con-min-width">
-            <div class="con height-100p page-5">
+            <div class="height-100p page-5">
                 <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p"></div>
+                    <div class="text-align-center width-100p">픽토그램</div>
                 </div>
                 <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p"></div>
-                </div>
-                <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p"></div>
+                    <div class="text-align-center width-100p">콘텍트</div>
                 </div>
             </div>
         </div>
