@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -107,14 +108,24 @@
                 <div class="flex flex-ai-c me-box">
                     <div class="flex flex-jc-c width-100p">
                         <div class="profile">
-                            <h4 class="pro-tit">PROFILE</h4>
+                            <h4 class="pro-tit flex flex-jc-c">PROFILE</h4>
                             <div class="pro-box">
-                                <ul class="flex">
-                                    <li>
-                                        <div>Name <span>정서윤 / Jung Seo Yun</span></div>
-                                        <div>Birthday <span>1990.06.10</span></div>
-                                        <div>E-maill <span>jms2464@naver.com</span></div>
-                                        <div>Address <span>대전 동구</span></div>
+                                <ul>
+                                    <li class="flex flex-ai-c">
+                                        <div class="flex flex-1-0-0">Name</div>
+                                        <span class="flex">정서윤 / Jung Seo Yun</span>
+                                    </li>
+                                    <li class="flex flex-ai-c">
+                                        <div class="flex flex-1-0-0">Birthday</div>
+                                        <span class="flex">1990.06.10</span>
+                                    </li>
+                                    <li class="flex flex-ai-c">
+                                        <div class="flex flex-1-0-0">E-maill</div>
+                                        <span class="flex">jms2464@naver.com</span>
+                                    </li>
+                                    <li class="flex flex-ai-c">
+                                        <div class="flex flex-1-0-0">Address</div>
+                                        <span class="flex">대전 동구</span>
                                     </li>
                                 </ul>
                             </div>
@@ -396,15 +407,15 @@
         </div>
 
         <div class="section section-5 con-min-width">
-            <div class="con height-100p page-5 border-red">
+            <div class="con height-100p page-5">
                 <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p">1</div>
+                    <div class="text-align-center width-100p"></div>
                 </div>
                 <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p">2</div>
+                    <div class="text-align-center width-100p"></div>
                 </div>
                 <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p">3</div>
+                    <div class="text-align-center width-100p"></div>
                 </div>
             </div>
         </div>

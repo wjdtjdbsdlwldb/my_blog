@@ -469,7 +469,7 @@ html {
 }
 
 .phase-0 .line-box>.txt-box>.des {
-    top: calc(50% - 900px);
+    top: calc(50% - 1300px);
     bottom: calc(50% - 60px);
     left: calc(50% + 15px);
     opacity: 0;
@@ -574,9 +574,9 @@ html {
 }
 
 .phase-2 .line-box>.txt-box>.des {
-    top: calc(50px);
-    left: calc(50% + 15px);
-    font-size: 14px;
+    top: calc(60px);
+    left: calc(50% + 10px);
+    font-size: 13px;
 }
 
 .phase-2 .line-box>.txt-box {
@@ -607,8 +607,8 @@ html {
 }
 
 .phase-3 .line-box>.txt-box>.des {
-    top: calc(50px);
-    left: calc(50% + 15px);
+    top: calc(60px);
+    left: calc(50% + 10px);
     font-size: 13px;
 }
 
@@ -651,8 +651,8 @@ html {
 }
 
 .phase-4 .line-box>.txt-box>.des {
-    top: calc(55px);
-    left: calc(50% + 15px);
+    top: calc(60px);
+    left: calc(50% + 10px);
     font-size: 12px;
 }
 
@@ -703,11 +703,11 @@ html {
 }
 
 .phase-5 .line-box>.txt-box>.des {
-    left: calc(100vw - 100px);
-    top: calc(50px);
+    left: calc(100vw - 110px);
+    top: calc(53px);
     white-space: nowrap;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .phase-5 .arrow {
@@ -840,7 +840,7 @@ html {
 }
 
 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.txt {
@@ -908,26 +908,28 @@ html {
     padding: 0 40px;
     display: inline-block;
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
-.page-2>.me-box>div>.profile>.pro-box {
+.page-2>.me-box>div>.profile>.pro-box  {
     margin-top: 25px;
+    width:270px;
+    white-space: nowrap;
 }
 
-.page-2>.me-box>div>.profile>.pro-box>ul>li>div {
-    padding: 15px 0;
+.page-2>.me-box>div>.profile>.pro-box > ul > li {
+    padding: 17px 0;
+}
+
+.page-2>.me-box>div>.profile>.pro-box > ul > li > div {
     font-weight: 600;
-    font-size: 18px;
-
+    font-size: 20px; 
 }
 
-.page-2>.me-box>div>.profile>.pro-box>ul>li>div>span {
-    font-size: 14px;
-    font-weight: 400;
-    padding-left: 25px;
-    font-family: 'nanumsquare';
+.page-2>.me-box>div>.profile>.pro-box > ul > li > span{ 
+    
 }
+
 
 
 /* 3페이지 -효과, 영역나누기 */
@@ -1010,19 +1012,21 @@ html {
 }
 
 .page-3>div>.tn-box>.txt-box-3 {
-    font-size: 12px;
-    margin-top: 5px;
+    font-size: 18px;
+    margin-top: 7px;
+    font-family:'nanumsquare';
 }
 
 .page-3>div>.tn-box>.txt-box-4 {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 60px;
+    font-family:'nanumsquare';
 }
 
 .page-3>div>.tn-box>.txt-box-5 {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px; 
     text-decoration: underline;
     cursor: pointer;
     opacity: .5;
@@ -1042,7 +1046,6 @@ html {
     right: 5%;
     transform: translateX(5%) translateY(-20%);
 }
-
 
 .page-3>div.slider-box>.slider .item {
     background-repeat: no-repeat;
@@ -1087,10 +1090,6 @@ html {
     font-size: 50px;
     font-weight: 400;
     font-family: 'ChampagneBold';
-}
-
-.page-3>div.text-uitit>.text-bar>.ux-ui>.ux-tit>h1:nth-child(1) {
-    font-size: 40px;
 }
 
 
@@ -1151,7 +1150,8 @@ html {
 .page-4 .slider-1 .owl-carousel {
     position: absolute;
     overflow: hidden;
-    top:13%;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .page-4 .slider-1 .item {
@@ -1199,3 +1199,4 @@ html {
 }
 
 /* 5 페이지 텍스트 */
+
