@@ -421,7 +421,7 @@ html {
 
 .line-box>.lines>div {
     width: 2px;
-    background-color:#3a58ee;
+    background-color: #3a58ee;
 }
 
 /* 국면 0 */
@@ -769,8 +769,8 @@ html {
     transform: rotate(-90deg)translateY(-50%);
     white-space: nowrap;
     font-family: 'Olivia Dhorgent';
-    font-size: 80px;
-    letter-spacing: 2px;
+    font-size: 85px;
+    letter-spacing: 3px;
     opacity: .9;
     position: relative;
 }
@@ -829,7 +829,7 @@ html {
 .section-2>.page-2>.sk-box>div>.skills>h4.sk-title {
     font-weight: 400;
     border: 1px dashed #2b2b2b;
-    padding: 0 40px;
+    padding: 3px 40px;
     display: inline-block;
     font-size: 18px;
     margin-left: 25px;
@@ -847,7 +847,7 @@ html {
     font-size: 16px;
     display: block;
     text-align: left;
-    padding:5px;
+    padding: 5px;
 }
 
 /* 2페이지- 프로그레스 */
@@ -905,25 +905,25 @@ html {
 .page-2>.me-box>div>.profile>.pro-tit {
     font-weight: 400;
     bordeR: 1px dashed #2b2b2b;
-    padding: 0 40px;
+    padding: 3px 40px;
     display: inline-block;
     font-size: 18px;
     margin-left: 50px;
 }
 
-.page-2>.me-box>div>.profile>.pro-box  {
+.page-2>.me-box>div>.profile>.pro-box {
     margin-top: 25px;
-    width:270px;
+    width: 270px;
     white-space: nowrap;
 }
 
-.page-2>.me-box>div>.profile>.pro-box > ul > li {
+.page-2>.me-box>div>.profile>.pro-box>ul>li {
     padding: 17px 0;
 }
 
-.page-2>.me-box>div>.profile>.pro-box > ul > li > div {
+.page-2>.me-box>div>.profile>.pro-box>ul>li>div {
     font-weight: 600;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 /* 3페이지 -효과, 영역나누기 */
@@ -978,7 +978,7 @@ html {
 }
 
 .page-3>div>.thu>.img-box-1:nth-child(2)>a {
-    border:10px solid red;
+    border: 10px solid red;
 }
 
 .page-3>div>.thu:hover>.img-box-1>a {
@@ -1008,19 +1008,19 @@ html {
 .page-3>div>.tn-box>.txt-box-3 {
     font-size: 18px;
     margin-top: 7px;
-    font-family:'nanumsquare';
+    font-family: 'nanumsquare';
 }
 
 .page-3>div>.tn-box>.txt-box-4 {
     font-size: 15px;
     margin-top: 60px;
-    font-family:'nanumsquare';
+    font-family: 'nanumsquare';
 }
 
 .page-3>div>.tn-box>.txt-box-5 {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 14px;
     text-decoration: underline;
     cursor: pointer;
     opacity: .5;
@@ -1121,13 +1121,13 @@ html {
 
 .page-4 .ux-ui {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 7%;
     transform: translateY(-50%);
 }
 
 .page-4 .ux-ui>.ux-tit>h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 400;
     font-family: 'ChampagneBold';
 }
@@ -1144,8 +1144,8 @@ html {
 .page-4 .slider-1 .owl-carousel {
     position: absolute;
     overflow: hidden;
-    top:50%;
-    transform: translateY(-50%);
+    top: 35%;
+    transform: translateY(-35%);
 }
 
 .page-4 .slider-1 .item {
@@ -1154,7 +1154,7 @@ html {
 }
 
 .owl-item.active {
-    width:300 !important;
+    width: 300 !important;
 }
 
 .page-4 .slider-1 .item div.sd-box {
@@ -1162,20 +1162,46 @@ html {
     background-size: cover;
     background-position: center;
     width: 300px;
-    height: 450px;
+    height: 400px;
 }
 
+/* 4 페이지 -배너 텍스트  */
 .page-4 .slider-1 .item .bannr {
+    margin-top: 10px;
+    font-family: 'nanumsquare';
+    font-weight: 600;
+
+}
+
+.page-4 .slider-1 .item .bannr>h3 {
+    font-size: 25px;
+}
+
+.page-4 .slider-1 .item .bannr>p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.page-4 .slider-1 .item span.tool {
+    font-size: 17px;
     margin-top: 30px;
+    display: block;
+
 }
 
-.page-4 .slider-1 .item .bannr > h3 {
-    font-size: 20px;
+.page-4 .slider-1 .item .palette {
+    margin-top: 7px;
 }
 
-.page-4 .slider-1 .item .bannr > p {
-    font-size: 15px;
+.page-4 .slider-1 .item .palette>span {
+    margin-right: 10px;
 }
+
+.page-4 .slider-1 .item img {
+    width: auto;
+    height: 19px;
+}
+
 
 /* 5 페이지  시작*/
 
@@ -1198,9 +1224,136 @@ html {
 .page-5 {
     position: relative;
     overflow: hidden;
-    bordeR:2px solid green;
 }
 
-.page-5>div.flex {
-    margin-left: calc(100% / 2 - 20%);
+.page-5>.contact-box>div {
+    margin-left: calc(100% / 2 - 15%);
+    width: 100%;
+}
+
+/* 5 페이지 - d아이콘 박스 */
+
+.page-5>.icon-box {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%) translateX(-15%);
+}
+
+.page-5>.icon-box>ul>li {
+    padding: 50px;
+    position: relative;
+}
+
+.page-5>.icon-box>ul>li>div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    opacity: .6;
+    transition: opacity .8s;
+}
+
+.page-5>.icon-box>ul>li:hover>div {
+    opacity: 1;
+}
+
+.page-5>.icon-box>ul>li>span {
+    opacity: 0;
+    transition: opacity .8s;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    color: #2b2b2b;
+    font-family: 'nanumsquare';
+    font-weight: 600;
+}
+
+.page-5>.icon-box>ul>li:hover>span {
+    opacity: 1;
+}
+
+/* 5페이지 - 컨텍트 박스 타이틀*/
+
+.page-5>.contact-box>div>.contact-tit {
+    margin-top: 130px;
+}
+
+.page-5>.contact-box>div>.contact-tit>h1 {
+    font-family: 'nanumsquare';
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    display: inline-block;
+}
+
+.page-5>.contact-box>div>form {
+    margin-top: 60px;
+}
+
+.page-5>.contact-box>div>form input,
+.page-5>.contact-box>div>form textarea {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'nanumsquare';
+    font-size: 16px;
+}
+
+.page-5>.contact-box>div>form input::placeholder,
+.page-5>.contact-box>div>form textarea::placeholder {
+    color: #979696;
+    font-family: 'nanumsquare';
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.page-5>.contact-box>div>form>div.input-box {
+    margin: 0 15px;
+}
+
+.page-5>.contact-box>div>form input.in {
+    width: calc(400px);
+    height: 40px;
+}
+
+.page-5>.contact-box>div>form>div.text-body {
+    margin-top: 40px;
+}
+
+.page-5>.contact-box>div>form textarea {
+    width: 840px;
+    height: 200px;
+}
+
+/* 5페이지 -send버튼 */
+.page-5>.contact-box>div>form>div.button {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+.page-5>.contact-box>div>form>div.button>input {
+    padding: 5px 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: white;
+    color: #1432F2;
+    font-weight: bold;
+}
+
+.page-5>.contact-box>div>form>div.button:hover>input {
+    color: white;
+    background-color: transparent;
+}
+
+.page-5>.contact-box>div>.remark {
+    font-size: 13px;
+    color: #b6b6b6;
+    margin-top: 60px;
 }

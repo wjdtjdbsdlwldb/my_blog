@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
@@ -254,136 +256,244 @@
                         <div class="slider-1">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
-                                    <a href="#">
+                                    <a data-title="JO MALONE" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg?dummy123123);">
                                         </div>
 
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                JO MALONE</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/jm-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="FLOWER" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                FLOWER</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fw-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="Design" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                Design</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/blue-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="GENTLE MONSTER" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                GENTLE MONSTER</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/gm-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="DR.G" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                DR.G</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/isf-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="FASHION" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                FASHION</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mg-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="MARKET KURLY" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                MARKET KURLY</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mk-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="CHANEL" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                CHANEL</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/cn-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="AFRICA" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                AFRICA</h3>
+                                            <p>_POSTER</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/af-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="CONVERSE" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                CONVERSE</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/cv-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="ARMANI" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                ARMANI</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/pi-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a href="#">
+                                <div class="item"><a data-title="STARBUCKS" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg?dummy123123">
                                         <div class="sd-box"
-                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg);">
+                                            style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg?dummy123123);">
                                         </div>
                                         <div class="bannr">
                                             <h3>
-                                                Banner</h3>
-                                            <p>JO MALONE</p>
+                                                STARBUCKS</h3>
+                                            <p>_Banner</p>
+                                            <span class="tool">
+                                                Tool : Photoshop
+                                            </span>
+                                            <div class="palette flex">
+                                                <span class="flex">Palette :</span>
+                                                <img class="flex"
+                                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/sb-ink.png?dummy123123"
+                                                    alt="">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
@@ -408,11 +518,48 @@
 
         <div class="section section-5 con-min-width">
             <div class="height-100p page-5">
-                <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p">픽토그램</div>
+                <div class="flex flex-ai-c icon-box">
+                    <ul class="icon">
+                        <li class="call">
+                            <div
+                                style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/call.png?dummy123123);">
+                            </div>
+                            <span>010-8897-2464</span>
+                        </li>
+                        <li class="email">
+                            <div
+                                style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/email.png?dummy123123);">
+                            </div><span>jms2464@naver.com</span>
+                        </li>
+                        <li class="kakao">
+                            <div
+                                style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/kakao.png?dummy123123);">
+                            </div><span>wjdtjdbsdlwldb</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="flex flex-ai-c">
-                    <div class="text-align-center width-100p">콘텍트</div>
+
+                <div class="flex flex-ai-c contact-box">
+                    <div class="text-align-center">
+                        <div class="contact-tit">
+                            <h1>CONTACT ME</h1>
+                        </div>
+                        <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
+                            <input type="hidden" name="receiverName" value="정서윤">
+                            <input type="hidden" name="receiverEmail" value="jsy06101126@gmail.com">
+                            <div class="input-box inline-block"><input class="name-sy in" type="text" name="senderName"
+                                    placeholder="당신의 이름을 입력해주세요."></div>
+                            <div class="input-box inline-block"><input class="mail-g in" type="email" name="senderEmail"
+                                    placeholder="당신의 이메일을 입력해주세요."></div>
+                            <div class="text-body">
+                                <textarea name="body" placeholder="내용을 입력해주세요."></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                        <div class="remark">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</div>
+                    </div>
                 </div>
             </div>
         </div>
