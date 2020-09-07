@@ -737,7 +737,6 @@ html {
 }
 
 .page-1>.copy>span {
-    font-family: 'ARIALN';
     font-weight: 500;
     letter-spacing: .8px;
 }
@@ -810,7 +809,6 @@ html {
     width: 250px;
     height: 350px;
     position: relative;
-    bordeR: 2px solid gold;
 }
 
 .section-2>.page-2>.infor>div>.poto>.na {
@@ -827,7 +825,7 @@ html {
 /* 2페이지 -스킬박스 */
 
 .section-2>.page-2>.sk-box>div>.skills>h4.sk-title {
-    font-weight: 400;
+    font-weight: 500;
     border: 1px dashed #2b2b2b;
     padding: 3px 40px;
     display: inline-block;
@@ -903,8 +901,8 @@ html {
 /* 2페이지 - 스킬박스 */
 
 .page-2>.me-box>div>.profile>.pro-tit {
-    font-weight: 400;
-    bordeR: 1px dashed #2b2b2b;
+    font-weight: 500;
+    border: 1px dashed #2b2b2b;
     padding: 3px 40px;
     display: inline-block;
     font-size: 18px;
@@ -924,6 +922,11 @@ html {
 .page-2>.me-box>div>.profile>.pro-box>ul>li>div {
     font-weight: 600;
     font-size: 20px;
+}
+
+.page-2>.me-box>div>.profile>.pro-box>ul>li>span {
+    font-weight: 500;
+    font-family: 'Roboto';
 }
 
 /* 3페이지 -효과, 영역나누기 */
@@ -975,10 +978,6 @@ html {
     background-position: 0 0;
     background-repeat: no-repeat;
     transition: background-position 3s;
-}
-
-.page-3>div>.thu>.img-box-1:nth-child(2)>a {
-    border: 10px solid red;
 }
 
 .page-3>div>.thu:hover>.img-box-1>a {
@@ -1168,7 +1167,6 @@ html {
 /* 4 페이지 -배너 텍스트  */
 .page-4 .slider-1 .item .bannr {
     margin-top: 10px;
-    font-family: 'nanumsquare';
     font-weight: 600;
 
 }
@@ -1186,7 +1184,6 @@ html {
     font-size: 17px;
     margin-top: 30px;
     display: block;
-
 }
 
 .page-4 .slider-1 .item .palette {
@@ -1199,7 +1196,7 @@ html {
 
 .page-4 .slider-1 .item img {
     width: auto;
-    height: 19px;
+    height: 18px;
 }
 
 
@@ -1280,8 +1277,8 @@ html {
 
 /* 5페이지 - 컨텍트 박스 타이틀*/
 
-.page-5>.contact-box>div>.contact-tit {
-    margin-top: 130px;
+.page-5>.contact-box>div {
+    transform: translateY(40%);
 }
 
 .page-5>.contact-box>div>.contact-tit>h1 {
@@ -1301,15 +1298,13 @@ html {
     border: 2px solid white;
     background-color: transparent;
     color: white;
-    font-family: 'nanumsquare';
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .page-5>.contact-box>div>form input::placeholder,
 .page-5>.contact-box>div>form textarea::placeholder {
     color: #979696;
-    font-family: 'nanumsquare';
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px 0;
 }
 

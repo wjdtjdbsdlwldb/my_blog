@@ -82,7 +82,7 @@ function Slider1__init() {
     autoplay: true,
     autoplayTimeout: 8000,
     loop: true,
-    margin: 1,
+    margin: 2,
     stopOnHover: true,
 
     responsive: {

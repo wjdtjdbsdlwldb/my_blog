@@ -540,7 +540,7 @@
                 </div>
 
                 <div class="flex flex-ai-c contact-box">
-                    <div class="text-align-center">
+                    <div class="text-align-center contact">
                         <div class="contact-tit">
                             <h1>CONTACT ME</h1>
                         </div>
