@@ -1281,6 +1281,12 @@ html {
     transform: translateY(40%);
 }
 
+@media screen and (min-width:967px) {
+    .page-5>.contact-box>div {
+        transform: translateY(20%);
+    }
+}
+
 .page-5>.contact-box>div>.contact-tit>h1 {
     font-family: 'nanumsquare';
     font-weight: 600;

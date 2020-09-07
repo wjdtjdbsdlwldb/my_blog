@@ -256,7 +256,8 @@
                         <div class="slider-1">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
-                                    <a data-title="JO MALONE" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg?dummy123123">
+                                    <a data-title="JO MALONE" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn5.jpg?dummy123123);">
                                         </div>
@@ -277,7 +278,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="FLOWER" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg?dummy123123">
+                                <div class="item"><a data-title="FLOWER" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn12.jpg?dummy123123);">
                                         </div>
@@ -297,7 +299,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="Design" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg?dummy123123">
+                                <div class="item"><a data-title="Design" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn7.jpg?dummy123123);">
                                         </div>
@@ -317,7 +320,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="GENTLE MONSTER" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg?dummy123123">
+                                <div class="item"><a data-title="GENTLE MONSTER" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn4.jpg?dummy123123);">
                                         </div>
@@ -337,7 +341,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="DR.G" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg?dummy123123">
+                                <div class="item"><a data-title="DR.G" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn1.jpg?dummy123123);">
                                         </div>
@@ -357,7 +362,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="FASHION" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg?dummy123123">
+                                <div class="item"><a data-title="FASHION" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn6.jpg?dummy123123);">
                                         </div>
@@ -377,7 +383,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="MARKET KURLY" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg?dummy123123">
+                                <div class="item"><a data-title="MARKET KURLY" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn2.jpg?dummy123123);">
                                         </div>
@@ -397,7 +404,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="CHANEL" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg?dummy123123">
+                                <div class="item"><a data-title="CHANEL" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn8.jpg?dummy123123);">
                                         </div>
@@ -417,7 +425,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="AFRICA" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg?dummy123123">
+                                <div class="item"><a data-title="AFRICA" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn9.jpg?dummy123123);">
                                         </div>
@@ -437,7 +446,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="CONVERSE" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg?dummy123123">
+                                <div class="item"><a data-title="CONVERSE" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn10.jpg?dummy123123);">
                                         </div>
@@ -457,7 +467,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="ARMANI" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg?dummy123123">
+                                <div class="item"><a data-title="ARMANI" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn11.jpg?dummy123123);">
                                         </div>
@@ -477,7 +488,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="item"><a data-title="STARBUCKS" data-lightbox="example-set" href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg?dummy123123">
+                                <div class="item"><a data-title="STARBUCKS" data-lightbox="example-set"
+                                        href="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg?dummy123123">
                                         <div class="sd-box"
                                             style="background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/bn3.jpg?dummy123123);">
                                         </div>
@@ -547,8 +559,8 @@
                         <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
                             <input type="hidden" name="receiverName" value="정서윤">
                             <input type="hidden" name="receiverEmail" value="jsy06101126@gmail.com">
-                            <div class="input-box inline-block"><input class="name-sy in" type="text" name="senderName"
-                                    placeholder="당신의 이름을 입력해주세요."></div>
+                            <div class="input-box inline-block nm"><input class="name-sy in" type="text"
+                                    name="senderName" placeholder="당신의 이름을 입력해주세요."></div>
                             <div class="input-box inline-block"><input class="mail-g in" type="email" name="senderEmail"
                                     placeholder="당신의 이메일을 입력해주세요."></div>
                             <div class="text-body">
