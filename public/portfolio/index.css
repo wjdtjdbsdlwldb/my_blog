@@ -1167,12 +1167,13 @@ html {
 /* 4 페이지 -배너 텍스트  */
 .page-4 .slider-1 .item .bannr {
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
 .page-4 .slider-1 .item .bannr>h3 {
     font-size: 25px;
+    font-weight: 500;
 }
 
 .page-4 .slider-1 .item .bannr>p {

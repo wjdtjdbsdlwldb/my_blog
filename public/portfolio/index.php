@@ -62,6 +62,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="flex flex-ai-c infor">
                     <div class="flex flex-jc-c width-100p">
                         <div class="poto">
@@ -71,6 +72,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="flex flex-ai-c sk-box">
                     <div class="flex flex-jc-c width-100p">
                         <div class="skills">
