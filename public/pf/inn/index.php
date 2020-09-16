@@ -41,7 +41,7 @@
         </nav>
     </div>
 
-    <div class="main con-min-width">
+    <div class="main page-1 con-min-width">
         <div class="bn-box">
             <div class="slider-k height-full" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="3000">
                 <div class="slides">
@@ -52,7 +52,9 @@
                         <div class="sd-txt active">
                             <h1 class="tit">JEJU LAVA SEA SKIN</h1>
                             <span>강력한 수분 에너지를 선사하여 촉촉하게 차오른 맑은 피부로 가꾸어 주는 고수분 탄력 워터 스킨</span>
+                            <h3 class="button">MORE ></h3>
                         </div>
+                       
                     </div>
 
                     <div class="sd-box">
@@ -62,6 +64,7 @@
                         <div class="sd-txt">
                             <h1 class="tit">GINGER HONEY AMPLE SKIN</h1>
                             <span>이니스프리만의 지니(Gi-ney)콤플렉스™가 피부를 보호하고 앰플을 바른 것처럼 깊은 보습을 전달해 주는 스킨</span>
+                            <h3 class="button">MORE ></h3>
                         </div>
                     </div>
 
@@ -73,6 +76,7 @@
                         <div class="sd-txt">
                             <h1 class="tit">GREEN TEA BALANCING SKIN</h1>
                             <span>뷰티 그린티의 산뜻한 수분이 빠르게 흡수되어 피부 유.수분 밸런스를 맞춰주는 촉촉한 수분 스킨</span>
+                            <h3 class="button">MORE ></h3>
                         </div>
                     </div>
                 </div>
@@ -89,7 +93,23 @@
         </div>
 
     </div>
+    <div class="page-2 con-min-width">
+        <div class="md-txt">
+            <h1>MD RECOMMENDED</h1>
+            <span>추천제품</span>
+        </div>
 
+        <nav class="prod-box">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 
 </html>

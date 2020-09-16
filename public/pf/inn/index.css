@@ -339,7 +339,7 @@ label[for] {
 } */
 
 .con {
-    max-width: 1400px;
+    width: 1400px;
 }
 
 
@@ -353,6 +353,7 @@ label[for] {
     height: 100px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .top-bar>.logo>a {
@@ -475,21 +476,31 @@ label[for] {
     position: absolute;
     top:50%;
     left: 110%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     white-space: nowrap;
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt >h1 {
-    font-family: 'Sunflower';
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 300;
     color:#213429;
-    letter-spacing: -1px;
+    letter-spacing: -2.5px;
 }
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt span {
-    font-size: 17px;
+    font-size: 1vw;
     color: #2b2b2b;
-    font-weight: 500;
+    font-weight: 600;
+    display: block;
+    font-family: 'NanumSquare';
+}
+
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button {
+    border: 2px solid #213429;
+    display:inline-block;
+    padding: 5px 45px;
+    font-size: 1vw;
+    transform: translatey(400%);
+    font-weight: 400;
 }
 
 /* 메인 카피 텍스트 */
@@ -521,16 +532,34 @@ label[for] {
 .main > .bg-txt {
     position: absolute;
     top:50%;
-    right: 22%;
+    right: 20%;
     transform: translateY(-50%);
-    font-size: 60px;
+    font-size: 3.5vw;
     color: #cccccc;
     opacity: .2;
     font-weight: bold;
     z-index: -1;
-    line-height: 93px;
+    line-height: 95px;
 }
 
 .main > .bg-txt > .from {
     display: inline-block;
+}
+
+/* 2페이지-md추천 타이틀 */
+
+.page-2 > .md-txt {
+    margin-top:120px;
+    text-align: center;
+}
+
+.page-2 > .md-txt > h1 {
+    font-size: 2.5vw;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.page-2 > .md-txt > span {
+    font-size: 1.2vw;
+    font-family: 'NanumSquare';
 }
