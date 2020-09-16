@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Innisfree</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="/pf/inn/font/font.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./index.js"></script>
 </head>
@@ -42,13 +43,13 @@
 
     <div class="main con-min-width">
         <div class="bn-box">
-            <div class="slider-k height-full" data-autoplay="Y" data-autoplay-dir="left" data-autoplay-interval="3000">
+            <div class="slider-k height-full" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="3000">
                 <div class="slides">
                     <div class="sd-box active">
                         <div
                             style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img01.jpg?dummy123123);">
                         </div>
-                        <div class="sd-txt">
+                        <div class="sd-txt active">
                             <h1 class="tit">JEJU LAVA SEA SKIN</h1>
                             <span>강력한 수분 에너지를 선사하여 촉촉하게 차오른 맑은 피부로 가꾸어 주는 고수분 탄력 워터 스킨</span>
                         </div>
@@ -64,6 +65,7 @@
                         </div>
                     </div>
 
+
                     <div class="sd-box">
                         <div
                             style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/main-gr11.jpg?dummy123123);">
@@ -74,9 +76,16 @@
                         </div>
                     </div>
                 </div>
-
             </div>
 
+        </div>
+        <div class="copy">
+            © 2020. <span>innisfree</span>
+        </div>
+
+        <div class="bg-txt">
+            <h1 class="from">FROM</h1>
+            <h1 class="nature">NATURE</h1>
         </div>
 
     </div>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Sunflower:wght@300;500;700&display=swap');
 
 html {
-    font-family: 'NanumSquare', 'Noto Sans KR', 'Sunflower', sans-serif;
+    font-family: 'Noto Sans KR', 'NanumSquare', 'Sunflower', 'Eng', 'EngB', 'EngBI', 'EngMI', 'mtoco', sans-serif;
 }
 
 
@@ -379,6 +379,7 @@ label[for] {
 }
 
 /* 메뉴 - 아이콘 박스 */
+
 .top-bar>.icon-box {
     margin-right: 50px;
 }
@@ -390,8 +391,6 @@ label[for] {
 .top-bar>.icon-box>ul>li img {
     width: 22px;
 }
-
-/* 메인 슬라이드 */
 
 /* .main>.bn-box .slides > .sd-box {
     width: 35%;
@@ -406,7 +405,11 @@ label[for] {
     }
 }
 
-/* 커스텀 */
+/* 메인 슬라이드 */
+.main {
+    position: relative;
+}
+
 .slider-k {
     position: relative;
     user-select: none;
@@ -438,7 +441,7 @@ label[for] {
 
 .slider-k .page-nav {
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     left: 0;
     width: 100%;
     text-align: center;
@@ -446,13 +449,13 @@ label[for] {
 
 .slider-k .page-nav>div {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(202, 201, 201);
+    border-radius: 20px;
     opacity: 0.4;
-    transition: opacity 0.5s;
-    margin: 0 2px;
+    transition: opacity 0.5s, width 0.5s;
+    margin: 0 5px;
     cursor: pointer;
 }
 
@@ -461,9 +464,73 @@ label[for] {
 }
 
 .slider-k .page-nav>div.active {
-    opacity: 1;
+    opacity: .8;
+    background-color: rgb(21, 53, 45);
+    width: 40px;
 }
 
-/* 슬라이드 - 텍스트 */
+/* 메인 슬라이드 - 텍스트  */
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt {
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 110%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
 
-.main>.bn-box .slides>.sd-box>.sd-txt {}
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt >h1 {
+    font-family: 'Sunflower';
+    font-size: 50px;
+    font-weight: 300;
+    color:#213429;
+    letter-spacing: -1px;
+}
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt span {
+    font-size: 17px;
+    color: #2b2b2b;
+    font-weight: 500;
+}
+
+/* 메인 카피 텍스트 */
+
+.main>.copy {
+    position: absolute;
+    bottom: 10%;
+    left: 45px;
+}
+
+.main>.copy>span {
+    font-family: 'EngBI';
+    font-size: 17px;
+    color: #03231B;
+    position: relative;
+}
+
+.main>.copy>span::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #03231B;
+    bottom: 3px;
+    right: -25px;
+}
+
+/* 메인 백그라운드 텍스트 */
+.main > .bg-txt {
+    position: absolute;
+    top:50%;
+    right: 22%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: #cccccc;
+    opacity: .2;
+    font-weight: bold;
+    z-index: -1;
+    line-height: 93px;
+}
+
+.main > .bg-txt > .from {
+    display: inline-block;
+}
