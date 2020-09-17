@@ -54,7 +54,6 @@
                             <span>강력한 수분 에너지를 선사하여 촉촉하게 차오른 맑은 피부로 가꾸어 주는 고수분 탄력 워터 스킨</span>
                             <h3 class="button">MORE ></h3>
                         </div>
-
                     </div>
 
                     <div class="sd-box">
@@ -165,7 +164,7 @@
             </ul>
             <div class="img-box">
                 <div class="fl-box">
-                    <div class="left-fl"><img src="" alt=""></div>
+                    <div class="left-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt=""></div>
                     <div class="right-fl"></div>
                 </div>
             </div>

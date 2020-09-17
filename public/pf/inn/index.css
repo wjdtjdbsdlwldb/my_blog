@@ -604,7 +604,7 @@ label[for] {
     right: 0;
     bottom:0;
     background-color: rgba(255,255,255,0);
-    transition: background-color .4s;
+    transition: background-color .5s;
 }
 
 .page-2>.prod-box>ul>li:hover>a::before {
@@ -617,7 +617,7 @@ label[for] {
 
 .page-2>.prod-box>ul>li>a>.text-box {
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .6s;
     position: absolute;
     top:50%;
     left: 50%;
@@ -659,3 +659,11 @@ label[for] {
     font-size: 15px;
 }
 
+.page-2 > .prod-box > .img-box .left-fl {
+    bordeR:2px solid red;
+    width:auto;
+}
+
+.page-2 > .prod-box > .img-box .left-fl > img {
+    display: inline-block;
+}
