@@ -54,7 +54,7 @@
                             <span>강력한 수분 에너지를 선사하여 촉촉하게 차오른 맑은 피부로 가꾸어 주는 고수분 탄력 워터 스킨</span>
                             <h3 class="button">MORE ></h3>
                         </div>
-                       
+
                     </div>
 
                     <div class="sd-box">
@@ -101,13 +101,74 @@
 
         <nav class="prod-box">
             <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md1.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Bija Cica Balm</h3>
+                            <p>#민감 #진정 #비자시카밤 #트러블 #쟁여템모음</p>
+                            <span class="block price">15,400원</span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md2.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Ugly Carrot<br>Hand Soap</h3>
+                            <p>#업사이클링 #약산성 #핸드솝 #마일드각질케어</p>
+                            <span class="block price">9,600원</span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md3-1.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Brightening<br>
+                                Pore Skin</h3>
+                            <p>#잡티케어 #잡티올케어 #미백 #한라봉 #모공</p>
+                            <span class="block price">17,500원 </span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md4.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Brightening <br>Pore Serum</h3>
+                            <p>#잡티케어 #잡티올케어 #미백 #한라봉세럼 #모공</p>
+                            <span class="block price">24,500원</span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md5-2.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Mask Relief<br>Tone-Up Lotion</h3>
+                            <p>#마스크 #파데프리 #피부진정 #톤업크림 #겉보속촉</p>
+                            <span class="block price">12,600원</span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md6.jpg?dummy123123)">
+                        <div class="text-box">
+                            <h3>Truecare Panthenol<br>10 Moisture Skin</h3>
+                            <p>#트루케어 #쟁여템모음 #닦토 #수부지 #약산성</p>
+                            <span class="block price">12,600원</span>
+                            <span class="more">상세보기</span>
+                        </div>
+                    </a>
+                </li>
             </ul>
+            <div class="img-box">
+                <div class="fl-box">
+                    <div class="left-fl"><img src="" alt=""></div>
+                    <div class="right-fl"></div>
+                </div>
+            </div>
         </nav>
     </div>
 </body>
