@@ -496,7 +496,7 @@ label[for] {
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button {
-    border: 2px solid #213429;
+    border: 2px solid #213429bb;
     display: inline-block;
     padding: 5px 45px;
     font-size: 1vw;
@@ -550,6 +550,12 @@ label[for] {
 
 /* 2페이지-md추천 타이틀 */
 
+.page-2 {
+    position: relative;
+    width:1500px;
+    margin: 0 auto;
+}
+
 .page-2>.md-txt {
     margin-top: 120px;
     text-align: center;
@@ -580,7 +586,6 @@ label[for] {
 .page-2>.prod-box>ul>li { 
     width: calc(100% / 3);
     height: 560px;
-    float: left;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -657,13 +662,38 @@ label[for] {
     border:1px solid #2b2b2b;
     padding: 4px 40px;
     font-size: 15px;
+    transition: background-color .5s;
 }
 
-.page-2 > .prod-box > .img-box .left-fl {
-    bordeR:2px solid red;
-    width:auto;
+.page-2>.prod-box>ul>li:hover>a>.text-box > .more:hover {
+    background-color:rgba(255, 255, 255, 0.6);
 }
 
-.page-2 > .prod-box > .img-box .left-fl > img {
-    display: inline-block;
+
+/* 2페이지  - 백그라운드 플라워 이미지 */
+
+.page-2 > .img-box > .fl-box > .left-fl {
+    position: absolute;
+    top:420px;
+    left:25px;
+    z-index: -1;
+    transform: rotate(-17deg);
+}
+
+.page-2 > .img-box > .fl-box > .left-fl > img {
+    width:180px;
+    opacity: .5;
+}
+
+.page-2 > .img-box > .fl-box > .right-fl {
+    position: absolute;
+    bottom:160px;
+    right: 25px;
+    z-index: -1;
+    transform: rotate(17deg);
+} 
+
+.page-2 > .img-box > .fl-box > .right-fl > img {
+    width:180px;
+    opacity: .5;
 }

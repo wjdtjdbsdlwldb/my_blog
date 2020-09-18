@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="/pf/inn/font/font.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
     <script src="./index.js"></script>
 </head>
 
@@ -90,8 +92,8 @@
             <h1 class="from">FROM</h1>
             <h1 class="nature">NATURE</h1>
         </div>
-
     </div>
+
     <div class="page-2 con-min-width">
         <div class="md-txt">
             <h1>MD RECOMMENDED</h1>
@@ -99,8 +101,8 @@
         </div>
 
         <nav class="prod-box">
-            <ul>
-                <li><a href="#"
+            <ul class="row">
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md1.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Bija Cica Balm</h3>
@@ -110,7 +112,7 @@
                         </div>
                     </a>
                 </li>
-                <li><a href="#"
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md2.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Ugly Carrot<br>Hand Soap</h3>
@@ -120,7 +122,7 @@
                         </div>
                     </a>
                 </li>
-                <li><a href="#"
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md3-1.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Brightening<br>
@@ -131,7 +133,7 @@
                         </div>
                     </a>
                 </li>
-                <li><a href="#"
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md4.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Brightening <br>Pore Serum</h3>
@@ -141,7 +143,7 @@
                         </div>
                     </a>
                 </li>
-                <li><a href="#"
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md5-2.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Mask Relief<br>Tone-Up Lotion</h3>
@@ -151,7 +153,7 @@
                         </div>
                     </a>
                 </li>
-                <li><a href="#"
+                <li class="cell"><a href="#"
                         style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md6.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Truecare Panthenol<br>10 Moisture Skin</h3>
@@ -161,14 +163,18 @@
                         </div>
                     </a>
                 </li>
-            </ul>
-            <div class="img-box">
-                <div class="fl-box">
-                    <div class="left-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt=""></div>
-                    <div class="right-fl"></div>
-                </div>
-            </div>
+            </ul>     
         </nav>
+        <div class="img-box">
+            <div class="fl-box">
+                <div class="left-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt=""></div>
+                <div class="right-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object-right.png?dummy123123" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3 con-min-width">
+
     </div>
 </body>
 
