@@ -334,9 +334,9 @@ label[for] {
 }
 
 /* 커스텀 */
-/* body,html {
+body,html {
     overflow-x: hidden;
-} */
+}
 
 .con {
     width: 1400px;
@@ -666,7 +666,7 @@ label[for] {
 }
 
 .page-2>.prod-box>ul>li:hover>a>.text-box > .more:hover {
-    background-color:rgba(255, 255, 255, 0.6);
+    background-color:rgba(107, 107, 107, 0.1);
 }
 
 
@@ -696,4 +696,70 @@ label[for] {
 .page-2 > .img-box > .fl-box > .right-fl > img {
     width:180px;
     opacity: .5;
+}
+
+/* 3페이지 -슬라이더 */
+.page-3 {
+    margin-top:250px;
+}
+
+.page-3 > .slider-div .item .new-box{
+    display: flex;
+}
+
+.page-3 > .slider-div .item {
+    position:relative;
+    height:600px;
+    overflow:hidden;
+    margin-left:200px;
+}
+
+.page-3 > .slider-div .item .new-box {
+    height: 100%;
+}
+
+.page-3 > .slider-div .item .img{
+    width: 50%;
+    height: 100%;
+}
+
+.page-3 > .slider-div .item .img {
+    height: 600px;
+}
+
+.page-3 > .slider-div .item .img > div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 100%;
+}
+
+
+.page-3 > .slider-div .item .title {
+    opacity:0;
+    margin-left: 300px;
+    transition:opacity 1s 2s, margin-left 3.5s;
+}
+
+.slick-slide.slick-active .item .title {
+    opacity:1;
+    margin-left: 0;
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+.slick-slide {
+    width: 85vw;
+}
+
+.slick-slide .item .txt {
+    width: 0;
+    transition: width 1s;
+}
+
+.slick-slide.slick-active .item .txt {
+    width: 50%;
+    transition: width 3s 1s;
 }

@@ -10,6 +10,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <script src="./index.js"></script>
 </head>
 
@@ -163,18 +166,93 @@
                         </div>
                     </a>
                 </li>
-            </ul>     
+            </ul>
         </nav>
         <div class="img-box">
             <div class="fl-box">
-                <div class="left-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt=""></div>
-                <div class="right-fl"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object-right.png?dummy123123" alt=""></div>
+                <div class="left-fl"><img
+                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt="">
+                </div>
+                <div class="right-fl"><img
+                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object-right.png?dummy123123"
+                        alt=""></div>
             </div>
         </div>
     </div>
 
     <div class="page-3 con-min-width">
-
+        <div class="slider-div">
+            <div class="item">
+                <div class="new-box">
+                    <div class="txt">
+                        <div class="title">으아아아아아</div>
+                        <div class="title">으아아아아아아</div>
+                    </div>
+                    <div class="img">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/tnwjd_green.jpg?dummy123123)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="new-box">
+                    <div class="txt">
+                        <div class="title">으아아아아아</div>
+                        <div class="title">으아아아아아아</div>
+                    </div>
+                    <div class="img">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img06-1.jpg?dummy123123)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="new-box">
+                    <div class="txt">
+                        <div class="title">으아아아아아</div>
+                        <div class="title">으아아아아아아</div>
+                    </div>
+                    <div class="img">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/slide2.jpg?dummy123123)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="new-box">
+                    <div class="txt">
+                        <div class="title">으아아아아아</div>
+                        <div class="title">으아아아아아아</div>
+                    </div>
+                    <div class="img">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img8.jpg?dummy123123)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="new-box">
+                    <div class="txt">
+                        <div class="title">으아아아아아</div>
+                        <div class="title">으아아아아아아</div>
+                    </div>
+                    <div class="img">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/slide3.jpg?dummy123123)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slick-index">
+        <span class="current"></span>
+        <span>/</span>
+        <span class="total"></span>
     </div>
 </body>
 
