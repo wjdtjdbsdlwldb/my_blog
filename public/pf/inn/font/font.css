@@ -45,3 +45,40 @@
 .mtoco {
     font-family: 'mtoco';
 }
+
+@font-face {
+    font-family: 'MonotypeCorsiva';
+    src: url('/pf/inn/font/MonotypeCorsiva.ttf') format('truetype');
+}
+
+.MonotypeCorsiva {
+    font-family: 'MonotypeCorsiva';
+}
+
+@font-face {
+    font-family: 'Ammys';
+    src: url('/pf/inn/font/Ammys.ttf') format('truetype');
+}
+
+.Ammys {
+    font-family: 'Ammys';
+}
+
+@font-face {
+    font-family: 'Flow';
+    src: url('/pf/inn/font/Flow.otf') format('opentype');
+}
+
+.Flow {
+    font-family: 'Flow';
+}
+
+
+@font-face {
+    font-family: 'Blokletters-Balpen';
+    src: url('/pf/inn/font/Blokletters-Balpen.ttf') format('truetype');
+}
+
+.Blokletters-Balpen {
+    font-family: 'Blokletters-Balpen';
+}

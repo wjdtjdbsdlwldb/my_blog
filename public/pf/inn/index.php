@@ -185,8 +185,13 @@
             <div class="item">
                 <div class="new-box">
                     <div class="txt">
-                        <div class="title">으아아아아아</div>
-                        <div class="title">으아아아아아아</div>
+                        <h3 class="title new-ko">신제품</h3>
+                        <h1 class="title new-eng">New Product</h1>
+                        <h1 class="title pd-name">GREEN TEA
+                            <br>SEED OIL</h1>
+                        <p class="title tag">#그린티 #페이스오일 #수분광 #윤기 #영양</p>
+                        <p class="title pd-infor">뷰티 그린티 성분과 녹차 씨앗이 피부에 수분을 채우고<br>
+                            건강한 윤기와 영양감을 전달하는 페이스 오일</p>
                     </div>
                     <div class="img">
                         <div
@@ -198,8 +203,12 @@
             <div class="item">
                 <div class="new-box">
                     <div class="txt">
-                        <div class="title">으아아아아아</div>
-                        <div class="title">으아아아아아아</div>
+                        <h3 class="title new-ko">신제품</h3>
+                        <h1 class="title new-eng">New Product</h1>
+                        <h1 class="title pd-name">GREEN TEA
+                            <br>SEED SERUM </h1>
+                        <p class="title tag">#페이퍼보틀 #플라스틱절감 #지구를위한실천 #대용량</p>
+                        <p class="title pd-infor">기존 제품보다 플라스틱은 51.8% 줄이고<br>지구를 생각하는 마음은 더 커진 그린티 씨드 세럼 [페이퍼보틀]</p>
                     </div>
                     <div class="img">
                         <div
@@ -211,8 +220,11 @@
             <div class="item">
                 <div class="new-box">
                     <div class="txt">
-                        <div class="title">으아아아아아</div>
-                        <div class="title">으아아아아아아</div>
+                        <h3 class="title new-ko">신제품</h3>
+                        <h1 class="title new-eng">New Product</h1>
+                        <h1 class="title pd-name pd-name1">APPLE SEED <br> BUBBLE CLEANSER</h1>
+                        <p class="title tag">#약산성클렌징 #버블클렌징 #모닝클렌징 #거품세안</p>
+                        <p class="title pd-infor">사과씨 오일이 함유된 구름같은 몽글한 거품이 피부결 구석 구석 닿아<br>부드럽고 매끈한 피부로 가꿔주는 버블 클렌저</p>
                     </div>
                     <div class="img">
                         <div
@@ -224,8 +236,11 @@
             <div class="item">
                 <div class="new-box">
                     <div class="txt">
-                        <div class="title">으아아아아아</div>
-                        <div class="title">으아아아아아아</div>
+                        <h3 class="title new-ko">신제품</h3>
+                        <h1 class="title new-eng">New Product</h1>
+                        <h1 class="title pd-name">VOLCANIC PINE <br> PORE TONER</h1>
+                        <p class="title tag">#깔끔토너 #피지흡착닦토 #모공토너 #여름토너</p>
+                        <p class="title pd-infor">제주 화산송이 스피어™의 강력한 피지 흡착력이 <br>번들거림 없는 피부로 가꿔주는 모공 토너</p>
                     </div>
                     <div class="img">
                         <div
@@ -237,8 +252,12 @@
             <div class="item">
                 <div class="new-box">
                     <div class="txt">
-                        <div class="title">으아아아아아</div>
-                        <div class="title">으아아아아아아</div>
+                        <h3 class="title new-ko">신제품</h3>
+                        <h1 class="title new-eng">New Product</h1>
+                        <h1 class="title pd-name">OLIVE<br> REAL SKIN</h1>
+                        <p class="title tag">#올리브 #보습 #건성 #순한 #콧물스킨</p>
+                        <p class="title pd-infor">olive(토코페롤, 비타민 E, 올레인산)가 건조한 피부에 강력한 보습 효과를 <br> 선사해 피부 유연성을 높이고 촉촉한
+                            보습막을 만들어주는 고보습 스킨</p>
                     </div>
                     <div class="img">
                         <div
@@ -248,12 +267,127 @@
                 </div>
             </div>
         </div>
+        <div class="slick-index">
+            <span class="current"></span>
+            <span class="total"></span>
+        </div>
+        <div class="sd-arrow">
+            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/ico_arrow.png?dummy123123" alt="">
+        </div>
     </div>
-    <div class="slick-index">
-        <span class="current"></span>
-        <span>/</span>
-        <span class="total"></span>
+
+    <div class="page-4 con-min-width">
+        <div class="swi-box flex flex-ai-c">
+            <div class="txt-box">
+                <h1 class="deal-eng">HOT DEAL</h1>
+                <h3 class="deal-ko">핫딜</h3>
+                <p class="deal-infor">이니스프리에서 만나는 핫딜 기회<br>
+                    지금 당장 확인하세요.
+
+                </p>
+                <a href="#" class="deal-button">View More</a>
+            </div>
+            <div class="swiper-container flex">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-1.png?dummy123123)">
+                            <a href="#" class="deal-txt">
+                                <p class="tag-deal">#순한</p>
+                                <h3>BIJA TROUBLE SKIN</h3>
+                                <p class="name-deal">비자 트러블 스킨</p>
+                                <p class="infor-deal">피부 보호력을 지닌 비자 오일을 함유한 스킨</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-2.png?dummy123123)">
+                            <a href="#" class="deal-txt">
+                                <p class="tag-deal bu">#진정</p>
+                                <h3>MASK RELIEF TONE-UP LOTION</h3>
+                                <p class="name-deal">마스크 릴리프 톤업 로션</p>
+                                <p class="infor-deal">마스크 태닝 라인 만들지 않는 깔끔한 톤업 로션</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-3.png?dummy123123)">
+                            <a href="#" class="deal-txt">
+                                <p class="tag-deal">#수분</p>
+                                <h3>MINERAL TWINKLE BASE</h3>
+                                <p class="name-deal">미네랄 트윙클 베이스</p>
+                                <p class="infor-deal">화사하고 환한 글로우 베이스 효과를 선사하는 베이스</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-4.png?dummy123123)">
+                            <a href="#" class="deal-txt">
+                                <p class="tag-deal bu">#산뜻</p>
+                                <h3>FOREST FOUR-MAN FRESH SKIN</h3>
+                                <p class="name-deal">포레스트 포맨 프레시 스킨</p>
+                                <p class="infor-deal">피부결을 정돈시켜주는 산뜻한 수분 공급 스킨</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-5.png?dummy123123)">
+                            <a href="#" class="deal-txt black">
+                                <p class="tag-deal bu">#보습</p>
+                                <h3 class="">BLACK TEA AMPLE MIST</h3>
+                                <p class="name-deal">블랙티 유스 인핸싱 앰플 미스트</p>
+                                <p class="infor-deal">피부에 즉각적인 영양을 채워 주는 고보습 미스트</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+
     </div>
+
+    <div class="page-5 con-min-width">
+        <div class="vd-box">
+            <video id="video" autoplay="" loop="" muted="" playsinline="">
+                <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/trees.mp4?dummy123123"
+                    type="video/mp4">
+            </video>
+
+            <div class="nt-txt">
+                <h1>Nature's Breath, Innisfree</h1>
+                <p>이니스프리에는 정직하고 순수한 <br> 아름다움이 가득 담겨 있습니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-6 con-min-width">
+        <div class="mb-box con">
+            <div class="tit-mb">
+                <h1>멤버십 혜택</h1>
+                <p>이니스프리 멤버십 회원에게 제공되는 다양한 혜택을 확인하세요.</p>
+            </div>
+            <div class="icon-mb flex flex-jc-sa">
+                <div class="icon-box flex">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                </div>
+                <div class="icon-box flex">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                </div>
+                <div class="icon-box flex">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                </div>
+                <div class="icon-box flex">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
