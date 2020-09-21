@@ -24,10 +24,17 @@
         </div>
         <nav class="menu-box flex flex-1-0-0 flex-jc-end">
             <ul class="flex">
-                <li><a href="#">CATEGORY</a></li>
-                <li><a href="#">BEST</a></li>
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">HOT DEAL</a></li>
+                <li><a href="#">CATEGORY</a>
+                    <div>
+                        <ul class="text-align-center">
+                            <li><a href="#">유형별</a></li>
+                            <li><a href="#">라인별</a></li>
+                            <li><a href="#">고민별</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#page-3">NEW</a></li>
+                <li><a href="#page-4">HOT DEAL</a></li>
                 <li><a href="#">EVENT</a></li>
             </ul>
         </nav>
@@ -180,7 +187,7 @@
         </div>
     </div>
 
-    <div class="page-3 con-min-width">
+    <div class="page-3 con-min-width" id="page-3">
         <div class="slider-div">
             <div class="item">
                 <div class="new-box">
@@ -276,7 +283,7 @@
         </div>
     </div>
 
-    <div class="page-4 con-min-width">
+    <div class="page-4 con-min-width" id="page-4">
         <div class="swi-box flex flex-ai-c">
             <div class="txt-box">
                 <h1 class="deal-eng">HOT DEAL</h1>
@@ -409,27 +416,47 @@
         <nav class="footer-menu con">
             <ul class="menu-wrap flex">
                 <li><a href="#">서비스 이용약관</a></li>
-                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#" class="blod">개인정보처리방침</a></li>
                 <li><a href="#">영상정보처리기기 운영/관리 방침</a></li>
                 <li><a href="#">공지사항</a></li>
                 <li><a href="#">임직원서비스</a></li>
             </ul>
         </nav>
-        <nav class="ft-infor con">
-            <ul class="">
-                <li><a href="#">(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 임혜영</a></li>
-                <li><a href="#">사업자 등록번호 106-86-68127  |  통신판매신고번호 2018-서울용산-0014  |   제품 문의 : 080-380-0114  |   FAX 02-6040-7108</a></li>
-                <li><a href="#">이메일 주소  innisfree@innisfree.com  |   비즈니스제휴/입점문의  partner.biz@innisfree.com</a></li>
-                <li><a href="#">이메일 주소 무단 수집 거부  |   개인정보 보호책임자 박남기  |   호스팅 서비스 제공자 ㈜이니스프리</a></li>
+        <nav class="ft-infor con flex">
+            <ul class="inn-infor flex-grow-1">
+                <li><a href="#" class="block">(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리&emsp;&emsp;&emsp;&emsp;&emsp;
+                        대표이사 임혜영</a></li>
+                <li><a href="#" class="block">사업자 등록번호 106-86-68127 &nbsp;| &nbsp; 통신판매신고번호 2018-서울용산-0014 &nbsp; |
+                        &nbsp; 제품 문의 : 080-380-0114 &nbsp; | &nbsp; FAX 02-6040-7108</a></li>
+                <li><a href="#" class="block">이메일 주소 &nbsp;innisfree@innisfree.com &nbsp; | &nbsp; 비즈니스제휴/입점문의&nbsp;
+                        partner.biz@innisfree.com</a></li>
+                <li><a href="#" class="block">이메일 주소 무단 수집 거부 &nbsp; | &nbsp; 개인정보 보호책임자 박남기&nbsp; | &nbsp; 호스팅 서비스 제공자
+                        ㈜이니스프리</a></li>
+                <li><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_footer.png?dummy123123"
+                        alt=""></li>
             </ul>
-            <ul class="flex">
-                <li><a href="#">고객 서비스센터 이용안내</a></li>
-                <li><a href="#">080-380-0114 (수신자 요금 부담) </a></li>
-                <li><a href="#">운영시간 AM 09:00 ~ PM 18:00 (주말 및 공휴일 휴무)</a></li>
-                <li><a href="#">점심시간 PM 12:00 ~ PM 13:00</a></li>
-                <li><a href="#">1:1 상담 작성</a></li>
+            <ul class="num">
+                <li><a href="#" class="block cus">고객 서비스센터 이용안내</a></li>
+                <li><a href="#" class="block number">080-380-0114 <span>(수신자 요금 부담)</span></a></li>
+                <li><a href="#" class="block">운영시간 AM 09:00 ~ PM 18:00 (주말 및 공휴일 휴무)</a></li>
+                <li><a href="#" class="block">점심시간 PM 12:00 ~ PM 13:00</a></li>
+                <li><a href="#" class="block box">1:1 상담 작성</a></li>
             </ul>
         </nav>
+        <div class="last flex con flex-ai-c">
+            <div class="ft-copy flex flex-grow-1">
+                <p>Copyright © 2019 Innisfree. All Rights Reserved</p>
+            </div>
+            <div class="ft-icon flex">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/you.png?dummy123123123" alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/ins.png?dummy123123121" alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_twitter.png?dummy123123121"
+                    alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_facebook.png?dummy123123121"
+                    alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_app.png?dummy123123121" alt="">
+            </div>
+        </div>
     </div>
 
 </body>

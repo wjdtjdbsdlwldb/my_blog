@@ -258,6 +258,10 @@ label[for] {
     border: 3px solid blue;
 }
 
+.blod {
+    font-weight: bold;
+}
+
 /* 라이브러리 - flex */
 *>.flex {
     display: flex;
@@ -355,7 +359,12 @@ label[for] {
     height: 100px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 300;
+    transition: background-color .3s;
+}
+
+.top-bar.white {
+    background-color: white;
 }
 
 .top-bar>.logo>a {
@@ -374,11 +383,46 @@ label[for] {
     padding: 0 40px;
 }
 
+@media screen and (max-width:1800px) {
+    .top-bar>.menu-box>ul>li {
+        padding: 0 25px;
+    }
+}
+
+.top-bar>.menu-box>ul>li:last-child {
+    margin-right: 35px;
+}
+
+@media screen and (max-width:1800px) {
+    .top-bar>.menu-box>ul>li:last-child {
+        margin-right: 10px;
+    }
+}
+
 .top-bar>.menu-box>ul>li>a {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.1vw;
     white-space: nowrap;
     font-family: 'Noto Sans KR';
+}
+
+/* 메뉴바 - 2차메뉴 */
+
+.top-bar>.menu-box>ul>li {
+    position: relative;
+}
+
+.top-bar>.menu-box>ul ul {
+    display: none;
+    position: absolute;
+    top:100%;
+    left: 0;
+    bordeR:2px solid red;
+    width:100%;
+}
+
+.top-bar>.menu-box>ul>li:hover>ul {
+    display: block;
 }
 
 /* 메뉴 - 아이콘 박스 */
@@ -395,11 +439,6 @@ label[for] {
     width: 22px;
 }
 
-@media screen and (max-width:1800px) {
-    .top-bar>.menu-box>ul>li {
-        padding: 0 20px;
-    }
-}
 
 /* 탑바 -메뉴바 끝 */
 
@@ -925,7 +964,8 @@ label[for] {
     font-size: 16px;
     transition: background .5s;
 }
-.page-4>.swi-box>.txt-box:hover>.deal-button  {
+
+.page-4>.swi-box>.txt-box:hover>.deal-button {
     bordeR: 2px solid #fff;
     color: #fff;
     background: #03231B;
@@ -1059,12 +1099,12 @@ label[for] {
     padding-top: 100px;
 }
 
-.page-6>.mb-box>.tit-mb > p {
+.page-6>.mb-box>.tit-mb>p {
     display: inline-block;
     font-weight: 500;
 }
 
-.page-6>.mb-box>.tit-mb  span {
+.page-6>.mb-box>.tit-mb span {
     float: right;
     font-weight: 500;
 }
@@ -1097,24 +1137,24 @@ label[for] {
 .page-6>.mb-box>.icon-mb img {
     width: 70px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.page-6>.mb-box>.icon-mb>.icon-box > .icon-txt {
+.page-6>.mb-box>.icon-mb>.icon-box>.icon-txt {
     white-space: nowrap;
-    margin-top:40px;
+    margin-top: 40px;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
 }
 
-.page-6>.mb-box>.icon-mb>.icon-box > .icon-txt  > p {
+.page-6>.mb-box>.icon-mb>.icon-box>.icon-txt>p {
     line-height: 23px;
 }
 
-.page-6>.mb-box>.icon-mb>.icon-box > .icon-txt  > p:last-child {
+.page-6>.mb-box>.icon-mb>.icon-box>.icon-txt>p:last-child {
     font-size: 15px;
-} 
+}
 
 /* 6페이지 끝 */
 
@@ -1122,8 +1162,105 @@ label[for] {
 
 .footer {
     background: #03231B;
-    height: 350px;
+    height: 400px;
     color: #dfdfdfa2;
 }
 
+.footer>.footer-menu {
+    padding-top: 40px;
+}
 
+.footer>.footer-menu>ul>li:first-child {
+    margin-right: 25px;
+}
+
+.footer>.footer-menu>ul>li:not(:first-child) {
+    padding: 0 25px;
+}
+
+.footer>.ft-infor {
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.footer>.ft-infor>.inn-infor {
+    padding-top: 40px;
+}
+
+.footer>.ft-infor>.inn-infor>li>a {
+    line-height: 25px;
+    cursor: default;
+}
+
+.footer>.ft-infor>.inn-infor>li>img {
+    width: 100px;
+    opacity: .7;
+    margin-top: 30px;
+}
+
+.footer>.ft-infor>.num>li>a {
+    line-height: 20px;
+    cursor: default;
+}
+
+.footer>.ft-infor>.num>li>.cus {
+    font-size: 16px;
+    cursor: default;
+}
+
+.footer>.ft-infor>.num>li>.number {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-bottom: 15px;
+}
+
+.footer>.ft-infor>.num>li>.number>span {
+    font-size: 14px;
+}
+
+.footer>.ft-infor>.num>li>.box {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 3px 15px;
+    font-size: 14px;
+    background-color: #dfdfdf;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+/* 푸터 라인 */
+
+.footer>.ft-infor::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #dfdfdf57;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* 푸터- 아이콘 박스 */
+
+.footer>.last {
+    margin-top: 20px;
+}
+
+.footer>.last>.ft-copy {
+    font-size: 14px;
+}
+
+.footer>.last>.ft-icon {
+    display: block;
+}
+
+.footer>.last>.ft-icon>img {
+    padding: 0 3px;
+    opacity: .5;
+    cursor: pointer;
+}
