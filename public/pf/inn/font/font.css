@@ -73,7 +73,6 @@
     font-family: 'Flow';
 }
 
-
 @font-face {
     font-family: 'Blokletters-Balpen';
     src: url('/pf/inn/font/Blokletters-Balpen.ttf') format('truetype');
@@ -81,4 +80,22 @@
 
 .Blokletters-Balpen {
     font-family: 'Blokletters-Balpen';
+}
+
+@font-face {
+    font-family: 'Postit-Penscript';
+    src: url('/pf/inn/font/Postit-Penscript.otf') format('opentype');
+}
+
+.Postit-Penscript {
+    font-family: 'Postit-Penscript';
+}
+
+@font-face {
+    font-family: 'AgnesaKyoto';
+    src: url('/pf/inn/font/AgnesaKyoto.ttf') format('truetype');
+}
+
+.AgnesaKyoto {
+    font-family: 'AgnesaKyoto';
 }

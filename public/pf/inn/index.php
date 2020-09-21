@@ -281,9 +281,8 @@
             <div class="txt-box">
                 <h1 class="deal-eng">HOT DEAL</h1>
                 <h3 class="deal-ko">핫딜</h3>
-                <p class="deal-infor">이니스프리에서 만나는 핫딜 기회<br>
+                <p class="deal-ch">이니스프리에서 만나는 핫딜 기회<br>
                     지금 당장 확인하세요.
-
                 </p>
                 <a href="#" class="deal-button">View More</a>
             </div>
@@ -345,10 +344,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-scrollbar"></div>
             </div>
-            <div class="swiper-scrollbar"></div>
         </div>
-
     </div>
 
     <div class="page-5 con-min-width">
@@ -367,25 +365,71 @@
 
     <div class="page-6 con-min-width">
         <div class="mb-box con">
-            <div class="tit-mb">
+            <div class="tit-mb row">
                 <h1>멤버십 혜택</h1>
                 <p>이니스프리 멤버십 회원에게 제공되는 다양한 혜택을 확인하세요.</p>
+                <a href="#"><span>더보기 ></span></a>
             </div>
             <div class="icon-mb flex flex-jc-sa">
                 <div class="icon-box flex">
                     <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                    <div class="icon-txt">
+                        <p>멤버십데이 혜택</p>
+                        <p>최대 30% 할인</p>
+                    </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/coupon-icon2.png?dummy123123"
+                        alt="">
+                    <div class="icon-txt">
+                        <p>시크릿 쿠폰</p>
+                        <p>월 1회 할인쿠폰 제공</p>
+                    </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/coupon-icon.png?dummy123123"
+                        alt="">
+                    <div class="icon-txt">
+                        <p>생일 혜택</p>
+                        <p>40% 할인 쿠폰 지급</p>
+                    </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/box-icon.png?dummy123123" alt="">
+                    <div class="icon-txt">
+                        <p>우수회원키트 제공</p>
+                        <p>연 2회</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="footer con-min-width">
+        <nav class="footer-menu con">
+            <ul class="menu-wrap flex">
+                <li><a href="#">서비스 이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보처리기기 운영/관리 방침</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">임직원서비스</a></li>
+            </ul>
+        </nav>
+        <nav class="ft-infor con">
+            <ul class="">
+                <li><a href="#">(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 임혜영</a></li>
+                <li><a href="#">사업자 등록번호 106-86-68127  |  통신판매신고번호 2018-서울용산-0014  |   제품 문의 : 080-380-0114  |   FAX 02-6040-7108</a></li>
+                <li><a href="#">이메일 주소  innisfree@innisfree.com  |   비즈니스제휴/입점문의  partner.biz@innisfree.com</a></li>
+                <li><a href="#">이메일 주소 무단 수집 거부  |   개인정보 보호책임자 박남기  |   호스팅 서비스 제공자 ㈜이니스프리</a></li>
+            </ul>
+            <ul class="flex">
+                <li><a href="#">고객 서비스센터 이용안내</a></li>
+                <li><a href="#">080-380-0114 (수신자 요금 부담) </a></li>
+                <li><a href="#">운영시간 AM 09:00 ~ PM 18:00 (주말 및 공휴일 휴무)</a></li>
+                <li><a href="#">점심시간 PM 12:00 ~ PM 13:00</a></li>
+                <li><a href="#">1:1 상담 작성</a></li>
+            </ul>
+        </nav>
     </div>
 
 </body>
