@@ -26,10 +26,69 @@
             <ul class="flex">
                 <li><a href="#">CATEGORY</a>
                     <div>
-                        <ul class="text-align-center">
-                            <li><a href="#">유형별</a></li>
-                            <li><a href="#">라인별</a></li>
-                            <li><a href="#">고민별</a></li>
+                        <ul class="">
+                            <li><a href="#">유형별</a>
+                            <ul>
+                                <li><a href="#">스킨케어</a></li>
+                                <li><a href="#">팩/마스크</a></li>
+                                <li><a href="#">페이스메이크업</a></li>
+                                <li><a href="#">컬러메이크업</a></li>
+                                <li><a href="#">클렌징</a></li>
+                                <li><a href="#">살균·소독제</a></li>
+                                <li><a href="#">바디</a></li>
+                                <li><a href="#">네일</a></li>
+                                <li><a href="#">헤어</a></li>
+                                <li><a href="#">방향</a></li>
+                                <li><a href="#">기획 세트</a></li>
+                                <li><a href="#">미용소품</a></li>
+                                <li><a href="#">남성</a></li>
+                                <li><a href="#">반려동물 케어</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">라인별</a>
+                                <ul>
+                                    <li><a href="#">블랙티</a></li>
+                                    <li><a href="#">심플라벨</a></li>
+                                    <li><a href="#">그린티</a></li>
+                                    <li><a href="#">포어 블러</a></li>
+                                    <li><a href="#">제주 왕벚꽃</a></li>
+                                    <li><a href="#">이달의 사자</a></li>
+                                    <li><a href="#">트루케어</a></li>
+                                    <li><a href="#">re-stay</a></li>
+                                    <li><a href="#">마스크 릴리프</a></li>
+                                    <li><a href="#">못난이당근</a></li>
+                                    <li><a href="#">퀵앤이지</a></li>
+                                    <li><a href="#">쿨 이너프 스튜디오</a></li>
+                                    <li><a href="#">클린 루틴</a></li>
+                                    <li><a href="#">더마포뮬러</a></li>
+                                    <li><a href="#">진저 허니</a></li>
+                                    <li><a href="#">브라이트닝 포어</a></li>
+                                    <li><a href="#">한란</a></li>
+                                    <li><a href="#">애플 씨드</a></li>
+                                    <li><a href="#">링클 사이언스</a></li>
+                                    <li><a href="#">포레스트 포맨</a></li>
+                                    <li><a href="#">자연발효</a></li>
+                                    <li><a href="#">비자</a></li>
+                                    <li><a href="#">화산송이</a></li>
+                                    <li><a href="#">마이 메이크업 클렌저</a></li>
+                                    <li><a href="#">마이 헤어 레시피</a></li>
+                                    <li><a href="#">퍼스널 원크림</a></li>
+                                    <li><a href="#">슈퍼푸드</a></li>
+                                    <li><a href="#">용암해수</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">고민별</a>
+                                <ul>
+                                    <li><a href="#">수분</a></li>
+                                    <li><a href="#">보습</a></li>
+                                    <li><a href="#">트러블</a></li>
+                                    <li><a href="#">안티에이징</a></li>
+                                    <li><a href="#">모공</a></li>
+                                    <li><a href="#">진정</a></li>
+                                    <li><a href="#">화이트닝</a></li>
+                                    <li><a href="#">각질</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -186,8 +245,8 @@
             </div>
         </div>
     </div>
-
-    <div class="page-3 con-min-width" id="page-3">
+    <div id="page-3"></div>
+    <div class="page-3 con-min-width">
         <div class="slider-div">
             <div class="item">
                 <div class="new-box">

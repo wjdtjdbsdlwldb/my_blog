@@ -211,7 +211,6 @@ $(function () {
 $(document).ready(function () {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
-        loop: true,
         spaceBetween: 80,
         navigation: {
             nextEl: '.swiper-button-next',
@@ -227,7 +226,7 @@ $(document).ready(function () {
         },
         scrollbar: {
             el: '.swiper-scrollbar',
-            hide: false,
+            draggable:true,
         }
     });
 });
