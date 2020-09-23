@@ -28,25 +28,25 @@
                     <div>
                         <ul class="">
                             <li><a href="#">유형별</a>
-                            <ul>
-                                <li><a href="#">스킨케어</a></li>
-                                <li><a href="#">팩/마스크</a></li>
-                                <li><a href="#">페이스메이크업</a></li>
-                                <li><a href="#">컬러메이크업</a></li>
-                                <li><a href="#">클렌징</a></li>
-                                <li><a href="#">살균·소독제</a></li>
-                                <li><a href="#">바디</a></li>
-                                <li><a href="#">네일</a></li>
-                                <li><a href="#">헤어</a></li>
-                                <li><a href="#">방향</a></li>
-                                <li><a href="#">기획 세트</a></li>
-                                <li><a href="#">미용소품</a></li>
-                                <li><a href="#">남성</a></li>
-                                <li><a href="#">반려동물 케어</a></li>
-                            </ul>
+                                <ul>
+                                    <li><a href="#">스킨케어</a></li>
+                                    <li><a href="#">팩/마스크</a></li>
+                                    <li><a href="#">페이스메이크업</a></li>
+                                    <li><a href="#">컬러메이크업</a></li>
+                                    <li><a href="#">클렌징</a></li>
+                                    <li><a href="#">살균·소독제</a></li>
+                                    <li><a href="#">바디</a></li>
+                                    <li><a href="#">네일</a></li>
+                                    <li><a href="#">헤어</a></li>
+                                    <li><a href="#">방향</a></li>
+                                    <li><a href="#">기획 세트</a></li>
+                                    <li><a href="#">미용소품</a></li>
+                                    <li><a href="#">남성</a></li>
+                                    <li><a href="#">반려동물 케어</a></li>
+                                </ul>
                             </li>
                             <li><a href="#">라인별</a>
-                                <ul>
+                                <!-- <ul>
                                     <li><a href="#">블랙티</a></li>
                                     <li><a href="#">심플라벨</a></li>
                                     <li><a href="#">그린티</a></li>
@@ -75,10 +75,10 @@
                                     <li><a href="#">퍼스널 원크림</a></li>
                                     <li><a href="#">슈퍼푸드</a></li>
                                     <li><a href="#">용암해수</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li><a href="#">고민별</a>
-                                <ul>
+                                <!-- <ul>
                                     <li><a href="#">수분</a></li>
                                     <li><a href="#">보습</a></li>
                                     <li><a href="#">트러블</a></li>
@@ -87,7 +87,7 @@
                                     <li><a href="#">진정</a></li>
                                     <li><a href="#">화이트닝</a></li>
                                     <li><a href="#">각질</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                         </ul>
                     </div>

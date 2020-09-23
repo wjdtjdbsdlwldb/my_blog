@@ -369,8 +369,15 @@ label[for] {
 
 .top-bar>.logo>a {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 115px;
 }
+
+@media screen and (max-width:1800px) {
+    .top-bar>.logo>a {
+        margin-left: 80px;
+    }
+}
+
 
 .top-bar>.logo>a>img {
     width: 120px;
@@ -379,20 +386,12 @@ label[for] {
 
 /* 메뉴 박스 -1차메뉴 */
 
-.top-bar>.menu-box>ul>li {
-    padding: 0 40px;
+.top-bar>.menu-box ul>li {
     position: relative;
-    bordeR:2px solid red;
-}
-
-@media screen and (max-width:1800px) {
-    .top-bar>.menu-box>ul>li {
-        padding: 0 25px;
-    }
 }
 
 .top-bar>.menu-box>ul>li:last-child {
-    margin-right: 35px;
+    margin-right: 70px;
 }
 
 @media screen and (max-width:1800px) {
@@ -406,49 +405,63 @@ label[for] {
     font-size: 18px;
     white-space: nowrap;
     font-family: 'Noto Sans KR';
+    display: block;
+    padding: 35px 30px;
 }
+
+
+@media screen and (max-width:1800px) {
+    .top-bar>.menu-box>ul>li>a {
+        padding: 35px 25px;
+    }
+}
+
 
 /* 메뉴바 - 2차메뉴 */
 
-.top-bar>.menu-box>ul div {
+.top-bar>.menu-box ul div {
     position: absolute;
-    top:100%;
+    top: 100%;
     left: 0;
-    margin-top:20px;
-    width:810px;
+    width: 810px;
     height: 500px;
     background: pink;
     display: none;
 }
 
-.top-bar>.menu-box>ul ul {
-    bordeR:2px solid blue;
-}
-
-.top-bar>.menu-box>ul>li:hover div{
+.top-bar>.menu-box ul>li:hover>div {
     display: block;
 }
+
+.top-bar>.menu-box>ul ul ul {}
+
 
 /* 메뉴 - 아이콘 박스 */
 
 .top-bar>.icon-box {
-    margin-right: 50px;
+    margin-right: 115px;
 }
 
-.top-bar>.icon-box>ul>li {
-    padding: 5px 20px 0 20px;
+@media screen and (max-width:1800px) {
+    .top-bar>.icon-box {
+        margin-right: 80px;
+    }
+}
+
+
+.top-bar>.icon-box>ul>li>a {
+    padding: 5px 15px 0 15px;
+    display: block;
 }
 
 .top-bar>.icon-box>ul>li img {
     width: 22px;
 }
 
-
 /* 탑바 -메뉴바 끝 */
 
 
 /* 1페이지 시작 */
-
 /* 메인 슬라이드 */
 .main {
     position: relative;
@@ -459,7 +472,7 @@ label[for] {
     user-select: none;
     width: 35%;
     height: 100vh;
-    margin-left: 13%;
+    margin-left: 16%;
 }
 
 .slider-k.height-full {
@@ -518,34 +531,34 @@ label[for] {
     height: auto;
     position: absolute;
     top: 50%;
-    left: 110%;
+    left: 112%;
     transform: translateY(-40%);
     white-space: nowrap;
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt>h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 300;
     color: #213429;
     letter-spacing: -2.5px;
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt span {
-    font-size: 1vw;
+    font-size: .9;
     color: #2b2b2b;
-    font-weight: 600;
+    font-weight: 500;
     display: block;
-    font-family: 'NanumSquare';
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button {
     border: 2px solid #213429bb;
     display: inline-block;
     padding: 5px 45px;
-    font-size: 1vw;
+    font-size: .8vw;
     transform: translatey(400%);
-    font-weight: 400;
+    font-weight: 500;
     cursor: pointer;
+    color: #213429bb;
 }
 
 /* 메인 카피 텍스트 */
@@ -553,7 +566,13 @@ label[for] {
 .main>.copy {
     position: absolute;
     bottom: 10%;
-    left: 45px;
+    left: 115px;
+}
+
+@media screen and (max-width:1800px) {
+    .main>.copy {
+        left: 80px;
+    }
 }
 
 .main>.copy>span {
@@ -566,20 +585,20 @@ label[for] {
 .main>.copy>span::after {
     position: absolute;
     content: '';
-    width: 20px;
+    width: 15px;
     height: 1px;
     background: #03231B;
     bottom: 3px;
-    right: -25px;
+    right: -20px;
 }
 
 /* 메인 백그라운드 텍스트 */
 .main>.bg-txt {
     position: absolute;
     top: 50%;
-    right: 20%;
+    right: 21%;
     transform: translateY(-50%);
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: #cccccc;
     opacity: .2;
     font-weight: bold;
@@ -929,7 +948,7 @@ label[for] {
 
 .page-4 {
     background-color: #fbfbfd;
-    height: 800px;
+    height: 850px;
     margin-top: 150px;
 }
 
@@ -1024,7 +1043,7 @@ label[for] {
 .page-4 .swiper-slide>div>.deal-txt>h3 {
     margin-top: 15px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .page-4 .swiper-slide>div>.deal-txt>.name-deal {
@@ -1036,6 +1055,7 @@ label[for] {
 .page-4 .swiper-slide>div>.deal-txt>.infor-deal {
     padding-top: 30px;
     font-family: 'NanumSquare';
+
 }
 
 .page-4 .swiper-slide>div>.deal-txt>.bu {
@@ -1092,6 +1112,8 @@ label[for] {
     font-size: 22px;
     line-height: 27px;
 }
+
+/* 5페이지 끝 */
 
 /* 6페이지 -백그라운드  */
 .page-6 {
@@ -1224,6 +1246,7 @@ label[for] {
 
 .footer>.ft-infor>.num>li>.number>span {
     font-size: 14px;
+    font-weight: 500;
 }
 
 .footer>.ft-infor>.num>li>.box {
@@ -1247,7 +1270,6 @@ label[for] {
     bottom: 0;
     left: 0;
 }
-
 
 /* 푸터- 아이콘 박스 */
 

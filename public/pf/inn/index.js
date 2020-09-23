@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
 
-        if (scrollTop > windowHeight - 200) {
+        if (scrollTop > windowHeight - 600) {
             $topBar.addClass("white");
         } else {
             $topBar.removeClass("white");
