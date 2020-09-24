@@ -339,7 +339,7 @@ label[for] {
 
 /* 커스텀 */
 /* body,html {
-    overflow-x: hidden;
+overflow-x: hidden;
 } */
 
 .con {
@@ -369,7 +369,7 @@ label[for] {
 
 .top-bar>.logo>a {
     display: inline-block;
-    margin-left: 115px;
+    margin-left: 135px;
 }
 
 @media screen and (max-width:1800px) {
@@ -377,7 +377,6 @@ label[for] {
         margin-left: 80px;
     }
 }
-
 
 .top-bar>.logo>a>img {
     width: 120px;
@@ -391,7 +390,7 @@ label[for] {
 }
 
 .top-bar>.menu-box>ul>li:last-child {
-    margin-right: 70px;
+    margin-right: 60px;
 }
 
 @media screen and (max-width:1800px) {
@@ -409,7 +408,6 @@ label[for] {
     padding: 35px 30px;
 }
 
-
 @media screen and (max-width:1800px) {
     .top-bar>.menu-box>ul>li>a {
         padding: 35px 25px;
@@ -419,27 +417,21 @@ label[for] {
 
 /* 메뉴바 - 2차메뉴 */
 
-.top-bar>.menu-box ul div {
+.top-bar>.menu-box ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 810px;
-    height: 500px;
-    background: pink;
     display: none;
 }
 
-.top-bar>.menu-box ul>li:hover>div {
+.top-bar>.menu-box ul>li:hover>ul {
     display: block;
 }
-
-.top-bar>.menu-box>ul ul ul {}
-
 
 /* 메뉴 - 아이콘 박스 */
 
 .top-bar>.icon-box {
-    margin-right: 115px;
+    margin-right: 135px;
 }
 
 @media screen and (max-width:1800px) {
@@ -470,9 +462,9 @@ label[for] {
 .slider-k {
     position: relative;
     user-select: none;
-    width: 35%;
+    width: 33%;
     height: 100vh;
-    margin-left: 16%;
+    margin-left: 17%;
 }
 
 .slider-k.height-full {
@@ -531,7 +523,7 @@ label[for] {
     height: auto;
     position: absolute;
     top: 50%;
-    left: 112%;
+    left: 115%;
     transform: translateY(-40%);
     white-space: nowrap;
 }
@@ -544,7 +536,7 @@ label[for] {
 }
 
 .main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt span {
-    font-size: .9;
+    font-size: .8vw;
     color: #2b2b2b;
     font-weight: 500;
     display: block;
@@ -566,7 +558,7 @@ label[for] {
 .main>.copy {
     position: absolute;
     bottom: 10%;
-    left: 115px;
+    left: 130px;
 }
 
 @media screen and (max-width:1800px) {
@@ -638,6 +630,7 @@ label[for] {
 .page-2>.md-txt>span {
     font-size: 1.1vw;
     font-family: 'NanumSquare';
+    font-weight: 600;
 }
 
 /* 2페이지 -md 상품이미지  */
@@ -1096,21 +1089,33 @@ label[for] {
 
 /* 5페이지 - 텍스트 박스 */
 .page-5>.vd-box>.nt-txt {
+    position: absolute;
+    top:0;
+    left:50%;
     color: white;
-    font-family: 'mtoco';
-    font-weight: 100;
-    font-size: 30px;
-
     letter-spacing: 1px;
     padding-top: 150px;
+    opacity: 0;
+    transform: translate(-50%, 20%);
+    transition: opacity 1s 0.5s, transform 2s 0.5s;
+}
+
+.page-5>.vd-box>.nt-txt.active {
+    transform: translate(-50%, 0%);
+    opacity: 1;
+}
+.page-5>.vd-box>.nt-txt>h2 {
+    font-family: 'mtoco';
+    font-size: 65px;
+    font-weight: 400;
 }
 
 .page-5>.vd-box>.nt-txt>p {
     font-weight: 400;
     font-family: 'NanumSquare';
     padding-top: 50px;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 /* 5페이지 끝 */

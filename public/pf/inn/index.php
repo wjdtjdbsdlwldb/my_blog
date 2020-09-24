@@ -25,7 +25,6 @@
         <nav class="menu-box flex flex-1-0-0 flex-jc-end">
             <ul class="flex">
                 <li><a href="#">CATEGORY</a>
-                    <div>
                         <ul class="">
                             <li><a href="#">유형별</a>
                                 <ul>
@@ -46,7 +45,7 @@
                                 </ul>
                             </li>
                             <li><a href="#">라인별</a>
-                                <!-- <ul>
+                                <ul>
                                     <li><a href="#">블랙티</a></li>
                                     <li><a href="#">심플라벨</a></li>
                                     <li><a href="#">그린티</a></li>
@@ -75,10 +74,10 @@
                                     <li><a href="#">퍼스널 원크림</a></li>
                                     <li><a href="#">슈퍼푸드</a></li>
                                     <li><a href="#">용암해수</a></li>
-                                </ul> -->
+                                </ul>
                             </li>
                             <li><a href="#">고민별</a>
-                                <!-- <ul>
+                                <ul>
                                     <li><a href="#">수분</a></li>
                                     <li><a href="#">보습</a></li>
                                     <li><a href="#">트러블</a></li>
@@ -87,10 +86,10 @@
                                     <li><a href="#">진정</a></li>
                                     <li><a href="#">화이트닝</a></li>
                                     <li><a href="#">각질</a></li>
-                                </ul> -->
+                                </ul>
                             </li>
                         </ul>
-                    </div>
+                    
                 </li>
                 <li><a href="#page-3">NEW</a></li>
                 <li><a href="#page-4">HOT DEAL</a></li>
@@ -422,8 +421,8 @@
                     type="video/mp4">
             </video>
 
-            <div class="nt-txt">
-                <h1>Nature's Breath, Innisfree</h1>
+            <div class="nt-txt active-on-visible" data-active-on-visible-diff-y="-400">
+                <h2>Nature's Breath, Innisfree</h2>
                 <p>이니스프리에는 정직하고 순수한 <br> 아름다움이 가득 담겨 있습니다.</p>
             </div>
         </div>
