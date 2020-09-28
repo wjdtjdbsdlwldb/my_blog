@@ -71,26 +71,6 @@ $(document).ready(function () {
     });
 });
 
-function MobileSideBar__toggle() {
-    var $btn = $('.btn-toggle-mobile-side-bar');
-
-    if ($btn.hasClass('active')) {
-        $btn.removeClass('active');
-        $('.mobile-side-bar').removeClass('active');
-        $('.side-bg-box').removeClass('active');
-        $('html').removeClass('active');
-        $('.mobile-side-bar .side-menu-box-1 > ul > li').removeClass('active');
-
-
-    } else {
-        $btn.addClass('active');
-        $('.mobile-side-bar').addClass('active');
-        $('.side-bg-box').addClass('active');
-        $('html').addClass('active');
-
-    }
-}
-
 
 /* 기능 */
 function SliderK__show($slider, index) {

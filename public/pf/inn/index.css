@@ -385,7 +385,7 @@ overflow-x: hidden;
 
 /* 메뉴 박스 -1차메뉴 */
 
-.top-bar>.menu-box > ul>li {
+.top-bar>.menu-box>ul>li {
     position: relative;
 }
 
@@ -417,15 +417,90 @@ overflow-x: hidden;
 
 /* 메뉴바 - 2차메뉴 */
 
-.top-bar>.menu-box ul ul {
+.top-bar > .menu-box>ul>li>ul {
+    text-align: center;
+    color: white;
+}
+
+.top-bar > .menu-box>ul>li>ul>li:hover >a {
+    font-weight: 600;
+}
+
+.top-bar >.menu-box>ul ul {
+    display: none;
+    position: absolute;
+    top: 115%;
+    width: 100%;
+    text-align: left;
+}
+
+.top-bar> .menu-box>ul ul>li {
+    padding: 5px 0;
+}
+
+.top-bar>.menu-box>ul ul ul {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    color: #2b2b2b;
+    padding-left: 30px;
+}
+
+.top-bar>.menu-box>ul ul ul > li:hover >a {
+    font-weight: 600;
+    color: #055344;
+}
+
+.top-bar>.menu-box  ul>li:hover > ul {
+    display: block;
+}
+
+.top-bar>.menu-box>ul>li>ul>li:nth-child(2)>ul {
+    padding:2px 0 0 30px;
+    width: 100%;
+}
+
+.top-bar>.menu-box>ul>li>ul>li:nth-child(2)>.two {
+    margin-left: calc(100%/1 + 30px);
+}
+
+.top-bar>.menu-box>ul>li>.background {
+    width: 750px;
+    height: 0;
     position: absolute;
     top: 100%;
     left: 0;
-    display: none;
+    z-index: -1;
+    background: white;
+    transition: height .2s;
+    
 }
 
-.top-bar>.menu-box ul>li:hover>ul {
-    display: block;
+.top-bar>.menu-box>ul>li:hover>.background {
+    height: 500px;
+    transition: height .5s;
+}
+
+
+.top-bar>.menu-box>ul>li>.background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 21%;
+    background: #055344;
+}
+
+@media screen and (max-width:1800px) {
+    .top-bar>.menu-box>ul>li>.background {
+        width: 650px;
+
+    }
+
+    .top-bar>.menu-box>ul>li>.background::after {
+        width: 22%;
+    }
 }
 
 /* 메뉴 - 아이콘 박스 */
@@ -440,7 +515,6 @@ overflow-x: hidden;
     }
 }
 
-
 .top-bar>.icon-box>ul>li>a {
     padding: 5px 15px 0 15px;
     display: block;
@@ -449,8 +523,6 @@ overflow-x: hidden;
 .top-bar>.icon-box>ul>li img {
     width: 22px;
 }
-
-
 
 /* 탑바 -메뉴바 끝 */
 
@@ -603,6 +675,7 @@ overflow-x: hidden;
 .main>.bg-txt>.from {
     display: inline-block;
 }
+
 /* 1페이지 끝 */
 
 
@@ -1091,8 +1164,8 @@ overflow-x: hidden;
 /* 5페이지 - 텍스트 박스 */
 .page-5>.vd-box>.nt-txt {
     position: absolute;
-    top:0;
-    left:50%;
+    top: 0;
+    left: 50%;
     color: white;
     letter-spacing: 1px;
     padding-top: 150px;
@@ -1105,6 +1178,7 @@ overflow-x: hidden;
     transform: translate(-50%, 0%);
     opacity: 1;
 }
+
 .page-5>.vd-box>.nt-txt>h2 {
     font-family: 'mtoco';
     font-size: 65px;
