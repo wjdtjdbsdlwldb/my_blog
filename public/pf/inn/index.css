@@ -369,7 +369,7 @@ overflow-x: hidden;
 
 .top-bar>.logo>a {
     display: inline-block;
-    margin-left: 135px;
+    margin-left: 155px;
 }
 
 @media screen and (max-width:1800px) {
@@ -385,7 +385,7 @@ overflow-x: hidden;
 
 /* 메뉴 박스 -1차메뉴 */
 
-.top-bar>.menu-box ul>li {
+.top-bar>.menu-box > ul>li {
     position: relative;
 }
 
@@ -431,7 +431,7 @@ overflow-x: hidden;
 /* 메뉴 - 아이콘 박스 */
 
 .top-bar>.icon-box {
-    margin-right: 135px;
+    margin-right: 150px;
 }
 
 @media screen and (max-width:1800px) {
@@ -450,6 +450,8 @@ overflow-x: hidden;
     width: 22px;
 }
 
+
+
 /* 탑바 -메뉴바 끝 */
 
 
@@ -464,7 +466,7 @@ overflow-x: hidden;
     user-select: none;
     width: 33%;
     height: 100vh;
-    margin-left: 17%;
+    margin-left: 18%;
 }
 
 .slider-k.height-full {
@@ -523,7 +525,7 @@ overflow-x: hidden;
     height: auto;
     position: absolute;
     top: 50%;
-    left: 115%;
+    left: 112%;
     transform: translateY(-40%);
     white-space: nowrap;
 }
@@ -558,7 +560,7 @@ overflow-x: hidden;
 .main>.copy {
     position: absolute;
     bottom: 10%;
-    left: 130px;
+    left: 140px;
 }
 
 @media screen and (max-width:1800px) {
@@ -588,7 +590,7 @@ overflow-x: hidden;
 .main>.bg-txt {
     position: absolute;
     top: 50%;
-    right: 21%;
+    right: 20%;
     transform: translateY(-50%);
     font-size: 3vw;
     color: #cccccc;
@@ -601,7 +603,6 @@ overflow-x: hidden;
 .main>.bg-txt>.from {
     display: inline-block;
 }
-
 /* 1페이지 끝 */
 
 
@@ -981,7 +982,7 @@ overflow-x: hidden;
     transition: background .5s;
 }
 
-.page-4>.swi-box>.txt-box:hover>.deal-button {
+.page-4>.swi-box>.txt-box>.deal-button:hover {
     bordeR: 2px solid #fff;
     color: #fff;
     background: #03231B;
@@ -1047,7 +1048,7 @@ overflow-x: hidden;
 
 .page-4 .swiper-slide>div>.deal-txt>.infor-deal {
     padding-top: 30px;
-    font-family: 'NanumSquare';
+    /* font-family: 'NanumSquare'; */
 
 }
 
@@ -1097,7 +1098,7 @@ overflow-x: hidden;
     padding-top: 150px;
     opacity: 0;
     transform: translate(-50%, 20%);
-    transition: opacity 1s 0.5s, transform 2s 0.5s;
+    transition: opacity 1s 0.5s, transform 1.5s 0.5s;
 }
 
 .page-5>.vd-box>.nt-txt.active {
