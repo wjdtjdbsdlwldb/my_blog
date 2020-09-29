@@ -1279,12 +1279,12 @@ html {
 /* 5페이지 - 컨텍트 박스 타이틀*/
 
 .page-5>.contact-box>div {
-    transform: translateY(40%);
+    transform: translateY(35%);
 }
 
 @media screen and (min-width:967px) {
     .page-5>.contact-box>div {
-        transform: translateY(20%);
+        transform: translateY(35%);
     }
 }
 
