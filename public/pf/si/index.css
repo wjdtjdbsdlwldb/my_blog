@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic&family=Open+Sans&family=Prata&display=swap');
 
 html {
-    font-family: 'Abril Fatface', 'Open Sans', 'Prata', 'Nanum Gothic', cursive, sans-serif, serif;
+    font-family: 'Malgun Gothic', 'Abril Fatface', 'Open Sans', 'Prata', 'Nanum Gothic', cursive, sans-serif, serif;
 }
 
 body,
@@ -330,10 +330,6 @@ label[for] {
     min-width: 1237px;
 }
 
-.con-min-width {
-    min-width: 1237px;
-}
-
 .main>.header {
     position: fixed;
     top: 0;
@@ -346,7 +342,7 @@ label[for] {
 .main>.header>.top-bar {
     position: relative;
     width: 100%;
-    height: 110px;
+    height: 65px;
     z-index: 10;
     background: transparent;
 }
@@ -620,8 +616,8 @@ label[for] {
     transition: opacity 2s, top 2s;
 }
 
-.slider-k .slides>div.active >.text-box {
-    top:50%;
+.slider-k .slides>div.active>.text-box {
+    top: 50%;
     transform: translateY(-50%) translateX(-50%);
     opacity: 1;
     transition: opacity 2s, top 2s;
@@ -632,29 +628,242 @@ label[for] {
     font-size: 65px;
     font-family: 'Prata', serif;
     margin: 0;
+    font-weight: 400;
 }
 
 .slider-k .slides>div>.text-box>ul>li>a>h3::after {
-    content:'';
-    display:block;
+    content: '';
+    display: block;
     margin: 13px auto 0;
-    width:30px;
-    height:2px;
+    width: 30px;
+    height: 2px;
     background-color: #fff;
 }
 
 
-.slider-k .slides>div>.text-box>ul>li> .sub-txt {
-    font-size:18px;
+.slider-k .slides>div>.text-box>ul>li>.sub-txt {
+    font-size: 18px;
     letter-spacing: .2em;
     line-height: 28px;
-    margin-top:20px;
+    margin-top: 20px;
     display: block;
 }
 
-.slider-k .slides>div>.text-box>ul>li> .last-txt {
+.slider-k .slides>div>.text-box>ul>li>.last-txt {
     display: block;
     font-size: 14px;
     /* white-space: pre-line;
      */
+}
+
+/* 1페이지 끝  */
+
+
+/* 2 페이지 - 탑바 색상변경 */
+
+.fp-viewing-1 .main>.header>.top-bar>.lan-box {
+    color: black;
+}
+
+/* 2페이지 - 슬라이드 */
+
+/* 캐러셀 1 */
+
+.slide2 {
+    width: 50%;
+
+}
+
+.carousel-1>.owl-carousel {
+    position: relative;
+}
+
+.carousel-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .item > div {
+    opacity: .2;
+    transition: opacity .3s;
+    overflow: hidden;
+}
+
+.carousel-1>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item.active .item > div {
+    opacity: 1;
+    overflow: hidden;
+}
+
+/* 2페이지 - 슬라이드 버튼  */
+
+.carousel-1>.owl-carousel>.owl-nav {
+    margin: 0 !important;
+    
+}
+
+.carousel-1>.owl-carousel>.owl-nav > button {
+    opacity: .6;
+}
+
+.carousel-1>.owl-carousel>.owl-nav > button:hover {
+    background: transparent;
+    opacity: 1;
+}
+
+.carousel-1>.owl-carousel>.owl-nav>.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    outline: 0 !important; 
+}
+
+.carousel-1>.owl-carousel>.owl-nav>.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    outline: 0 !important; 
+}
+
+/* 2페이지 - 텍스트 */
+
+.carousel-1>.owl-carousel .item .txt-box,
+.carousel-1>.owl-carousel .item .text-box {
+    width: 410px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-35%);
+}
+
+.carousel-1>.owl-carousel .item .text-box {
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-60%);
+}
+
+.carousel-1>.owl-carousel .item .txt-box h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 24px;
+}
+
+.carousel-1>.owl-carousel .item .txt-box p {
+    color: #212121;
+    font-size: 16px;
+}
+
+.carousel-1>.owl-carousel .item .text-box > div {
+    padding-top: 26px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.7;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical !important;
+    position: relative;
+}
+
+.carousel-1>.owl-carousel .item .text-box div::before{
+    content: "";
+    width:15px;
+    height: 1px;
+    background-color: #66666644;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.carousel-1>.owl-carousel .item .text-box > a {
+    font-size: 12px;
+    color:#666666;
+    padding-top: 30px;
+    letter-spacing: -1;
+    display: block;
+}
+
+.carousel-1>.owl-carousel>.owl-dots {
+    padding: 0;
+    margin: 20px 0 0 0;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+    outline: 0 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width:8px !important;
+    height:8px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active > span{
+    background-color: #212121 !important;
+    width:8px;
+    height: 8px;
+}
+
+/* 캐러셀 2 */
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item {
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 10;
+
+}
+
+.carousel-2>.owl-carousel>.owl-nav {
+    margin: 0 !important;
+}
+
+.carousel-2>.owl-carousel>.owl-nav>div {
+    padding: 0;
+    margin: 0 20px;
+    border-radius: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 4rem;
+}
+
+.carousel-2>.owl-carousel>.owl-nav>div.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.carousel-2>.owl-carousel>.owl-dots {
+    padding: 0;
+    margin: 20px 0 0 0;
 }

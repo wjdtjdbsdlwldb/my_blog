@@ -29,7 +29,7 @@
         <div class="section section1">
             <div class="main con-min-width">
                 <div class="header">
-                    <div class="top-bar flex flex-ai-c">
+                    <div class="top-bar flex flex-ai-end">
                         <div class="logo flex flex-grow-1">
                             <a href=""></a>
                         </div>
@@ -187,8 +187,109 @@
 
             </div>
         </div>
-        <div class="section section2">페이지 3</div>
-        <div class="section section3">페이지 4</div>
+        <div class="section section2">
+            <div class="page-2 row">
+                <div class="slide2 cell">
+                    <div class="carousel-2">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/bn-9.jpg?dummy123123);">
+
+                            </div>
+                            <div class="item"
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/bn-8.jpg?dummy123123);">
+
+                            </div>
+                            <div class="item"
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/bn-1.jpg?dummy123123);">
+
+                            </div>
+                            <div class="item"
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/bn-2.jpg?dummy123123);">
+
+                            </div>
+                            <div class="item"
+                                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/bn-4.jpg?dummy123123);">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide2 cell">
+                    <div class="carousel-1" data-carousel-1-autoplay-status="Y">
+                        <div class="owl-carousel owl-theme text-align-center">
+                            <div onclick="Carousel2__itemClicked(this);" class="item active">
+                                <div class="txt-box">
+                                    <h3>SANTA MARIA NOVELLA</h3>
+                                    <p>[SMN]반려동물도 명품 화장품 쓴다! 펫 컬렉션 인기</p>
+                                </div>
+                                <div class="text-box">
+                                    <div>국내 반려동물 인구가 1500만명 시대를 맞았다. 반려동물을 가족 같이 생각하는 펫팸족(펫+패밀리)이 증가하면서 고가의 펫케어 화장품이
+                                        인기를 끌고 있다. 400년 전통 이탈리아 라이프스타일 브랜드 산타 마리아 노벨라(Santa Maria Novella)는 반려동물을 위한
+                                        프리미엄 펫 컬렉션의 올해 1월~8월 매출이 전년 동기 대비 56% 증가했다고 밝혔다.</div>
+
+                                    <a href="">READ MORE ></a>
+                                </div>
+
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item">
+                                <div class="txt-box">
+                                    <h3>SHINSEGAE INTERNATIONAL</h3>
+                                    <p>[신세계인터내셔날] 올 가을 실용적인 셋업 슈트 인기</p>
+                                </div>
+                                <div class="text-box">
+                                    <div>남녀 구분없는 젠더리스 패션이 트렌드가 되면서 남성들의 전유물로 여겨졌던 슈트가 올해는 여성 대표 패션으로 자리잡았다. 비즈니스 캐주얼이
+                                        일반화 되면서 남성들 사이에서 슈트의 인기는 줄어든 반면 당당하고 자신감 넘치는 자기 표현을 원하는 여성들 사이에서 슈트의 인기는 더욱 높아지는
+                                        추세다.</div>
+
+                                    <a href="">READ MORE ></a>
+                                </div>
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item">
+                                <div class="txt-box">
+                                    <h3>GAP</h3>
+                                    <p>[갭] 10대들을 위한 틴(Teen) 컬렉션 출시</p>
+                                </div>
+                                <div class="text-box">
+                                    <div>신세계인터내셔날이 수입·판매하는 아메리칸 캐주얼 브랜드 갭(GAP)은 이달 11일 패션에 가장 관심이 많은 8세부터 16세의 청소년들을 위한
+                                        틴(Teen) 컬렉션을 출시한다고 밝혔다.</div>
+
+                                    <a href="">READ MORE ></a>
+                                </div>
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item">
+                                <div class="txt-box">
+                                    <h3>JUICY COUTURE</h3>
+                                    <p>쥬시 꾸뛰르, 프리미엄으로 승부! 블랙 라벨 론칭</p>
+                                </div>
+                                <div class="text-box">
+                                    <div>신세계인터내셔날의 여성복 브랜드 쥬시 꾸뛰르(Juicy Couture)가 브랜드 고급화 전략으로 프리미엄 패션 소비층 공략에 나선다.여성복
+                                        시장이 고가와 저가로 빠르게 재편되고 있는 상황에서 품질과 디자인 수준을 높여 최근 성장하고 있는 컨템포러리 시장에서 승부를 본다는 계획이다.
+                                    </div>
+
+                                    <a href="">READ MORE ></a>
+                                </div>
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item">
+                                <div class="txt-box">
+                                    <h3>SANTA MARIA NOVELLA</h3>
+                                    <p>[SMN]한국 고객만을 위한 프리지아50ml 향수 출시</p>
+                                </div>
+                                <div class="text-box">
+                                    <div>이것이 K-뷰티의 위상이다! 400년 전통의 이탈리아 라이프스타일 브랜드 산타 마리아 노벨라(Santa Maria Novella)는 이달 한국
+                                        고객을 위해 수 백 년간 고수해오던 향수 용기 사이즈와 디자인을 변경하고 이를 국내 시장에 독점 출시한다고 밝혔다.</div>
+
+                                    <a href="">READ MORE ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section3" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_3_bg.jpg?dummy123123)">
+            <div class="page-3"></div>
+        </div>
         <div class="section section4">페이지 5</div>
         <div class="section section5">페이지 6</div>
     </div>
