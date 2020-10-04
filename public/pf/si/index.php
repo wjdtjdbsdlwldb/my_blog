@@ -26,7 +26,7 @@
 
 <body>
     <div id="fullpage">
-        <div class="section section1">
+        <div class="section section1 con-min-width">
             <div class="main con-min-width">
                 <div class="header">
                     <div class="top-bar flex flex-ai-end">
@@ -167,8 +167,7 @@
                             </div>
                         </div>
 
-                        <div class="side-btns">
-                            <div>
+                        <div class="side-btns"><div>
                                 <span class="prev">
                                     <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/btn_top_prev.png"
                                         alt="">
@@ -187,7 +186,7 @@
 
             </div>
         </div>
-        <div class="section section2">
+        <div class="section section2 con-min-width">
             <div class="page-2 row">
                 <div class="slide2 cell">
                     <div class="carousel-2">
@@ -223,7 +222,7 @@
                                     <h3>SANTA MARIA NOVELLA</h3>
                                     <p>[SMN]반려동물도 명품 화장품 쓴다! 펫 컬렉션 인기</p>
                                 </div>
-                                <div class="text-box">
+                                <div class="txt-box1">
                                     <div>국내 반려동물 인구가 1500만명 시대를 맞았다. 반려동물을 가족 같이 생각하는 펫팸족(펫+패밀리)이 증가하면서 고가의 펫케어 화장품이
                                         인기를 끌고 있다. 400년 전통 이탈리아 라이프스타일 브랜드 산타 마리아 노벨라(Santa Maria Novella)는 반려동물을 위한
                                         프리미엄 펫 컬렉션의 올해 1월~8월 매출이 전년 동기 대비 56% 증가했다고 밝혔다.</div>
@@ -250,7 +249,7 @@
                                     <h3>GAP</h3>
                                     <p>[갭] 10대들을 위한 틴(Teen) 컬렉션 출시</p>
                                 </div>
-                                <div class="text-box">
+                                <div class="txt-box1">
                                     <div>신세계인터내셔날이 수입·판매하는 아메리칸 캐주얼 브랜드 갭(GAP)은 이달 11일 패션에 가장 관심이 많은 8세부터 16세의 청소년들을 위한
                                         틴(Teen) 컬렉션을 출시한다고 밝혔다.</div>
 
@@ -262,7 +261,7 @@
                                     <h3>JUICY COUTURE</h3>
                                     <p>쥬시 꾸뛰르, 프리미엄으로 승부! 블랙 라벨 론칭</p>
                                 </div>
-                                <div class="text-box">
+                                <div class="txt-box1">
                                     <div>신세계인터내셔날의 여성복 브랜드 쥬시 꾸뛰르(Juicy Couture)가 브랜드 고급화 전략으로 프리미엄 패션 소비층 공략에 나선다.여성복
                                         시장이 고가와 저가로 빠르게 재편되고 있는 상황에서 품질과 디자인 수준을 높여 최근 성장하고 있는 컨템포러리 시장에서 승부를 본다는 계획이다.
                                     </div>
@@ -275,7 +274,7 @@
                                     <h3>SANTA MARIA NOVELLA</h3>
                                     <p>[SMN]한국 고객만을 위한 프리지아50ml 향수 출시</p>
                                 </div>
-                                <div class="text-box">
+                                <div class="txt-box1">
                                     <div>이것이 K-뷰티의 위상이다! 400년 전통의 이탈리아 라이프스타일 브랜드 산타 마리아 노벨라(Santa Maria Novella)는 이달 한국
                                         고객을 위해 수 백 년간 고수해오던 향수 용기 사이즈와 디자인을 변경하고 이를 국내 시장에 독점 출시한다고 밝혔다.</div>
 
@@ -287,11 +286,88 @@
                 </div>
             </div>
         </div>
-        <div class="section section3" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_3_bg.jpg?dummy123123)">
-            <div class="page-3"></div>
+        <div class="section section3 con-min-width"
+            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_3_bg.jpg?dummy123123)">
+            <div class="page-3">
+                <div class="bg-3 text-align-center">
+                    <div class="tit-box">
+                        <h3>INTRODUCTION</h3>
+                        <p>신세계인터내셔날은 패션, 뷰티, 리빙 영역에서 고객의 삶을 보다 가치 있게 만들어 나가기 위해 노력하고 있습니다.<br>
+                            끊임없는 변화와 기대 이상의 혁신을 통해 고객의 삶이 더욱 아름답고 풍요로워질 수 있도록<br>
+                            쉼 없이 도전하며 더 높은 가치를 실현해 나가겠습니다.</p>
+                        <a href="#">READ MORE ></a>
+                    </div>
+                    <ul class="img-box row">
+                        <li class="cell"><a href="#"><img
+                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/img1.jpg?dummy123123"
+                                    alt=""></a></li>
+                        <li class="cell"><a href="#"><img
+                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/img2.jpg?dummy123123"
+                                    alt=""></a></li>
+                        <li class="cell"><a href="#"><img
+                                    src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/img3.jpg?dummy123123"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="section section4">페이지 5</div>
-        <div class="section section5">페이지 6</div>
+        <div class="section section4 con-min-width"
+            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_4_bg.jpg?dummy123123)">
+            <nav class="page-4 ">
+                <ul class="row">
+                    <li class="cell"><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_4_01.jpg?dummy123123"
+                                alt=""></a></li>
+                    <li class="cell"><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_4_02.jpg?dummy123123"
+                                alt=""></a></li>
+                    <li class="cell"><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_4_03.jpg?dummy123123"
+                                alt=""></a></li>
+                    <li class="cell"><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/section_4_04.jpg?dummy123123"
+                                alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="section section5 con-min-width">
+            <div class="footer flex-ai-c">
+                <div class="copy flex">COPYRIGHT 2016 (C) BY SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED
+                </div>
+                <nav class="footer-infor flex flex-ai-c">
+                    <ul class="flex">
+                        <li class=""><a href="#">영상정보처리기기 운영관리방침</a></li>
+                        <li class="pri"><a href="#">개인정보처리방침</a></li>
+                        <li class=""><a href="#">Recruit</a></li>
+                        <li class=""><a href="#">Partner Support</a></li>
+                        <li class=""><a href="#">SITEMAP</a></li>
+                    </ul>
+                    <ul class="family flex">
+                        <li><a href="#">FAMILY SITE</a>
+                            <ul class="">
+                                <li><a href="#">S.I Viilage</a></li>
+                                <li><a href="#">신세계그룹</a></li>
+                                <li><a href="#">신세계채용</a></li>
+                                <li><a href="#">신세계백화점</a></li>
+                                <li><a href="#">이마트</a></li>
+                                <li><a href="#">이마트 에브리데이</a></li>
+                                <li><a href="#">신세계푸드</a></li>
+                                <li><a href="#">신세계건설</a></li>
+                                <li><a href="#">신세계아이앤씨</a></li>
+                                <li><a href="#">스타벅스커피코리아</a></li>
+                                <li><a href="#">신세계 조선호텔</a></li>
+                                <li><a href="#">신세계면세점</a></li>
+                                <li><a href="#">신세계사이먼</a></li>
+                                <li><a href="#">신세계 L&B</a></li>
+                                <li><a href="#">이마트 24</a></li>
+                                <li><a href="#">SSG.COM</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="sns"><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/icon_ftSns_facebook.png?dummy123123" alt=""></a></div>
+                </nav>
+            </div>
+        </div>
     </div>
 
 </body>
