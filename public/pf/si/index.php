@@ -332,7 +332,7 @@
         </div>
         <div class="section section5 con-min-width">
             <div class="footer flex-ai-c">
-                <div class="copy flex">COPYRIGHT 2016 (C) BY SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED
+                <div class="copy flex flex-grow-1">COPYRIGHT 2016 (C) BY SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED
                 </div>
                 <nav class="footer-infor flex flex-ai-c">
                     <ul class="flex">
