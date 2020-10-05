@@ -29,10 +29,6 @@ a {
     margin-right: auto;
 }
 
-.con-min-width {
-    min-width: 1110px;
-}
-
 .cell {
     float: left;
     box-sizing: border-box;
@@ -79,6 +75,10 @@ a {
 }
 
 /* 커스텀 */
+
+.con-min-width {
+    min-width: 1400px;
+}
 
 .con {
     max-width: 1110px;
@@ -136,7 +136,7 @@ a {
 }
 
 .bn-background>.bn-box1 {
-    background-image: url(http://www.futurasoft.co.kr/img_fd/main_1.jpg);
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/main_1.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: right;

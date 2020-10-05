@@ -12,7 +12,7 @@
 <div class="con-min-width">
   <div class="menu-fixed-bar">
     <div class="top-menu-box con row">
-      <a href="#" class="logo cell con inline-block img-box"><img src="http://www.futurasoft.co.kr/img_fd/logo.png" alt=""></a>
+      <a href="#" class="logo cell con inline-block img-box"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/logo.png?dummy123123" alt=""></a>
 
       <div class="menu-box-1 con cell-right">
         <ul class="row">
@@ -105,27 +105,27 @@
         <div class="bn-box row">
           <div class="bn-box-list cell">
             <a href="#" class="block img-box">
-              <img src="http://www.futurasoft.co.kr/img_fd/work_3.png" alt="">
+              <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/work_3.png?dummy123123" alt="">
             </a></div>
 
-          <div class="bn-box-list cell"><a href="#" class="block img-box"><img src="http://www.futurasoft.co.kr/img_fd/work_4.png" alt=""></a></div>
+          <div class="bn-box-list cell"><a href="#" class="block img-box"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/work_4.png?dummy123123" alt=""></a></div>
 
           <div class="bn-box-list cell bn-hover">
             <a href="#" class="block img-box">
               <span class="block">2020년도 국가수리과학연구소 대표홈페이지 <br>
                 기능개선 및 유지·운영</span>
               <p class="object1">
-                <img src="http://www.futurasoft.co.kr/img_fd/work_1.png" alt="">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/work_1.png?dummy123123" alt="">
               </p>
 
-              <img src="http://www.futurasoft.co.kr/img_fd/work_1_2.png" alt=""></a></div>
+              <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/work_1_2.png?dummy123123" alt=""></a></div>
 
           <div class="bn-box-list cell bn-hover2"><a href="#" class="block img-box">
               <span class="text1">
                 UShield Korea 온라인 쇼핑몰 및<br>브랜드 사이트 구축
               </span>
 
-              <img src="http://www.futurasoft.co.kr/img_fd/work_0.png" alt=""></a></div>
+              <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/work_0.png?dummy123123" alt=""></a></div>
         </div>
       </div>
     </div>
@@ -138,7 +138,7 @@
         <div class="news-sub">㈜푸투라소프트는 웹기반의 정보서비스 제공 전문회사로 빠르게 변화하는 디지털세계 속에서 시대를 아우르는 정보서비스와 최고의 경험을 제공합니다. 2020년 새로운 시작을 알린 ㈜푸투라소프트는 다양한 프로젝트 경험과 능력을 보유한 우수한 전문인력들로 정보시스템 서비스 구축의 기획에서 부터 컨설팅, UI/UX 서비스 디자인, 구축 및 운영의 전과정에 대해 고객의 원하는 가치에 최고 수준의 IT기술과 서비스 제공을 약속합니다.</div>
       </div>
       <div class="img-box">
-        <img src="http://www.futurasoft.co.kr/img_fd/main_3.jpg" alt="">
+        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/main_3.jpg?dummy123123" alt="">
       </div>
     </div>
 
@@ -170,7 +170,7 @@
 
         </li>
         <li class="cell-right">
-          <img src="http://www.futurasoft.co.kr/img_fd/footer_logo.jpg" alt="">
+          <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/fsorft/footer_logo.jpg?dummy123123" alt="">
         </li>
       </ul>
     </div>

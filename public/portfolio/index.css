@@ -826,7 +826,7 @@ html {
 
 .section-2>.page-2>.sk-box>div>.skills>h4.sk-title {
     font-weight: 500;
-    border: 1px dashed #2b2b2b;
+    border-bottom:1px solid rgba(156, 156, 156, 0.322);
     padding: 3px 40px;
     display: inline-block;
     font-size: 18px;
@@ -852,9 +852,9 @@ html {
 
 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.progress-bar {
     position: relative;
-    background-color: #E0E0DF;
+    background-color: rgba(224, 224, 223, 0.562);
     width: 200px;
-    height: 20px;
+    height: 15px;
 }
 
 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li>.progress-bar::before {
@@ -879,32 +879,32 @@ html {
 }
 
 .fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(1)>.progress-bar::after {
-    width: 80%;
+    width: 85%;
 }
 
 .fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(2)>.progress-bar::after {
-    width: 70%;
-}
-
-.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(3)>.progress-bar::after {
-    width: 55%;
-}
-
-.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(4)>.progress-bar::after {
     width: 75%;
 }
 
-.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(5)>.progress-bar::after {
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(3)>.progress-bar::after {
     width: 65%;
+}
+
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(4)>.progress-bar::after {
+    width: 80%;
+}
+
+.fp-viewing-anchor2 .section-2>.page-2>.sk-box>div>.skills>.sk>ul>li:nth-child(5)>.progress-bar::after {
+    width: 70%;
 }
 
 /* 2페이지 - 스킬박스 */
 
 .page-2>.me-box>div>.profile>.pro-tit {
     font-weight: 500;
-    border: 1px dashed #2b2b2b;
     padding: 3px 40px;
     display: inline-block;
+    border-bottom:1px solid rgba(156, 156, 156, 0.322);
     font-size: 18px;
     margin-left: 50px;
 }
@@ -922,6 +922,7 @@ html {
 .page-2>.me-box>div>.profile>.pro-box>ul>li>div {
     font-weight: 600;
     font-size: 20px;
+    margin-right: 45px;
 }
 
 .page-2>.me-box>div>.profile>.pro-box>ul>li>span {
@@ -1007,13 +1008,13 @@ html {
 .page-3>div>.tn-box>.txt-box-3 {
     font-size: 18px;
     margin-top: 7px;
-    font-family: 'nanumsquare';
+    /* font-family: 'nanumsquare'; */
 }
 
 .page-3>div>.tn-box>.txt-box-4 {
     font-size: 15px;
     margin-top: 60px;
-    font-family: 'nanumsquare';
+    /* font-family: 'nanumsquare'; */
 }
 
 .page-3>div>.tn-box>.txt-box-5 {
@@ -1268,7 +1269,7 @@ html {
     transform: translateX(-50%);
     font-size: 17px;
     color: #2b2b2b;
-    font-family: 'nanumsquare';
+    /* font-family: 'nanumsquare'; */
     font-weight: 600;
 }
 
@@ -1306,6 +1307,7 @@ html {
     background-color: transparent;
     color: white;
     font-size: 14px;
+    outline: 0 !important;
 }
 
 .page-5>.contact-box>div>form input::placeholder,
@@ -1331,6 +1333,7 @@ html {
 .page-5>.contact-box>div>form textarea {
     width: 840px;
     height: 200px;
+    font-family: 'Roboto';
 }
 
 /* 5페이지 -send버튼 */

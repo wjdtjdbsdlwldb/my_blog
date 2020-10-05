@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PORTFOLIO</title>
+    <title>SY PORTFOLIO</title>
     <!-- JS 라이브러리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
@@ -116,19 +116,19 @@
                             <div class="pro-box">
                                 <ul>
                                     <li class="flex flex-ai-c">
-                                        <div class="flex flex-1-0-0">Name</div>
+                                        <div class="flex">Name</div>
                                         <span class="flex">정서윤 / Jung Seo Yun</span>
                                     </li>
                                     <li class="flex flex-ai-c">
-                                        <div class="flex flex-1-0-0">Birthday</div>
+                                        <div class="flex">Birthday</div>
                                         <span class="flex">1990.06.10</span>
                                     </li>
                                     <li class="flex flex-ai-c">
-                                        <div class="flex flex-1-0-0">E-maill</div>
+                                        <div class="flex">E-maill</div>
                                         <span class="flex">jms2464@naver.com</span>
                                     </li>
                                     <li class="flex flex-ai-c">
-                                        <div class="flex flex-1-0-0">Address</div>
+                                        <div class="flex">Address</div>
                                         <span class="flex">대전 동구</span>
                                     </li>
                                 </ul>
