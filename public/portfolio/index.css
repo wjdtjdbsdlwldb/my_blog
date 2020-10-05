@@ -374,11 +374,15 @@ html {
 
 .line-box .fly-item {
     position: absolute;
-    transition: top 0.3s, left 0.3s, right 0.3s, bottom 0.3s, font-size 0.3s, width 0.3s, opacity 0.3s;
+    transition: top 0.3s, left 0.4s, right 0.4s, bottom 0.4s, font-size 0.4s, width 0.4s, opacity 0.4s;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 27px;
+}
+
+.line-box .fly-item1 {
+    transition: top 0.1s, left 0.1s, right 0.1s, bottom 0.1s, font-size 0.1s, width 0.1s, opacity 0.1s;
 }
 
 .arrow {
@@ -461,7 +465,7 @@ html {
 }
 
 .phase-0 .line-box>.txt-box>h1>span>span {
-    transform: translateX(100%);
+    transform: translateX(120%);
 }
 
 .phase-0 .line-box>.txt-box>h1>span:last-child>span {
@@ -469,7 +473,7 @@ html {
 }
 
 .phase-0 .line-box>.txt-box>.des {
-    top: calc(50% - 1300px);
+    top: calc(50% - 2000px);
     bottom: calc(50% - 60px);
     left: calc(50% + 15px);
     opacity: 0;
@@ -737,7 +741,7 @@ html {
 }
 
 .page-1>.copy>span {
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: .8px;
 }
 
@@ -824,10 +828,21 @@ html {
 
 /* 2페이지 -스킬박스 */
 
+.section-2>.page-2>.sk-box {
+    transform: translateY(28%);
+}
+
+
+@media screen and (max-width:1800px) {
+    .section-2>.page-2>.sk-box {
+        transform: translateY(23%);
+    }
+}
+
 .section-2>.page-2>.sk-box>div>.skills>h4.sk-title {
     font-weight: 500;
-    border-bottom:1px solid rgba(156, 156, 156, 0.322);
-    padding: 3px 40px;
+    border-bottom: 1px solid rgba(156, 156, 156, 0.322);
+    padding: 3px 20px;
     display: inline-block;
     font-size: 18px;
     margin-left: 25px;
@@ -900,11 +915,22 @@ html {
 
 /* 2페이지 - 스킬박스 */
 
+.page-2>.me-box {
+    transform: translateY(28%);
+}
+
+
+@media screen and (max-width:1800px) {
+    .page-2>.me-box {
+        transform: translateY(23%);
+    }
+}
+
 .page-2>.me-box>div>.profile>.pro-tit {
     font-weight: 500;
-    padding: 3px 40px;
+    padding: 3px 20px;
     display: inline-block;
-    border-bottom:1px solid rgba(156, 156, 156, 0.322);
+    border-bottom: 1px solid rgba(156, 156, 156, 0.322);
     font-size: 18px;
     margin-left: 50px;
 }
@@ -916,7 +942,7 @@ html {
 }
 
 .page-2>.me-box>div>.profile>.pro-box>ul>li {
-    padding: 17px 0;
+    padding: 25px 0;
 }
 
 .page-2>.me-box>div>.profile>.pro-box>ul>li>div {
@@ -958,7 +984,7 @@ html {
 }
 
 .page-3>div>.thu {
-    border: 2px solid #1432F2;
+    border: 1px solid #1432F2;
     overflow: hidden;
     width: 600px;
     height: 300px;
@@ -1285,7 +1311,7 @@ html {
 
 @media screen and (min-width:967px) {
     .page-5>.contact-box>div {
-        transform: translateY(35%);
+        transform: translateY(25%);
     }
 }
 

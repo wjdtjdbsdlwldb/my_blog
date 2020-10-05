@@ -34,10 +34,10 @@
             </div>
             <div class="txt-box">
                 <h1>
-                    <span class="fly-item"><span>J.SY</span></span>
-                    <span class="fly-item"><span>PORTFOLIO</span></span>
+                    <span class="fly-item fly-item1"><span>J.SY</span></span>
+                    <span class="fly-item fly-item1"><span>PORTFOLIO</span></span>
                 </h1>
-                <div class="des fly-item">Web publisher</div>
+                <div class="des fly-item fly-item1">Web publisher</div>
             </div>
         </div>
     </div>
@@ -63,8 +63,8 @@
                     </div>
                 </div>
 
-                <div class="flex flex-ai-c infor">
-                    <div class="flex flex-jc-c width-100p">
+                <div class="flex infor">
+                    <div class="flex flex-jc-c flex-ai-c width-100p">
                         <div class="poto">
                             <div class="na"
                                 style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/me.jpg?dummy123123);">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-ai-c sk-box">
+                <div class="flex sk-box">
                     <div class="flex flex-jc-c width-100p">
                         <div class="skills">
                             <h4 class="sk-title">SKILLS</h4>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-ai-c me-box">
+                <div class="flex me-box">
                     <div class="flex flex-jc-c width-100p">
                         <div class="profile">
                             <h4 class="pro-tit flex flex-jc-c">PROFILE</h4>
@@ -227,11 +227,12 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트"
-                                    data-tx="_ Copy" data-no="3" data-link-url="https://www.naver.com"
-                                    data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
+                                <div class="item" data-kor="이니스프리" data-site="" data-name="원본" data-tx="_ Redesign"
+                                    data-no="INNISFREE" data-link-url="../pf/inn/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/innisfree.jpg?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png?dummy123123"
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_main.png?dummy123123"
                                             alt="">
                                     </div>
                                 </div>

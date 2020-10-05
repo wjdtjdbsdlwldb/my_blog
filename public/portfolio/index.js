@@ -33,7 +33,7 @@ function Page__init() {
   Page__logoAnimationPhase(0);
   setTimeout(function () {
     Page__logoAnimationPhase(1);
-  }, 500);
+  }, 600);
   setTimeout(Page__init_, Page__introAnimationDuration);
 }
 
@@ -175,7 +175,6 @@ function LightBox() {
     fitImagesInViewport: false
   })
 }
-
 
 
 $(function () {
