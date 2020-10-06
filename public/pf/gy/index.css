@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+html {
+    font-family: 'Malgun Gothic','Noto Sans KR', sans-serif;
+}
+
 body,
 ul,
 li,
@@ -327,4 +334,21 @@ label[for] {
 
 *>.flex-1-0-0 {
     flex: 1 0 0;
+}
+
+
+/* 커스텀 */
+
+.con {
+    width:1400px;
+}
+
+.side-con{
+    width:1000px;
+}
+
+/*  메인페이지 */
+
+.main {
+    border:2px solid red;
 }

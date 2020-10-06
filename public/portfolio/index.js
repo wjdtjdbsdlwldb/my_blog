@@ -31,6 +31,7 @@ function Page__init_() {
 
 function Page__init() {
   Page__logoAnimationPhase(0);
+  $('.line-box').css('visibility', 'visible');
   setTimeout(function () {
     Page__logoAnimationPhase(1);
   }, 600);
