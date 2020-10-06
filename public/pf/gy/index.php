@@ -16,9 +16,25 @@
 </head>
 
 <body>
-    <div class="top-bar">
-        <div class="side-btn"></div>
-        .logo
+    <div class="top-bar flex con border-red">
+        <div class="side-btn flex-1-0-0">
+            <a href="#">사이드바</a>
+        </div>
+        <div class="logo flex-1-0-0">
+            <a href="#">
+                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png" alt=""></a>
+        </div>
+        <nav class="menu-box flex">
+            <ul class="flex">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <ul class="flex">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </nav>
     </div>
     <div class="main">
         <div class="swiper-container">
