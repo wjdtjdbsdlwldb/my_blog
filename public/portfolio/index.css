@@ -374,16 +374,16 @@ html {
 
 .line-box .fly-item {
     position: absolute;
-    transition: top 0.3s, left 0.4s, right 0.4s, bottom 0.4s, font-size 0.4s, width 0.4s, opacity 0.4s;
+    transition: top 0.4s, left 0.4s, right 0.4s, bottom 0.4s, font-size 0.4s, width 0.4s, opacity 0.4s;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 27px;
 }
 
-.line-box .fly-item1 {
+/* .line-box .fly-item1 {
     transition: top 0.1s, left 0.1s, right 0.1s, bottom 0.1s, font-size 0.1s, width 0.1s, opacity 0.1s;
-}
+} */
 
 .arrow {
     position: fixed;
@@ -969,7 +969,7 @@ html {
 .section-3.active>.con>div>div {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity .7s .9s, transform .7s 0.5s;
+    transition: opacity 1s 1s, transform 1s 1s;
 }
 
 /* 3페이지- 슬라이드 썸네일 */
@@ -987,7 +987,7 @@ html {
 }
 
 .page-3>div>.thu {
-    border: 1px solid #1432F2;
+    border: 2px solid #1432F2;
     overflow: hidden;
     width: 600px;
     height: 300px;
@@ -1079,7 +1079,7 @@ html {
 }
 
 .page-3>div.slider-box>.slider .item.border {
-    border: 2px solid #1432F2;
+    border: 2px solid #1432f28c;
     opacity: .8;
 }
 
@@ -1098,6 +1098,7 @@ html {
     box-sizing: border-box;
     padding: 10%;
 }
+
 
 /* 3 페이지 -UX/UI  */
 

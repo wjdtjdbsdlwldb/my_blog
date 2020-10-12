@@ -2,7 +2,7 @@
 
 
 html {
-    font-family: 'Malgun Gothic','Noto Sans KR', sans-serif;
+    font-family: 'Malgun Gothic', 'Noto Sans KR', sans-serif;
 }
 
 body,
@@ -340,15 +340,556 @@ label[for] {
 /* 커스텀 */
 
 .con {
-    width:1400px;
+    width: 1430px;
+    margin: 0 auto;
 }
 
-.side-con{
-    width:1000px;
+.side-con {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 /*  메인페이지 */
 
-.main {
-    border:2px solid red;
+/* 탑바 */
+.top-bar {
+    margin-top: 40px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1430px;
+    z-index: 100;
+}
+
+/* 탑바 - 로고 */
+.top-bar>.logo {
+    margin-left: 30px;
+}
+
+/* 탑바 - 사이드 버튼 */
+
+.top-bar>.side-btn>.open-btn>span {
+    width: 31px;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
+.top-bar>.side-btn>.open-btn>span:nth-child(2) {
+    width: 21px;
+    margin: 7px 0;
+}
+
+/*  탑바- 메뉴 */
+.top-bar>.menu-box>.login>li {
+    position: relative;
+}
+
+.top-bar>.menu-box>.login>li:first-child::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #dfdfdf;
+}
+
+.top-bar>.menu-box>ul>li>a {
+    display: block;
+    padding: 15px 13px;
+    font-size: 14px;
+}
+
+/* 탑바 - 아이콘 2차메뉴 */
+
+.top-bar>.menu-box>ul>li {
+    position: relative;
+}
+
+.top-bar>.menu-box>ul ul {
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    width: 84px;
+    display: none;
+}
+
+.top-bar>.menu-box>ul>li:hover ul {
+    display: block;
+}
+
+.top-bar>.menu-box>ul ul>li>a {
+    padding: 20px 0;
+}
+
+.top-bar>.menu-box>ul ul>li:hover>a {
+    background-color: #efefef;
+}
+
+
+/*  메인 - 비디오 슬라이드 */
+.main>.swiper-container>.swiper-wrapper>.swiper-slide {
+    width: 100%;
+    height: 878px;
+    position: relative;
+}
+
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 메인 -비디오 텍스트 */
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>.text-box>h2 {
+    font-size: 65px;
+    color: #fff;
+    margin: 12px 0 35px 0;
+}
+
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>.text-box>.line-bt {
+    width: 60px;
+    height: 5px;
+    background-color: #dc9b20;
+    margin: 0 auto;
+}
+
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>.text-box>.line-bt2 {
+    width: 60px;
+    height: 5px;
+    background-color: #54aebf;
+    margin: 0 auto;
+}
+
+.main>.swiper-container>.swiper-wrapper>.swiper-slide>.text-box>.view {
+    margin-top: 45px;
+    font-size: 15px;
+    padding: 8px 30px;
+    border: 1px solid white;
+    display: inline-block;
+    color: #fff;
+}
+
+/*  메인 -슬라이드 버튼 */
+
+.main>.swiper1 .swiper-button-prev {
+    background-image: url("https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/slide_prev.png?dummy123123") !important;
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 122px;
+    position: absolute;
+    top: 50%;
+    margin-top: -61px;
+    z-index: 10;
+    left: 50%;
+    margin-left: -726px;
+
+}
+
+.main>.swiper1 .swiper-button-next {
+    background-image: url("https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/slide_next.png?dummy123123") !important;
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 122px;
+    position: absolute;
+    top: 50%;
+    margin-top: -61px;
+    z-index: 10;
+    right: 50%;
+    margin-right: -726px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: "" !important;
+}
+
+/* 2페이지 -인포메이션 아이콘 */
+
+.page-2 {
+    margin: 170px auto 160px;
+}
+
+.page-2>.infor>ul>li:not(:first-child)>a {
+    margin-left: 31px;
+}
+
+.page-2>.infor>ul>li {
+    position: relative;
+}
+
+/*  2페이지 -인포메이션 아이콘 텍스트 */
+.page-2>.infor>ul>li>a>p {
+    position: absolute;
+    top: 118px;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.page-2>.infor>ul>li:not(:first-child)>a>p {
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+/* 2페이지 -인포메이션 활성화 */
+
+.effect {
+    transform: translatey(20%);
+    opacity: 0;
+}
+
+.effect.active {
+    transform: translateX(0);
+    opacity: 0;
+    animation: top .7s .2s forwards;
+}
+
+@keyframes top {
+    0% {
+        transform: translatey(20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* 2페이지 끝 */
+
+/* 3페이지- 타이틀 */
+
+.page-3 {
+    overflow: hidden;
+}
+
+.page-3>.tit {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 3페이지 -슬라이더  */
+
+.page-3>.swiper2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    padding-bottom: 62px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.page-3>.swiper2>.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.page-3>.swiper2>.swiper-wrapper>.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 431px;
+    width: 315px !important;
+    position: relative;
+    overflow: hidden;
+    margin-right: 26px;
+}
+
+.page-3>.swiper2>.swiper-wrapper>.swiper-slide::before {
+    content: "";
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/poster_cover.png?dummy123123) 50% 100% no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-3>.swiper2>.swiper-wrapper>.swiper-slide>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 3페이지 -슬라이드 버튼 */
+
+.page-3>.swiper2 .swiper-button-prev {
+    background-image: url("https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/concert_slide_prev.png?dummy123123") !important;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    margin-left: 426px;
+    top: auto;
+    bottom: 0;
+    width: 26px;
+    height: 19px;
+}
+
+.page-3>.swiper2 .swiper-button-next {
+    background-image: url("https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/concert_slide_next.png?dummy123123") !important;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    margin-left: 473px;
+    top: auto;
+    bottom: 0;
+    width: 26px;
+    height: 19px;
+}
+
+/* 3페이지 -슬라이드 바 */
+
+.page-3>.swiper2 .swiper-pagination {
+    position: absolute;
+    width: 886px;
+    height: 2px;
+    left: 50%;
+    top: auto;
+    bottom: 7px;
+    margin-left: -501px;
+    background: #cccccc !important;
+}
+
+.page-3>.swiper2 .swiper-pagination .swiper-pagination-progressbar-fill {
+    background: #000;
+}
+
+/* 3페이지 -슬라이드 이미지 텍스트 - 아람누리 */
+
+.page-3>.swiper2>ul>li>.pt-txt>span {
+    display: inline-block;
+    width: 63px;
+    height: 64px;
+    color: #fff;
+    position: absolute;
+    padding-top: 16px;
+    top: 16px;
+    left: 19px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 130%;
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.nuri {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/c_tag1.png?dummy123123) no-repeat;
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.nuri2 {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/c_tag2.png?dummy123123) no-repeat;
+}
+
+
+/* 3페이지 -슬라이드 이미지 텍스트 -정보 */
+
+.page-3>.swiper2>ul>li>.pt-txt>.pt-infor {
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+    color: #fff;
+    z-index: 1;
+    text-align: left;
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.pt-infor>p {
+    font-size: 15px;
+    letter-spacing: -0.08em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    width: 263px;
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.pt-infor>p:first-child {
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+
+/* 3페이지 - 슬라이더 호버효과 */
+
+.page-3>.swiper2>ul>li>.pt-txt>.hov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    background-color: #5c56a4d8;
+    color: #fff;
+    z-index: 3;
+    transition: transform .3s;
+    text-align: center;
+}
+
+.page-3>.swiper2>ul>li:hover>.pt-txt>.hov {
+    transform: translateY(0);
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.hov>.favor {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_list_wish.png?dummy123123) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 15px 10px;
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.hov>p {
+    width: 100%;
+    min-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 120%;
+    word-break: break-all;
+    letter-spacing: -0.06em;
+    margin-top: 121px;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    padding: 0 30px;
+
+}
+
+.page-3>.swiper2>ul>li>.pt-txt>.hov>.detail {
+    margin-top: 70px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_concert_detail.png?dummy123123) no-repeat;
+}
+
+/* 4페이지 -배너 */
+
+.page-4 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 175px;
+    margin-bottom: 140px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-4>.banner>img {
+    height: 200px;
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    min-width: 100%;
+    margin: auto;
+    max-width: 1920px;
+}
+
+/* 4페이지 끝 */
+
+/* 5페이지 - 탭박스 */
+
+.box-list-1>div {
+    margin: 0 -10px;
+}
+
+.box-list-1>.box-1212>.text>a {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.box-list-1>.box-1212>.head {
+    width: calc(750px/1);
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.box-list-1 .box-1212>.head ul>li>a {
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/* 탭 타입 1 */
+.box-list-1>.box-1212>.head ul>li>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    cursor: pointer;
+    border-right-width: 0;
+    font-weight: 300;
+}
+
+
+.box-list-1>.box-1212>.head ul>li.active>a {
+    bordeR: 2px solid #282828;
+    font-weight: bold;
+}
+
+.tab-type-1 {
+    width: 1000px;
+    margin-top: 52px;
+}
+
+.tab-type-1>.body>ul>li {
+    display: none;
+    width: calc(1000px/3);
+    height: 280px;
+    background: #f8f8f8;
+    position: relative;
+    box-sizing: border-box;
+    padding: 38px 29px;
+    position: relative;
+}
+
+.tab-type-1>.body>ul>li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.tab-type-1>.body>ul>li.active {
+    display: block;
+}
+
+/* 5페이지 -텍스트 */
+
+.tab-type-1>.body>ul>li>span {
+    display: inline-block;
+    font-size: 14px;
+    color: #656565;
+    border-bottom: 1px solid #656565;
+    padding-bottom: 5px;
+}
+
+.tab-type-1>.body>ul>li>a {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 170%;
+}
+
+.tab-type-1>.body>ul>li>p {
+    position: absolute;
+    bottom: 38px;
+    left: 28px;
+    color: #656565;
 }
