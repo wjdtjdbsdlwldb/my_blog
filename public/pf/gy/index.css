@@ -365,7 +365,7 @@ label[for] {
 
 /* 탑바 - 로고 */
 .top-bar>.logo {
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 /* 탑바 - 사이드 버튼 */
@@ -554,10 +554,11 @@ label[for] {
 .effect.active {
     transform: translateX(0);
     opacity: 0;
-    animation: top .7s .2s forwards;
+    overflow: hidden;
+    animation: animate 1.4s forwards;
 }
 
-@keyframes top {
+@keyframes animate {
     0% {
         transform: translatey(20%);
         opacity: 0;
@@ -892,4 +893,144 @@ label[for] {
     bottom: 38px;
     left: 28px;
     color: #656565;
+}
+
+/* 5페이지 끝 */
+
+/* 6페이지 - 배경 이미지 */
+
+.page-6 {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/bg_edu.jpg?dummy123123) 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 936px;
+    margin-top: 200px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.page-6>.tit-txt {
+    padding-top: 234px;
+}
+
+.page-6>.tit-txt>p {
+
+    font-size: 28px;
+    letter-spacing: -0.106em;
+}
+
+.page-6>.tit-txt>h2 {
+    font-size: 43px;
+    letter-spacing: -0.12em;
+    margin-top: 16px;
+}
+
+.page-6>ul {
+    position: relative;
+    width: 1082px;
+    margin: 58px auto 0;
+}
+
+.page-6>ul>li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 222px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.page-6>ul>li:nth-child(2) {
+    top: 60px;
+    left: 361px;
+}
+
+.page-6>ul>li:last-child {
+    top: 0;
+    left: 722px;
+}
+
+.page-6>ul>li>a {
+    padding-top: 68px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* 6페이지  끝  */
+
+/* 7페이지 */
+
+.page-7 {
+    margin-top: 180px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 7페이지 -이미지 */
+
+.page-7>.aram {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 180px;
+}
+
+.page-7>.aram>.img-box {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/hall_aram2.jpg?dummy123123) 50% 50% no-repeat;
+    width: 1058px;
+    height: 100%;
+}
+
+.page-7>.aram>.bg-txt {
+    width: calc(100% - 1058px);
+    position: relative;
+    height: 100%;
+    padding-left: 66px;
+}
+
+.page-7>.aram>.bg-txt>.aram-box {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+.page-7>.aram>.bg-txt>.aram-box>h3 {
+    color: #a8a8a8;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+
+.page-7>.aram>.bg-txt>.aram-box>h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 70px;
+    color: #262626;
+    letter-spacing: -0.08em;
+}
+
+.page-7>.aram>.bg-txt>.aram-box>span {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 180%;
+    letter-spacing: -0.09em;
+}
+
+.page-7>.aram>.bg-txt>.aram-box>p {
+    font-size: 17px;
+    color: #6c6c6c;
+    line-height: 180%;
+    letter-spacing: -0.09em;
+}
+
+.page-7>.aram>.bg-txt>.aram-box>a {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_hall.gif?dummy123123) 50% 50% no-repeat;
+    display: inline-block;
+    width: 191px;
+    height: 60px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 19px;
+    box-sizing: border-box;
+    margin-top:26px;
 }

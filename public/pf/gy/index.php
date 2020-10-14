@@ -90,7 +90,7 @@
         </div>
     </div>
 
-    <div class="page-2 side-con active-on-visible effect" data-active-on-visible-diff-y="-200">
+    <div class="page-2 side-con active-on-visible effect" data-active-on-visible-diff-y="200">
         <nav class="infor">
             <ul class="flex text-align-center">
                 <li><a href="#" class="block">
@@ -119,7 +119,7 @@
         </nav>
     </div>
 
-    <div class="page-3 active-on-visible effect" data-active-on-visible-diff-y="-200">
+    <div class="page-3 active-on-visible effect" data-active-on-visible-diff-y="50">
         <h2 class="tit side-con">전체공연</h2>
         <div class="swiper-container swiper2">
             <ul class="swiper-wrapper">
@@ -496,13 +496,13 @@
         </div>
     </div>
 
-    <div class="page-4 active-on-visible effect" data-active-on-visible-diff-y="-200">
+    <div class="page-4 active-on-visible effect" data-active-on-visible-diff-y="50">
         <a href="#" class="banner">
             <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/20200624_11_1.jpg?dummy123123" alt="">
         </a>
     </div>
 
-    <div class="page-5 active-on-visible effect" data-active-on-visible-diff-y="-200">
+    <div class="page-5 active-on-visible effect" data-active-on-visible-diff-y="50">
         <div class="box-list-1 side-con">
             <div class="flex box-1212 flex-ai-c">
                 <h2 class="text flex flex-grow-1">
@@ -672,7 +672,47 @@
 
     </div>
 
-    <h1>daf</h1>
+    <div class="page-6 text-align-center active-on-visible effect" data-active-on-visible-diff-y="100">
+        <div class="tit-txt">
+            <p>생활 속 문화예술 배움터 · 지역 유일의 문화예술 전문 아카데미</p>
+            <h2>고양시민문화 예술학교</h2>
+        </div>
+        <ul>
+            <li
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_edu1.png?dummy123123)">
+                <a href="#" class="block">아람문예아카데미</a></li>
+            <li
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_edu2.png?dummy123123)">
+                <a href="#" class="block">어울림문화학교</a></li>
+            <li
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_edu3.png?dummy123123)">
+                <a href="#" class="block">문화예술교육지원사업</a></li>
+        </ul>
+    </div>
+
+    <div class="page-7">
+        <div class="aram flex  active-on-visible effect" data-active-on-visible-diff-y="150">
+            <div class="img-box">
+            </div>
+            <div class="bg-txt">
+                <div class="aram-box">
+                    <h3>Aram Nuri Arts Center</h3>
+                    <h2>고양아람누리</h2>
+                    <span class="block">세계적인 예술가를 만나는 곳</span>
+                    <p>고양시 일산동구 정발산 자락에 자리잡은 아람누리는<br>
+                        ‘크고 아름다운 세상’이라는 뜻으로<br>
+                        문화예술의 새로운 르네상스를 꿈꾸는<br>
+                        고양시의 의지를 표현한 이름입니다.<br>
+                        뛰어난 접근성을 자랑하는 아람누리는<br>
+                        1만 6천여 평의 대지에 장르별로 특성화하여 만들어진<br>
+                        세계적 수준의 전문공연예술센터 입니다.</p>
+                    <a href="#">자세히보기</a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
 </body>
 
 </html>
