@@ -145,6 +145,69 @@ function TabBox__init() {
     });
 }
 
+
+function StopHref() {
+  $('a[href="#"]').click(function (e) {
+    e.preventDefault();
+  });
+}
+
+function TabBox2__init() {
+  $('[data-tab-head-item-name-2]').click(function() {
+    var $this = $(this);
+    var tabName2 = $this.attr('data-tab-name-2');
+    var itemName2 = $this.attr('data-tab-head-item-name-2');
+    // [for]
+    // 모든 것을 숨기고
+    $('[data-tab-name-2="' + tabName2 + '"]').removeClass('active2');
+
+    $('[data-tab-name-2="' + tabName2 + '"][data-tab-head-item-name-2="' + itemName2 + '"]').addClass('active2');
+    $('[data-tab-name-2="' + tabName2 + '"][data-tab-body-item-name-2="' + itemName2 + '"]').addClass('active2');
+  });
+}
+
+
+var tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var youtubePlayer;
+
+function onYouTubeIframeAPIReady() {
+  youtubePlayer = new YT.Player("player", {
+    width: "590",
+    height: "425",
+    videoId: "pgo1v7SCOMM",
+    playerVars: { rel: 0 },
+    events: { onReady: onPlayerReady, onStateChange: onPlayerStateChange }
+  });
+}
+
+function onPlayerReady(event) {
+  event.target.playVideo();
+}
+
+var done = false;
+
+function onPlayerStateChange(event) {
+  if (event.data === YT.PlayerState.PLAYING && !done) {
+    done = true;
+  }
+}
+
+function stopVideo() {
+  youtubePlayer.stopVideo();
+}
+
+function playVideo() {
+  $('.player-box').addClass('play');
+  youtubePlayer.playVideo();
+}
+
+
 $(function () {
     TabBox__init();
+    StopHref();
+    TabBox2__init();
 });

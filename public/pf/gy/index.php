@@ -18,44 +18,46 @@
 </head>
 
 <body>
-    <div class="top-bar flex flex-ai-c con">
-        <div class="side-btn flex-1-0-0">
-            <a href="#" class="open-btn block">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </a>
+    <div class="top-bar con-min-width">
+        <div class="main-bar flex flex-ai-c con">
+            <div class="side-btn flex-1-0-0">
+                <a href="#" class="open-btn block">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+            </div>
+            <div class="logo flex-1-0-0">
+                <a href="#">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png" alt=""></a>
+            </div>
+            <nav class="menu-box flex">
+                <ul class="flex login">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+                <ul class="flex icon">
+                    <li><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_search_main_show.png?dummy123123"
+                                alt=""></a></li>
+                    <li><a href="#"><img
+                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_calendar_2.png?dummy123123"
+                                alt=""></a></li>
+                    <li><a href="#">
+                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_lang_2.png?dummy123123"
+                                alt=""></a>
+                        <ul class="text-align-center">
+                            <li><a href="#" class="block">ENG</a></li>
+                            <li><a href="#" class="block">JPN</a></li>
+                            <li><a href="#" class="block">CHN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="logo flex-1-0-0">
-            <a href="#">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png" alt=""></a>
-        </div>
-        <nav class="menu-box flex">
-            <ul class="flex login">
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
-            </ul>
-            <ul class="flex icon">
-                <li><a href="#"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_search_main_show.png?dummy123123"
-                            alt=""></a></li>
-                <li><a href="#"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_calendar_2.png?dummy123123"
-                            alt=""></a></li>
-                <li><a href="#">
-                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_lang_2.png?dummy123123"
-                            alt=""></a>
-                    <ul class="text-align-center">
-                        <li><a href="#" class="block">ENG</a></li>
-                        <li><a href="#" class="block">JPN</a></li>
-                        <li><a href="#" class="block">CHN</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
     </div>
 
-    <div class="main">
+    <div class="main con-min-width">
         <div class="swiper-container swiper1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -90,8 +92,8 @@
         </div>
     </div>
 
-    <div class="page-2 side-con active-on-visible effect" data-active-on-visible-diff-y="200">
-        <nav class="infor">
+    <div class="page-2  con-min-width active-on-visible effect" data-active-on-visible-diff-y="200">
+        <nav class="infor side-con">
             <ul class="flex text-align-center">
                 <li><a href="#" class="block">
                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/a_link1.png?dummy123123" alt="">
@@ -119,7 +121,7 @@
         </nav>
     </div>
 
-    <div class="page-3 active-on-visible effect" data-active-on-visible-diff-y="50">
+    <div class="page-3 con-min-width active-on-visible effect" data-active-on-visible-diff-y="50">
         <h2 class="tit side-con">전체공연</h2>
         <div class="swiper-container swiper2">
             <ul class="swiper-wrapper">
@@ -496,13 +498,13 @@
         </div>
     </div>
 
-    <div class="page-4 active-on-visible effect" data-active-on-visible-diff-y="50">
+    <div class="page-4 con-min-width active-on-visible effect" data-active-on-visible-diff-y="50">
         <a href="#" class="banner">
             <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/20200624_11_1.jpg?dummy123123" alt="">
         </a>
     </div>
 
-    <div class="page-5 active-on-visible effect" data-active-on-visible-diff-y="50">
+    <div class="page-5 con-min-width active-on-visible effect" data-active-on-visible-diff-y="50">
         <div class="box-list-1 side-con">
             <div class="flex box-1212 flex-ai-c">
                 <h2 class="text flex flex-grow-1">
@@ -672,7 +674,7 @@
 
     </div>
 
-    <div class="page-6 text-align-center active-on-visible effect" data-active-on-visible-diff-y="100">
+    <div class="page-6 con-min-width text-align-center active-on-visible effect" data-active-on-visible-diff-y="100">
         <div class="tit-txt">
             <p>생활 속 문화예술 배움터 · 지역 유일의 문화예술 전문 아카데미</p>
             <h2>고양시민문화 예술학교</h2>
@@ -690,9 +692,10 @@
         </ul>
     </div>
 
-    <div class="page-7">
-        <div class="aram flex  active-on-visible effect" data-active-on-visible-diff-y="150">
-            <div class="img-box">
+    <div class="page-7 con-min-width">
+        <div class="aram flex active-on-visible effect" data-active-on-visible-diff-y="150">
+            <div class="img-box"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/hall_aram2.jpg?dummy123123)">
             </div>
             <div class="bg-txt">
                 <div class="aram-box">
@@ -710,8 +713,150 @@
                 </div>
             </div>
         </div>
-        
-        
+        <div class="oulim flex active-on-visible effect" data-active-on-visible-diff-y="150">
+            <div class="bg-txt">
+                <div class="aram-box">
+                    <h3>Oulim Nuri Arts Center</h3>
+                    <h2>고양어울림누리</h2>
+                    <span class="block">생활 속의 예술가가 되는 곳</span>
+                    <p>고양시 덕양구 성사동에 위치한 어울림누리는<br>
+                        공연장, 문화예술 교육시설, 체육시설이 어우러진<br>
+                        동양 최대의 복합 문화예술 공간입니다.<br>
+                        시민들을 위한 생활 밀착형 공연, 전시<br>
+                        그리고 문화예술 교육 강좌등<br>
+                        생활예술이 함께 호흡하는 열린 문화예술 공원입니다</p>
+                    <a href="#">자세히보기</a>
+                </div>
+            </div>
+            <div class="img-box"
+                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/hall_oulim2.jpg?dummy123123)">
+            </div>
+        </div>
+    </div>
+
+    <div class="page-8 con-min-width active-on-visible effect" data-active-on-visible-diff-y="100">
+        <div class="social flex flex-ai-c">
+            <div class="warp flex-grow-1">
+                <div class="player-box" onclick="playVideo();">
+                    <div id="player"></div>
+                    <img src="https://i.ytimg.com/vi/pgo1v7SCOMM/hqdefault.jpg" alt="">
+                    <button><img src="http://www.artgy.or.kr/_asset/img/main/btn_play_youtube.png" alt=""></button>
+                </div>
+            </div>
+            <div class="box-list-2 con">
+                <div class="flex flex-row-wrap">
+                    <div class="box2">
+                        <div class="content2 tab-type-2">
+                            <div class="head2">
+                                <ul class="flex">
+                                    <li class="flex-1-0-0 active2" data-tab-name-2="box-1"
+                                        data-tab-head-item-name-2="1">
+                                        <a><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/sns_tab_icon_twitter.gif?dummy123123"
+                                                alt="">트위터</a></li>
+                                    <li class="flex-1-0-0" data-tab-name-2="box-1" data-tab-head-item-name-2="2"><a><img
+                                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/sns_tab_icon_blog.gif?dummy123123"
+                                                alt="">블로그</a></li>
+                                    <li class="flex-1-0-0" data-tab-name-2="box-1" data-tab-head-item-name-2="3"><a><img
+                                                src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/sns_tab_icon_facebook.gif?dummy123123"
+                                                alt="">페이스북</a></li>
+                                </ul>
+                            </div>
+                            <div class="body2">
+                                <ul>
+                                    <li class="active2" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
+                                        <ul class="sns-box">
+                                            <li><a href="#" class="inline-block">
+                                                    <img class="inline-block"src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/twitter_profile.png?dummy123123"
+                                                        alt="">
+                                                    <div class="sns-infor inline-block">
+                                                        <span class="sns-tit">고양아람누리 고양어울림누리</span>
+                                                        <span class="screen_name">@ArtsGoyang</span>
+                                                        <span class="date">7시간전</span>
+                                                    </div>
+                                                    <div class="sns-cont">
+                                                        고양아람누리 상주단체 공연배달서비스 간다
+                                                        템플 TEMPLE #온라인상영
+                                                        -
+                                                        ☑ 10월 27일(화), 28일(수) 저녁 8시
+                                                        ☑ 고양문화재단 유튜브 채널
+                                                        🎥 https://t.co/D34TYAC0pA https://t.co/K3dhZX1M7J
+                                                    </div>
+                                                </a></li>
+                                            <li><a href="#">내용2</a></li>
+                                            <li><a href="#">내용3</a></li>
+                                            <li><a href="#">내용4</a></li>
+                                            <li><a href="#">내용5</a></li>
+                                            <li><a href="#">내용6</a></li>
+                                            <li><a href="#">내용7</a></li>
+                                            <li><a href="#">내용8</a></li>
+                                            <li><a href="#">내용9</a></li>
+                                            <li><a href="#">내용10</a></li>
+                                        </ul>
+                                    </li>
+                                    <li data-tab-name-2="box-1" data-tab-body-item-name-2="2">
+                                        <ul class="sns-box">
+                                            <li><a href="#" class="inline-block">
+                                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/twitter_profile.png?dummy123123"
+                                                        alt="">
+                                                    <div class="sns-infor inline-block">
+                                                        <span class="sns-tit">고양아람누리 고양어울림누리</span>
+                                                        <span class="screen_name">@ArtsGoyang</span>
+                                                        <span class="date">7시간전</span>
+                                                    </div>
+                                                    <div class="sns-cont">
+                                                        고양아람누리 상주단체 공연배달서비스 간다
+                                                        템플 TEMPLE #온라인상영
+                                                        -
+                                                        ☑ 10월 27일(화), 28일(수) 저녁 8시
+                                                        ☑ 고양문화재단 유튜브 채널
+                                                        🎥 https://t.co/D34TYAC0pA https://t.co/K3dhZX1M7J
+                                                    </div>
+                                                </a></li>
+                                            <li><a href="#">내용2</a></li>
+                                            <li><a href="#">내용3</a></li>
+                                            <li><a href="#">내용4</a></li>
+                                            <li><a href="#">내용5</a></li>
+                                            <li><a href="#">내용6</a></li>
+                                            <li><a href="#">내용7</a></li>
+                                            <li><a href="#">내용8</a></li>
+                                            <li><a href="#">내용9</a></li>
+                                            <li><a href="#">내용10</a></li>
+                                        </ul>
+                                    </li>
+                                    <li data-tab-name-2="box-1" data-tab-body-item-name-2="3">
+                                        <ul class="sns-box">
+                                            <li><a href="#" class="inline-block">
+                                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/twitter_profile.png?dummy123123"
+                                                        alt="">
+                                                    <div class="sns-infor inline-block">
+                                                        <span class="sns-tit">고양아람누리 고양어울림누리</span>
+                                                        <span class="screen_name">@ArtsGoyang</span>
+                                                        <span class="date">7시간전</span>
+                                                    </div>
+                                                    <div class="sns-cont"></div>
+                                                </a></li>
+                                            <li><a href="#">내용2</a></li>
+                                            <li><a href="#">내용3</a></li>
+                                            <li><a href="#">내용4</a></li>
+                                            <li><a href="#">내용5</a></li>
+                                            <li><a href="#">내용6</a></li>
+                                            <li><a href="#">내용7</a></li>
+                                            <li><a href="#">내용8</a></li>
+                                            <li><a href="#">내용9</a></li>
+                                            <li><a href="#">내용10</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        .
     </div>
 </body>
 
