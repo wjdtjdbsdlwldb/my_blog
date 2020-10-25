@@ -766,7 +766,8 @@
                                     <li class="active2" data-tab-name-2="box-1" data-tab-body-item-name-2="1">
                                         <ul class="sns-box">
                                             <li><a href="#" class="inline-block">
-                                                    <img class="inline-block"src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/twitter_profile.png?dummy123123"
+                                                    <img class="inline-block"
+                                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/twitter_profile.png?dummy123123"
                                                         alt="">
                                                     <div class="sns-infor inline-block">
                                                         <span class="sns-tit">고양아람누리 고양어울림누리</span>
@@ -856,7 +857,61 @@
     </div>
 
     <div class="footer">
-        .
+        <div class="ft-use side-con">
+            <nav class="wrap">
+                <ul class="flex">
+                    <li><a href="#" class="block">경영공시</a></li>
+                    <li><a href="#" class="block">이용약관</a></li>
+                    <li><a href="#" class="block">이메일무단수집거부</a></li>
+                    <li><a href="#" class="block">개인정보취급방침</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="ft-infor side-con flex">
+            <div class="copy-box flex-grow-1">
+                <p><strong>고양어울림누리 : </strong> 10471 경기도 고양시 덕양구 어울림로 33 재단법인 고양문화재단 고양어울림누리
+                    <br>사업자등록번호 128-82-08626</p>
+                <p><strong>고양아람누리 :</strong> 10409 경기도 고양시 일산동구 중앙로 1286 고양아람누리
+                    <br>사업자등록번호 128-82-10520</p>
+                <p>대표번호 1577-7766 | 통신판매업신고번호 제2009-경기고양 9677호 | webmaster@artgy.or.kr</p>
+                <p>COPYRIGHT © The goyang cultural foundation ALL RIGHTS RESERVED.</p>
+            </div>
+            <nav class="related text-align-right">
+                <select name="relatedsites" id="relatedsites" title="관련사이트"
+                    onchange="if(this.value) window.open(this.value);">
+                    <option value="관련사이트">관련사이트</option>
+                    <option value="#">고양시청</option>
+                    <option value="#">고양시의회</option>
+                    <option value="#">중남미문화원</option>
+                    <option value="#">고양시 시설관리공단</option>
+                    <option value="#">프랑스문화원</option>
+                    <option value="#">한국문화예설위원회</option>
+                    <option value="#">한국예술종합학교</option>
+                    <option value="#">국민권익위원회</option>
+                    <option value="#">고양호수예술축제</option>
+                    <option value="#">고양행주문화제</option>
+                    <option value="#">고양어린이박물관</option>
+                    <option value="#">고양시마두청소년수련관</option>
+                    <option value="#">탄현청소년카페</option>
+                    <option value="#">생활문화센터[마당]</option>
+                    <option value="#">고양버스커즈</option>
+                    <option value="#">고양시자원봉사센터</option>
+                </select>
+                <ul class="sns-icon flex flex-jc-end">
+                    <li><a href="#"><img class="block" src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_sns_instagram.png?dummy123123" alt=""></a></li>
+                    <li><a href="#"><img class="block" src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_sns_facebook.png?dummy123123" alt=""></a></li>
+                    <li><a href="#"><img class="block" src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_sns_twitter.png?dummy123123" alt=""></a></li>
+                    <li><a href="#"><img class="block" src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_sns_blog.png?dummy123123" alt=""></a></li>
+                    <li><a href="#"><img class="block" src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_sns_youtube.png?dummy123123" alt=""></a></li>
+                </ul>
+                <ul class="flex flink">
+                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_flink2.png?dummy123123" alt="">
+                    <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_flink3.png?dummy123123" alt=""></a></li>
+                    <li><a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_flink4.png?dummy123123" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+
     </div>
 </body>
 

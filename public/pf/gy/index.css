@@ -1226,7 +1226,6 @@ label[for] {
 .page-8>.social .body2>ul ul>li>a>.sns-infor>.sns-tit {
     font-weight: bold;
     color: #090909;
-    bordeR:2px solid red;
 }
 
 .page-8>.social .body2>ul ul>li>a>.sns-infor>.screen_name {
@@ -1252,8 +1251,82 @@ label[for] {
 
 /* 푸터 시작  */
 .footer {
-    width:100%;
+    width: 100%;
     position: relative;
     background-color: #131315;
     padding-bottom: 100px;
+    color: #fff;
+}
+
+.footer>.ft-use {
+    border-bottom: 1px solid #212123;
+}
+
+.footer>.ft-use>.wrap>ul>li {
+    width: calc(100%/4);
+    text-align: center;
+    border-right: 1px solid #212123;
+}
+
+.footer>.ft-use>.wrap>ul>li:first-child {
+    border-left: 1px solid #212123;
+}
+
+.footer>.ft-use>.wrap>ul>li>a {
+    height: 81px;
+    line-height: 81px;
+    font-size: 18px;
+    opacity: .4;
+}
+
+.footer>.ft-infor {
+    padding-top: 63px;
+}
+
+.footer>.ft-infor>.copy-box>p {
+    margin-bottom: 9px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 180%;
+}
+
+.footer>.ft-infor>.related>#relatedsites {
+    width: 200px;
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid #212123;
+    border-radius: 2px;
+    background: #131315 url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/footer_select_arrow.png?dummy123123) no-repeat 166px 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer>.ft-infor>.related>.sns-icon {
+    margin-top: 24px;
+}
+
+.footer>.ft-infor>.related>.sns-icon>li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.footer>.ft-infor>.related>.flink {
+    margin-top: 22px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.footer>.ft-infor>.related>.flink>li {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.footer>.ft-infor>.related>.flink>img {
+    border-style: none;
+    max-width: 100%;
+    display: inline-block;
+    height: 32px;
 }
