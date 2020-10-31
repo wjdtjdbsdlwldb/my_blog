@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.line-height-0>* {
+    line-height: normal;
+}
+
+.width-30px {
+    width: 30px;
+}
+
+.width-35px {
+    width: 35px;
+}
+
+.width-40px {
+    width: 35px;
+}
+
+.width-45px {
+    width: 35px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.width-80px {
+    width: 80px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.width-60p {
+    width: 60%;
+}
+
+.width-55p {
+    width: 55%;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.width-45p {
+    width: 45%;
+}
+
+.width-40p {
+    width: 40%;
+}
+
+.width-30p {
+    width: 30%;
+}
+
+.width-35p {
+    width: 35%;
+}
+
+.width-100p-except-30px {
+    width: calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width: calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width: calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width: calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width: calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width: calc(100% - 100px);
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.height-50p {
+    height: 50%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.font-size-dot-8rem {
+    font-size: 0.8rem;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-row.row::after {
+    display: inline;
+    clear: non;
+}
+
+.table-row>.cell {
+    float: none;
+    display: table-cell;
+}
+
+.border-red {
+    border: 3px solid red;
+}
+
+.border-blue {
+    border: 3px solid blue;
+}
+
+.blod {
+    font-weight: bold;
+}
+
+/* 라이브러리 - flex */
+*>.flex {
+    display: flex;
+}
+
+*>.flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*>.flex-jc-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*>.flex-jc-c {
+    display: flex;
+    justify-content: center;
+}
+
+*>.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+*>.flex-jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+*>.flex-ai-c {
+    display: flex;
+    align-items: center;
+}
+
+*>.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+*>.flex-as-c {
+    align-self: center;
+}
+
+*>.flex-row-nowrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+*>.flex-row-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+*>.flex-ch-basis-0 {
+    display: flex;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+
+/* 커스텀 */
+
+.con {
+    max-width: 1460px;
+}
+
+/* 탑바 - 로고 */
+
+.main>.header {
+    width: 100%;
+    height: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+}
+
+.main>.header.active {
+    color: #000;
+    background-color: #fff;
+    height: 343px;
+    transition: height .3s;
+}
+
+.main>.header.active>.top-wrap {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.main>.header>.top-wrap>.top-bar {
+    width: 100%;
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.main>.header>.top-wrap>.top-bar>.logo>a {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/cm_bi_white.png?dummy123123);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150px auto;
+    width: 170px;
+    height: 68px;
+    box-sizing: border-box;
+}
+
+.main>.header.active>.top-wrap>.top-bar>.logo>a {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/cm_bi_black.png?dummy123123);
+}
+
+/* 탑바 - 메뉴  */
+.main>.header>.top-wrap>.top-bar>.menu-box  {
+    position: relative;
+}
+
+
+.main>.header>.top-wrap>.top-bar > .menu-box > .hover-bar {
+    position: absolute;
+    top:68px;
+    height: 3px;
+    background-color: #000;
+    transition: width 0.3s, left 0.3s;
+}
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul>li {
+    position: relative;
+    padding: 21px 50px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul>li>a {
+    display: block;
+   
+}
+
+.main>.header>.top-wrap>.top-bar>.lang-box>ul>li>a {
+    display: block;
+    font-size: 13px;
+}
+
+.main>.header>.top-wrap>.top-bar>.lang-box>ul>li:last-child>a {
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #999999;
+    position: relative;
+}
+
+.main>.header>.top-wrap>.top-bar>.lang-box>ul>li>.eng::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 7px;
+    background-color: #afafaf;
+}
+
+.main>.header.active>.top-wrap>.top-bar>.lang-box>ul>li:last-child>a {
+    color: #000;
+}
+
+
+/* 탑바 - 2차 메뉴  */
+
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul .sub-menu>ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    padding-top: 20px;
+    white-space: nowrap;
+    transition: opacity .3s;
+}
+
+.main>.header.active>.top-wrap>.top-bar>.menu-box>ul .sub-menu>ul {
+    opacity: 1;
+    transition: opacity .9s;
+}
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul .sub-menu>ul > li > a {
+    width: 100%;
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    color: #969696;
+    font-weight: 400;
+}
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul .sub-menu>ul > li:hover > a {
+    color: #000;
+}
+
