@@ -355,6 +355,69 @@ label[for] {
 
 /*  메인페이지 */
 
+/* 메인 - 검색창 */
+
+.top-search {
+    height: 0px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: height .3s;
+}
+
+.top-search.popup-active {
+    height: 70px;
+  }
+
+.top-search>.search-area {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.top-search>.search-area>input {
+    overflow: visible;
+}
+
+.top-search>.search-area>input::placeholder {
+    text-align: center;
+}
+
+.top-search>.search-area>input[type="text"] {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    outline: none;
+    bordeR: 0;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.top-search>.search-area>a {
+    display: inline-block;
+    position: absolute;
+    width: 35px;
+    height: 36px;
+    top: 50%;
+    margin-top: -18px;
+    right: 2px;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_search_main.png?dummy123123) no-repeat;
+    cursor: pointer;
+}
+
+.top-search>.sc-close {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 50%;
+    margin-top: -9px;
+    right: 185px;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_close_search.png?dummy123123) no-repeat;
+    cursor: pointer;
+}
+
+
 /* 탑바 */
 
 .top-bar {
@@ -366,22 +429,182 @@ label[for] {
     left: 0;
     width: 1430px;
     height: 54px;
-    z-index: 100;
+    z-index: 5;
+}
+
+.top-bar.popup-active {
+    top:70px;
+}
+
+/* 탑바- 로고 */
+
+.top-bar>.main-bar>.logo {
+    margin-left: 40px;
 }
 
 /* 탑바 - 사이드 버튼 */
 
+.top-bar>.main-bar>.side-btn>.open-btn {
+    width: 30px;
+    height: 23px;
+    position: relative;
+}
+
 .top-bar>.main-bar>.side-btn>.open-btn>span {
-    width: 31px;
-    height: 3px;
-    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
     display: block;
 }
 
 .top-bar>.main-bar>.side-btn>.open-btn>span:nth-child(2) {
-    width: 21px;
-    margin: 7px 0;
+    top: calc(50% - 1px);
+    width: 70%;
 }
+
+.top-bar>.main-bar>.side-btn>.open-btn>span:last-child {
+    top: calc(100% - 2px);
+}
+
+/* 탑바 -클로즈 버튼 */
+
+.side-menu-box {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 9002;
+    top: -1500px;
+    transition: all 0.8s;
+}
+
+.side-menu-box>.close-box {
+    height: 93px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ededf5;
+    box-sizing: border-box;
+}
+
+.side-menu-box>.close-box>.close-btn {
+    width: 1430px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.side-menu-box>.close-box>.close-btn>a {
+    display: block;
+    width: 100%;
+    height: 93px;
+    padding-top: 38px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.side-menu-box>.close-box>.close-btn>a>img {
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+/* 탑바 - 사이드 메뉴  */
+
+.side-menu-box>.menu-area {
+    height: 855px;
+    padding-top: 102px;
+    background-color: #fff;
+    box-shadow: 7px 5px 6px #dfdfdf;
+}
+
+.side-menu-box>.menu-area>.menu-wrap {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    color: #474747;
+}
+
+.side-menu-box .sd-menu>ul {
+    letter-spacing: -0.07em;
+    color: #474747;
+}
+
+.side-menu-box .sd-menu>ul>li {
+    width: calc(100%/7);
+}
+
+.side-menu-box .sd-menu>ul>li:nth-child(4) {
+    margin: 0 15px 0 35px;
+}
+
+.side-menu-box .sd-menu>ul>li>a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.side-menu-box .sd-menu>ul ul {
+    margin-top: 20px;
+}
+
+.side-menu-box .sd-menu>ul ul>li>a {
+    display: block;
+    font-size: 15px;
+    padding: 7px 0;
+}
+
+
+/* 탑바 - 사이드 메뉴 그리드박스  */
+
+.grid-box {
+    margin-top: 23px;
+    color: #fff;
+}
+
+.grid-box>.grid {
+    width: calc(100%/3);
+    height: 269px;
+    background-color: #7b75b6;
+    padding: 38px 40px;
+    position: relative;
+    margin-right: 1px;
+    box-sizing: border-box;
+}
+
+.grid-box>.grid2 {
+    background-color: #fca905;
+}
+
+.grid-box>.grid3 {
+    background-color: #3fc2df;
+}
+
+/* 탑바 - 사이트 메뉴 그리드박스 버튼 */
+
+.grid-box>.grid>.more {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/btn_more.png?dummy123123) no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+}
+
+.grid-box>.grid>ul {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.grid-box>.grid1>.right-box {
+    margin-left: 40px;
+}
+
+.grid-box>.grid>ul>li>a {
+    display: block;
+    padding: 5px 0;
+}
+
 
 /*  탑바- 메뉴 */
 .top-bar>.main-bar>.menu-box>.login>li {
@@ -1201,10 +1424,24 @@ label[for] {
     height: 368px;
     overflow-y: auto;
     padding-top: 11px;
+    box-sizing: border-box;
+}
+
+.page-8>.social .body2>ul>li>.sns-box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.page-8>.social .body2>ul>li>.sns-box::-webkit-scrollbar-thumb {
+    background: #dddada;
+}
+
+.page-8>.social .body2>ul>li>.sns-box::-webkit-scrollbar-track {
+    background: #f8f8f8;
 }
 
 .page-8>.social .body2>ul ul>li {
     padding: 20px 24px 6px;
+    box-sizing: border-box;
 }
 
 .page-8>.social .body2>ul ul>li>a>img {
@@ -1214,8 +1451,10 @@ label[for] {
 }
 
 .page-8>.social .body2>ul ul>li>a>.sns-infor {
+    display: inline-block;
+    width: 242px;
     padding-left: 20px;
-    white-space: nowrap;
+    vertical-align: middle;
 }
 
 .page-8>.social .body2>ul ul>li>a>.sns-infor>span {
@@ -1235,6 +1474,7 @@ label[for] {
 
 .page-8>.social .body2>ul ul>li>a>.sns-cont {
     max-height: 77px;
+    margin-top:8px;
     padding-top: 5px;
     font-size: 13px;
     color: #5f5f5f;
@@ -1244,7 +1484,11 @@ label[for] {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    box-sizing: border-box;
+}
 
+.page-8>.social .body2>ul ul>li:last-child>a>.sns-cont {
+    margin-bottom: 10px;
 }
 
 /* 8페이지 끝 */
@@ -1302,6 +1546,7 @@ label[for] {
     appearance: none;
     font-size: 14px;
     color: #666666;
+    outline: none;
 }
 
 .footer>.ft-infor>.related>.sns-icon {

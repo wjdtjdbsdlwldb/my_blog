@@ -165,7 +165,6 @@
                                 <p>The value of an action lies in <br> achieving that action to the end.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -173,9 +172,8 @@
                     <div class="slider">
                         <div class="sliders1 carousel-1 active">
                             <div class="owl-carousel owl-theme">
-                                <div class="item item-1" data-site="http://www.futurasoft.co.kr/" data-name="원본사이트"
-                                    data-tx="_ Copy" data-kor="푸트라소프트" data-no="FUTURA SOFT"
-                                    data-link-url="../pf/fs/index.php"
+                                <div class="item item-1" data-site="" data-name="" data-tx="_ Copy" data-kor="푸트라소프트"
+                                    data-no="FUTURA SOFT" data-link-url="../pf/fs/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/fs.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
@@ -184,19 +182,8 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마켓디자이너스" data-site="https://marketdesigners.com"
-                                    data-name="원본사이트" data-tx="_ Copy" data-no="MARKET DESIGNERS"
-                                    data-link-url="../pf/md/index.php"
-                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/marketdesigners.png?dummy123123"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/md-logo.png?dummy123123"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item" data-kor="서브웨이"" data-site=" https://www.subway.co.kr"
-                                    data-name="원본사이트" data-tx="_ Copy" data-no="SUBWAY"
+                                <div class="item" data-kor="서브웨이"" data-site=""
+                                    data-name="" data-tx=" _ Copy" data-no="SUBWAY"
                                     data-link-url="../pf/subway/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/subway.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
@@ -206,13 +193,22 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="하나금융티아이" data-site="https://www.hanati.co.kr"
-                                    data-name="원본사이트" data-tx="_ Copy" data-no="HANA TI"
-                                    data-link-url="../pf/hana/index.php"
+                                <div class="item" data-kor="하나금융티아이" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="HANA TI" data-link-url="../pf/hana/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hanati.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hana/logo.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="마켓디자이너스" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="MARKET DESIGNERS" data-link-url="../pf/md/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/marketdesigners.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/md-logo.png?dummy123123"
                                             alt="">
                                     </div>
                                 </div>
@@ -227,7 +223,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="이니스프리" data-site="" data-name="원본" data-tx="_ Redesign"
+                                <div class="item" data-kor="이니스프리" data-site="" data-name="" data-tx="_ Redesign"
                                     data-no="INNISFREE" data-link-url="../pf/inn/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/innisfree.jpg?dummy123123"
                                     onclick="Slider1__itemClick(this);">
@@ -237,14 +233,46 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-site="https://www.subway.co.kr" data-name="원본사이트"
-                                    data-tx="_ Copy" data-no="3" data-link-url="https://www.naver.com"
-                                    data-img-url="https://placekitten.com/700/350" onclick="Slider1__itemClick(this);">
+                                <div class="item" data-kor="신세계인터네셔날" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="S.I.KOREA::" data-link-url="../pf/si/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/si.png?dummy12312"
+                                    onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/subway/logo.png?dummy123123"
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/si/logo.png?dummy123123"
                                             alt="">
                                     </div>
                                 </div>
+                                
+                                <div class="item" data-kor="고양문화재단" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="GOYANG ARTS CENTER" data-link-url="../pf/gy/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/gy.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="9" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="ing" data-link-url="../pf/gy/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/daily.jpg?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="10" data-site="" data-name="" data-tx="_ Copy"
+                                    data-no="ing" data-link-url="../pf/gy/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/daily.jpg?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

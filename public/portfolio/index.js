@@ -81,7 +81,7 @@ function Slider1__init() {
     nav: false,
     mouseDrag: true,
     autoplay: true,
-    autoplayTimeout: 8000,
+    autoplayTimeout: 10000,
     loop: true,
     margin: 2,
     stopOnHover: true,
