@@ -345,11 +345,15 @@ label[for] {
 
 /* 페이지 스크롤바  */
 
-html::-webkit-scrollbar {
-    width: 0px;
+body::-webkit-scrollbar {
+    display: none;
 }
 
-/* html::-webkit-scrollbar-thumb {
+/* html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
     background-color: #21252c;
     border-radius: 10px;
   }
@@ -358,6 +362,21 @@ html::-webkit-scrollbar-track {
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
   } */
+
+
+/* 탑버튼 */
+
+/* #top-btn {
+    position: fixed;
+    right: 2%;
+    bottom: 50px;
+    display: none;
+    z-index: 999;
+    width:50px;
+    height: 50px;
+    background-color: green;
+    bordeR:10px solid red;
+} */
 
 
 /* 탑바 - 로고 */
@@ -418,6 +437,8 @@ html::-webkit-scrollbar-track {
 
 .main>.header>.top-wrap>.top-bar>.menu-box>ul>li {
     display: inline-block;
+    padding: 22px 50px;
+    position: relative;
 }
 
 .main>.header>.top-wrap.white>.top-bar>.menu-box>ul>li>a {
@@ -427,7 +448,6 @@ html::-webkit-scrollbar-track {
 .main>.header>.top-wrap>.top-bar>.menu-box>ul>li>a {
     font-weight: 600;
     display: inline-block;
-    padding: 22px 50px;
     color: #fff;
     transition: color .5s;
 }
@@ -454,6 +474,9 @@ html::-webkit-scrollbar-track {
 }
 
 .main>.header>.top-wrap>.top-bar>.menu-box>ul ul {
+    position: absolute;
+    left: 0;
+    top: 120%;
     height: 0px;
     width: 100%;
     margin-top: 2px;
@@ -575,7 +598,6 @@ html::-webkit-scrollbar-track {
     background-size: 18px auto !important;
     transition: background 0.2s;
     outline: none;
-    bordeR: 10px solid red;
     overflow: hidden;
 }
 
@@ -686,6 +708,14 @@ html::-webkit-scrollbar-track {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+    .container>.new-box {
+        margin: 3.625rem auto 7.5rem auto;
+        padding: 0 2.5rem;
+
+    }
+}
+
 .container>.new-box>.n-tit {
     font-size: 18px;
     margin-bottom: 22px;
@@ -696,7 +726,6 @@ html::-webkit-scrollbar-track {
 .container>.new-box>.ns-txt .owl-carousel {
     overflow: hidden;
     width: 100%;
-
 }
 
 .container>.new-box>.ns-txt .owl-carousel .owl-stage {
@@ -728,6 +757,12 @@ html::-webkit-scrollbar-track {
     border-right: 1px solid #dfdfdf;
 }
 
+@media screen and (max-width: 1024px) {
+    .container>.new-box>.ns-txt .owl-carousel .owl-item:not(:last-child) {
+        border-right: none;
+    }
+    
+}
 .container>.new-box>.ns-txt .owl-carousel .item>h4 {
     display: -webkit-box;
     max-height: 44px;
@@ -775,25 +810,31 @@ html::-webkit-scrollbar-track {
     overflow: hidden;
     transform: translatey(80%);
     opacity: 0;
-    transition: opacity 2s transform 2s 1s;
+    visibility: hidden;
+    display: block;
+    transition: opacity .5s, transform .3s;
 }
 
-.container>.intro>.int-img.active {
-    transform: translatey(80%);
-    opacity: 0;
-    animation: effect .8s forwards;
+.container>.intro>.int-2 {
+    transition: opacity .7s, transform .5s;
 }
 
-@keyframes effect {
-    0% {
-        opacity: 0;
-        transform: translateY(80%);
-    }
+.container>.intro>.int-3 {
+    transition: opacity .9s, transform .7s;
+}
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.container>.intro>.int-4 {
+    transition: opacity 1.2s, transform .9s;
+}
+
+.container>.intro>.int-5 {
+    transition: opacity 1.5s .1s, transform 1.1s .1s;
+}
+
+.container>.intro.active>.int-img {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container>.intro>.int-img>.img-box {
@@ -805,9 +846,309 @@ html::-webkit-scrollbar-track {
     background-color: #000;
     filter: grayscale(0.8);
     transition: filter 0.5s, transform 0.5s;
+    cursor: pointer;
 }
 
-.container>.intro>.int-img>.img-box:hover {
+.container>.intro>.int-img:hover>.img-box {
     transform: scale(1.2);
     filter: grayscale(0);
+}
+
+.container>.intro>.int-img>.infor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 300px; */
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.container>.intro>.int-img>.infor>h3 {
+    position: absolute;
+    bottom: 100px;
+    font-size: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom .5s;
+}
+
+.container>.intro>.int-img:hover>.infor>h3 {
+    bottom: 128px;
+}
+
+.container>.intro>.int-img>.infor>p {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 0;
+    margin-top: 16px;
+    padding-top: 26px;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s, max-height 0.5s;
+    overflow: hidden;
+}
+
+.container>.intro>.int-img:hover>.infor>p {
+    opacity: 1;
+    max-height: 200px;
+}
+
+.container>.intro>.int-img>.infor>p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 24px;
+    height: 0;
+    border-bottom: 1px solid #fff;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.container>.intro>.int-img:hover>.infor>p::before {
+    opacity: 1;
+}
+
+/* 2페이지 - 펄어비스 소식 */
+
+
+.container>.story {
+    margin-bottom: 200px;
+}
+
+.container>.story>.sb-box>.sub-news {
+    max-width: 1460px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    overflow: visible;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container .sub-news>#owl-three .owl-stage {
+    width: 1460px !important;
+}
+
+.container .sub-news>#owl-three .owl-item {
+    width: 345px !important;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+
+.container .sub-news>#owl-three .item>.str-box {
+    height: 100%;
+    overflow: hidden;
+    transform: translatey(30%);
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    transition: opacity .3s .1s, transform .3s .1s;
+}
+
+.container .sub-news>#owl-three .item>.str2 {
+    transition: opacity .5s .2s, transform .5s .2s;
+}
+
+.container .sub-news>#owl-three .item>.str3 {
+    transition: opacity .7s .3s, transform .7s .3s;
+}
+
+.container .sub-news>#owl-three .item>.str4 {
+    transition: opacity .9s .4s, transform .9s .4s;
+}
+
+.container .story.active .sub-news>#owl-three .item>.str-box {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container .sub-news>#owl-three .item>.str-box>.sub-img {
+    margin-bottom: 20px;
+    transition: transform .8s;
+}
+
+.container .sub-news>#owl-three .item>.str-box:hover>.sub-img {
+    transform: scale(1.05);
+}
+
+.container .sub-news>#owl-three .item>.str-box>.sub-txt>p:first-child {
+    max-height: 2.4rem;
+    margin: 16px 0;
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+
+.container .sub-news>#owl-three .item>.str-box>.sub-txt>p:last-child {
+    display: block;
+    font-size: 18px;
+    line-height: 1.6rem;
+    max-height: 3.2rem;
+    color: #1e1e1e;
+    transition: color 0.2s;
+    font-weight: bold;
+}
+
+/* 푸터 - 푸터 메뉴 */
+
+.footer>.ft-box {
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer>.ft-box>.ft-menu {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    padding: 60px 0 70px 0;
+}
+
+.footer>.ft-box>.ft-menu>ul {
+    width: 100%;
+}
+
+.footer>.ft-box>.ft-menu>ul>li {
+    width: calc(100%/5);
+}
+
+.footer>.ft-box>.ft-menu>ul:last-child>li {
+    width: calc(100%/5 - 40px);
+    margin-top: 50px;
+}
+
+.footer>.ft-box>.ft-menu>ul>li>a {
+    font-weight: bold;
+    position: relative;
+}
+
+.footer>.ft-box>.ft-menu>ul li .icon::after {
+    content: "";
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/icn_header_new_win.png?dummy123123) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}
+
+.footer>.ft-box>.ft-menu>ul ul {
+    margin-top: 10px;
+}
+
+.footer>.ft-box>.ft-menu>ul ul>li>a {
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #969696;
+    transition: color .3s;
+    position: relative;
+}
+
+.footer>.ft-box>.ft-menu>ul ul>li>a:hover {
+    color: #000;
+}
+
+/*  푸터 -카피라이터, 로고 */
+
+.footer>.ft-box>.copy {
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.footer>.ft-box>.copy>.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px 0 30px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer>.ft-box>.copy>.inner>.ft-logo>a {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/cm_bi_black.png?dummy123123) no-repeat center left;
+    background-size: contain;
+    width: 8.5rem;
+    height: 1rem;
+    transition: opacity 0.4s;
+}
+
+.footer>.ft-box>.copy>.inner>.ft-logo>p {
+    font-size: 14px;
+    line-height: 1rem;
+    margin-left: 1.625rem;
+    color: #6a6a6a;
+    opacity: 0.5;
+}
+
+/* 푸터 - sns 아이콘 */
+
+.footer>.ft-box>.copy>.inner>.ft-sns>ul {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.footer>.ft-box>.copy>.inner>.ft-sns>ul>li:not(:first-child) {
+    margin-left: 10px;
+}
+
+.footer>.ft-box>.copy>.inner>.ft-sns>ul>li>a {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    transition: opacity .3s;
+}
+
+.footer>.ft-box>.copy>.inner>.ft-sns>ul>li>a:hover {
+    opacity: .7;
+}
+
+
+/* 탑버튼 */
+
+.page-main > .button  {
+    width:60px;
+    height: 60px;
+    position:fixed;
+    bottom:100px;
+    right: 40px;
+    z-index: 150;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+}
+
+.page-main > .button > .top-btn {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: no-repeat center center;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/icn_cm_arrow_up_black.png?dummy123123);
+    background-size: contain;
+    z-index: 200;
 }
