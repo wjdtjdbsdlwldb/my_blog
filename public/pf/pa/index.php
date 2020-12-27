@@ -70,7 +70,7 @@
                                     <div class="sub-menu">
                                         <ul>
                                             <li><a href="#">채용소개</a></li>
-                                            <li><a href="#">지원하기</a></li>
+                                            <li><a href="#" class="sub-icon">지원하기</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -99,6 +99,24 @@
                 </div>
             </div>
 
+            <div class="media flex-ai-c">
+                <div class="side-top flex flex-ai-c">
+                    <div class="open-btn flex-grow-1">
+                        <h1 class="side-btn">
+                            <a href="#" class="line line-1 block"></a>
+                            <a href="#" class="line line-2 block"></a>
+                            <a href="#" class="line line-3 block"></a>
+                        </h1>
+                    </div>
+                    <div class="side-logo flex-as-c  flex-grow-1">
+                        <a href="#" class="block"></a>
+                    </div>
+
+                    <div class="side-eng">
+                        <a href="#" class="block"></a>
+                    </div>
+                </div>
+            </div>
 
             <div class="slider-1">
                 <div id="owl-one" class="owl-carousel owl-theme text-align-center">
@@ -114,7 +132,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section class="container">
@@ -331,6 +348,7 @@
                 </div>
             </div>
         </footer>
+
         <button class="button">
             <a href="#" class="top-btn block"></a>
         </button>

@@ -336,6 +336,24 @@ label[for] {
     flex: 1 0 0;
 }
 
+/* 공용 css */
+
+@media screen and (max-width: 1024px) {
+    .page-main>.main>.header {
+        opacity: 0;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .page-main>.main>.media {
+        display: block;
+        color: blue;
+        opacity: 0;
+    }
+
+}
+
 
 /* 커스텀 */
 
@@ -343,41 +361,64 @@ label[for] {
     max-width: 1460px;
 }
 
-/* 페이지 스크롤바  */
 
+
+/* 페이지 스크롤바  */
 body::-webkit-scrollbar {
     display: none;
 }
 
-/* html::-webkit-scrollbar {
-    width: 10px;
+/* 
+html::-webkit-scrollbar {
+    width: 5px;
 }
 
 html::-webkit-scrollbar-thumb {
     background-color: #21252c;
     border-radius: 10px;
-  }
+}
+
 html::-webkit-scrollbar-track {
-    background-color: grey;
+    background-color:transparent;
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px white;
-  } */
+} */
 
 
 /* 탑버튼 */
 
-/* #top-btn {
+.page-main>.button {
+    width: 60px;
+    height: 60px;
     position: fixed;
-    right: 2%;
-    bottom: 50px;
+    bottom: 100px;
+    right: 40px;
+    z-index: 150;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
     display: none;
-    z-index: 999;
-    width:50px;
-    height: 50px;
-    background-color: green;
-    bordeR:10px solid red;
-} */
+}
 
+@media screen and (max-width: 1024px) {
+    .page-main>.button {
+        bottom: 1.2rem;
+        right: 1.2rem;
+    }
+}
+
+
+.page-main>.button>.top-btn {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: no-repeat center center;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/icn_cm_arrow_up_black.png?dummy123123);
+    background-size: contain;
+    z-index: 200;
+}
 
 /* 탑바 - 로고 */
 
@@ -400,12 +441,13 @@ html::-webkit-scrollbar-track {
 }
 
 /* 탑바  */
-.main>.header {
+.page-main>.main>.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
+    transition: opacity .2s;
 }
 
 .main>.header>.top-wrap {
@@ -439,6 +481,14 @@ html::-webkit-scrollbar-track {
     display: inline-block;
     padding: 22px 50px;
     position: relative;
+    transition: padding .5s;
+}
+
+@media screen and (max-width: 1380px) {
+    .main>.header>.top-wrap>.top-bar>.menu-box>ul>li {
+        padding: 22px 35px;
+        transition: padding .5s;
+    }
 }
 
 .main>.header>.top-wrap.white>.top-bar>.menu-box>ul>li>a {
@@ -495,6 +545,21 @@ html::-webkit-scrollbar-track {
     display: block;
     padding: 4px 0;
     color: #969696;
+    position: relative;
+    transition: color .3s;
+}
+
+.main>.header>.top-wrap>.top-bar>.menu-box>ul ul>li>.sub-icon::after {
+    content: "";
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/icn_header_new_win.png?dummy123123) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
 }
 
 .main>.header>.top-wrap>.top-bar>.menu-box>ul ul>li:hover>a {
@@ -560,6 +625,100 @@ html::-webkit-scrollbar-track {
 }
 
 
+/* 모바일 탑바 */
+
+.page-main>.main>.media {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    height: 4.166rem;
+    z-index: 50;
+    transition: background-color .3s;
+    padding: 0 1.666rem;
+    box-sizing: border-box;
+}
+
+.page-main>.main>.media.white {
+    background-color: white;
+    transition: background-color .3s;
+}
+
+.page-main>.main>.media>.side-top {
+    width: 100%;
+    height: 4.166rem;
+}
+
+/* 모바일탑바 - 메뉴버튼 */
+
+.page-main>.main>.media .side-btn {
+    position: relative;
+    width: 2rem;
+    height: 1.492rem;
+}
+
+.page-main>.main>.media>.side-top .side-btn .line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.page-main>.main>.media.white>.side-top .side-btn .line {
+    background-color: #000;
+}
+
+@media screen and (max-width: 767px) {
+    .page-main>.main>.media>.side-top .side-btn .line {
+        height: 2px;
+    }
+}
+
+.page-main>.main>.media>.side-top .side-btn .line-1 {
+    top: 0.166rem;
+}
+
+.page-main>.main>.media>.side-top .side-btn .line-2 {
+    top: 0.666rem;
+}
+
+.page-main>.main>.media>.side-top .side-btn .line-3 {
+    top: 1.166rem;
+}
+
+/* 모바일 탑바 - 로고  */
+
+.page-main>.main>.media>.side-top>.side-logo>a {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/cm_bi_white.png?dummy123123) no-repeat center center;
+    width: 10.75rem;
+    height: 1.25rem;
+    background-size: auto 1.25rem;
+    box-sizing: border-box;
+}
+
+.page-main>.main>.media.white>.side-top>.side-logo>a {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/cm_bi_black.png?dummy123123);
+}
+
+/* 모바일 탑바 - 언어박스 */
+
+.page-main>.main>.media>.side-top>.side-eng>a {
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/m_icn_lang.png?dummy123123) no-repeat center center;
+    background-size: contain;
+}
+
+.page-main>.main>.media.white>.side-top>.side-eng>a {
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/m_icn_lang_black.png?dummy123123) no-repeat center center;
+    background-size: contain;
+    opacity: .5;
+}
+
+
+
 /*  메인 페이지 - 슬라이드 */
 
 .main>.slider-1 {
@@ -569,18 +728,34 @@ html::-webkit-scrollbar-track {
 
 .main>.slider-1>.owl-carousel {
     width: 100%;
-    height: 780px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .main>.slider-1>.owl-carousel .item {
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: auto;
     height: 780px;
-    position: relative;
-    object-fit: cover;
+    background-size: cover;
+    /* object-fit: cover; */
 }
+
+@media screen and (max-width: 1024px) {
+    .main>.slider-1>.owl-carousel .item {
+        height: 71.875vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main>.slider-1>.owl-carousel .item {
+        height: 122.6vw;
+    }
+}
+
 
 /* 메인 슬라이드 -양쪽버튼 */
 .slider-1>.owl-carousel .owl-nav .owl-next,
@@ -646,6 +821,12 @@ html::-webkit-scrollbar-track {
     text-align: center;
 }
 
+/* @media screen and (max-width: 766px) {
+    .slider-1>.owl-carousel .owl-dots {
+        transform: translateY(-90px);
+    }
+} */
+
 .slider-1>.owl-carousel .owl-dot {
     display: inline-block;
     width: 6px !important;
@@ -657,6 +838,23 @@ html::-webkit-scrollbar-track {
     margin-left: 30px;
     outline: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .slider-1>.owl-carousel .owl-dot {
+        width: 0.48rem !important;
+        height: 0.48rem !important;
+        border-radius: 0.24rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider-1>.owl-carousel .owl-dot {
+        width: 0.58rem !important;
+        height: 0.58rem !important;
+        border-radius: 0.29rem !important;
+    }
+}
+
 
 .slider-1>.owl-carousel .owl-dot.active {
     opacity: 1;
@@ -681,6 +879,23 @@ html::-webkit-scrollbar-track {
     transition: opacity 1s;
 }
 
+@media screen and (max-width: 1024px) {
+    .main>.slider-1>.owl-carousel .owl-item .bg-title {
+        bottom: 9.2rem;
+        width: 74%;
+        font-size: 1.6rem;
+        letter-spacing: -0.1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main>.slider-1>.owl-carousel .owl-item .bg-title {
+        bottom: 6.4166rem;
+        font-size: 1.75rem;
+    }
+
+}
+
 .main>.slider-1>.owl-carousel .owl-item.active .bg-title {
     opacity: 0;
     animation: textup 1.3s .2s forwards;
@@ -700,6 +915,17 @@ html::-webkit-scrollbar-track {
 }
 
 /* 2페이지 - 컨테이너 박스  */
+.container {
+    margin: 70px auto;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin: 1.9167rem auto 10.4167rem;
+    }
+}
 
 .container>.new-box {
     max-width: 1460px;
@@ -712,6 +938,13 @@ html::-webkit-scrollbar-track {
     .container>.new-box {
         margin: 3.625rem auto 7.5rem auto;
         padding: 0 2.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container>.new-box {
+        margin: 4.166rem 0 0 0;
+        padding: 0 1.666rem;
 
     }
 }
@@ -723,21 +956,40 @@ html::-webkit-scrollbar-track {
     font-weight: 800;
 }
 
-.container>.new-box>.ns-txt .owl-carousel {
-    overflow: hidden;
-    width: 100%;
+
+@media screen and (max-width: 767px) {
+    .container>.new-box>.n-tit {
+        font-size: 1.416rem;
+        margin-bottom: 1.833rem;
+
+    }
 }
 
-.container>.new-box>.ns-txt .owl-carousel .owl-stage {
+.container>.new-box>.ns-txt #owl-two {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .container>.new-box>.ns-txt #owl-two {
+        margin-bottom: 4.166rem;
+        padding-bottom: 4.166rem;
+
+    }
+}
+
+
+.container>.new-box>.ns-txt #owl-two .owl-stage {
     width: 1440px !important;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .owl-item {
+.container>.new-box>.ns-txt #owl-two .owl-item {
     width: 480px !important;
     box-sizing: border-box;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .item {
+.container>.new-box>.ns-txt #owl-two .item {
     display: block;
     width: 100%;
     padding-right: 30px;
@@ -745,25 +997,38 @@ html::-webkit-scrollbar-track {
 
 }
 
-.container>.new-box>.ns-txt .owl-carousel .owl-item:nth-child(2) {
+.container>.new-box>.ns-txt #owl-two .owl-item:nth-child(2) {
     padding: 0 30px;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .owl-item:nth-child(3) {
+.container>.new-box>.ns-txt #owl-two .owl-item:nth-child(3) {
     padding: 0 0 0 30px;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .owl-item:not(:last-child) {
+@media screen and (max-width: 1024px) {
+    .container>.new-box>.ns-txt #owl-two .owl-item:nth-child(3) {
+        padding: 0 0 0 0.624rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container>.new-box>.ns-txt #owl-two .owl-item:nth-child(3) {
+        padding: 0;
+    }
+}
+
+.container>.new-box>.ns-txt #owl-two .owl-item:not(:last-child) {
     border-right: 1px solid #dfdfdf;
 }
 
 @media screen and (max-width: 1024px) {
-    .container>.new-box>.ns-txt .owl-carousel .owl-item:not(:last-child) {
+    .container>.new-box>.ns-txt #owl-two .owl-item:not(:last-child) {
         border-right: none;
     }
-    
+
 }
-.container>.new-box>.ns-txt .owl-carousel .item>h4 {
+
+.container>.new-box>.ns-txt #owl-two .item>h4 {
     display: -webkit-box;
     max-height: 44px;
     /* -webkit-line-clamp: 2;
@@ -777,13 +1042,13 @@ html::-webkit-scrollbar-track {
     white-space: normal;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .item>.day {
+.container>.new-box>.ns-txt #owl-two .item>.day {
     margin: 14px auto 24px 0;
     font-size: 12px;
     color: #939393;
 }
 
-.container>.new-box>.ns-txt .owl-carousel .item>p {
+.container>.new-box>.ns-txt #owl-two .item>p {
     display: block;
     height: 18px;
     font-size: 14px;
@@ -1123,32 +1388,4 @@ html::-webkit-scrollbar-track {
 
 .footer>.ft-box>.copy>.inner>.ft-sns>ul>li>a:hover {
     opacity: .7;
-}
-
-
-/* 탑버튼 */
-
-.page-main > .button  {
-    width:60px;
-    height: 60px;
-    position:fixed;
-    bottom:100px;
-    right: 40px;
-    z-index: 150;
-    border: 1px solid #000;
-    border-radius: 50%;
-    background: #fff;
-    overflow: hidden;
-    display: none;
-}
-
-.page-main > .button > .top-btn {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    background: no-repeat center center;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pa/icn_cm_arrow_up_black.png?dummy123123);
-    background-size: contain;
-    z-index: 200;
 }

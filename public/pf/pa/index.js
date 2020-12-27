@@ -50,15 +50,19 @@ function Slider1__init() {
       },
       200: {
         items: 1,
-        nav: false
+        nav: false,
+        mouseDrag: true,
       },
       600: {
         items: 1,
-        nav: false
+        nav: false,
+        
       },
-      1000: {
+      1024: {
         items: 1,
-        nav: true
+        nav: true,
+        mouseDrag: true,
+        
       }
     }
   });
@@ -103,10 +107,11 @@ function SubNews__init() {
 }
 
 
-// 탑바 스크롤 색상변화
+// 탑바 큰화면 스크롤 색상변화
 
 $(document).ready(function () {
   var $topBar = $(".top-wrap");
+  var $sideTop = $(".media");
 
   var windowHeight = $(window).height();
 
@@ -117,13 +122,16 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop > windowHeight - 700) {
+    if (scrollTop > windowHeight - 650) {
       $topBar.addClass("white");
+      $sideTop.addClass("white");
     } else {
       $topBar.removeClass("white");
+      $sideTop.removeClass("white");
     }
   });
 });
+
 
 
 /* 발견되면 활성화시키는 라이브러리 시작 */
@@ -223,6 +231,8 @@ $(function () {
     return false;
   });
 });
+
+
 
 $(function () {
   MenuEffect__init();
