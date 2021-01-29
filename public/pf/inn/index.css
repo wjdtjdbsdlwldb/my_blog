@@ -1091,6 +1091,7 @@ overflow-x: hidden;
     height: 100%;
     padding-bottom: 50px;
     position: relative;
+    cursor: pointer;
 }
 
 .page-4>.swi-box>.txt-box {

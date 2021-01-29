@@ -12,13 +12,6 @@
     <h1>포트폴리오</h1>
     <ul>
         <li>
-            <a href="/pf/gm/index.php" target="_blank">젠틀몬스터 모작</a>
-            <ul>
-                <li><a href="https://www.gentlemonster.com/" target="_blank">젠틀몬스터 사이트</a></li>
-            </ul>
-        </li>
-
-        <li>
             <a href="/pf/subway/index.php" target="_blank">서브웨이 모작</a>
             <ul>
                 <li><a href="https://www.subway.co.kr/" target="_blank">서브웨이 사이트</a></li>

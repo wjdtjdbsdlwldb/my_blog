@@ -625,7 +625,7 @@ html {
 
 
 /* 국면 4 */
-.phase-4 .line-box>.lines>div:nth-child(1) {
+/* .phase-4 .line-box>.lines>div:nth-child(1) {
     top: 0;
     bottom: 0;
     left: calc(25% - 1px);
@@ -669,47 +669,47 @@ html {
 
 .phase-4 .arrow {
     opacity: 0;
-}
+} */
 
 /* 국면 5 */
-.phase-5 .line-box>.lines>div:nth-child(1) {
+.phase-4 .line-box>.lines>div:nth-child(1) {
     top: 0;
     bottom: 0;
     left: calc(35% - 1px);
 }
 
-.phase-5 .line-box>.lines>div:nth-child(2) {
+.phase-4 .line-box>.lines>div:nth-child(2) {
     top: 0;
     bottom: 0;
     width: 100%;
     left: calc(35% - 1px);
 }
 
-.phase-5 .line-box>.lines>div:nth-child(3) {
+.phase-4 .line-box>.lines>div:nth-child(3) {
     top: 0;
     bottom: 0;
     left: calc(100% - 1px);
 }
 
-.phase-5 .line-box>.txt-box {
+.phase-4 .line-box>.txt-box {
     color: white;
 }
 
-.phase-5 .line-box>.txt-box>h1>span {
+.phase-4 .line-box>.txt-box>h1>span {
     font-size: 1.5rem;
 }
 
-.phase-5 .line-box>.txt-box>h1>span:first-child {
+.phase-4 .line-box>.txt-box>h1>span:first-child {
     top: calc(15px);
     left: calc(100vw - 200px);
 }
 
-.phase-5 .line-box>.txt-box>h1>span:last-child {
+.phase-4 .line-box>.txt-box>h1>span:last-child {
     top: calc(15px);
     left: calc(100vw - 150px);
 }
 
-.phase-5 .line-box>.txt-box>.des {
+.phase-4 .line-box>.txt-box>.des {
     left: calc(100vw - 110px);
     top: calc(53px);
     white-space: nowrap;
@@ -717,7 +717,7 @@ html {
     font-size: 12px;
 }
 
-.phase-5 .arrow {
+.phase-4 .arrow {
     opacity: 0;
 }
 
@@ -729,6 +729,7 @@ html {
     text-align: right;
     margin: 30px 30px 0 0;
     opacity: 0;
+    font-size: 13px;
     transition: opacity 1s;
     animation: opacity 1s 1s forwards;
 }
@@ -1127,7 +1128,7 @@ html {
 
 /* 4 페이지 - 효과 */
 
-.section-4 {
+/* .section-4 {
     opacity: 0;
     transform: translateX(-100%);
     overflow: hidden;
@@ -1140,7 +1141,7 @@ html {
 }
 
 /* 4페이지 -타이틀 */
-.page-4 {
+/* .page-4 {
     position: relative;
     overflow: hidden;
 }
@@ -1171,7 +1172,7 @@ html {
 
 /* 4페이지 - 슬라이드 */
 
-.page-4 .slider-1 .owl-carousel {
+/* .page-4 .slider-1 .owl-carousel {
     position: absolute;
     overflow: hidden;
     top: 35%;
@@ -1193,10 +1194,10 @@ html {
     background-position: center;
     width: 300px;
     height: 400px;
-}
+} */
 
 /* 4 페이지 -배너 텍스트  */
-.page-4 .slider-1 .item .bannr {
+/* .page-4 .slider-1 .item .bannr {
     margin-top: 10px;
     font-weight: 400;
 
@@ -1229,7 +1230,7 @@ html {
 .page-4 .slider-1 .item img {
     width: auto;
     height: 18px;
-}
+} */
 
 
 /* 5 페이지  시작*/

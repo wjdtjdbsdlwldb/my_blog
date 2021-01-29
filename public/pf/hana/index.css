@@ -435,14 +435,15 @@ label[for] {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     background: #fff;
     height: 0;
     opacity: 0;
-    padding-top:-20px;
     transition: opacity .5s, padding-top .3s,  height .3s;
     z-index: -1;
+    width: 100%;
     overflow: hidden;
+    box-sizing: border-box;
+    border:2px solid blue;
 }
 
 .main .top-menu.active>.menu-box>.background {
@@ -632,6 +633,9 @@ label[for] {
 .main>.bn-box>.video-box {
     min-width: 1530px;
     overflow: hidden;
+    width: 100vw;
+    box-sizing: border-box;
+
 }
 
 .main>.bn-box>.video-box>.vd {
