@@ -1,3 +1,5 @@
+// 메인슬라이드
+
 $(function () {
   $(".slider1").slick({
     slide: "div", //슬라이드 되어야 할 태그 ex) div, li
@@ -15,6 +17,7 @@ $(function () {
   });
 });
 
+// 공지사항 슬라이드 
 
 $(function () {
   $(".noti-slider").slick({
@@ -34,3 +37,18 @@ $(function () {
     draggable: true, //드래그 가능 여부
   });
 });
+
+// 전시 슬라이드
+
+$(document).ready(function () {
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 50,
+    loop: true,
+    // slidesPerGroup:1,
+    centeredSlides: true,
+  });
+});
+
+
+
