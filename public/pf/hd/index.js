@@ -52,3 +52,38 @@ $(document).ready(function () {
 
 
 
+$(document).ready(function () {
+  var $loginMenu = $('.login-box > ul > li');
+
+  $('.login-box > ul ul').hide();
+
+  $loginMenu.click(function () {
+    $('.login-box > ul ul').slideDown();
+
+  });
+
+  $loginMenu.mouseleave(function () {
+    $('.login-box > ul ul').slideUp();
+  });
+
+});
+
+$(document).ready(function () {
+  $('.top-btn').hide();
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 600) {
+      $('.top-btn').fadeIn(500);
+    } else {
+      $('.top-btn').fadeOut();
+      $('.top-btn').css('display', 'none');
+    }
+  });
+
+  $(".top-btn").click(function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 400);
+    return false;
+  });
+});

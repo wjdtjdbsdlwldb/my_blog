@@ -21,6 +21,10 @@
 <body>
     <main class="main con-min-width">
         <div class="con2">
+            <div class="top-btn">
+                <p class="btn-txt">Top</p>
+            </div>
+
             <header class="header con">
                 <div class="top-bar flex">
                     <div class="logo flex">
@@ -34,23 +38,78 @@
                             <li><a href="#" class="block">새소식</a></li>
                             <li><a href="#" class="block">멤버십</a></li>
                             <li><a href="#" class="block">사이트맵</a></li>
-                            <li><a href="#" class="block">LANGUAGES</a></li>
+                            <li><a href="#" class="block lang">LANGUAGES</a>
+                                <ul class="text-align-center">
+                                    <li><a href="#" class="block">한국어</a></li>
+                                    <li><a href="#" class="block">ENGLISH</a></li>
+                                    <li><a href="#" class="block">중국어</a></li>
+                                    <li><a href="#" class="block">일본어</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#" class="block"><img
                                         src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/qq.png?dummy1231232"
                                         alt="돋보기"></a></li>
                         </ul>
                     </nav>
                 </div>
+
                 <nav class="menu-box">
-                    <ul class="flex flex-jc-c">
-                        <li><a href="#" class="block">관람안내</a></li>
-                        <li><a href="#" class="block">전시</a></li>
-                        <li><a href="#" class="block">교육</a></li>
-                        <li><a href="#" class="block">소장품</a></li>
-                        <li><a href="#" class="block">연구와 출판</a></li>
-                        <li><a href="#" class="block">온라인 미술관</a></li>
+                    <ul class="flex flex-jc-c text-align-center">
+                        <li><a href="#" class="block">관람안내</a>
+                            <ul>
+                                <li><a href="#" class="block">서울</a></li>
+                                <li><a href="#" class="block">과천</a></li>
+                                <li><a href="#" class="block">덕수궁</a></li>
+                                <li><a href="#" class="block">청주</a></li>
+                                <li><a href="#" class="block">캘린더</a></li>
+                                <li><a href="#" class="block">전시해설</a></li>
+                                <li><a href="#" class="block">단체관람</a></li>
+                                <li><a href="#" class="block">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="block">전시</a>
+                            <ul>
+                                <li><a href="#" class="block">전시</a></li>
+                                <li><a href="#" class="block">필름앤비디오</a></li>
+                                <li><a href="#" class="block">다원예술</a></li>
+                                <li><a href="#" class="block">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="block">교육</a>
+                            <ul>
+                                <li><a href="#" class="block">미술관교육소개</a></li>
+                                <li><a href="#" class="block">어린이미술관</a></li>
+                                <li><a href="#" class="block">참여신청</a></li>
+                                <li><a href="#" class="block">교육자료실</a></li>
+                                <li><a href="#" class="block">교육사진</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="block">소장품</a>
+                            <ul>
+                                <li><a href="#" class="block">고화질 보기</a></li>
+                                <li><a href="#" class="block">소장품 검색</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="block">연구와 출판</a>
+                            <ul>
+                                <li><a href="#" class="block">연구와 출판</a></li>
+                                <li><a href="#" class="block">아카이브와 도서</a></li>
+                                <li><a href="#" class="block">MMCA 연구</a></li>
+                                <li><a href="#" class="block">레지던시</a></li>
+                                <li><a href="#" class="block">보존과학</a></li>
+                                <li><a href="#" class="block">출판</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="block">온라인 미술관</a>
+                            <ul>
+                                <li><a href="#" class="block">온라인미술관</a></li>
+                                <li><a href="#" class="block">오늘,이 작품</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </nav>
             </header>
+
             <section class="sd-box">
                 <div class="main-slide con">
                     <div class="slider1">
@@ -316,12 +375,110 @@
 
             <section class="news">
                 <div class="nw-wrap con">
-                    <div class="nw-box">
+                    <div class="nw-box flex flex-ai-c">
                         <div class="red-icon"></div>
-                        <h2>NEWS</h2>
+                        <h2 class="flex-grow-1">News</h2>
+                        <p>More</p>
                     </div>
+
+                    <nav class="nw-body">
+                        <ul>
+                            <li class="flex flex-ai-c">
+                                <div class="nw-date">
+                                    <p>30</p>
+                                    <p>2020.12</p>
+                                </div>
+                                <div class="nw-infor">
+                                    <p>재개관한 국립현대미술관 ‘거리두기 관람’ 시작</p>
+                                    <p>온라인 사전예약제로 입장인원을 제한하여 미술관(서울, 덕수궁)을 재개관</p>
+                                </div>
+                                <div class="nw-arr"></div>
+                            </li>
+                            <li class="flex flex-ai-c">
+                                <div class="nw-date">
+                                    <p>15</p>
+                                    <p>2020.12</p>
+                                </div>
+                                <div class="nw-infor">
+                                    <p>《올해의 작가상 2020》 인터뷰 2편, 정윤석·이슬기 작가</p>
+                                    <p>정윤석 작가와 이슬기 작가의 이야기</p>
+                                </div>
+                                <div class="nw-arr"></div>
+                            </li>
+                            <li class="flex flex-ai-c">
+                                <div class="nw-date">
+                                    <p>18</p>
+                                    <p>2021.01</p>
+                                </div>
+                                <div class="nw-infor">
+                                    <p>한국 현대미술의 오늘 《올해의 작가상 2020》</p>
+                                    <p>무대와 객석이 하나되어 만드는 감미롭고 리드미컬한 음악회</p>
+                                </div>
+                                <div class="nw-arr"></div>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </section>
+
+            <footer class="footer">
+                <div class="ft-wrap">
+                    <ul class="site flex flex-ai-c con">
+                        <li><a href="#" class="block">기증안내</a></li>
+                        <li><a href="#" class="block">후원</a></li>
+                        <li><a href="#" class="block">자원봉사</a></li>
+                        <li><a href="#" class="block">채용</a></li>
+                        <li><a href="#" class="block">보도자료</a></li>
+                        <li><a href="#" class="block">불편부조리신고</a></li>
+                        <li><a href="#" class="block">MMCA 프렌즈</a></li>
+                        <li><a href="#" class="block">국립현대미슬관 문화재단</a></li>
+                    </ul>
+                </div>
+                <div class="copy-box con flex flex-ai-c">
+                    <div class="ft-logo"
+                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/ft-logo.png?dummy123123)">
+                    </div>
+                    <nav class="address">
+                        <ul>
+                            <li class="flex">
+                                <p>대표자 윤범모</p>
+                                <p>사업자등록번호 138-83-00313</p>
+                            </li>
+                            <li class="flex">
+                                <p>대표전화 (서울)02-3701-9500</p>
+                                <p>(과천)02-2188-6000</p>
+                                <p>(덕수궁)02-2022-0600</p>
+                                <p>(청주)043-261-1400</p>
+                            </li>
+                            <li class="copy">
+                                <p>Copyright (c)2018 National Museum of Modern and Contemporary Art, Korea All rights
+                                    reserved.</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sns-box con flex flex-ai-c">
+                    <div class="sns flex flex-ai-c">
+                        <a href="#" class="block"
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/int.png?dummy123123)"></a>
+                        <a href="#" class="block"
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/fac.png?dummy123123)"></a>
+                        <a href="#" class="block"
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/jj.png?dummy123123)"></a>
+                        <a href="#" class="block"
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/naver.png?dummy12312)"></a>
+                        <a href="#" class="block"
+                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/yt.png?dummy123123)"></a>
+                    </div>
+                    <ul class="use-infor flex-ai-c">
+                        <li><a href="#" class="block">이용약관</a></li>
+                        <li><a href="#" class="block">개인정보처리방침</a></li>
+                        <li><a href="#" class="block">저작권정책</a></li>
+                        <li><a href="#" class="block">국민신문고</a></li>
+                        <li><a href="#" class="block">정보공개</a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     </main>
 </body>
