@@ -387,6 +387,7 @@ label[for] {
 /* 커스텀 */
 .con {
     max-width: 1700px;
+    margin: 0 auto;
 }
 
 .con-min-width {
@@ -396,13 +397,10 @@ label[for] {
 /*로고바 시작 */
 
 .top-bar .logo {
-    width: 170px;
     overflow: hidden;
-    margin-right: 40px;
-}
-
-.top-bar .logo>svg {
-    width: 100%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 50px;
 }
 
 /*로고 기본 색상*/
@@ -431,13 +429,16 @@ label[for] {
     background: #FFF9F9;
 }
 
+.top-bar .menu-box-1 {
+    margin-left: 100px;
+}
+
 .top-bar .menu-box-1>ul>li>a {
     padding: 30px;
-    transition: transfrom .4s;
+    transition: color .4s;
 }
 
 .top-bar .menu-box-1>ul>li:hover>a {
-    transform: scale(1.1);
     color: rgb(252, 191, 188);
 }
 
@@ -627,12 +628,12 @@ label[for] {
     display: block;
     padding: 20px;
     font-size: 1vw;
-    transition: transfrom .1s, .4s;
+    transition: color .1s, .4s;
 }
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
     font-weight: 800;
     background-color: #FFD3D1;
     color: #E36F65;
-    transform: scale(1.1);
+
 }

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ChampagneBoldItalic';
+    src: url('/portfolio/font/Champagne Bold Italic.ttf') format('truetype');
+}
+
+.ChampagneBoldItalic {
+    font-family: 'ChampagneBoldItalic';
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('/portfolio/font/Champagne Bold.ttf') format('truetype');
+}
+
+.ChampagneBold {
+    font-family: 'ChampagneBold';
+}
+
+@font-face {
+    font-family: 'GeosansLight-Oblique';
+    src: url('/portfolio/font/GeosansLight-Oblique.ttf') format('truetype');
+}
+

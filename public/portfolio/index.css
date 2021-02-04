@@ -241,7 +241,7 @@ label[for] {
 
 .table-row.row::after {
     display: inline;
-    clear: non;
+    clear: none;
 }
 
 .table-row>.cell {
@@ -1020,6 +1020,7 @@ html {
 .page-3>div>.tn-box {
     margin-top: 45px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .page-3>div>.tn-box>.txt-box-1 {
@@ -1060,6 +1061,43 @@ html {
     color: #1432F2;
 }
 
+.page-3>div>.tn-box>.txt-box-6 {
+    margin-right: 20px;
+}
+
+.page-3>div>.tn-box>.txt-box-6,
+.page-3>div>.tn-box>.txt-box-7 {
+    font-family: 'ChampagneBold';
+    font-weight: 400;
+    border: 2px solid #1432F2;
+    padding: 5px 30px;
+    position: relative;
+    transition: color .3s;
+}
+
+.page-3>div>.tn-box>.txt-box-6:hover,
+.page-3>div>.tn-box>.txt-box-7:hover {
+    color: #fff;
+}
+
+.page-3>div>.tn-box>.txt-box-6::before,.page-3>div>.tn-box>.txt-box-7::before {
+    content: "";
+    position: absolute;
+    background-color: #1432F2;
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    box-sizing: border-box;
+    transition: height .3s;
+}
+
+.page-3>div>.tn-box>.txt-box-6:hover::before, .page-3>div>.tn-box>.txt-box-7:hover::before{
+    height: 100%;
+}
+
+
 /* 3페이지 - 로고 슬라이드 */
 
 .page-3>div.slider-box {
@@ -1069,6 +1107,7 @@ html {
     bottom: 20%;
     right: 5%;
     transform: translateX(5%) translateY(-20%);
+    padding-top: 80px;
 }
 
 .page-3>div.slider-box>.slider .item {
@@ -1098,6 +1137,45 @@ html {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 10%;
+}
+
+.carousel-1 .owl-nav {
+    position: absolute;
+    top: -70px;
+    right: 15px;
+}
+
+.carousel-1 .owl-nav .owl-prev,
+.carousel-1 .owl-nav .owl-next {
+    color: transparent;
+    background-color: transparent;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/prev.png?dummy123123);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+}
+
+.carousel-1 .owl-nav .owl-next {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/next.png?dummy12312);
+}
+
+.carousel-1 .owl-nav:hover .owl-prev,
+.carousel-1 .owl-nav:hover .owl-next {
+    color: transparent;
+    background-color: transparent;
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/prev.png?dummy123123);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-1 .owl-nav:hover .owl-next {
+    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/next.png?dummy12312);
 }
 
 
@@ -1273,6 +1351,7 @@ html {
 .page-5>.icon-box>ul>li {
     padding: 50px;
     position: relative;
+    cursor: pointer;
 }
 
 .page-5>.icon-box>ul>li>div {

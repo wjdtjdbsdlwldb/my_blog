@@ -9,12 +9,7 @@ include "../part/head.php";
 </div>
 
 <ul class="coding con row">
-    <!-- <li class="cell">
-        <a href="futurasoft.html" target="_blank"
-            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/web-coding.jpg);"></a>
-        <div class="text-main">FUTURASOFT CODING</div>
-    </li> -->
-
+   
     <li class="cell img-box">
         <a href="#" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/web-coding.jpg);"></a>
         <div>

@@ -44,7 +44,7 @@ function slider() {
     navSpeed: 150,
     loop: false,
     margin: 10,
-    nav: false,
+    nav: true,
     dots: false,
     slideBy: 4,
     mouseDrag: true,
@@ -66,6 +66,8 @@ function Slider1__itemClick(el) {
   var name = $el.attr('data-name');
   var site = $el.attr('data-site');
   var kor = $el.attr('data-kor');
+  var design = $el.attr('data-design');
+  var mockup = $el.attr('data-mockup');
 
   $('.img-box-1').empty().append("<a href='" + link + "' target='_blank' style=\"background-image:url(\'" + url + "\')\"></a>");
   $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
@@ -73,7 +75,14 @@ function Slider1__itemClick(el) {
   $('.txt-box-3').empty().append("<h3>" + kor + "</h3>");
   $('.txt-box-4').empty().append("<h3>" + name + "</h3>");
   $('.txt-box-5').empty().append("<h3>" + site + "</h3>");
+  $('.txt-box-6').empty().append("<h3>" + design + "</h3>");
+  $('.txt-box-7').empty().append("<h3>" + mockup + "</h3>");
 }
+
+// function design(){
+//   window.open("../pf/hd/index.php");
+// }
+
 
 function Slider1__init() {
   $('.slider-1 > .owl-carousel').owlCarousel({

@@ -151,6 +151,8 @@
                         <div class="txt-box-3"></div>
                         <div class="txt-box-4"></div>
                         <div class="txt-box-5"></div>
+                        <div class="txt-box-6 inline-block" onclick="design()"></div>
+                        <div class="txt-box-7 inline-block"></div>
                     </div>
                 </div>
 
@@ -172,7 +174,38 @@
                     <div class="slider">
                         <div class="sliders1 carousel-1 active">
                             <div class="owl-carousel owl-theme">
-                                <div class="item item-1" data-kor="서브웨이"" data-site=""
+
+                            <div class="item item-1" data-design="Web Desgin" data-mockup="Process Page" data-kor="국립현대미술관" data-site="" data-name="" data-tx="_ Redesign"
+                                    data-no="Art Museum" data-link-url="../pf/hd/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hd.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/hdlogo.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="이니스프리" data-design="Web Desgin" data-mockup="Process Page" data-site="" data-name="" data-tx="_ Redesign"
+                                    data-no="INNISFREE" data-link-url="../pf/inn/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/innisfree.jpg?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_main.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="마이런" data-design="Web Desgin" data-mockup="Process Page" data-site="" data-name="" data-tx="_ Redesign"
+                                    data-no="MIRUN" data-link-url="../pf/mirun/index.php"
+                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="img-box">
+                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item" data-kor="서브웨이" data-site=""
                                     data-name="" data-tx=" _ Copy" data-no="SUBWAY"
                                     data-link-url="../pf/subway/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/subway.png?dummy123123"
@@ -193,26 +226,6 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마이런" data-site="" data-name="" data-tx="_ Redesign"
-                                    data-no="MIRUN" data-link-url="../pf/mirun/index.php"
-                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item" data-kor="이니스프리" data-site="" data-name="" data-tx="_ Redesign"
-                                    data-no="INNISFREE" data-link-url="../pf/inn/index.php"
-                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/innisfree.jpg?dummy123123"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_main.png?dummy123123"
-                                            alt="">
-                                    </div>
-                                </div>
-
                                 <div class="item" data-kor="신세계인터네셔날" data-site="" data-name="" data-tx="_ Copy"
                                     data-no="S.I.KOREA::" data-link-url="../pf/si/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/si.png?dummy12312"
@@ -222,30 +235,10 @@
                                             alt="">
                                     </div>
                                 </div>
-                                
+
                                 <div class="item" data-kor="고양문화재단" data-site="" data-name="" data-tx="_ Copy"
                                     data-no="GOYANG ARTS CENTER" data-link-url="../pf/gy/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/gy.png?dummy123123"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item" data-kor="9" data-site="" data-name="" data-tx="_ Copy"
-                                    data-no="ing" data-link-url="../pf/gy/index.php"
-                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/daily.jpg?dummy123123"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="img-box">
-                                        <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="item" data-kor="10" data-site="" data-name="" data-tx="_ Copy"
-                                    data-no="ing" data-link-url="../pf/gy/index.php"
-                                    data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/2020/daily.jpg?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="img-box">
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/gy/logo.png?dummy123123"
