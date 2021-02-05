@@ -195,7 +195,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item" data-kor="마이런" data-design="Web Desgin" data-mockup="Process Page" data-site="" data-name="" data-tx="_ Redesign"
+                                <!-- <div class="item" data-kor="마이런" data-design="Web Desgin" data-mockup="Process Page" data-site="" data-name="" data-tx="_ Redesign"
                                     data-no="MIRUN" data-link-url="../pf/mirun/index.php"
                                     data-img-url="https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/mirun.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
@@ -203,7 +203,7 @@
                                         <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/mirun/logo2.png?dummy123123"
                                             alt="">
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="item" data-kor="서브웨이" data-site=""
                                     data-name="" data-tx=" _ Copy" data-no="SUBWAY"

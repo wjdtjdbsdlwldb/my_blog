@@ -382,17 +382,26 @@ label[for] {
     background-color: #5bb68a;
     transform: rotate(45deg);
     margin: 150px auto;
-    /* animation: rotate_image 100s linear infinite;
-    transform-origin: 50% 50%; */
+    animation: rotate_image 4s .3s linear forwards;
+    transform-origin: 50% 50%;
     box-shadow: 5px 3px 5px #838b87;
 }
 
-/* 
+
 @keyframes rotate_image {
-    100% {
-        transform: rotate(360deg);
+    40% {
+        transform: rotate(42deg);
     }
-} */
+
+    80% {
+        transform: rotate(52deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
 
 /* 주황색 3줄 라인 */
 .intro-bg>.figure>.long-sq {
@@ -492,7 +501,7 @@ label[for] {
     cursor: default;
 }
 
-.intro-bg>.txt-box h2 {
+.intro-bg>.txt-box>.spec-txt> h2 {
     padding: 35px 0;
     text-shadow: 2px 2px 5px #ff8500;
     animation: loading 1.5s infinite alternate;
@@ -500,43 +509,43 @@ label[for] {
     animation-fill-mode: forwards;
 }
 
-.intro-bg>.txt-box h2:nth-child(2) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(2) {
     animation-delay: .2s;
 }
 
-.intro-bg>.txt-box h2:nth-child(3) {
+.intro-bg>.txt-box > .spec-txt> h2:nth-child(3) {
     animation-delay: .4s;
 }
 
-.intro-bg>.txt-box h2:nth-child(4) {
+.intro-bg>.txt-box > .spec-txt> h2:nth-child(4) {
     animation-delay: .6s;
 }
 
-.intro-bg>.txt-box h2:nth-child(5) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(5) {
     animation-delay: .8s;
 }
 
-.intro-bg>.txt-box h2:nth-child(6) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(6) {
     animation-delay: 1s;
 }
 
-.intro-bg>.txt-box h2:nth-child(7) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(7) {
     animation-delay: 1.2s;
 }
 
-.intro-bg>.txt-box h2:nth-child(8) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(8) {
     animation-delay: 1.4s;
 }
 
-.intro-bg>.txt-box h2:nth-child(9) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(9) {
     animation-delay: 1.6s;
 }
 
-.intro-bg>.txt-box h2:nth-child(10) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(10) {
     animation-delay: 1.8s;
 }
 
-.intro-bg>.txt-box h2:nth-child(11) {
+.intro-bg>.txt-box> .spec-txt> h2:nth-child(11) {
     animation-delay: 2.0s;
 }
 
@@ -584,9 +593,9 @@ label[for] {
     width: 45%;
 }
 
-.carousel-1 .deco {
+.carousel-1 .copy {
     font-family: 'Damion';
-    font-size: 1.2rem;
+    font-size: .8rem;
     position: absolute;
     left: 5%;
     bottom: 10%;
@@ -636,11 +645,16 @@ label[for] {
 .carousel-2 {
     position: absolute;
     top: 50%;
-    left: 52%;
+    left: -100%;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 91%;
     overflow: hidden;
+    transition: left 1.2s;
+}
+
+.carousel-2.active {
+    left: 52%;
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item {
@@ -657,11 +671,16 @@ label[for] {
     box-shadow: 5px 2px 5px #afafaf79;
 }
 
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item-2 {
+    background-size: contain;
+    background-color: #3E806F;
+}
+
 /* 슬라이드 내용  */
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text {
     position: absolute;
-    top: 5%;
+    top: 4%;
     left: 57%;
     box-sizing: border-box;
     width: 37%;
@@ -687,7 +706,7 @@ label[for] {
     font-size: 1.8rem;
     letter-spacing: -1.2px;
     font-family: 'ChampagneBold';
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>span {
@@ -696,19 +715,30 @@ label[for] {
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>p {
-    margin: 65px 0;
+    margin: 60px 0 45px 0;
     font-size: .9rem;
     font-family: 'Noto Sans KR';
 }
 
-.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>.border-bt {
-    height: 9px;
-    width: 160px;
-    background-color: #0BA36C;
-    margin-bottom: 70px;
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>.program {
+    margin-bottom: 55px;
+    padding-bottom:45px;
+    position: relative;
 }
 
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>.program > p {
+    font-size: .8rem;
+    color: #838b87;
+    letter-spacing: -.4px;
+    font-family: 'Noto Sans KR';
+}
+
+
 /* 슬라이드 버튼  */
+
+.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.des{
+    margin-right: 20px;
+}
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn {
     cursor: pointer;
@@ -731,14 +761,11 @@ label[for] {
     background: transparent !important;
 }
 
-.carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.des{
-    margin-right: 20px;
-}
 
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn:hover {
     border: 1px solid transparent;
-    color: #7a1800 !important;
+    color: #ec5317 !important;
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn::before {
@@ -746,7 +773,7 @@ label[for] {
     width: 100%;
     height: 100%;
     display: block;
-    background: #0BA36C;
+    background: #ffc62e;
     position: absolute;
     left: 0%;
     opacity: 1;
@@ -763,7 +790,7 @@ label[for] {
     width: 100%;
     height: 100%;
     display: block;
-    background: #7a1800;
+    background: #ec5317;
     position: absolute;
     left: 0%;
     opacity: 1;
@@ -776,7 +803,7 @@ label[for] {
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn:hover::before,
-.btn11:hover::before {
+.btn:hover::before {
     opacity: 1;
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
@@ -785,7 +812,7 @@ label[for] {
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn:hover::after,
-.btn11:hover::after {
+.btn:hover::after {
     opacity: 1;
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
@@ -869,9 +896,14 @@ label[for] {
     top: 50%;
     left: 52%;
     transform: translate(-50%, -50%);
-    border: 4px solid #ec5317;
+    border: 4px solid #ffc62e;
     width: 95%;
     height: 90%;
+    transition: border 2s 1.5s;
+}
+
+.about>.ab-wrap>.box-line.active {
+    border: 4px solid #ec5317;
 }
 
 .about>.ab-wrap>.box-line>.skill {
@@ -880,7 +912,7 @@ label[for] {
     height: 80%;
     position: absolute;
     top: 50%;
-    left: -10%;
+    left: 15%;
     transform: translatey(-50%);
     cursor: default;
     opacity: 0;
@@ -890,6 +922,7 @@ label[for] {
 .about>.ab-wrap>.box-line>.skill.active {
     left: 24%;
     opacity: 1;
+    transition: left 1.4s, opacity 1.4s;
 }
 
 .about>.ab-wrap>.box-line>.skill>h3 {
@@ -962,18 +995,46 @@ label[for] {
 /* 콘텍트 박스 */
 
 .contact{
-    background-color: navy;
+    margin-top: 120px;
 }
 
-.contact > .ct-wrap > .ct-box >div>form {
-    margin-top: 60px;
+.contact > .ct-wrap > .ct-box >.ct-tit {
+    padding: 50px 0;
+}
+
+.contact > .ct-wrap > .ct-box >.ct-tit > h1 {
+    color: #ec5317;
+    font-size: 2.8rem;
+    letter-spacing: -.4px;
+    position: relative;
+    display: inline-block;
+}
+
+.contact > .ct-wrap > .ct-box >.ct-tit > h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    background-color: #ffbc028a;
+    z-index: -1;
+    width: 0;
+    height: 20px;
+    transition: width 1s .5s;
+}
+
+.contact > .ct-wrap > .ct-box >.ct-tit > h1.active::after{
+    width: 100%;
+}
+
+.contact > .ct-wrap > .ct-box > form {
+    margin-top: 50px;
 }
 
 .contact > .ct-wrap > .ct-box >form input,
 .contact > .ct-wrap > .ct-box >form textarea {
-    border: 2px solid;
-    background-color: transparent;
-    color: white;
+    border: 2px solid #ffc62e;
+    color:  #0BA36C;
+    background-color: #fce4b4;
     font-size: 14px;
     outline: 0 !important;
 }
@@ -989,8 +1050,9 @@ label[for] {
     margin: 0 15px;
 }
 
+
 .contact > .ct-wrap > .ct-box >form input.in {
-    width: calc(400px);
+    width: 485px;
     height: 40px;
 }
 
@@ -999,34 +1061,154 @@ label[for] {
 }
 
 .contact > .ct-wrap > .ct-box >form textarea {
-    width: 840px;
-    height: 200px;
-    font-family: 'Roboto';
+    width:70%;
+    height: 300px;
+    font-family: 'Noto Sans KR';
 }
 
 /* 5페이지 -send버튼 */
-.contact > .ct-wrap > .ct-box >form>div.button {
-    display: inline-block;
-    margin-top: 30px;
-}
-
 
 .contact > .ct-wrap > .ct-box >form>div.button>input {
-    padding: 5px 40px;
-    font-size: 15px;
-    border-radius: 50px;
-    background-color: white;
-    color: #1432F2;
-    font-weight: bold;
-}
-
-.contact > .ct-wrap > .ct-box >form>div.button:hover>input {
-    color: white;
     background-color: transparent;
+    border: none;
+    color: teal;
 }
 
-.contact > .ct-wrap > .ct-box >.remark {
-    font-size: 13px;
-    color: #b6b6b6;
-    margin-top: 60px;
+.contact > .ct-wrap > .ct-box >form>div.button {
+    cursor: pointer;
+    padding: 10px 50px;
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: hand;
+    text-transform: capitalize;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background: transparent !important;
+}
+
+
+
+.contact > .ct-wrap > .ct-box >form>div.button:hover {
+    border: 1px solid transparent;
+    color: #ec5317 !important;
+}
+
+.contact > .ct-wrap > .ct-box >form>div.button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #ffc62e;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.contact > .ct-wrap > .ct-box >form>div.button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #ec5317;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .65s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.contact > .ct-wrap > .ct-box >form>div.button:hover::before,
+.contact > .ct-wrap > .ct-box >form>div.button:hover::before {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.contact > .ct-wrap > .ct-box >form>div.button:hover::after,
+.contact > .ct-wrap > .ct-box >form>div.button:hover::after {
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+/* 푸터 - 연락아이콘 */
+
+.icon-box {
+    width: 100%;
+    background-color: #ffc62e;
+    height: 300px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-box > h1 {
+    font-size: 15rem;
+    position: absolute;
+    bottom: -100px;
+    left: -2px;
+    font-family: 'Damion';
+    color: #fff;
+    font-weight: 400;
+    opacity: 0;
+    cursor: default;
+    transition: opacity 2.5s .4s;
+}
+
+.icon-box > h1.active {
+    opacity: .4;
+}
+
+.icon-box > .ft-wrap > ul{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    z-index: 5;
+}
+
+.icon-box > .ft-wrap > ul > li {
+    padding: 0 100px;
+}
+
+.icon-box > .ft-wrap > ul > li > p.icon {
+    width: 50px;
+    height: 50px;
+    bordeR:2px solid #ff8500;
+}
+
+.icon-box > .ft-wrap > ul > li > p {
+    font-size: 1rem;
+}
+
+.icon-box >.remark {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 }

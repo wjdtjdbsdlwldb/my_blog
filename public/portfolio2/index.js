@@ -102,7 +102,7 @@ function Carousel1__init() {
 
     $('.carousel-1 > .owl-carousel').owlCarousel({
         autoplay: false, // 오토 플레이
-        loop: true, // 끝에서 다시 처음으로 시작
+        loop: false, // 끝에서 다시 처음으로 시작
         dots: false,
         margin: 0,
         center: true,
@@ -164,7 +164,7 @@ function Carousel2__init() {
 
     $('.carousel-2 > .owl-carousel').owlCarousel({
         autoplay: false, // 오토 플레이
-        loop: true, // 끝에서 다시 처음으로 시작
+        loop: false, // 끝에서 다시 처음으로 시작
         margin: 0,
         dots: false,
         nav: false,
