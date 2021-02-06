@@ -423,7 +423,7 @@
                     type="video/mp4">
             </video>
 
-            <div class="nt-txt active-on-visible" data-active-on-visible-diff-y="-400">
+            <div class="nt-txt active-on-visible" data-active-on-visible-diff-y="-300">
                 <h2>Nature's Breath, Innisfree</h2>
                 <p>이니스프리에는 정직하고 순수한 <br> 아름다움이 가득 담겨 있습니다.</p>
             </div>

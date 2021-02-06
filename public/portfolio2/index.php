@@ -230,7 +230,7 @@
                                         <div class="program">
                                             <p>size : 1920w</p>
                                         </div>
-                                        <a href="/pf/gy/index.php" target="_blank" class="inline-block btn des">
+                                        <a href="/pf/pa/index.php" target="_blank" class="inline-block btn des">
                                             <span>Design</span>
                                             <div class="transition"></div>
                                         </a>
@@ -253,7 +253,7 @@
                         <h2>About me</h2>
                     </div>
                     <div class="box-line flex active-on-visible" data-active-on-visible-diff-y="-600">
-                        <div class="skill active-on-visible" data-active-on-visible-diff-y="-750">
+                        <div class="skill active-on-visible" data-active-on-visible-diff-y="-150%">
                             <h3>Skills</h3>
                             <p class="first">Photoshop</p>
                             <p>Illustration</p>
@@ -311,17 +311,15 @@
             <footer class="icon-box">
                 <nav class="ft-wrap con">
                     <ul class="flex">
-                        <li class="email">
-                            <p class="icon"></p>
-                            <p>jsy06101126@gmail.com</p>
+                        <li class="icon active-on-visible" data-active-on-visible-diff-y="-650">
+                            <p class="email" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/email.png?dummy123123)"></p>
                         </li>
-                        <li class="kakao">
-                            <p class="icon"></p>
-                            <p>wjdtjdbsdlwldb</p>
+                        <li class="icon active-on-visible" data-active-on-visible-diff-y="-650">
+                            <p class="kakao" style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/port/kakao.png?dummy123123)"></p>
                         </li>
                     </ul>
                 </nav>
-                <h1 class="active-on-visible" data-active-on-visible-diff-y="-750">Thank you.</h1>
+                <h1 class="active-on-visible" data-active-on-visible-diff-y="-650">Thank you.</h1>
                 <div class="remark">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</div>
             </footer>
         </div>

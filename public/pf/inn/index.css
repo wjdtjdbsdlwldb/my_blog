@@ -635,6 +635,27 @@ overflow-x: hidden;
     font-weight: 500;
     cursor: pointer;
     color: #213429bb;
+    position: relative;
+}
+
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button:hover {
+    color: #fff;
+}
+
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button::after {
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #213429;
+    z-index: -1;
+    transition: height .5s;
+}
+
+.main>.bn-box>.slider-k>.slides>.sd-box>.sd-txt .button:hover::after{
+    height: 100%;
 }
 
 /* 메인 카피 텍스트 */
@@ -1187,7 +1208,7 @@ overflow-x: hidden;
     padding-top: 150px;
     opacity: 0;
     transform: translate(-50%, 20%);
-    transition: opacity 1s 0.5s, transform 1.5s 0.5s;
+    transition: opacity 1s 0.3s, transform 1.5s 0.3s;
 }
 
 .page-5>.vd-box>.nt-txt.active {

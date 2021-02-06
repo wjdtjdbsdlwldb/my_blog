@@ -165,7 +165,7 @@ function Carousel2__init() {
     $('.carousel-2 > .owl-carousel').owlCarousel({
         autoplay: false, // 오토 플레이
         loop: false, // 끝에서 다시 처음으로 시작
-        margin: 0,
+        margin: 2,
         dots: false,
         nav: false,
         mouseDrag: false,
@@ -194,6 +194,7 @@ function Carousel2__init() {
     });
 }
 
+//콘텍트 
 
 function sendEmailFormSubmit(form) {
     if (form.receiverName.value.length == 0) {
