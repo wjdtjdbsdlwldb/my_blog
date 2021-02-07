@@ -261,14 +261,12 @@ function Email__callback(data) {
     alert(data.msg);
 }
 
-
-
 $(function () {
     ActiveOnVisible__init();
-
 })
 
 $(function () {
     Carousel1__init();
     Carousel2__init();
+    
 })

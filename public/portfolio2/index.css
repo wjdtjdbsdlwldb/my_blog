@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 html {
-    font-family: 'ChampagneBold', 'Noto Sans KR', 'ChampagneBoldItalic', 'nanumsquare', 'Damion', cursive, sans-serif;
+    font-family:'Damion', 'ChampagneBold', 'Noto Sans KR', 'ChampagneBoldItalic', 'nanumsquare',  cursive, sans-serif;
 }
 
 body,
@@ -384,7 +384,7 @@ label[for] {
     margin: 150px auto;
     animation: rotate_image 4s .3s linear forwards;
     transform-origin: 50% 50%;
-    box-shadow: 5px 3px 5px #838b87;
+    box-shadow: 2px 3px 8px #6c83789c;
 }
 
 
@@ -714,6 +714,7 @@ label[for] {
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>span {
     margin-left: 10px;
     font-size: 1.1rem;
+    font-family: 'ChampagneBold';
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>p {
@@ -740,6 +741,7 @@ label[for] {
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.des{
     margin-right: 20px;
+    
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn {
@@ -761,6 +763,7 @@ label[for] {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background: transparent !important;
+    font-family: 'ChampagneBold';
 }
 
 .carousel-2>.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item>.item>.sd-text>a.btn:hover {
@@ -863,6 +866,7 @@ label[for] {
     margin-top: 150px;
     position: relative;
     overflow: hidden;
+    font-family: 'ChampagneBold';
 }
 
 .about>.ab-wrap>.ab-bg {
@@ -995,6 +999,7 @@ label[for] {
 
 .contact{
     margin-top: 120px;
+    font-family: 'ChampagneBold';
 }
 
 .contact > .ct-wrap > .ct-box >.ct-tit {
@@ -1163,6 +1168,7 @@ label[for] {
     margin-top: 100px;
     position: relative;
     overflow: hidden;
+    font-family: 'ChampagneBold';
 }
 
 .icon-box > h1 {
@@ -1255,4 +1261,5 @@ label[for] {
     left: 50%;
     transform: translateX(-50%);
     color: #838b87;
+    letter-spacing: -.4px;
 }

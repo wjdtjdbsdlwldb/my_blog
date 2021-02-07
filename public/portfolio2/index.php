@@ -120,7 +120,7 @@
                                     <div class="sd-text">
                                         <div class="border-top"></div>
                                         <h1>02</h1>
-                                        <h2 class="inline-block">이니스프리</h2>
+                                        <h2 class="inline-block">Innisfree</h2>
                                         <span>_ &ensp; Redesign</span>
                                         <p>브랜드의 아이덴티티를 느낄 수 있는 이미지를 사용하고 다양한 레이아웃으로<br>
                                             제품을 더욱 부곽시키고 시각적 즐거움을 키웠습니다. 색상은 제품을 돋보이고자<br>
