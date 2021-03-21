@@ -55,7 +55,7 @@
 
                 <nav class="menu-box">
                     <ul class="flex flex-jc-c text-align-center">
-                        <li><a href="#" class="block">관람안내</a>
+                        <li><a href="./detail/detail.php" class="block">관람안내</a>
                             <ul>
                                 <li><a href="#" class="block">서울</a></li>
                                 <li><a href="#" class="block">과천</a></li>

@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'bebas-Regular';
+    src: url('/portfolio0/font/bebas-Regular.ttf') format('truetype');
+}
+
+.bebas-Regular {
+    font-family: 'bebas-Regular';
+}
+
+@font-face {
+    font-family: 'ChampagneBoldItalic';
+    src: url('/portfolio0/font/Champagne Bold Italic.ttf') format('truetype');
+}
+
+.ChampagneBoldItalic {
+    font-family: 'ChampagneBoldItalic';
+}
+
+@font-face {
+    font-family: 'ChampagneBold';
+    src: url('/portfolio0/font/Champagne Bold.ttf') format('truetype');
+}
+
+.ChampagneBold {
+    font-family: 'ChampagneBold';
+}
+
+@font-face {
+    font-family: 'GeosansLight-Oblique';
+    src: url('/portfolio0/font/GeosansLight-Oblique.ttf') format('truetype');
+}
+
+.GeosansLight-Oblique {
+    font-family: 'GeosansLight-Oblique';
+}
+
+
+@font-face {
+    font-family: 'Olivia Dhorgent';
+    src: url('/portfolio0/font/Olivia Dhorgent.ttf') format('truetype');
+}
+
+.OliviaDhorgent {
+    font-family: 'Olivia Dhorgent';
+}
+
+/* 웹퍼플 폰트 */
+
+@font-face {
+    font-family: 'Bahuraksa';
+    src: url('/portfolio0/font/Bahuraksa.otf') format('opentype');
+}
+
+.Bahuraksa {
+    font-family: 'Bahuraksa';
+}
+
+

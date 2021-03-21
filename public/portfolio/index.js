@@ -1,202 +1,302 @@
-var $html = $('html');
-
-function Page__logoAnimationPhase(no) {
-  var lastNo = $html.attr('data-current-phase');
-  $html.attr('data-last-phase', lastNo);
-  $html.attr('data-current-phase', no);
-  $html.removeClass('phase-' + lastNo);
-  $html.addClass('phase-' + no);
-}
-
-$('.btn-0').click(function () {
-  var no = 0;
-
+$(document).ready(function () {
+    setTimeout(function () {
+        $('.main').css('visibility', 'visible');
+    }, 80);
 });
 
-var Page__introAnimationDuration = 1000;
 
-function Page__init_() {
-  new fullpage('#fullpage', {
-    sectionsColor: [],
-    verticalCentered: false,
-    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
-    menu: '#menu',
-    onLeave: function (origin, destination, direction) {
-      Page__logoAnimationPhase(destination.index + 1);
-    },
-    navigation: true,
-    navigationPosition: 'left',
-  });
+// 탑버튼
+
+$(document).ready(function () {
+
+    $('.top-btn').hide();
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('.top-btn').fadeIn();
+            $('.top-btn').css('z-index','2');
+        } else {
+            $('.top-btn').fadeOut();
+            $('.top-btn').css('display', 'none');
+        }
+    });
+
+    $(".top-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
+
+function ActiveOnVisible__init() {
+    $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
+    ActiveOnVisible__initOffset();
+
+    $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 50));
+    ActiveOnVisible__checkAndActive();
 }
 
-function Page__init() {
-  Page__logoAnimationPhase(0);
-  $('.line-box').css('visibility', 'visible');
-  setTimeout(function () {
-    Page__logoAnimationPhase(1);
-  }, 600);
-  setTimeout(Page__init_, Page__introAnimationDuration);
+function ActiveOnVisible__initOffset() {
+    $('.active-on-visible:not(.actived)').each(function (index, node) {
+        var $node = $(node);
+
+        var offsetTop = $node.offset().top;
+        $node.attr('data-active-on-visible-offsetTop', offsetTop);
+
+        if (!$node.attr('data-active-on-visible-diff-y')) {
+            $node.attr('data-active-on-visible-diff-y', '0');
+        }
+
+        if (!$node.attr('data-active-on-visible-delay')) {
+            $node.attr('data-active-on-visible-delay', '0');
+        }
+
+        var diffY = $node.attr('data-active-on-visible-diff-y');
+        var delay = $node.attr('data-active-on-visible-delay');
+
+        if (diffY.substr(-2, 2) == 'vh') {
+            diffY = parseInt(diffY);
+
+            diffY = diffY * $(window).height() / 100;
+        } else if (diffY.substr(-1, 1) == '%') {
+            diffY = parseInt(diffY);
+
+            diffY = diffY * $node.height() / 100;
+        } else {
+            diffY = parseInt(diffY);
+        }
+
+        $node.data('data-active-on-visible-diff-y', diffY);
+        $node.data('data-active-on-visible-delay', delay);
+    });
+
+    ActiveOnVisible__checkAndActive();
+}
+
+function ActiveOnVisible__checkAndActive() {
+    $('.active-on-visible:not(.actived)').each(function (index, node) {
+        var $node = $(node);
+
+        var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
+        var diffY = parseInt($node.data('data-active-on-visible-diff-y'));
+        var delay = parseInt($node.data('data-active-on-visible-delay'));
+
+        var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
+
+        var scrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var nodeHeight = $node.height();
+
+        if (scrollTop + windowHeight + diffY > offsetTop) {
+            setTimeout(function () {
+                $node.addClass('active');
+
+                if ($node.hasClass('active-only-one')) {
+                    $node.addClass('actived');
+                }
+
+                if (window[callbackFuncName]) {
+                    window[callbackFuncName]($node);
+                }
+            }, delay);
+        } else {
+            $node.removeClass('active');
+        }
+    });
 }
 
 
-function slider() {
-  $('.sliders1 > .owl-carousel').owlCarousel({
-    navSpeed: 150,
-    loop: false,
-    margin: 10,
-    nav: true,
-    dots: false,
-    slideBy: 4,
-    mouseDrag: true,
+// 슬라이드
 
-    responsive: {
-      0: {
-        items: 5
-      }
+function Carousel1__onTranslated() {
+    $('.carousel-1 > .owl-carousel').trigger('play.owl.autoplay');
+
+    $('.carousel-1').data('carousel-1-autoplay-status', 'Y');
+
+    var no = $('.carousel-1 .owl-item.active.center > .item').attr('data-no') * 1;
+
+    $('.carousel-2 > .owl-carousel').trigger('to.owl.carousel', [no - 1]);
+    $('.carousel-2 .owl-item > .item.active').removeClass('active');
+    $('.carousel-2 .owl-item > .item[data-no="' + no + '"]').addClass('active');
+}
+
+function Carousel1__init() {
+    // 데이터 개수 적어두기
+    var totalItemNo = $('.carousel-1 .item').length;
+    $('.carousel-1').data('total-items', totalItemNo);
+
+    // 각 아이템에 번호 매기기
+    $('.carousel-1 .item').each(function (index, node) {
+        $(node).attr('data-no', index + 1);
+    });
+
+    $('.carousel-1 > .owl-carousel').owlCarousel({
+        autoplay: false, // 오토 플레이
+        loop: false, // 끝에서 다시 처음으로 시작
+        dots: false,
+        margin: 0,
+        center: true,
+        nav: true,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            }
+        },
+        autoplayHoverPause: false,
+        /* 필수 */
+        onTranslated: Carousel1__onTranslated,
+    });
+
+    $('.carousel-1 .play').on('click', function () {
+        $('.carousel-1 > .owl-carousel').trigger('play.owl.autoplay');
+
+        $('.carousel-1').data('carousel-1-autoplay-status', 'Y');
+    });
+
+    $('.carousel-1 .stop').on('click', function () {
+        $('.carousel-1 > .owl-carousel').trigger('stop.owl.autoplay');
+
+        $('.carousel-1').data('carousel-1-autoplay-status', 'N');
+    });
+}
+
+/* 캐러셀 2 */
+function Carousel2__itemClicked(el) {
+    var $el = $(el);
+
+    var no = $el.attr('data-no') * 1;
+    var currentNo = $('.carousel-1 .owl-item.active > .item').attr('data-no') * 1;
+
+    console.log('no : ' + no);
+    console.log('currentNo : ' + currentNo);
+
+    if (no != currentNo) {
+        $('.carousel-1 > .owl-carousel').trigger('to.owl.carousel', [no - 1, 500]);
     }
-  });
 }
 
-function Slider1__itemClick(el) {
-  var $el = $(el);
-  var url = $el.attr('data-img-url');
-  var link = $el.attr('data-link-url');
-  var no = $el.attr('data-no');
-  var tx = $el.attr('data-tx');
-  var name = $el.attr('data-name');
-  var site = $el.attr('data-site');
-  var kor = $el.attr('data-kor');
-  var design = $el.attr('data-design');
-  var mockup = $el.attr('data-mockup');
+function Carousel2__onTranslated() {
+    $('.carousel-2 > .owl-carousel').trigger('play.owl.autoplay');
 
-  $('.img-box-1').empty().append("<a href='" + link + "' target='_blank' style=\"background-image:url(\'" + url + "\')\"></a>");
-  $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
-  $('.txt-box-2').empty().append("<h4>" + tx + "</h4>");
-  $('.txt-box-3').empty().append("<h3>" + kor + "</h3>");
-  $('.txt-box-4').empty().append("<h3>" + name + "</h3>");
-  $('.txt-box-5').empty().append("<h3>" + site + "</h3>");
-  $('.txt-box-6').empty().append("<h3>" + design + "</h3>");
-  $('.txt-box-7').empty().append("<h3>" + mockup + "</h3>");
+    $('.carousel-2').data('carousel-2-autoplay-status', 'Y');
 }
 
-// function design(){
-//   window.open("../pf/hd/index.php");
-// }
+function Carousel2__init() {
+    // 데이터 개수 적어두기
+    var totalItemNo = $('.carousel-2 .item').length;
+    $('.carousel-2').data('total-items', totalItemNo);
 
+    // 각 아이템에 번호 매기기
+    $('.carousel-2 .item').each(function (index, node) {
+        $(node).attr('data-no', index + 1);
+    });
 
-function Slider1__init() {
-  $('.slider-1 > .owl-carousel').owlCarousel({
-    dots: false,
-    nav: false,
-    mouseDrag: true,
-    autoplay: true,
-    autoplayTimeout: 10000,
-    loop: true,
-    margin: 2,
-    stopOnHover: true,
+    $('.carousel-2 > .owl-carousel').owlCarousel({
+        autoplay: false, // 오토 플레이
+        loop: false, // 끝에서 다시 처음으로 시작
+        margin: 2,
+        dots: false,
+        nav: false,
+        mouseDrag: false,
+        center: true,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            }
+        },
+        autoplayHoverPause: false,
+        /* 필수 */
+        onTranslated: Carousel2__onTranslated,
+    });
 
-    responsive: {
-      0: {
-        items: 4
-      }
-    }
-  });
+    $('.carousel-2 .play').on('click', function () {
+        $('.carousel-2 > .owl-carousel').trigger('play.owl.autoplay');
+
+        $('.carousel-2').data('carousel-2-autoplay-status', 'Y');
+    });
+
+    $('.carousel-2 .stop').on('click', function () {
+        $('.carousel-2 > .owl-carousel').trigger('stop.owl.autoplay');
+
+        $('.carousel-2').data('carousel-2-autoplay-status', 'N');
+    });
 }
 
-function border_1() {
-  $('.slider .item').click(function () {
-    var $border = $('.slider .item.border');
-
-    $border.removeClass('border');
-    $(this).addClass('border');
-  })
-}
+//콘텍트 
 
 function sendEmailFormSubmit(form) {
-  if (form.receiverName.value.length == 0) {
-    alert('폼안에 receiverName 의 value 를 입력해주세요.');
-    return false;
-  }
+    if (form.receiverName.value.length == 0) {
+        alert('폼안에 receiverName 의 value 를 입력해주세요.');
+        return false;
+    }
 
-  if (form.receiverEmail.value.length == 0) {
-    alert('폼안에 receiverEmail 의 value 를 입력해주세요.');
-    return false;
-  }
+    if (form.receiverEmail.value.length == 0) {
+        alert('폼안에 receiverEmail 의 value 를 입력해주세요.');
+        return false;
+    }
 
-  form.senderName.value = form.senderName.value.trim();
+    form.senderName.value = form.senderName.value.trim();
 
-  if (form.senderName.value.length == 0) {
-    alert('당신의 이름을 입력해주세요.');
-    form.senderName.focus();
-    return false;
-  }
+    if (form.senderName.value.length == 0) {
+        alert('당신의 이름을 입력해주세요.');
+        form.senderName.focus();
+        return false;
+    }
 
-  form.senderEmail.value = form.senderEmail.value.trim();
+    form.senderEmail.value = form.senderEmail.value.trim();
 
-  if (form.senderEmail.value.length == 0) {
-    alert('당신의 이메일을 입력해주세요.');
-    form.senderEmail.focus();
-    return false;
-  }
+    if (form.senderEmail.value.length == 0) {
+        alert('당신의 이메일을 입력해주세요.');
+        form.senderEmail.focus();
+        return false;
+    }
 
-  form.body.value = form.body.value.trim();
+    form.body.value = form.body.value.trim();
 
-  if (form.body.value.length == 0) {
-    alert('내용을 입력해주세요.');
-    form.body.focus();
-    return false;
-  }
+    if (form.body.value.length == 0) {
+        alert('내용을 입력해주세요.');
+        form.body.focus();
+        return false;
+    }
 
-  var senderName = form.senderName.value;
-  var senderEmail = form.senderEmail.value;
-  var title = '[이력서 보고 연락 드립니다]';
-  var body = nl2br(form.body.value);
-  var receiverName = form.receiverName.value;
-  var receiverEmail = form.receiverEmail.value;
+    var senderName = form.senderName.value;
+    var senderEmail = form.senderEmail.value;
+    var title = '[이력서 보고 연락 드립니다]';
+    var body = nl2br(form.body.value);
+    var receiverName = form.receiverName.value;
+    var receiverEmail = form.receiverEmail.value;
 
-  var url = 'https://email.oa.gg/doSendEmail2.php?senderName=' + senderName + '&senderEmail=' + senderEmail + '&receiverName=' + receiverName + '&receiverEmail=' + receiverEmail + '&title=' + title + '&body=' + body;
+    var url = 'https://email.oa.gg/doSendEmail2.php?senderName=' + senderName + '&senderEmail=' + senderEmail + '&receiverName=' + receiverName + '&receiverEmail=' + receiverEmail + '&title=' + title + '&body=' + body;
 
-  //console.log("URL : " + url);
+    //console.log("URL : " + url);
 
-  var head = document.getElementsByTagName('head')[0];
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = url;
-  head.appendChild(script);
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    head.appendChild(script);
 }
 
 function nl2br(str) {
-  return str.replace(/\n/g, "<br />");
+    return str.replace(/\n/g, "<br />");
 }
 
 function Email__callback(data) {
-  if (data.resultCode.substr(0, 2) == 'S-') {
-    document.sendEmailForm.reset();
-  }
+    if (data.resultCode.substr(0, 2) == 'S-') {
+        document.sendEmailForm.reset();
+    }
 
-  alert(data.msg);
+    alert(data.msg);
 }
-
-function LightBox() {
-  lightbox.option({
-    resizeDuration: 200,
-    wrapAround: true,
-    disableScrolling: false,
-    fitImagesInViewport: false
-  })
-}
-
 
 $(function () {
-  Page__init();
-
+    ActiveOnVisible__init();
 });
 
 $(function () {
-  slider();
-  Slider1__init();
-  border_1();
-  Slider1__itemClick();
-  $('.item-1').click();
-  LightBox();
+    Carousel1__init();
+    Carousel2__init();
 });
