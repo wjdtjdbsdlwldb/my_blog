@@ -71,7 +71,7 @@
                     <div class="slider">
                         <div class="carousel-1">
                             <div class="owl-carousel owl-theme">
-                                <div class="item" style="background-color:#EA6746;">
+                                <div class="item" style="background-color:#828282;">
                                 </div>
                                 <div class="item" style="background-color:#03231b;">
                                 </div>
@@ -94,7 +94,7 @@
                             data-carousel-1-autoplay-status="Y">
                             <div class="owl-carousel owl-theme">
                                 <div onclick="Carousel2__itemClicked(this);" class="item active"
-                                    style="border:5px solid #EA6746; background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/hd.png?dummy123123)">
+                                    style="border:5px solid #828282; background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/hd.png?dummy123123)">
                                     <div class="sd-text">
                                         <div class="border-top"></div>
                                         <h1>01</h1>
@@ -269,7 +269,7 @@
                             <div class="intro-txt">
                                 <h3>The best way to predict<br>
                                     the future is to create it.</h3>
-                                <div class="bar active-on-visible" data-active-on-visible-diff-y="-450"></div>
+                                <div class="bar"></div>
                                 <div class="story">
                                     <p>저는 '어떠한 미래를 만들어 나갈것인가'는 본인에게 달렸다고 생각합니다.
                                         <br>디자인 또한 그렇습니다. </p>

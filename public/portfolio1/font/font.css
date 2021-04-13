@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('/portfolio1/font/Arial.ttf') format('truetype');
+}
+
+.Arial {
+    font-family: 'Arial';
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('/portfolio1/font/Montserrat-Light.ttf') format('truetype');
+}
+
+.Montserrat-Light {
+    font-family: 'Montserrat-Light';
+}
