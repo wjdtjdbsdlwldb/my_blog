@@ -226,7 +226,7 @@
                                     style="border: 4px solid #011C26;  background-color:#173840; background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/pa.png?dummy123123);">
                                     <div class="sd-text">
                                         <div class="border-top"></div>
-                                        <h1>08</h1>
+                                        <h1>07</h1>
                                         <h2 class="inline-block">PEARL ABYSS</h2>
                                         <span>_ &ensp; Emulate</span>
                                         <p>코딩 연습을 위하여 펄어비스를 모작하였습니다.
