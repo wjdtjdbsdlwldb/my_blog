@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/portfolio2/index.css">
     <link rel="stylesheet" href="/portfolio2/font/font.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- owl 캐러셀 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
@@ -387,111 +388,94 @@
                                 <h3 class="about-me">About me</h3>
                                 <div class="ab-bar"></div>
                             </div>
-                            <p class="say-box">
+                            <p class="say-box active-on-visible" data-active-on-visible-diff-y="-300">
                                 ‘어떠한 미래를 만들어 나갈것인가' 는</br>
                                 본인에게 달렸다고 생각합니다.</br>
                                 디자인 또한 그렇습니다.
                             </p>
-                            <div class="photo-me">
+                            <div class="photo-me active-on-visible" data-active-on-visible-diff-y="300">
                                 <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/photo.png?dummy1231233"
                                     alt="">
                             </div>
                         </div>
-                        <div class="ab-txt flex flex-ai-c">
-                            <ul class="cht-box text-align-center">
-                                <li class="nb-1">
+                        <div class="ab-txt active-on-visible" data-active-on-visible-diff-y="200">
+                            <ul class="cht-box flex">
+                                <li class="text-align-center">
                                     <p>01</p>
                                     <p>책임감있는</p>
                                 </li>
-                                <li class="nb-2">
+                                <li>
+                                    <span class="inline-block">
+                                        주어진 일을 수행함에 있어 잘 마무리 할수 있도록 끝까지 책임지고</br>성실히 임합니다.
+                                    </span>
+                                </li>
+                            </ul>
+                            <ul class="cht-box flex">
+                                <li class="text-align-center">
                                     <p>02</p>
                                     <p>노력하는</p>
                                 </li>
-                                <li class="nb-3">
+                                <li>
+                                    <span class="inline-block">
+                                        새로움과 배움에 대한 호기심과 욕심을 버리지 않고 도전하며 </br>어제보다 오늘, 오늘보다 내일, 매일 더 나아질 수 있도록 노력합니다.
+                                    </span>
+                                </li>
+                            </ul>
+                            <ul class="cht-box flex">
+                                <li class="text-align-center">
                                     <p>03</p>
                                     <p>긍정적인</p>
                                 </li>
-                                <li class="nb-4">
+                                <li>
+                                    <span class="inline-block">
+                                        모든 사물과 사람을 긍정적으로 바라보려 노력하며 새로운 생각을</br>끈임없이 시도합니다.
+                                    </span>
+                                </li>
+                            </ul>
+                            <ul class="cht-box flex">
+                                <li class="text-align-center">
                                     <p>04</p>
                                     <p>커뮤니케이션</p>
                                 </li>
+                                <li>
+                                    <span class="inline-block">
+                                        공감과 경청을 통한 원활한 커뮤니케이션으로 다양한 사람들과</br>소통하는것을 좋아합니다.
+                                    </span>
+                                </li>
                             </ul>
-                            <ul>
-                                <li><span class="inline-block">주어진 일을 수행함에 있어 잘 마무리 할수 있도록 끝까지 책임지고</br>
-성실히 임합니다.</span></li>
-                                <li><span class="inline-block">새로움과 배움에 대한 호기심과 욕심을 버리지 않고 도전하며 </br>
-어제보다 오늘, 오늘보다 내일, 매일 더 나아질 수 있도록 노력합니다.</span></li>
-                                <li><span class="inline-block">모든 사물과 사람을 긍정적으로 바라보려 노력하며 새로운 생각을</br>
-끈임없이 시도합니다. </span></li>
-                                <li><span class="inline-block">공감과 경청을 통한 원활한 커뮤니케이션으로 다양한 사람들과</br>
-소통하는것을 좋아합니다. </span></li>
-                            </ul>
+                        </div>
+                        <div class="skill-box  active-on-visible" data-active-on-visible-diff-y="200">
+                            <h3>Skill</h3>
+                            <div class="skill-icon">
+                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/ai.png?dummy123123"
+                                    alt="" style="width:70px;">
+                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/ph.png?dummy123123"
+                                    alt="" style="width:70px;">
+                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/html.png?dummy123123"
+                                    alt="" style="width:35px; margin-left:10px;">
+                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/css.png?dummy123123"
+                                    alt="" style="width:35px; margin-left:10px;">
+                                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/jq.png?dummy123123"
+                                    alt="" style="margin-left:10px;">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <footer class="footer">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quibusdam. Recusandae nisi voluptas
-                saepe! Veniam, eligendi officia voluptatum temporibus quasi sapiente commodi excepturi numquam fugit
-                unde quod ipsum mollitia nobis!
-                Laudantium in illum magni, mollitia repudiandae iusto non, quo sed, error omnis rerum! Inventore,
-                temporibus et? Hic rem ea ipsam dolor unde magnam quia suscipit, nostrum, possimus assumenda culpa
-                velit.
-                Minus aut quisquam molestias ipsam voluptate in recusandae facilis quia, dolorem, ad magnam illum
-                doloribus alias aperiam voluptatibus nisi quae ullam, id eum voluptatem facere deleniti nulla nobis!
-                Cum, quia.
-                Nesciunt suscipit aut placeat temporibus aperiam itaque laboriosam provident mollitia sit, in aliquid,
-                consectetur totam fugiat inventore autem exercitationem accusantium dicta ipsa corrupti. Exercitationem
-                ipsa dolore, dolores totam delectus natus?
-                Aspernatur laudantium similique sequi. Officia accusamus aut corporis labore unde dolorem cumque
-                inventore laudantium fugiat harum magni praesentium, cupiditate eligendi fugit sed excepturi minus
-                deserunt vel. Corporis eum beatae totam!
-                Dolore amet nam cupiditate eligendi. Sapiente fugit maxime corporis modi distinctio officia illum sunt
-                expedita sint deleniti libero nulla pariatur, culpa eveniet? Fugit quis accusantium, ipsam quos nulla
-                eligendi at!
-                Perferendis omnis pariatur asperiores eos veniam corporis voluptatem quibusdam explicabo provident
-                inventore unde odio voluptatibus minima quisquam laborum in laboriosam illum ipsum aspernatur, minus
-                voluptate? Aspernatur ut et veritatis recusandae?
-                Rerum culpa tempora excepturi vel quod maiores doloribus at possimus nesciunt voluptatem. Aspernatur at
-                enim est repellat incidunt sequi, numquam eos consequuntur dignissimos! Ut eius corporis quaerat minima,
-                tenetur perspiciatis.
-                Ab, architecto reprehenderit? Velit culpa sapiente itaque debitis mollitia! Obcaecati quod aliquid
-                dolore fugiat omnis debitis deleniti labore ex reprehenderit placeat dolorem tempora, dolores eius odit
-                ipsa, voluptates doloribus ullam.
-                Tempora, sed saepe. Iure, qui voluptates nulla nisi totam eligendi possimus. Corrupti, eveniet quam
-                quasi magni enim nostrum. Illum reiciendis quod impedit minima consequuntur, nulla dicta commodi itaque
-                incidunt obcaecati?
-                Quisquam aut officia asperiores earum beatae animi cupiditate dolorum eius quos maxime dolorem aliquid
-                cumque numquam vitae assumenda corporis, temporibus nemo? Dolorem doloribus officiis incidunt suscipit
-                voluptas facilis aspernatur repellat!
-                Quo ad debitis rerum cum possimus tempora dolores dolor, quasi distinctio quaerat impedit, veniam fuga
-                ratione? Accusamus repellendus, recusandae ad quos, eius earum necessitatibus voluptas id error,
-                repellat nam tenetur!
-                Mollitia quae veniam earum sed laudantium perspiciatis placeat accusantium iusto animi. Doloremque
-                perspiciatis pariatur, voluptatem ipsa hic delectus et debitis voluptatibus amet ipsam ea, quisquam unde
-                quae alias excepturi minima.
-                Minima non ut totam soluta harum illum corrupti nulla esse ipsam eaque reiciendis similique in magnam
-                quos error iste perspiciatis, temporibus iusto quidem deleniti architecto. Sint nam voluptatibus laborum
-                repellat.
-                Dolor quia tempore facilis error labore eligendi aperiam placeat neque? Laudantium, animi deserunt
-                voluptas, aliquam veritatis veniam consectetur exercitationem deleniti quibusdam sunt distinctio. Amet
-                laudantium aliquid veniam dolorum delectus accusamus.
-                Aut molestias, quae ipsum optio pariatur eveniet, at perferendis earum, laborum sunt quaerat sequi?
-                Eaque, velit recusandae! Aliquid voluptatum quidem quia voluptate pariatur id! Tempore debitis
-                repellendus commodi eos nam.
-                Eveniet laudantium saepe fuga fugit rem vitae inventore velit. Explicabo nulla quasi voluptas, sequi
-                voluptatum similique nam molestias sunt odit doloribus pariatur ex in iure tempore dignissimos aperiam
-                nesciunt. Reiciendis!
-                Nihil error expedita quidem nulla eveniet accusantium reprehenderit sequi fuga, facilis a at possimus,
-                amet consectetur suscipit veniam incidunt soluta laboriosam? Distinctio laborum obcaecati exercitationem
-                iusto asperiores beatae facilis nemo.
-                Sed incidunt ullam aut illum saepe animi, totam dignissimos cumque dolorem nisi. Laboriosam numquam
-                temporibus, placeat, rem harum, est fugit consectetur error veniam modi architecto delectus doloremque
-                impedit ad libero.
-                Rerum aperiam maxime, blanditiis doloremque consequuntur nam laboriosam vitae eveniet quidem nihil eius
-                deserunt repellat, veniam inventore omnis ratione tempora natus incidunt facilis enim esse temporibus.
-                Unde deserunt illo maxime.
+                <div class="ft-wrap text-align-center">
+                    <div class="ft-box">
+                        <h3 class="h3">Epilogue</h3>
+                        <p class="under-bar">
+                            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/line.png?dummy123123" alt="">
+                        </p>
+                        <p>If you can dream, you can make it happen.</p>
+                        <p>긍정적인 시선으로 즐거운 미래를 꿈꾸고 실현시키는 디자이너가 되겠습니다.</p>
+
+                    </div>
+                    <div class="copy">Copyright © 2020 by J. Seo Yun All Rights Reserved</div>
+                </div>
             </footer>
         </div>
     </main>

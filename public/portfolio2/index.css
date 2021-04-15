@@ -688,7 +688,7 @@ body::-webkit-scrollbar-button {
     left: 52.5%;
     transform: translateX(-50%);
     padding: 3px 12px;
-    background-color: #4A4A4C;
+    background-color: #605252;
     color: #fff;
     border-radius: 5px;
 }
@@ -1151,6 +1151,7 @@ body::-webkit-scrollbar-button {
     position: relative;
     box-sizing: border-box;
     padding-left: 50px;
+    overflow: hidden;
 }
 
 @media (min-width:1900px) {
@@ -1158,6 +1159,7 @@ body::-webkit-scrollbar-button {
         padding-left: 85px;
     }
 }
+
 
 /* 3페이지- 어바웃미 타이틀 텍스트 */
 
@@ -1197,6 +1199,12 @@ body::-webkit-scrollbar-button {
     position: absolute;
     bottom: 8%;
     left: 11%;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about .photo-me.active {
+    opacity: 1;
 }
 
 .main>.main-wrap>.page-3>.pg3-wrap>.about .photo-me>img {
@@ -1208,46 +1216,174 @@ body::-webkit-scrollbar-button {
 .main>.main-wrap>.page-3>.pg3-wrap>.about .say-box {
     position: absolute;
     top: 21.4%;
-    left: 8%;
+    left: -50%;
     z-index: 8;
     padding: 15px 20px;
     border-radius: 3px;
     line-height: 20px;
     font-size: 15px;
     background-color: #f0f0f0;
+    overflow: hidden;
+    opacity: 0;
+    transition: left 1.2s, opacity 1.1s;
 }
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about .say-box.active {
+    left:8%;
+    opacity: 1;
+}
+/*  3페이지 - 성경 설명 텍스트박스 */
 
 .main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt {
-    width: 45%;
+    width: 43%;
     position: absolute;
-    top: 16%;
-    right: 40px;
+    top: 14%;
+    opacity: 0;
+    right: -30%;
     box-sizing: border-box;
+    transition: opacity 2s 1.1s, right 2s 1.1s;
 }
 
-@media (min-width:1900px){
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt.active {
+    right: 90px;
+    opacity: 1;
+}
+
+
+@media (min-width:1900px) {
     .main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt {
-        right: 85px;
+        right: 110px;
     }
 }
 
-.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt > ul{
-    border:2px solid red;
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt>ul>li:nth-child(1) {
+    margin-bottom: 40px;
+    width: 100px;
 }
 
-.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt > ul>li {
-    padding-bottom: 55px;
-}
-
-.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt > ul>li>p:nth-child(1){
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt>ul>li>p:nth-child(1) {
     font-weight: 800;
     letter-spacing: -.4px;
     font-family: 'payboocExtraBold';
     font-size: 30px;
     line-height: 50px;
-    color:#605252;
+    color: #605252;
 }
 
-.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt > ul>li>p:nth-child(2){
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt>ul>li>p:nth-child(2) {
     font-weight: 600;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt>ul>li:nth-child(2) {
+    margin: 18px 0 0 35px;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about .ab-txt>ul>li:nth-child(2) > span {
+    line-height: 20px;
+    font-size: 15px;
+    color: #282828;
+    font-weight: 500;
+}
+
+/* 3페이지  -왼쪽 스킬박스 */
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box {
+    position: absolute;
+    right: -30%;
+    bottom: 11%;
+    white-space: nowrap;
+    width: 43%;
+    opacity: 0;
+    transition: opacity 2s 1s, right 2s 1s;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box.active {
+    right: 68px;
+    opacity: 1;
+    
+}
+
+@media (min-width:1900px) {
+    .main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box {
+        right: 90px;
+    }
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box> h3 {
+    font-size: 27px;
+    color: #605252;
+    letter-spacing: -1px;
+    font-family: 'payboocExtraBold';
+    position: relative;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box> h3::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100px;
+    height: 1px;
+    background-color: #605252;
+}
+
+.main>.main-wrap>.page-3>.pg3-wrap>.about > .skill-box img {
+    width: 50px;
+    display: inline-block;
+    margin: 20px 35px 0 0;
+}
+
+
+/* 푸터  */
+
+.main > .main-wrap > .footer {
+    height: 400px;
+    background-color: #f0f0f0;
+    margin-top: 70px;
+    box-shadow: 0 -6px 8px #e6e6e6;
+    cursor: pointer;
+}
+
+.main > .main-wrap > .footer h3 {
+    font-size: 35px;
+    font-family: 'payboocLight';
+    padding: 80px 0 45px 0;
+    position: relative;
+    display: inline-block;
+    letter-spacing: -.5px;
+}
+
+.main > .main-wrap > .footer h3::after {
+    content: "";
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 77%;
+    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/pf2/hg.png?dummy123123) no-repeat;
+    background-position: 100%;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+}
+
+.main > .main-wrap > .footer .ft-box > .under-bar >img {
+    width: 320px;
+    height: 11px;
+    margin-bottom: 40px;
+}
+
+.main > .main-wrap > .footer .ft-box p:nth-child(3),.main > .main-wrap > .footer .ft-box p:nth-child(4){
+    color: #6e6e6e;
+    line-height: 25px;
+    letter-spacing: -.6px;
+} 
+
+/* 푸터 -카피라이터 */
+
+.main > .main-wrap > .footer > .ft-wrap > .copy {
+    font-size: 14px;
+    color: #a1a1a1;
+    letter-spacing: -.5px;
+    margin-top: 80px;
+
 }
