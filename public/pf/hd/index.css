@@ -442,7 +442,7 @@ label[for] {
 
 .top-bar>.login-box>ul>li>.lang::after {
     content: "";
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/langdown.png?dummy1231232);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/langdown.png?dummy1231232);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -572,7 +572,7 @@ label[for] {
 }
 
 .slider1 .bn1 {
-    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bn-1.jpg?dummy1231232);
+    background: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bn-1.jpg?dummy1231232);
     background-size: 1350px 550px;
     background-repeat: no-repeat;
     height: 530px;
@@ -580,7 +580,7 @@ label[for] {
 }
 
 .slider1 .bn2 {
-    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bn-3.jpg?dummy1231232);
+    background: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bn-3.jpg?dummy1231232);
     background-size: 1350px 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -588,7 +588,7 @@ label[for] {
 
 
 .slider1 .bn3 {
-    background: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bn-2.jpg?dummy1231232);
+    background: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bn-2.jpg?dummy1231232);
     background-size: 1350px 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -664,7 +664,7 @@ label[for] {
 .slick-prev::before,
 .slick-next::before {
     color: transparent !important;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arrset2.png?dummy1231232);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arrset2.png?dummy1231232);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -673,7 +673,7 @@ label[for] {
 }
 
 .slick-next::before {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arrset1.png?dummy1231232);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arrset1.png?dummy1231232);
 }
 
 .noti>.noti-slider .nt {
@@ -706,7 +706,7 @@ label[for] {
     position: absolute;
     right: 6px;
     top: 75px;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/vv.png?dummy1231232);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/vv.png?dummy1231232);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -864,7 +864,7 @@ label[for] {
 
 .collection>.cl-wrap>.coll-tit>.cl-more::after {
     content: "";
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arr.png?dummy123123);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arr.png?dummy123123);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -933,7 +933,7 @@ label[for] {
 }
 
 .exh-box .swiper-slide {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sd1.jpg?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sd1.jpg?dummy12312);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -965,19 +965,19 @@ label[for] {
 }
 
 .exh-box .sd-img1 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sd2.jpg?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sd2.jpg?dummy12312);
 }
 
 .exh-box .sd-img2 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sd3.jpg?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sd3.jpg?dummy12312);
 }
 
 .exh-box .sd-img3 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sd4.jpg?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sd4.jpg?dummy12312);
 }
 
 .exh-box .sd-img4 {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sd5.jpg?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sd5.jpg?dummy12312);
 }
 
 /* 전시 - 슬라이드 텍스트 */
@@ -1012,7 +1012,7 @@ label[for] {
 .exh-wrap>.exh-txt::before {
     position: absolute;
     content: "";
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arrow.png?dummy12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arrow.png?dummy12312);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1069,7 +1069,7 @@ label[for] {
 .exh-wrap>.exh-txt>.ex-more::after {
     content: "";
     position: absolute;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/white.png?dummy123123);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/white.png?dummy123123);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1329,7 +1329,7 @@ label[for] {
 }
 
 .news>.nw-wrap>.nw-box>.red-icon {
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/vv.png?dummy123123);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/vv.png?dummy123123);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1355,7 +1355,7 @@ label[for] {
     content: "";
     top: 50%;
     transform: translateY(-50%);
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arr.png?dummy123123);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arr.png?dummy123123);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1420,7 +1420,7 @@ label[for] {
 
 .news>.nw-wrap>.nw-body>ul>li>.nw-arr {
     margin-left: auto;
-    background-image: url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/arr2.png?dummy123123);
+    background-image: url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/arr2.png?dummy123123);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

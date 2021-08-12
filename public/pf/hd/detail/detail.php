@@ -9,7 +9,7 @@
 <body>
     <section class="detail">
         <div class="img-box">
-            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd_process/detail.jpg?dummy1231232" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd_process/detail.jpg" alt="">
         </div>
     </section>
 </body>

@@ -19,7 +19,7 @@
 <body>
     <div class="top-bar flex flex-ai-c con-min-width">
         <div class="logo flex-grow-1">
-            <a href="#"><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_main.png?dummy123123"
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/logo_main.png?dummy123123"
                     alt=""></a>
         </div>
         <nav class="menu-box flex flex-1-0-0 flex-jc-end">
@@ -101,13 +101,13 @@
         <nav class="icon-box flex">
             <ul class="flex">
                 <li><a href="#"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_search.png?dummy123123"
+                            src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_search.png?dummy123123"
                             alt=""></a></li>
                 <li><a href="#"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_mypage.png?dummy123123"
+                            src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_mypage.png?dummy123123"
                             alt=""></a></li>
                 <li><a href="#"><img
-                            src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_cart.png?dummy123123"
+                            src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_cart.png?dummy123123"
                             alt=""></a></li>
             </ul>
         </nav>
@@ -119,7 +119,7 @@
                 <div class="slides">
                     <div class="sd-box active">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img01.jpg?dummy123123);">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/img01.jpg?dummy123123);">
                         </div>
                         <div class="sd-txt active">
                             <h1 class="tit">JEJU LAVA SEA SKIN</h1>
@@ -130,7 +130,7 @@
 
                     <div class="sd-box">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/main_yellow.jpg?dummy123123);">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/main_yellow.jpg?dummy123123);">
                         </div>
                         <div class="sd-txt">
                             <h1 class="tit">GINGER HONEY AMPLE SKIN</h1>
@@ -142,7 +142,7 @@
 
                     <div class="sd-box">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/main-gr11.jpg?dummy123123);">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/main-gr11.jpg?dummy123123);">
                         </div>
                         <div class="sd-txt">
                             <h1 class="tit">GREEN TEA BALANCING SKIN</h1>
@@ -173,7 +173,7 @@
         <nav class="prod-box">
             <ul class="row">
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md1.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md1.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Bija Cica Balm</h3>
                             <p>#민감 #진정 #비자시카밤 #트러블 #쟁여템모음</p>
@@ -183,7 +183,7 @@
                     </a>
                 </li>
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md2.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md2.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Ugly Carrot<br>Hand Soap</h3>
                             <p>#업사이클링 #약산성 #핸드솝 #마일드각질케어</p>
@@ -193,7 +193,7 @@
                     </a>
                 </li>
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md3-1.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md3-1.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Brightening<br>
                                 Pore Skin</h3>
@@ -204,7 +204,7 @@
                     </a>
                 </li>
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md4.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md4.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Brightening <br>Pore Serum</h3>
                             <p>#잡티케어 #잡티올케어 #미백 #한라봉세럼 #모공</p>
@@ -214,7 +214,7 @@
                     </a>
                 </li>
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md5-2.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md5-2.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Mask Relief<br>Tone-Up Lotion</h3>
                             <p>#마스크 #파데프리 #피부진정 #톤업크림 #겉보속촉</p>
@@ -224,7 +224,7 @@
                     </a>
                 </li>
                 <li class="cell"><a href="#"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/md6.jpg?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/md6.jpg?dummy123123)">
                         <div class="text-box">
                             <h3>Truecare Panthenol<br>10 Moisture Skin</h3>
                             <p>#트루케어 #쟁여템모음 #닦토 #수부지 #약산성</p>
@@ -238,10 +238,10 @@
         <div class="img-box">
             <div class="fl-box">
                 <div class="left-fl"><img
-                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object.png?dummy123123" alt="">
+                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/object.png?dummy123123" alt="">
                 </div>
                 <div class="right-fl"><img
-                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/object-right.png?dummy123123"
+                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/object-right.png?dummy123123"
                         alt=""></div>
             </div>
         </div>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="img">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/tnwjd_green.jpg?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/tnwjd_green.jpg?dummy123123)">
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                     </div>
                     <div class="img">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img06-1.jpg?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/img06-1.jpg?dummy123123)">
                         </div>
                     </div>
                 </div>
@@ -295,7 +295,7 @@
                     </div>
                     <div class="img">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/slide2.jpg?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/slide2.jpg?dummy123123)">
                         </div>
                     </div>
                 </div>
@@ -311,7 +311,7 @@
                     </div>
                     <div class="img">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/img8.jpg?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/img8.jpg?dummy123123)">
                         </div>
                     </div>
                 </div>
@@ -328,7 +328,7 @@
                     </div>
                     <div class="img">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/slide3.jpg?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/slide3.jpg?dummy123123)">
                         </div>
                     </div>
                 </div>
@@ -339,7 +339,7 @@
             <span class="total"></span>
         </div>
         <div class="sd-arrow">
-            <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/ico_arrow.png?dummy123123" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/ico_arrow.png?dummy123123" alt="">
         </div>
     </div>
 
@@ -357,7 +357,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-1.png?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/swi-1.png?dummy123123)">
                             <a href="#" class="deal-txt">
                                 <p class="tag-deal">#순한</p>
                                 <h3>BIJA TROUBLE SKIN</h3>
@@ -368,7 +368,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-2.png?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/swi-2.png?dummy123123)">
                             <a href="#" class="deal-txt">
                                 <p class="tag-deal bu">#진정</p>
                                 <h3>MASK RELIEF TONE-UP LOTION</h3>
@@ -379,7 +379,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-3.png?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/swi-3.png?dummy123123)">
                             <a href="#" class="deal-txt">
                                 <p class="tag-deal">#수분</p>
                                 <h3>MINERAL TWINKLE BASE</h3>
@@ -390,7 +390,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-4.png?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/swi-4.png?dummy123123)">
                             <a href="#" class="deal-txt">
                                 <p class="tag-deal bu">#산뜻</p>
                                 <h3>FOREST FOUR-MAN FRESH SKIN</h3>
@@ -401,7 +401,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/swi-5.png?dummy123123)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/swi-5.png?dummy123123)">
                             <a href="#" class="deal-txt black">
                                 <p class="tag-deal bu">#보습</p>
                                 <h3 class="">BLACK TEA AMPLE MIST</h3>
@@ -419,7 +419,7 @@
     <div class="page-5 con-min-width">
         <div class="vd-box">
             <video id="video" autoplay="" loop="" muted="" playsinline="">
-                <source src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/trees.mp4?dummy123123"
+                <source src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/trees.mp4?dummy123123"
                     type="video/mp4">
             </video>
 
@@ -439,14 +439,14 @@
             </div>
             <div class="icon-mb flex flex-jc-sa">
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/mb-icon.png?dummy123123" alt="">
                     <div class="icon-txt">
                         <p>멤버십데이 혜택</p>
                         <p>최대 30% 할인</p>
                     </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/coupon-icon2.png?dummy123123"
+                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/coupon-icon2.png?dummy123123"
                         alt="">
                     <div class="icon-txt">
                         <p>시크릿 쿠폰</p>
@@ -454,7 +454,7 @@
                     </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/coupon-icon.png?dummy123123"
+                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/coupon-icon.png?dummy123123"
                         alt="">
                     <div class="icon-txt">
                         <p>생일 혜택</p>
@@ -462,7 +462,7 @@
                     </div>
                 </div>
                 <div class="icon-box flex">
-                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/box-icon.png?dummy123123" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/box-icon.png?dummy123123" alt="">
                     <div class="icon-txt">
                         <p>우수회원키트 제공</p>
                         <p>연 2회</p>
@@ -492,7 +492,7 @@
                         partner.biz@innisfree.com</a></li>
                 <li><a href="#" class="block">이메일 주소 무단 수집 거부 &nbsp; | &nbsp; 개인정보 보호책임자 박남기&nbsp; | &nbsp; 호스팅 서비스 제공자
                         ㈜이니스프리</a></li>
-                <li><img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/logo_footer.png?dummy123123"
+                <li><img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/logo_footer.png?dummy123123"
                         alt=""></li>
             </ul>
             <ul class="num">
@@ -508,13 +508,13 @@
                 <p>Copyright © 2019 Innisfree. All Rights Reserved</p>
             </div>
             <div class="ft-icon flex">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/you.png?dummy123123123" alt="">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/ins.png?dummy123123121" alt="">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_twitter.png?dummy123123121"
+                <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/you.png?dummy123123123" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/ins.png?dummy123123121" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_twitter.png?dummy123123121"
                     alt="">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_facebook.png?dummy123123121"
+                <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_facebook.png?dummy123123121"
                     alt="">
-                <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/inn/icon_app.png?dummy123123121" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/inn/icon_app.png?dummy123123121" alt="">
             </div>
         </div>
     </div>

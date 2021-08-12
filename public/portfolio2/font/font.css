@@ -1,46 +1,23 @@
-
 @font-face {
-    font-family: 'JSDongkang-Regular';
-    src: url('/portfolio2/font/JSDongkang-Regular.ttf') format('truetype');
+    font-family: 'ChampagneBoldItalic';
+    src: url('/portfolio/font/Champagne Bold Italic.ttf') format('truetype');
 }
 
-.JSDongkang-Regular {
-    font-family: 'JSDongkang-Regular';
-}
-
-
-@font-face {
-    font-family: 'payboocBold';
-    src: url('/portfolio2/font/payboocBold.ttf') format('truetype');
-}
-
-.payboocBold {
-    font-family: 'payboocBold';
+.ChampagneBoldItalic {
+    font-family: 'ChampagneBoldItalic';
 }
 
 @font-face {
-    font-family: 'payboocExtraBold';
-    src: url('/portfolio2/font/payboocExtraBold.ttf') format('truetype');
+    font-family: 'ChampagneBold';
+    src: url('/portfolio/font/Champagne Bold.ttf') format('truetype');
 }
 
-.payboocExtraBold {
-    font-family: 'payboocExtraBold';
-}
-
-@font-face {
-    font-family: 'payboocLight';
-    src: url('/portfolio2/font/payboocLight.ttf') format('truetype');
-}
-
-.payboocLight {
-    font-family: 'payboocLight';
+.ChampagneBold {
+    font-family: 'ChampagneBold';
 }
 
 @font-face {
-    font-family: 'payboocMedium';
-    src: url('/portfolio2/font/payboocMedium.ttf') format('truetype');
+    font-family: 'GeosansLight-Oblique';
+    src: url('/portfolio/font/GeosansLight-Oblique.ttf') format('truetype');
 }
 
-.payboocMedium {
-    font-family: 'payboocMedium';
-}

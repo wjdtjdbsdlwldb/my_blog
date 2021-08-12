@@ -29,7 +29,7 @@
                 <div class="top-bar flex">
                     <div class="logo flex">
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/logo.png?dummy1231232)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/logo.png?dummy123123)"></a>
                     </div>
                     <nav class="login-box flex flex-ai-end">
                         <ul class="flex">
@@ -47,7 +47,7 @@
                                 </ul>
                             </li>
                             <li><a href="#" class="block"><img
-                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/qq.png?dummy1231232"
+                                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/qq.png?dummy123123"
                                         alt="돋보기"></a></li>
                         </ul>
                     </nav>
@@ -125,7 +125,7 @@
             </section>
             <section class="noti con">
                 <div class="nt-icon"><img
-                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/sp.png?dummy1231232" alt="공지사항">
+                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/sp.png?dummy123123" alt="공지사항">
                 </div>
                 <div class="noti-slider">
                     <div class="nt1 nt">
@@ -147,8 +147,8 @@
                         <ul class="flex">
                             <li>
                                 <a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/online1_1.png?dummy1231232)">
-                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/vdicon.png?dummy1231232"
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/online1_1.png?dummy123123)">
+                                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/vdicon.png?dummy123123"
                                         alt="플레이아이콘">
                                 </a>
                                 <a href="#" class="vd-infor block">
@@ -160,8 +160,8 @@
                             </li>
                             <li>
                                 <a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/online2_1.png?dummy1231232)">
-                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/vdicon.png?dummy1231232"
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/online2_1.png)">
+                                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/vdicon.png"
                                         alt="플레이아이콘">
                                 </a>
                                 <a href="#" class="vd-infor block">
@@ -172,8 +172,8 @@
                             </li>
                             <li>
                                 <a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/online3_1.png?dummy1231232)">
-                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/vdicon.png?dummy1231232"
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/online3_1.png)">
+                                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/vdicon.png"
                                         alt="플레이아이콘">
                                 </a>
                                 <a href="#" class="vd-infor block">
@@ -191,7 +191,7 @@
             </section>
 
             <section class="collection"
-                style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bgmmca.png?dummy123123)">
+                style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bgmmca.png?dummy123123)">
                 <div class="cl-wrap con">
                     <div class="coll-tit flex flex-ai-c">
                         <div class="cl-bar"></div>
@@ -201,7 +201,7 @@
                     <nav class="coll-box">
                         <ul class="flex">
                             <li><a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/coll2.png?dummy123123)"></a>
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/coll2.png?dummy123123)"></a>
                                 <a href="#" class="cl-infor block">
                                     <p>이종우</p>
                                     <p>LEE Chongwoo</p>
@@ -210,7 +210,7 @@
                                 </a>
                             </li>
                             <li><a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/coll3.png?dummy123123)"></a>
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/coll3.png?dummy123123)"></a>
                                 <a href="#" class="cl-infor block">
                                     <p>이화자</p>
                                     <p>LEE Whaja</p>
@@ -219,7 +219,7 @@
                                 </a>
                             </li>
                             <li><a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/gohi.png?dummy123123)"></a>
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/gohi.png?dummy123123)"></a>
                                 <a href="#" class="cl-infor block">
                                     <p>고희동</p>
                                     <p>Ko Heitong</p>
@@ -228,7 +228,7 @@
                                 </a>
                             </li>
                             <li><a href="#" class="block"
-                                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/coll.png?dummy123123)"></a>
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/coll.png?dummy123123)"></a>
                                 <a href="#" class="cl-infor block">
                                     <p>이종우</p>
                                     <p>LEE Chongwoo</p>
@@ -305,10 +305,10 @@
 
             <section class="mmca-infor">
                 <div class="if-wrap"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bg.png?dummy12312)">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bg.png?dummy12312)">
                     <div class="mmca-box con">
                         <div class="mc-img"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bn.png?dummy12312)">
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bn.png?dummy12312)">
                         </div>
                         <div class="mc-txt">
                             <h2>National Museum of<br>Modern and Contemporary Art</h2>
@@ -317,31 +317,31 @@
                             </p>
                             <div class="mc-icon flex flex-ai-end text-align-center">
                                 <a href="#" class="block ">
-                                    <img src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/ml.png?dummy123123"
+                                    <img src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/ml.png?dummy123123"
                                         alt="소개아이콘">
                                     <p>미술관 소개</p>
                                 </a>
                                 <a href="#" class="block">
                                     <img class="icon icon1"
-                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/icon1.png?dummy123125"
+                                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/icon1.png?dummy123125"
                                         alt="이용안내">
                                     <p>이용안내</p>
                                 </a>
                                 <a href="#" class="block">
                                     <img class="in"
-                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/icon5.png?dummy123123"
+                                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/icon5.png?dummy123123"
                                         alt="대관안내아이콘">
                                     <p>대관안내</p>
                                 </a>
                                 <a href="#" class="block">
                                     <img class="icon"
-                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/icon3.png?dummy123123"
+                                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/icon3.png?dummy123123"
                                         alt="소개아이콘">
                                     <p>오시는길</p>
                                 </a>
                                 <a href="#" class="block">
                                     <img class="shop"
-                                        src="https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/icon4.png?dummy123123"
+                                        src="https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/icon4.png?dummy123123"
                                         alt="소개아이콘">
                                     <p>온라인숍</p>
                                 </a>
@@ -360,7 +360,7 @@
                 </div>
                 <div class="rel-box con">
                     <div class="mini-mmca"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/mmca.png?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/mmca.png?dummy123123)">
                         <a href="#" class="block">미술은행</a>
                         <a href="#" class="block">레지던시</a>
                         <a href="#" class="block">아카이브와 도서</a>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="red-under"></div>
                 <div class="with-img"
-                    style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/bn2.png?dummy123123)">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/bn2.png?dummy123123)">
                 </div>
             </section>
 
@@ -436,7 +436,7 @@
                 </div>
                 <div class="copy-box con flex flex-ai-c">
                     <div class="ft-logo"
-                        style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/ft-logo.png?dummy123123)">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/ft-logo.png?dummy123123)">
                     </div>
                     <nav class="address">
                         <ul>
@@ -460,15 +460,15 @@
                 <div class="sns-box con flex flex-ai-c">
                     <div class="sns flex flex-ai-c">
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/int.png?dummy123123)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/int.png?dummy123123)"></a>
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/fac.png?dummy123123)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/fac.png?dummy123123)"></a>
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/jj.png?dummy123123)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/jj.png?dummy123123)"></a>
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/naver.png?dummy12312)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/naver.png?dummy12312)"></a>
                         <a href="#" class="block"
-                            style="background-image:url(https://wjdtjdbsdlwldb.github.io/img1/blog/article/hd/yt.png?dummy123123)"></a>
+                            style="background-image:url(https://cdn.jsdelivr.net/gh/wjdtjdbsdlwldb/img1/blog/article/hd/yt.png?dummy123123)"></a>
                     </div>
                     <ul class="use-infor flex-ai-c">
                         <li><a href="#" class="block">이용약관</a></li>
